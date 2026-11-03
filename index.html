@@ -12,6 +12,20 @@
 <script type="module">
 const data=JSON.parse(document.getElementById('dataset').textContent);
 const $=id=>document.getElementById(id);
+const instanceOrder=(a,b)=>a.localeCompare(b,'en',{numeric:true});
+const modelOrder=name=>name.startsWith('gpt-6.1')?0:name.startsWith('claude')?1:name.startsWith('qwen')?2:3;
+data.items.sort((a,b)=>instanceOrder(a.instance,b.instance));
+for(const row of data.items)row.models.sort((a,b)=>modelOrder(a.model)-modelOrder(b.model)||instanceOrder(a.id||a.model,b.id||b.model));
+for(const table of document.querySelectorAll('table')){
+  const headers=[...table.querySelectorAll('thead th')].map(node=>node.textContent.trim());
+  if(!['Task','Instance'].includes(headers[0]))continue;
+  for(const body of table.tBodies){
+    const rows=[...body.rows];rows.sort((a,b)=>instanceOrder(a.cells[0].textContent,b.cells[0].textContent)||(headers[1]==='Model'?modelOrder(a.cells[1].textContent)-modelOrder(b.cells[1].textContent):0));
+    body.append(...rows);
+  }
+}
+
+
 let item,stage,stageIndex=0,timer,ticket=0,blobs={};
 $('status').textContent=data.status;
 $('coverage').textContent=`${data.items.length} independently replayed current-version benchmark instances.`;
