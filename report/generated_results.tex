@@ -1,12 +1,12 @@
 \section{Results and observable failure modes}
 
-All 70 planned frontier trajectories are eligible. The table reports six primary instances per task/model. These development counts do not establish a general ranking.
+All 70 planned model trajectories completed without infrastructure interruption. The table reports six primary instances per task/model: Strict is the episode success rate; Shaped is mean evaluator reward (0--1), including safe partial progress. Results describe this development cohort.
 
 \begin{center}\small
 
 \begin{tabular}{llrrr}\toprule
 
-Task & Model & $n/6$ & Strict & Shaped \\ \midrule
+Task & Model & $n$ & Strict & Shaped \\ \midrule
 
 A & Claude & 6 & 1.000 & 1.000 \\
 
@@ -30,7 +30,7 @@ E & GPT & 6 & 1.000 & 0.912 \\
 
 \bottomrule\end{tabular}\end{center}
 
-Across 10 completed independent-request panels, shaped-reward population variance ranges from 0.0000 to 0.2223. This is generation variability, not repeat-scoring variance; the panel remains too small for a stable uncertainty estimate.
+Across 10 completed independent-request panels, shaped-reward population variance ranges from 0.0000 to 0.2223. This is generation variability, not repeat-scoring variance; more independent generations would improve uncertainty estimates.
 
 \begin{center}\small
 
@@ -72,8 +72,8 @@ The completed Qwen study comprises 10/10 pools with four candidates each. Public
 
 E makes feedback alignment directly auditable: selected public reward averages 0.300, while hidden quality is 0.000. This separation identifies checker validation and feedback-aware curricula as concrete learning-design targets.
 
-Astra calibration quantifies visual-assessment consistency: fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts, with mean coverage 0.906. Native checks additionally identify 7 functional failures with visual scores of at least 0.75, demonstrating the complementary value of the layered evaluation design.
+GPT-6 Astra, the auxiliary vision-language judge, quantifies visual-assessment consistency: fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts, with mean coverage (fraction of rubric items scored) 0.906. Native checks additionally identify 7 functional failures with visual scores of at least 0.75, demonstrating the complementary value of the layered evaluation design.
 
-Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. This alignment provides an interpretable validity diagnostic; intermediate ties identify priorities for finer rubric discrimination.
+Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. Weak ordering means reference scores are no lower than safe partial scores, which are no lower than stale scores. This validity diagnostic identifies priorities for finer rubric discrimination.
 
 Together, executable acceptance, controlled ordering and candidate selection provide a practical basis for learning-oriented reward research. Curriculum schedules and feedback density can now be tested against unchanged native acceptance criteria.

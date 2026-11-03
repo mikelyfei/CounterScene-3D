@@ -13,19 +13,19 @@ CounterScene-3D connects executable spatial evaluation with learning-oriented re
 \end{abstract}
 
 \section{Design and contribution}
-Spatial reasoning becomes consequential when an action changes what the next decision must preserve. CounterScene-3D retains observations, programs, executed native transforms, feedback and irreversible commitments, making this dependency inspectable.
+Spatial reasoning becomes consequential when an action changes what the next decision must preserve. CounterScene-3D retains observations, programs, executed object positions and orientations, feedback and final stage submissions, making this dependency inspectable. Native assets are the actual three-dimensional meshes used for rendering and evaluation.
 
-\textbf{Research foundations.} 3DCodeVerse establishes executable worlds with execution, spatial measurement, visual assessment and repair~\cite{codeverse}. BlenderGym studies code-based reconstruction and generation/verification allocation~\cite{blendergym}; BlenderWorld uses multi-view task-specific visual rubrics~\cite{blenderworld}. SceneScript and VoxPoser provide structured-scene and spatial-action context~\cite{scenescript,voxposer}. Our contribution combines actual state continuity, targeted shortcut audits and separate reward/outcome evidence in a compact protocol. Hybrid checking and iterative repair are established foundations.
+\textbf{Research foundations.} 3DCodeVerse establishes executable worlds with execution, spatial measurement, visual assessment and repair~\cite{codeverse}. BlenderGym studies code-based reconstruction and generation/verification allocation~\cite{blendergym}; BlenderWorld uses multi-view task-specific visual rubrics~\cite{blenderworld}. SceneScript and VoxPoser provide structured-scene and spatial-action context~\cite{scenescript,voxposer}. Our contribution combines actual state continuity, targeted shortcut audits and separate reward/outcome evidence in a compact protocol. 
 
-Each family has two seeds and three levels: one, two and three ordered operations, with A using k06/k14/k34 identifiers. Longer horizons introduce new observations and preservation obligations. Observed performance characterizes this gradient without assuming a monotonic ranking.
+Each family has two reproducible scene variants (seeds 0 and 1) and levels L1--L3 requiring one, two and three ordered operations. Instance B-L2-s0 means family B, two operations, seed 0. A retains dataset labels k06/k14/k34 for L1/L2/L3 respectively; these labels do not count operations. Later operations introduce observations and preservation obligations.
 
 \textbf{A: relocation and restoration.} Move a work surface, park its payloads at the original floor location, restore measured surface-relative offsets, then update another work area while preserving the restoration. Explicit targets distinguish goal completion from generic collision clearance.
 
-\textbf{B: progressive repair.} Repair witnessed interpenetrations as work zones become editable. Earlier repairs and unreleased zones remain fixed. Declared future faults are temporarily permitted; the final operation enforces the complete hard and feasible-soft contract. Impossible soft preferences require identification.
+\textbf{B: progressive repair.} Repair witnessed interpenetrations as work zones become editable. Earlier repairs and unreleased zones remain fixed. Declared future faults are temporarily permitted; the final operation enforces all mandatory constraints and jointly feasible preferences. Models must identify preferences that cannot be satisfied.
 
-\textbf{C: changing-view reconstruction.} Reconstruct native instances from calibrated views, then update after substantial target changes and new oblique observations. Additional views have a query budget. Hidden-view agreement, every-object centre accuracy and native physical rules jointly determine success.
+\textbf{C: changing-view reconstruction.} Reconstruct native instances from calibrated views, then update after substantial target changes and new oblique observations. Additional views are budgeted. Hidden-view agreement, every-object centre accuracy and native physical rules jointly determine success.
 
-\textbf{D: stateful manipulation.} Grasp distinct balls, deliver and release them, then reach onward waypoints. Later operations inherit actual terminal joints and released-object positions; earlier releases become obstacles. Measured offsets connect command angles to physical motion.
+\textbf{D: stateful manipulation.} Grasp distinct balls, deliver and release them, then reach onward waypoints. Later operations inherit actual final joint angles and released-object positions; earlier releases become obstacles. Measured offsets connect command angles to physical motion.
 
 \textbf{E: misleading diagnostics.} Repair actual faults while public feedback contains witnessed wrong verdicts, omissions, noise or hidden pairs. Geometry measurements support verification. Repair outcomes and diagnosis are reported separately, enabling controlled feedback studies.
 
@@ -34,16 +34,16 @@ Each family has two seeds and three levels: one, two and three ordered operation
 \section{Execution and measurement}
 Participants emit restricted Python returning complete native placements or controller payloads. Bounded arithmetic and collections are allowed; imports, attributes, files and network access are denied. Fixed catalogue identity and proportions bind programs to actual assets.
 
-Content-bound stages, gold replay, jointly feasible preferences and mesh checks establish executable witnesses. Shortcut controls challenge stale answers, fixture-only patches, omitted observations and earlier-program reuse. These explicit controls make task dependencies testable.
+Gold denotes evaluator-verified reference solutions. Replaying these solutions from version-bound stage files verifies feasibility using actual meshes. Shortcut controls challenge stale answers, fixture-only patches, omitted observations and earlier-program reuse. 
 
-Static checks use actual meshes for support, boundaries, contact and intersection. Certified relocation and reconstruction paths use component enclosures. D additionally checks continuous arm, tool and payload clearance, limits, grasp/release events and resting objects. Unresolved overlap remains unproven. The evaluated scope is geometric and kinematic; richer dynamics are an extension opportunity.
+Static checks use actual meshes for support, boundaries, contact and intersection. Relocation and reconstruction path checks use conservative bounding volumes around mesh components. D additionally checks continuous arm, tool and payload clearance, limits, grasp/release events and resting objects. A path passes only when these checks establish clearance. The evaluated scope is geometric and kinematic; richer dynamics are an extension opportunity.
 
-Strict success requires every operation and preservation obligation. Later corrections retain earlier outcomes in episode scoring. C requires hidden per-object silhouette IoU averaged across hidden cameras of at least 0.8, plus every native bounds centre within 0.05 metres. D requires the complete continuous/event contract. Infrastructure interruptions are excluded; journaled responses and exact program bytes support repeatable recovery.
+Strict success requires every operation and preservation obligation; later corrections retain earlier outcomes in episode scoring. C requires silhouette intersection-over-union (IoU: overlap area divided by union area), averaged over objects and evaluator-only cameras, of at least 0.8, plus every mesh bounding-box centre within 0.05 metres of its target. D requires the complete continuous/event contract. Infrastructure interruptions are excluded; journaled responses and exact program bytes support repeatable recovery.
 
 \begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{figures/evaluation_flow.png}\caption{Public observations guide decisions; evaluator-only targets support separate outcome checks.}\end{figure}
 
 \section{Comparison protocol and results}
-GPT-6.1 Sol and Claude Opus 5.5 use medium reasoning, up to 8,000 output tokens and fourteen actions per operation. Thirty instances per model yield sixty primary trajectories; ten additional L3 requests form an independent-generation panel. Primary means describe six instances per task/model. Generation variance, fixed-output rescoring and visual-judge repetition remain distinct. The extension adds five completed exploratory controls; one administrative continuation is excluded.
+GPT-6.1 Sol and Claude Opus 5.5 use medium reasoning, up to 8,000 output tokens and fourteen actions per operation. A trajectory comprises all operations for one instance. Thirty instances per model yield sixty primary trajectories; ten additional L3 requests form an independent-generation panel. Primary means describe six instances per task/model. Generation variance, fixed-output rescoring and visual-judge repetition remain distinct. The extension adds five completed exploratory controls; one interrupted continuation is excluded.
 
 \input{generated_results.tex}
 \begin{figure}[htbp]\centering\includegraphics[width=.88\linewidth]{figures/performance_by_level.png}\caption{Primary strict successes by level, with two seeds per cell, characterize the current development cohort.}\end{figure}
@@ -52,33 +52,33 @@ GPT-6.1 Sol and Claude Opus 5.5 use medium reasoning, up to 8,000 output tokens 
 \section{Reward diagnosis and learning implications}
 Rubrics as Rewards and AdvancedIF/RIFL motivate explicit criteria and aggregation~\cite{rar,rifl}. VideoEdit studies when finer credit assignment supports outcomes~\cite{videoedit}; we therefore inspect behavioral progress without rewarding additional calls.
 
-Per-stage $R_{\rm det}$ requires admissible functional success. $R_{\rm shaped}$ averages applicable function, constraint, preservation, diagnosis, operation, reconstruction and motion components. Episode rewards average required stages; missing stages contribute zero, and inapplicable dimensions are omitted. Immutable admissibility gates retain physical and preservation requirements while permitting safe partial progress.
+Per-stage deterministic reward $R_{\rm det}$ is 1 for functional success under mandatory safety and preservation checks, and 0 otherwise. $R_{\rm shaped}$ equally averages applicable function, constraint, preservation, diagnosis, operation, reconstruction and motion components. Episode rewards average required stages; missing stages contribute zero, and inapplicable dimensions are omitted. These mandatory checks gate reward while permitting safe partial progress.
 
-Gold, empty, stale/stationary and safe intermediate controls test ordering. A five-output native-repeat subset independently re-executes one GPT output per family: complete stage measurements match across two executions each.
+Reference solutions, empty outputs, reused earlier answers (or stationary motion), and safe partial solutions test expected score ordering. A five-output native-repeat subset independently re-executes one GPT output per family: complete stage measurements match across two executions each.
 
-Astra anonymously compares reference and candidate images for identity/layout, visible support, clearance and goal match. Uncertain items remain missing with coverage reported. D uses representative trajectory frames. Repeated images characterize judge variability; broader judge/human checks address known model-judge biases~\cite{judge}. Visual evidence complements functional acceptance.
+Astra anonymously compares reference and candidate images for identity/layout, visible support, clearance and goal match. Uncertain items remain missing; coverage is the fraction of rubric items assigned a score. D uses representative trajectory frames. Repeated images characterize judge variability; broader judge/human checks address known model-judge biases~\cite{judge}. Visual evidence complements functional acceptance.
 
-The original Qwen3.5:9B Q4\_K\_M study contains ten best-of-four pools. Public feedback selects candidates; withheld outcomes audit selection. The extension introduces matched proposal/refinement arms and separately exposes the actual scalar evaluator reward.
+The original Qwen3.5:9B study uses a nine-billion-parameter open-weight model with Q4\_K\_M quantization. Each of ten pools contains four generated candidates; the highest public-tool reward selects one, with ties resolved by generation order. Hidden quality is its independently evaluated shaped reward, withheld from selection. The extension introduces matched proposal/refinement arms and separately exposes the actual scalar evaluator reward.
 \input{extended_validation.tex}
 \input{attack_dimensions.tex}
 \begin{figure}[htbp]\centering\includegraphics[width=.85\linewidth]{figures/qwen_reward_quality.png}\caption{Original best-of-four selection and withheld quality. A supplies the observed gain; expanded diagnostics identify subsequent curriculum targets.}\end{figure}
 
 \section{Reproducibility and areas for improvement}
-Self-contained packages retain public inputs, evaluator targets, gold, scorers, native assets and licenses. One command reconstructs rewards, tables, statistics and supplementary selection; optional native replay executes retained programs. Native scenes, timelines and motion paths remain linked. Published development-session material is a disclosed privacy derivative.
+Self-contained packages retain public inputs, evaluator targets, gold, scorers, native assets and licenses. One command reconstructs rewards, tables, statistics and supplementary selection; optional native replay executes retained programs. Published development logs are redacted to remove private information.
 
 \textbf{Scale and coverage.} Expand reserved scenes, catalogues, seeds and matched feedback/view conditions. The present extension is exploratory and includes one administrative exclusion. Larger panels and matched interface/context settings will support stronger causal and generalization estimates.
 
-\textbf{Learning studies.} The safety gate yields sparse feedback for this initial policy. Develop curricula from executable placements to coupled geometry and longer horizons, compare progress-sensitive feedback under fixed acceptance criteria, and run longer adaptive optimization followed by short RL studies. The current evidence informs these choices; trained-policy gains remain to be measured.
+\textbf{Learning studies.} The safety gate yields sparse feedback for this initial policy. Develop curricula from executable placements to coupled geometry and longer horizons, compare progress-sensitive feedback under fixed acceptance criteria, and run longer adaptive optimization followed by short RL studies. 
 
 \textbf{Physical and visual scope.} Calibrate conservative enclosure rejections with independent mesh tests, then add friction, forces and grasp dynamics. Extend blinded judge/human review and event-sensitive clips. Match the smaller-model scaffold to full motion and physical-pair diagnosis interfaces before broader comparisons.
 
-\textbf{Reward design.} Compare weights and attack policies on reserved outcomes. Track reward gaps before and after optimization to distinguish feedback bias from learned exploitation. Existing per-dimension analyses and source-bound evidence provide a reproducible basis for testing whether optimization preserves functional quality.
+\textbf{Reward design.} Compare weights and attack policies on reserved outcomes. Track reward gaps before and after optimization to distinguish feedback bias from learned exploitation. Per-dimension evidence supports reproducible tests of functional quality under optimization.
 
 
 
 \clearpage\section{Motion evidence}
 These trajectories expose calibration, pickup, release and onward movement as separate obligations. Earlier releases remain obstacles. Joint-derived paths and representative native frames make the relationship between plausible endpoints and certified transfers inspectable.
-\begin{figure}[ht!]\centering\includegraphics[width=\linewidth]{figures/motion_comparison.png}\par\bigskip\includegraphics[width=\linewidth]{figures/motion_native_examples.png}\caption{D-L3-s0 joint-derived trajectories and representative native transfer frames. Triangles mark grasps, squares releases; continuous certificates establish motion validity.}\end{figure}
+\begin{figure}[ht!]\centering\includegraphics[width=\linewidth]{figures/motion_comparison.png}\par\bigskip\includegraphics[width=\linewidth]{figures/motion_native_examples.png}\caption{D-L3-s0 joint-derived trajectories and representative native transfer frames. Triangles mark grasps, squares releases; continuous collision and event checks establish motion validity.}\end{figure}
 \clearpage\section{Benchmark examples}
 \begin{figure}[ht!]\centering\includegraphics[width=.98\linewidth,height=.64\textheight,keepaspectratio]{figures/benchmark_examples.png}\caption{Actual three-stage gold witnesses for A/B/C/E. B/E intermediate states retain explicitly declared future faults.}\end{figure}
 \clearpage\begingroup\small
