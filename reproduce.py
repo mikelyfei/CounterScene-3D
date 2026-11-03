@@ -54,6 +54,12 @@ def load_module(path):
 
 def reconstruct_studies(root,studies,performance):
     output={}
+    extension=root/'supplement/data.json'
+    if extension.exists():
+        module=load_module(root/'supplement/reconstruction.py');reward=load_module(root/'reward.py');data=json.loads(extension.read_text(encoding='utf-8'))
+        reconstructed=module.reconstruct(data,reward.stage_reward)
+        if not same_measurements(reconstructed,data['reconstruction']):raise ValueError('Learning extension evidence differs')
+        output['learning_extension']=reconstructed
     if 'generation_variance' in performance:
         expected={(row['instance'],row['model']):row for row in performance['generation_variance']};groups=defaultdict(list)
         for row in performance['individual']:

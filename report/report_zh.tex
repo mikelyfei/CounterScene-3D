@@ -2,17 +2,19 @@
 \usepackage[margin=.82in]{geometry}
 \usepackage{xeCJK,booktabs,graphicx,amsmath,hyperref,microtype}
 \IfFileExists{.local_fonts/CJK-Regular.ttf}{\setCJKmainfont[Path=.local_fonts/,BoldFont=CJK-Bold.ttf]{CJK-Regular.ttf}}{\setCJKmainfont{Noto Serif CJK SC}}
-\hypersetup{colorlinks=true,urlcolor=blue,pdftitle={CounterScene-3D Chinese Edition},pdfauthor={CounterScene-3D Contributors}}
+\hypersetup{colorlinks=true,urlcolor=blue,pdftitle={CounterScene-3D Chinese Edition},pdfauthor={Yunfei Lu and GPT-6.1-sol}}
 \setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
 \title{CounterScene-3D：具有状态延续的原生素材空间评测}
-\author{CounterScene-3D Contributors}\date{}
+\author{Yunfei Lu \and GPT-6.1-sol}\date{}
 \begin{document}\maketitle
-\begin{center}\small\href{report.pdf}{English edition}\end{center}
+\begin{center}\small\href{report.pdf}{English edition}\quad|\quad\href{https://mikelyfei.github.io/CounterScene-3D/}{交互式基准展示}\end{center}
 \begin{abstract}
-本中文版本与英文主报告使用同一冻结数据、图表和评测口径。CounterScene-3D 评测模型在观察变化后，通过可执行程序操作实际三维素材的能力。五类任务包含三十个开发实例、六十个有序操作。我们比较两个参测模型，独立检查几何与运动结果，使用 Astra 提供辅助视觉评分，并通过小模型 best-of-four 实验分析奖励信号。结果只适用于当前几何开发集，不代表真实机器人可靠性或分布外泛化。
+本中文版本与英文主报告使用同一冻结数据、图表和评测口径。基准将可执行空间能力评估与面向学习的奖励诊断连接起来，优势在于真实状态延续、针对性捷径审计和可追溯的多维证据。CounterScene-3D 评测模型在观察变化后，通过可执行程序操作实际三维素材的能力。五类任务包含三十个开发实例、六十个有序操作。我们比较两个参测模型，独立检查几何与运动结果，使用 Astra 提供辅助视觉评分，并通过小模型 best-of-four 实验分析奖励信号。结果只适用于当前几何开发集，不代表真实机器人可靠性或分布外泛化。
 \end{abstract}
 \section{基准设计与决策递进}
-空间任务不能只检查最终画面是否合理。评测保存观察、程序、实际执行状态、工具反馈和不可撤销的提交，防止最终场景掩盖先前错误。
+研究基础方面，3DCodeVerse 提供可执行三维世界及执行、测量、视觉评审和修复闭环~\cite{codeverse}；BlenderGym 研究生成与验证预算~\cite{blendergym}，BlenderWorld 使用多视角任务级视觉准则~\cite{blenderworld}。SceneScript 与 VoxPoser 分别提供结构化场景和空间行动背景~\cite{scenescript,voxposer}。我们的增量在于将真实跨阶段状态、针对性捷径对照、功能验收与奖励诊断组织成可复现的评测协议，而不是将已有混合评分或多轮修复宣称为首创。
+
+空间评测需要同时观察视觉合理性与行动后果。我们保存观察、程序、实际执行状态、反馈和不可撤销提交，使模型在场景变化后保留既有成果的能力可以被直接审计。
 每类任务包含两个场景种子和 L1--L3 三个层级，共六个实例。各层级分别要求一、二、三个有序操作；A 类对应 k06、k14、k34。递进来自新的工作要求、观察更新与已完成工作的保留，而不是输入更长或在两个近似场景间反复切换。难度仍是经验问题，更多阶段不保证模型成功率严格下降。
 
 \textbf{A：搬移与恢复。} 第一阶段将工作台明显移到另一位置，并将台面物品暂放在原位置地面；第二阶段按原台面相对偏移恢复物品；第三阶段处理另一工作区，同时保留前面成果。评分检查明确目标、支撑和保留要求，只有无碰撞还不够。
@@ -37,7 +39,7 @@
 基础设施错误与模型失败分开。已确认响应精确重放而不重新生成，复用响应只计一次。程序字节与原生素材哈希保留身份。
 \begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{figures/evaluation_flow.png}\caption{评估流程：公开观察驱动模型行动；隐藏程序和度量目标仅由评估器使用；视觉评分不能覆盖执行检查。}\end{figure}
 \section{参测协议与完整结果}
-参测模型为 GPT-6.1 Sol 与 Claude Opus 5.5，使用 medium reasoning，每个响应最多 8,000 输出 token，每个操作最多十四个动作。三十个实例乘两个模型形成六十条基础轨迹；固定 L3 面板为每类任务和每个模型再增加一次独立生成，共七十条。每组只有两次生成，方差估计仅有一个自由度，不足以形成稳定的不确定性估计。可选反馈和视角消融在执行前取消，基础覆盖和离线捷径控制完整保留，不能据此声称消融的因果效果。
+参测模型为 GPT-6.1 Sol 与 Claude Opus 5.5，使用 medium reasoning，每个响应最多 8,000 输出 token，每个操作最多十四个动作。三十个实例乘两个模型形成六十条基础轨迹；固定 L3 面板为每类任务和每个模型再增加一次独立生成，共七十条。独立重复面板提供初步的生成变异证据，扩大种子与重复次数将进一步提高估计精度。新增探索实验完成五条反馈/视角对照，并与原始条件逐实例比较；另一个行政中断的 C 续跑单列，不计为模型失败。
 
 全部七十条轨迹均具备有效基础设施证据。下表只汇总基础比较，每个任务和模型有六个实例。GPT 严格成功 26/30，Claude 为 24/30；这是开发集描述，而非普遍优劣结论。
 \begin{center}\begin{tabular}{llrrr}\toprule 任务 & 模型 & 样本 & 严格成功率 & 形状奖励 \\\midrule
@@ -53,15 +55,17 @@ E & Claude & 6 & 0.833 & 0.765 \\
 E & GPT & 6 & 1.000 & 0.912 \\
 \bottomrule\end{tabular}\end{center}
 \begin{figure}[htbp]\centering\includegraphics[width=.9\linewidth]{figures/performance_by_level.png}\caption{每个格子对应两个种子的严格成功数。任务难度不是关于层级的简单单调排名。}\end{figure}
-\textbf{共享盲点。} B-L2-s0 中两个模型都在公开检查器报告硬约束失败后，提交未改变的程序。前一阶段成功，最终关系修复失败。这里能观察到的是未利用反馈修正，而不是模型的内部意图。
+\textbf{反馈利用的改进空间。} B-L2-s0 中两个模型都在公开检查器报告硬约束失败后，提交未改变的程序。前一阶段成功，最终关系修复失败。这里能观察到的是未利用反馈修正，而不是模型的内部意图。
 
-\textbf{更新失败。} C-L2-s0 中 Claude 第一阶段重建成功，目标变化后未通过隐藏视角与度量检查。第二阶段执行十三个动作，没有额外视角查询。不能据此推断额外查询必然解决问题。
+\textbf{目标更新下的重建挑战。} C-L2-s0 中 Claude 第一阶段重建成功，目标变化后未通过隐藏视角与度量检查。第二阶段执行十三个动作，没有额外视角查询。不能据此推断额外查询必然解决问题。
 
-\textbf{视觉与物理分离。} GPT 在 C-L2-s1 第一阶段通过轮廓与中心检查，却保留实际物理冲突；第二阶段成功仍不能消除早期失败。Claude 在该实例也有物理冲突，并额外存在度量问题。
+\textbf{多维验收的价值。} GPT 在 C-L2-s1 第一阶段通过轮廓与中心检查，却保留实际物理冲突；第二阶段成功仍不能消除早期失败。Claude 在该实例也有物理冲突，并额外存在度量问题。
 
 \textbf{修复与诊断分离。} E-L3-s1 中 GPT 满足 26/26 个原生关系，识别 2/4 个检查器故障；Claude 满足 25/26，识别 0/4。几何成功不代表完整诊断。分类允许一条轨迹出现多个问题，工具错误也可能出现在最终成功的轨迹中。
 \begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{figures/reconstruction_comparison.png}\caption{C-L3-s0 的真实参考与模型渲染。IoU 来自隐藏视角；通过视觉阈值不保证物体中心、物理检查或整条轨迹通过。}\end{figure}
-\section{奖励是否适用于强化学习}
+\section{奖励诊断与对强化学习的启发}
+Rubrics as Rewards 与 AdvancedIF/RIFL 支持显式准则及奖励聚合的研究方向~\cite{rar,rifl}；VideoEdit 对细粒度信用分配的研究启发我们同时检查过程反馈和真实任务结果~\cite{videoedit}。对模型评审偏差的已有研究也支持保留匿名准则、重复评分和覆盖率~\cite{judge}。
+
 每阶段确定性奖励要求物理许可的功能成功。形状奖励对适用的功能、约束、可行软目标、保留、诊断、操作、重建和运动分量取等权平均。整条轨迹按必需阶段数平均，未执行阶段记零；不适用维度不当成零填入。未获许可的物理问题或移动锁定对象会触发门控。运动经过某个路标不能抵消路径不安全。
 
 校准包含三十个实例、四类输出和三次重复，共 360 次数值评分。Gold、空输出、旧答案或静止输出、安全中间解测试已声明的排序，全部通过；固定数值重算的最大奖励方差为零。全部六十个有序 gold 阶段也取得满分，包括允许暂留指定问题的中间阶段。另取每类任务一个 GPT 输出，使用任务包独立执行第二次，完整阶段评分一致，配对奖励方差为零。这个五输出、每输出两次的原生重跑子集，不代表所有输出或所有平台稳定。
@@ -75,7 +79,9 @@ Astra 只作为匿名视觉辅助评估器，比较参考与候选的身份布�
 
 各维度分析分别讨论空程序、素材替换、接触容差、保留低编辑成本却放弃目标、信任错误标签、轮廓掩盖度量误差，以及用漂亮端点隐藏不安全路径。对应分类为难以利用、可利用但有边界、或软性视觉判断。原生网格、联合中心条件、操作目标、锁定状态和事件检查针对具体攻击，但容差和观察不完整仍存在边界。
 
-我们不会把当前标量奖励用于不受限制的 RL。原生许可检查提供有限保障，而视觉相似性和检查器一致性仍是代理。Best-of-four 能检验选择质量，不能证明训练稳定性或抵抗自适应策略的能力。
+这些证据为面向学习的奖励研究提供了具体起点：固定原生安全和功能验收，分别研究课程设计、过程反馈密度与候选选择。后续扩大场景、种子和自适应优化规模，再通过短期 RL 训练测量能力收益，可进一步验证这些设计启发。
+\input{extended_validation_zh.tex}
+\input{attack_dimensions_zh.tex}
 \section{复现、局限与改进方向}
 任务包将公开提示与图像同评估器目标、gold 和评分代码分离。原生素材保留许可与内容哈希。无需提供方访问或模型权重即可重算数值；原生重放需要 Python 与外部 Blender。单命令核对奖励、表格、生成方差、视觉评分和候选选择，另可执行全部保留动作。五个任务包的 gold 均独立验证可解。报告和网页使用同源数值，不把基础设施缺失算为模型零分。
 
@@ -92,4 +98,14 @@ Astra 只作为匿名视觉辅助评估器，比较参考与候选的身份布�
 \begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{figures/motion_native_examples.png}\caption{D 的连续 gold 操作中段帧。后续画面保留先前释放物体；终点与事件语义须结合完整三维轨迹和原生检查。}\end{figure}
 \clearpage\section{更多基准样例}
 \begin{figure}[ht!]\centering\includegraphics[width=.98\linewidth,height=.8\textheight,keepaspectratio]{figures/benchmark_examples.png}\caption{A、B、C、E 各三阶段的真实 gold 样例，使用种子零。B/E 中间阶段有意保留已声明的未来问题。这些是可行参考见证，不是模型输出。}\end{figure}
-\end{document}
+\clearpage\begingroup\small\begin{thebibliography}{99}
+\bibitem{codeverse} Gao et al. 3DCodeVerse: Exploring 3D Worlds as Code. 2026 preprint. \url{https://arxiv.org/abs/2610.22341}. Official harness: \url{https://github.com/gaoypeng/3dcodeverse/tree/main/harness}.
+\bibitem{blendergym} Gu et al. BlenderGym: Benchmarking Foundational Model Systems for Graphics Editing. CVPR, 2025. \url{https://arxiv.org/abs/2504.01786}.
+\bibitem{blenderworld} Fang et al. BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References. 2026 preprint. \url{https://arxiv.org/abs/2610.23986}.
+\bibitem{scenescript} Avetisyan et al. SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model. 2024. \url{https://arxiv.org/abs/2403.13064}.
+\bibitem{voxposer} Huang et al. VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models. 2023. \url{https://arxiv.org/abs/2307.05973}.
+\bibitem{rar} Gunjal et al. Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains. 2025 preprint. \url{https://arxiv.org/abs/2507.17746}.
+\bibitem{rifl} He et al. AdvancedIF: Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following. 2025 preprint. \url{https://arxiv.org/abs/2511.10507}.
+\bibitem{videoedit} Zhao et al. When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing. 2026 preprint. \url{https://arxiv.org/abs/2610.35497}.
+\bibitem{judge} Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS Datasets and Benchmarks, 2023. \url{https://arxiv.org/abs/2306.05685}.
+\end{thebibliography}\endgroup\end{document}

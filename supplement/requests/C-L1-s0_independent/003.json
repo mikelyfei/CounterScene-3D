@@ -1,0 +1,194 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Solve the provided spatial task. Output exactly the candidate JSON schema. Never output tool actions or prose.",
+      "images": []
+    },
+    {
+      "role": "user",
+      "content": "Native-asset active reconstruction C-L1-s0. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"table_green\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"deskchair_black\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"plant_pink\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"crate_red\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}}, \"note\": \"Catalogue staging only, NOT target placements or sizes.\"}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"table_green\": {\"size\": [1.932, 1.027, 0.75], \"size_range\": [[1.545, 0.822, 0.6], [2.318, 1.232, 0.9]]}, \"deskchair_black\": {\"size\": [0.524, 0.491, 0.95], \"size_range\": [[0.419, 0.393, 0.76], [0.628, 0.59, 1.14]]}, \"plant_pink\": {\"size\": [0.259, 0.295, 0.8], \"size_range\": [[0.208, 0.236, 0.64], [0.311, 0.354, 0.96]]}, \"crate_red\": {\"size\": [0.5, 0.4, 0.4], \"size_range\": [[0.4, 0.32, 0.32], [0.6, 0.48, 0.48]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[3.9, 3.0, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 1 distinct extra views. Cameras={\"reference\": {\"eye\": [1.95, -2.3483, 2.7547], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.0605, -1.0261, 2.6189], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [4.9605, -1.0261, 2.6189], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.1627, 1.5, 2.2678], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [6.0627, 1.5, 2.2678], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"03515c330d157b7567f7b2557fe56dd3b41a0211f03b3320a7e4b2603ddee9f5\", \"camera\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"1855e0ea985138ceca245bde7ee85b8ec37811c801b2a4778bc9a9539527824f\", \"camera\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"311e75e53b17e212e4c8293ffeddc4a0f00229b947417ae4ee81aec1e0e3490f\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nSyntax-scaffolded small-model experiment. Return only the candidate JSON matching the supplied schema, not a tool action and not Python. A trusted adapter will serialize your exact numeric proposal into build(public_params). It does not solve or repair your proposal. All task rules and physical requirements above still apply. For each object use height_m: its actual world height in metres, NOT a mesh scale factor. For example the nominal table world height is 0.75m, not its source-mesh scale. The adapter proportionally expands height into the public nominal width/depth. Infer TARGET placements from the attached target images; NEVER copy the catalogue staging layout. Use the public observations to solve the operation. For D include all home, pickup, release and onward waypoints, with command angles accounting for measured offsets. ",
+      "images": [
+        {
+          "file": "media/51e30d6e9d4ba5954f4cb17cd641ad780a7240609fdcfcd9a8891bf5593653a2.png",
+          "sha256": "51e30d6e9d4ba5954f4cb17cd641ad780a7240609fdcfcd9a8891bf5593653a2"
+        },
+        {
+          "file": "media/b25be72b849518b2015d9c6247fbebb1ef818ddb88e6370fbb14cbf12cb9b72c.png",
+          "sha256": "b25be72b849518b2015d9c6247fbebb1ef818ddb88e6370fbb14cbf12cb9b72c"
+        },
+        {
+          "file": "media/9220f941176d57dc3ad0f236c1c829ebce454abeac94091274476eb42d8c6795.png",
+          "sha256": "9220f941176d57dc3ad0f236c1c829ebce454abeac94091274476eb42d8c6795"
+        },
+        {
+          "file": "media/03515c330d157b7567f7b2557fe56dd3b41a0211f03b3320a7e4b2603ddee9f5.png",
+          "sha256": "03515c330d157b7567f7b2557fe56dd3b41a0211f03b3320a7e4b2603ddee9f5"
+        },
+        {
+          "file": "media/1855e0ea985138ceca245bde7ee85b8ec37811c801b2a4778bc9a9539527824f.png",
+          "sha256": "1855e0ea985138ceca245bde7ee85b8ec37811c801b2a4778bc9a9539527824f"
+        },
+        {
+          "file": "media/311e75e53b17e212e4c8293ffeddc4a0f00229b947417ae4ee81aec1e0e3490f.png",
+          "sha256": "311e75e53b17e212e4c8293ffeddc4a0f00229b947417ae4ee81aec1e0e3490f"
+        }
+      ]
+    }
+  ],
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "placements": {
+        "type": "object",
+        "properties": {
+          "table_green": {
+            "type": "object",
+            "properties": {
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "yaw": {
+                "type": "integer",
+                "enum": [
+                  0,
+                  90,
+                  180,
+                  270
+                ]
+              },
+              "height_m": {
+                "type": "number",
+                "minimum": 0.6,
+                "maximum": 0.9
+              }
+            },
+            "required": [
+              "position",
+              "yaw",
+              "height_m"
+            ],
+            "additionalProperties": false
+          },
+          "deskchair_black": {
+            "type": "object",
+            "properties": {
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "yaw": {
+                "type": "integer",
+                "enum": [
+                  0,
+                  90,
+                  180,
+                  270
+                ]
+              },
+              "height_m": {
+                "type": "number",
+                "minimum": 0.76,
+                "maximum": 1.14
+              }
+            },
+            "required": [
+              "position",
+              "yaw",
+              "height_m"
+            ],
+            "additionalProperties": false
+          },
+          "plant_pink": {
+            "type": "object",
+            "properties": {
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "yaw": {
+                "type": "integer",
+                "enum": [
+                  0,
+                  90,
+                  180,
+                  270
+                ]
+              },
+              "height_m": {
+                "type": "number",
+                "minimum": 0.64,
+                "maximum": 0.96
+              }
+            },
+            "required": [
+              "position",
+              "yaw",
+              "height_m"
+            ],
+            "additionalProperties": false
+          },
+          "crate_red": {
+            "type": "object",
+            "properties": {
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "yaw": {
+                "type": "integer",
+                "enum": [
+                  0,
+                  90,
+                  180,
+                  270
+                ]
+              },
+              "height_m": {
+                "type": "number",
+                "minimum": 0.32,
+                "maximum": 0.48
+              }
+            },
+            "required": [
+              "position",
+              "yaw",
+              "height_m"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "table_green",
+          "deskchair_black",
+          "plant_pink",
+          "crate_red"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "placements"
+    ],
+    "additionalProperties": false
+  },
+  "response_content": "{\"placements\":{\"table_green\":{\"position\":[1.95,0.0,0.75],\"yaw\":0,\"height_m\":0.75},\"deskchair_black\":{\"position\":[1.95,-0.625,0.845],\"yaw\":0,\"height_m\":0.95},\"plant_pink\":{\"position\":[3.0,0.0,0.0],\"yaw\":0,\"height_m\":0.8},\"crate_red\":{\"position\":[1.95,1.75,0.4],\"yaw\":0,\"height_m\":0.4}}}",
+  "source_request_sha256": "808c83388d87096e304c78bac5c8196dfa7a450daf8f95c93b4becc3c0f0f84a"
+}

@@ -1,0 +1,9 @@
+instance	condition	native_valid	proposals	strict_success	R_shaped
+C-L1-s0	independent	3	3	False	0.0
+C-L1-s0	refinement	3	3	False	0.0
+D-L1-s0	independent	2	3	False	0.0
+D-L1-s0	refinement	0	3	False	0.0
+A-k14-s0	independent	6	6	False	0.0
+A-k14-s0	refinement	6	6	False	0.0
+E-L1-s0	independent	3	3	False	0.0
+E-L1-s0	refinement	3	3	False	0.0
