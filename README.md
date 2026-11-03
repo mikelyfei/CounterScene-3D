@@ -1,6 +1,6 @@
 # CounterScene-3D
 
-[![Benchmark](media/showcase.svg)](https://mikelyfei.github.io/CounterScene-3D/) [![Report](media/report.svg)](https://mikelyfei.github.io/CounterScene-3D/downloads/report.pdf)
+[![Benchmark](media/showcase.svg)](https://mikelyfei.github.io/CounterScene-3D/) [![Report](https://raw.githubusercontent.com/mikelyfei/CounterScene-3D/1abd83970efa55f194d7de6ee741982d257732ba/media/report.svg)](https://mikelyfei.github.io/CounterScene-3D/downloads/report.pdf)
 
 An auditable benchmark connecting executable spatial decisions with learning-oriented reward evaluation.
 
