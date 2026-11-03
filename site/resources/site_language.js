@@ -24,6 +24,7 @@ if (typeof document !== 'undefined') {
       node.nodeValue = selector.value === 'zh' ? translateText(originals.get(node), locale) : originals.get(node);
     }
     document.documentElement.lang = selector.value === 'zh' ? 'zh-CN' : 'en';
+    for(const link of document.querySelectorAll('[data-lang-link]')){const next=new URL(link.getAttribute('href'),location.href);next.searchParams.set('lang',selector.value);link.setAttribute('href',next.pathname.split('/').pop()+next.search+next.hash);}
     const frame = document.getElementById('reportFrame');
     const wanted = selector.value === 'zh' ? 'downloads/report_zh.pdf' : 'downloads/report.pdf';
     if (frame && frame.getAttribute('src') !== wanted) frame.setAttribute('src', wanted);
