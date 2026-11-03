@@ -55,7 +55,7 @@
     "Sample variance": "样本方差",
     "Coverage": "可评分覆盖率",
     "Inspect actual visual-judge evidence": "查看实际视觉评分证据",
-    "Report": "研究报告",
+    "Report": "报告",
     "English report": "英文报告",
     "Chinese report": "中文报告",
     "Structured model call attachments": "结构化模型调用附件",
@@ -291,7 +291,12 @@
     "Self-contained task packages:": "自包含任务包：",
     "Feedback after tool action": "工具动作反馈",
     "CounterScene-3D · Native-asset spatial evaluation": "CounterScene-3D · 原生素材空间评测",
-    "For E, strict success measures geometry; checker diagnosis is reported separately in the per-dimension data and shaped reward.": "E 的严格成功衡量几何结果；检查器诊断在逐维度数据和分量奖励中单独报告。"
+    "For E, strict success measures geometry; checker diagnosis is reported separately in the per-dimension data and shaped reward.": "E 的严格成功衡量几何结果；检查器诊断在逐维度数据和分量奖励中单独报告。",
+    "English PDF": "英文 PDF",
+    "Chinese PDF": "中文 PDF",
+    "LaTeX source": "LaTeX 源码",
+    "Read the full report in English or Chinese, with methods, results and limitations.": "完整报告提供中英文版本，涵盖方法、结果和局限。",
+    "Read the report on this page": "在本页阅读报告"
   },
   "phrases": [
     [
