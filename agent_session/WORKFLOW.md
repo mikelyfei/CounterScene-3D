@@ -1,6 +1,6 @@
 # Coding-agent workflow and project prompts
 
-This is an English account of the project instructions and observed implementation workflow. The instructions below are paraphrases, not verbatim quotations or a replacement for the original private transcript. The accompanying ordered event index records actual coding-session events with provenance hashes. It is separate from the participant-model sessions used for benchmark evaluation.
+This is an English account of the project instructions and observed implementation workflow. The instructions below are paraphrases, not verbatim quotations or a replacement for the original private transcript. The complete bounded visible transcript and actual original-language prompts are linked in README.md. The earlier event index remains as historical provenance. It is separate from the participant-model sessions used for benchmark evaluation.
 
 ## Project instructions used
 
@@ -28,9 +28,9 @@ This is an English account of the project instructions and observed implementati
 
 ## Redaction boundary
 
-The complete original development snapshot remains private. The public event index omits conversational bodies, tool arguments and outputs because they may contain confidential source material, private correspondence, identifiers or local environment information. Internal reasoning and system/developer instructions are excluded entirely. Event hashes support provenance if an authorized private audit is later arranged; hashes do not make this a full public transcript.
+The primary session export is now `visible_session.jsonl`, not the older metadata-only event index. It retains ordered visible message bodies, tool inputs and outputs where safe. `ACTUAL_PROMPTS.jsonl` contains the retained actual user-message subsequence, with matching bodies and source hashes. The fixed snapshot boundary, content counts and explicit privacy omissions are documented in README.md and visible_manifest.json.
 
-Executable task source, participant prompts, scoring code, participant actions, results and study evidence are supplied elsewhere in the release so the scientific claims do not depend solely on this workflow account. This publication derivative remains narrower than a verbatim coding-session export, and that limitation is explicit.
+The original runtime snapshot remains local. Hidden reasoning, system/developer instructions, private correspondence, financial information, authentication material and confidential or unrelated content are not published. The narrower `events.jsonl` and selected English prompt translations remain historical supporting files rather than a claim of a verbatim original session.
 
 ## Actual code submission evidence
 

@@ -1,0 +1,40 @@
+{
+  "format": "bounded-visible-development-session-v2",
+  "source_snapshot_sha256": "26b3b41eed225c43f0c621108975e3b1b9442c53f2fc287036fd88b4986d1727",
+  "source_records": 18794,
+  "visible_events": 4955,
+  "actual_user_prompts": 68,
+  "counts": {
+    "excluded_nonvisible_runtime_record": 11196,
+    "excluded_message": 63,
+    "visible_message": 1120,
+    "excluded_additional_tools": 3,
+    "excluded_configuration_update": 4,
+    "visible_custom_tool_call": 1805,
+    "withheld_confidential_or_unrelated_source": 53,
+    "visible_custom_tool_call_output": 1804,
+    "excluded_reasoning": 2573,
+    "withheld_financial_or_accounting_material": 754,
+    "withheld_credential_or_authentication_material": 110,
+    "visible_function_call": 113,
+    "visible_function_call_output": 113,
+    "withheld_private_correspondence": 8,
+    "withheld_internal_session_material": 46
+  },
+  "scope": "All supported visible user/assistant message and tool-call/result events through this fixed snapshot, in source order. Non-sensitive bodies are retained, not summarized. Sensitive events are represented by provenance-only omission entries. Original language is retained by explicit user authorization. This is a privacy-redacted visible transcript, not an unredacted runtime dump.",
+  "exclusions": [
+    "Hidden reasoning and reasoning summaries",
+    "System/developer instructions and runtime metadata",
+    "Private correspondence and submission-mail editing",
+    "Financial/accounting records",
+    "Credentials, authentication material and related tool results",
+    "Confidential or unrelated source material",
+    "Unreviewed binary media; private paths and identifiers"
+  ],
+  "boundary": "The export ends at the source snapshot hash. Subsequent export, inspection and publication actions are outside this fixed boundary.",
+  "original_prompt_scope": "ACTUAL_PROMPTS.jsonl is the retained user-message subsequence with identical public bodies and matching source hashes. Withheld sensitive messages are represented only in the ordered transcript.",
+  "files": {
+    "visible_session.jsonl": "601ebf772e6cc68e3e4e3a124c27e7f58029faa89f5d0831893dc9c759be729c",
+    "ACTUAL_PROMPTS.jsonl": "31b61fefa38e226d2fc7ddd3959d50c00acb5a218a0bc9a263c2762ae42ee803"
+  }
+}

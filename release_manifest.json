@@ -12,9 +12,9 @@
     "reward.py": "651c57d3d0c3ad04e239d5138261bd609971d32af577b4fd5fa9acf918736bed",
     "studies.json": "25c1d03d868c9c29b7f7aa931c914bb528959ce6e4169e86eada206c0d4c1686",
     "agent_session/events.jsonl": "afca0e60db0a30b2f40c244071b9a5f0c8d4e714bc1f60adefb09f4c14ad48fa",
-    "agent_session/manifest.json": "36cf5c6dbc99ea5b38fbf760633cd9e835f1a87da92a9572992bf1719e147052",
+    "agent_session/manifest.json": "aed71e309c877c9af72ce92155c639d358ae4cabbbb1b63cd1b73bbdecc932f8",
     "agent_session/PROJECT_PROMPTS.json": "08e21549cae3be1500d556e3e2a123cce7b89138d046f76981bbbea83a2abcd1",
-    "agent_session/WORKFLOW.md": "92c2d8e714793fb3ad759af34ffbed0d7004cc3c1e92088041ab92a21c3b7b61",
+    "agent_session/WORKFLOW.md": "737c996006ffd202e16db948fc099a33a3db9fff1657ecef12ad7615abc21565",
     "analysis/probe_selection.py": "675dda2beccea9ef27da1263c1fcfa18ed47e93d89bc1e1d4f8197fb60d2efcb",
     "analysis/visual_judge.py": "0319d02a31851e7d2fa668b2396acb54f37511db47c27680a592c83076e1c45a",
     "report/figure_sources.json": "07874039fb3e1680c930f4efd233942abf671decbd34fa156ac7e19bd2b2fbd7",
@@ -2573,7 +2573,12 @@
     "tasks/E/runtime/counterscene/spatial_suite/scenes.py": "ff247bd5ee251adda1234e0de70a2b87895eabfa479d2310e286d2bdcadcaad5",
     "tasks/E/runtime/counterscene/spatial_suite/tasks.py": "07720ab9efbba88178d167d397c5896921fa63c181313691faf3868fc0886d07",
     "tasks/E/runtime/counterscene/spatial_suite/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "LICENSE": "22d69c8c72e0ec455967c3ea44b41168d8a02fcdde1d24c52ec3b2eeba1e056d"
+    "LICENSE": "22d69c8c72e0ec455967c3ea44b41168d8a02fcdde1d24c52ec3b2eeba1e056d",
+    "agent_session/ACTUAL_PROMPTS.jsonl": "31b61fefa38e226d2fc7ddd3959d50c00acb5a218a0bc9a263c2762ae42ee803",
+    "agent_session/development_session.zip": "ec9c8fbf726e10db58fdc8b3caf3f4197281d8568d3e848456ad67357a0dbabb",
+    "agent_session/README.md": "86e9a1b26f553a6d6a406cb33ef3d5003759d0754ac74dfdf09ee027465368b8",
+    "agent_session/visible_manifest.json": "f554126eeadf07adeca558be613a9390fe1ab58458708650e210e9db2e718bbd",
+    "agent_session/visible_session.jsonl": "601ebf772e6cc68e3e4e3a124c27e7f58029faa89f5d0831893dc9c759be729c"
   },
   "scope": "Public artifact hashes; excludes this manifest itself. Private source records are represented only by provenance hashes."
 }
