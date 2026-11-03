@@ -1,3 +1,4 @@
+import {createAnnotations} from './scene_annotations.js';
 import {updateBrief} from './benchmark_inputs.js';
 
 const data=JSON.parse(document.getElementById('dataset').textContent);
@@ -17,6 +18,7 @@ for(const table of document.querySelectorAll('table')){
 
 
 let item,stage,stageIndex=0,timer,ticket=0,blobs={};
+const annotations=createAnnotations({getContext:()=>({item,stage,stageIndex,isModel:$('execution').value!=='gold'}),label:objectLabel,getNode:$});
 $('status').textContent=data.status;
 $('coverage').textContent=`${data.items.length} independently replayed current-version benchmark instances.`;
 for(const row of data.items)$('instance').add(new Option(`${row.instance} · ${row.stages.length} ordered operations`,row.instance));
@@ -26,21 +28,13 @@ async function show(id,scene,version){
   const bytes=await response.arrayBuffer(),digest=await crypto.subtle.digest('SHA-256',bytes);
   const hash=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
   if(hash!==scene.sha256)throw Error('Scene integrity mismatch');if(version!==ticket)return;
+  annotations.scene(id,scene,bytes);
   if(blobs[id])URL.revokeObjectURL(blobs[id]);
   blobs[id]=URL.createObjectURL(new Blob([bytes],{type:'model/gltf-binary'}));$(id).src=blobs[id];
 }
 function stop(){clearInterval(timer);timer=null;$('play').textContent='Play physical keyframes';}
 function reset(){for(const id of ['before','after']){$(id).cameraTarget='auto auto auto';$(id).cameraOrbit='20deg 60deg 110%';$(id).jumpCameraToGoal();}}
-function markChanges(){
-  for(const id of ['before','after']){
-    const viewer=$(id);viewer.querySelectorAll('[slot]').forEach(node=>node.remove());
-    for(const row of stage.markers?.[id]||[]){
-      const node=document.createElement('span');node.slot='hotspot-'+row.id;node.textContent=objectLabel(row.id);
-      node.style.cssText='background:#fff2bd;color:#203543;border:1px solid #9d7a27;padding:2px 5px;border-radius:4px;font-size:11px';
-      const [x,y,z]=row.position;node.dataset.position=`${x} ${z} ${-y}`;node.dataset.normal='0 1 0';viewer.append(node);
-    }
-  }
-}
+function markChanges(){annotations.setStage();}
 function objectLabel(id){return (data.object_id_aliases?.[id]||id).replaceAll('_',' ');}
 function svgNode(name,attributes){const node=document.createElementNS('http://www.w3.org/2000/svg',name);for(const [key,value] of Object.entries(attributes))node.setAttribute(key,String(value));return node;}
 function drawPlots(){
@@ -68,6 +62,7 @@ async function motion(){
   }catch(error){$('error').textContent=error.message;stop();}
 }
 async function selectStage(index){
+  annotations.clear();
   stop();stageIndex=index;const base=item.stages[index],run=item.models.find(row=>(row.id||row.model)===$('execution').value),output=run?.stages[index];
   updateBrief(item,index,$('execution').value);
   const version=++ticket;$('error').textContent='';$('motion').textContent='';
@@ -110,7 +105,7 @@ function overview(){
   }
   $('overview').replaceChildren(table);
 }
-$('focus').onclick=()=>{for(const id of ['before','after']){const rows=stage.markers?.[id]||[];if(!rows.length)continue;const p=[0,0,0];for(const row of rows)for(let a=0;a<3;a++)p[a]+=row.position[a]/rows.length;$(id).cameraTarget=`${p[0]}m ${p[2]}m ${-p[1]}m`;$(id).cameraOrbit='20deg 60deg 65%';$(id).jumpCameraToGoal();}};
+$('focus').onclick=()=>annotations.focusTask();
 $('instance').onchange=selectItem;$('execution').onchange=()=>selectStage(stageIndex);$('frame').oninput=()=>{stop();motion();};$('reset').onclick=reset;
 $('play').onclick=()=>{if(timer){stop();return;}if(Number($('frame').value)>=stage.frames.length-1)$('frame').value=0;$('play').textContent='Pause';timer=setInterval(()=>{if(Number($('frame').value)>=stage.frames.length-1){stop();return;}$('frame').value=Number($('frame').value)+1;motion();},700);};
 if(data.items.length){const requestedFamily=new URL(location.href).searchParams.get('family');const preferred=data.items.find(row=>row.family===requestedFamily&&row.stages.length===3&&row.instance.endsWith('s0'))||data.items.find(row=>row.family==='A'&&row.stages.length===3&&row.models.length)||data.items.find(row=>row.family==='A'&&row.models.length)||data.items.find(row=>row.models.length)||data.items[0];$('instance').value=preferred.instance;selectItem();}

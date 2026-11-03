@@ -837,7 +837,7 @@
     "site/evidence/E-L2-s1.json": "dd8ed8fe34981a21c79a8498c931c246b43d5f8acd26c26d2b693919c9623f05",
     "site/evidence/E-L3-s0.json": "b4ab7695aab98ef88282a5e05c76e0f32bcb21b4f37575ae90a5be4f19342c4e",
     "site/evidence/E-L3-s1.json": "30e85c3800cc2ea8738964008a54d2492490082e6d8ce09e5ddd4d68630faa62",
-    "site/locales/zh.json": "1b987fc35fefbde6b22a568192908d578cc0f1383ca89f018691abbd7962065d",
+    "site/locales/zh.json": "1554cfcd5bd96d397ea187e940c5f5ffcca73fe8813ccaa3daff536ec5199024",
     "site/resources/00a443d84e109631f78c4e3e093fd4706665dba96bf654b3e0d1a4282cea2a3c.glb": "00a443d84e109631f78c4e3e093fd4706665dba96bf654b3e0d1a4282cea2a3c",
     "site/resources/00dd435a2889ec76e3c5532ba9d2c2b03d0c76650ecb317d37ce6cf00b1b74b8.glb": "00dd435a2889ec76e3c5532ba9d2c2b03d0c76650ecb317d37ce6cf00b1b74b8",
     "site/resources/00e55b3e3c752e3bbda8c130de3556689177295b01e03d8e9830969ff234ec8e.glb": "00e55b3e3c752e3bbda8c130de3556689177295b01e03d8e9830969ff234ec8e",
@@ -2667,7 +2667,7 @@
     "report/figures/relocation_stage_3.png": "8a599515623e6a71a22fcfb9fb298587a58df9a9b89c368bba18ae47661feb3b",
     "agent_session/selected_code/code_changes.jsonl": "ef17a5e6dee3dc0619386ee91e7313794d3f104fc92ce82cbc20d37e24dc812a",
     "agent_session/selected_code/README.md": "30e833bcfe472f9ac094811c5ffa5022a5892f97e12b86d88166e5c8c6b98c5b",
-    "site/examples.html": "a4e107feb8f9d5f0916bb6ea665e1fbe34ac3e377c964f4f277eb5ee435a7150",
+    "site/examples.html": "aa54d93fbb24a0ec1741b108f92d122179708194cd662c926c3cac5750bd29ac",
     "site/leaderboard.html": "f4a883dc7ae9027fae7cf35ab8a545b5e8cae1c25561c37ea75d22d51385df69",
     "site/inputs/index.json": "0f001c24a7e675e508af9f17e50cd4c93238a923226facebaf8da4701bb16cb6",
     "site/resources/00052052157ec66dfd8ef9c34b55e1304056ea9c498a59644bb285b9667e02f9.png": "00052052157ec66dfd8ef9c34b55e1304056ea9c498a59644bb285b9667e02f9",
@@ -3103,7 +3103,7 @@
     "site/resources/ac63ff40711c08983ca6610f30e39b8c182fe82277bd98f45ece60a60e5b8eda.png": "ac63ff40711c08983ca6610f30e39b8c182fe82277bd98f45ece60a60e5b8eda",
     "site/resources/ac695613f967a77442ed6c369f729bb6fa5d0a1c22733a93802194d8f6bcc63e.png": "ac695613f967a77442ed6c369f729bb6fa5d0a1c22733a93802194d8f6bcc63e",
     "site/resources/ac7f79e5cb65363644d58c2d370520bc0aa057b5fed03dcaa40401e43fb12c3e.png": "ac7f79e5cb65363644d58c2d370520bc0aa057b5fed03dcaa40401e43fb12c3e",
-    "site/resources/academic_project.css": "69e859b84be4c7ff73c046fc1a6f3128cdfe48c6f7e3879e6cfc8c2173f72b4b",
+    "site/resources/academic_project.css": "39f6e3d81dae3925a4ab0b63b3ed13f8d57e524f22fb987c69ed3346344c13c0",
     "site/resources/acf6b278e80a6d8e3323d1d900bf018a0b2dc0a6443889f6cb59aa2a7bf924fd.png": "acf6b278e80a6d8e3323d1d900bf018a0b2dc0a6443889f6cb59aa2a7bf924fd",
     "site/resources/ad304acefb33db72b307918e82863f4d20fe7e530f8a655dbbc86b47b5173b61.png": "ad304acefb33db72b307918e82863f4d20fe7e530f8a655dbbc86b47b5173b61",
     "site/resources/ad6ea7c7e41799553a55dfadd0c6736c0abeadab617c965c0ddedab350399360.png": "ad6ea7c7e41799553a55dfadd0c6736c0abeadab617c965c0ddedab350399360",
@@ -3280,7 +3280,7 @@
     "site/resources/edbf13688728c408b28c0394dbf59bd0e440a25d8b6518c6beab93a0e1804e28.png": "edbf13688728c408b28c0394dbf59bd0e440a25d8b6518c6beab93a0e1804e28",
     "site/resources/ee926197d500a8ebae0de145a06b0b3569e1c40f6bbce6b49a490a0c3c5b92b5.png": "ee926197d500a8ebae0de145a06b0b3569e1c40f6bbce6b49a490a0c3c5b92b5",
     "site/resources/efa1e078dacc6c970b5cb650397ccf4c84ca4fee95ab06ef2b421136c5ae5ef4.png": "efa1e078dacc6c970b5cb650397ccf4c84ca4fee95ab06ef2b421136c5ae5ef4",
-    "site/resources/examples_app.js": "091872afe62417ca10a3bb096b612d2e601ef4e7edbacc2868097211e0629cbb",
+    "site/resources/examples_app.js": "c6732c09c618aab7b97e98b9b76ca5affd071eaba39d44b8ff4894a00f4b26b0",
     "site/resources/f039f05f5a14b48e19af27992e1686fd907288b85adeac933cb14addb549a97c.png": "f039f05f5a14b48e19af27992e1686fd907288b85adeac933cb14addb549a97c",
     "site/resources/f0431e016b208b86b6da7a144fcfe9cf2454e162f56e5b7e904ddef9d025c588.png": "f0431e016b208b86b6da7a144fcfe9cf2454e162f56e5b7e904ddef9d025c588",
     "site/resources/f066b809d02e9a106a39e64b6c6e256b5bb02270dcf495388bded83f9ce9ead3.png": "f066b809d02e9a106a39e64b6c6e256b5bb02270dcf495388bded83f9ce9ead3",
@@ -3425,7 +3425,8 @@
     "site/inputs/sessions/E-L3-s0_gpt_structured_active_r2.json": "da23a7d84b29c4c49523724edad94a17dc37120704211c563ed6ae9d649838c7",
     "site/inputs/sessions/E-L3-s1_claude_structured_active_r1.json": "e4f77e94ade2445dcf022bd9250363ee5cebeee5a4c903988322c590eaca319e",
     "site/inputs/sessions/E-L3-s1_gpt_structured_active_r1.json": "a46986fd505b006e9329c047f5d35a6c5bbd93d36bd6809e433e5e9c0c6d7db5",
-    "media/report.svg": "45699c1790569451ff50b7e02dc7ff79162e8ee5aed89a8eb51a74cb8ee96c3d"
+    "media/report.svg": "45699c1790569451ff50b7e02dc7ff79162e8ee5aed89a8eb51a74cb8ee96c3d",
+    "site/resources/scene_annotations.js": "b212050b6397ff27421fe35f1a6a64f97ccb53ab44d0e197eb81c80d0bd233e1"
   },
   "scope": "Public artifact hashes; excludes this manifest itself. Private source records are represented only by provenance hashes."
 }

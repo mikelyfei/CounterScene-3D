@@ -296,7 +296,21 @@
     "Chinese PDF": "中文 PDF",
     "LaTeX source": "LaTeX 源码",
     "Read the full report in English or Chinese, with methods, results and limitations.": "完整报告提供中英文版本，涵盖方法、结果和局限。",
-    "Read the report on this page": "在本页阅读报告"
+    "Read the report on this page": "在本页阅读报告",
+    "Task regions": "任务区域",
+    "Error regions": "错误区域",
+    "All object names": "所有物体名称",
+    "Hide all annotations": "隐藏所有标注",
+    "Show all annotations": "显示所有标注",
+    "Focus error regions": "聚焦错误区域",
+    "Focus task region": "聚焦任务区域",
+    "Task objects / waypoints": "任务对象／路点",
+    "Objects implicated by failed scoring checks": "失败评分检查涉及的物体",
+    "Highlight evidence and interpretation": "高亮证据与说明",
+    "Highlights use offline scoring, not model-visible feedback. Markers identify involved objects, not exact collision contact points. Allowed pending faults and infeasible soft preferences are not treated as model errors.": "高亮来自离线评分，并非模型可见反馈。标记表示涉及的物体，不代表精确碰撞接触点。允许保留的待修复问题和不可行软偏好不会被标成模型错误。",
+    "No localized object-level scoring issue is marked.": "未标记可定位到物体的评分问题。",
+    "Gold reference: task markers only.": "Gold 参考：只显示任务标记。",
+    "No executed scene for this selection.": "当前选择没有实际执行场景。"
   },
   "phrases": [
     [
@@ -462,6 +476,10 @@
     [
       "Repair with misleading feedback",
       "误导反馈下的修复"
+    ],
+    [
+      " objects implicated by retained scoring checks.",
+      " 个物体涉及保留评分中的失败检查。"
     ]
   ]
 }
