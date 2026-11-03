@@ -54,26 +54,26 @@ tool or program error & 11 & 1 \\
 
 \bottomrule\end{tabular}\end{center}
 
-Counts are primary trajectories with an observed issue, including diagnostic errors in geometrically successful episodes. Labels can overlap. Tool errors are observable invalid actions; metric and hidden-view failures distinguish reconstruction precision from visual overlap.
+Counts are primary trajectories with observed issues; labels overlap. Diagnostic errors include geometrically successful episodes; tool errors are invalid actions.
 
-A concrete shared blind spot occurs in B-L2-s0: both participants submit an unchanged program after the public checker reports hard-constraint failures. Their earlier stage succeeds, but the final relation repair fails. This is observable failure to act on feedback, not evidence about private reasoning or intent. Valid execution and collision clearance alone do not imply task completion.
+In B-L2-s0, both models resubmit unchanged programs after reported mandatory-constraint failures: the earlier stage succeeds, but final repair fails. This behavior motivates feedback-use studies.
 
-C-L2-s0 provides an updating failure: Claude passes the first reconstruction, then fails hidden-view and metric checks after the target changes. Its second stage uses thirteen actions without an extra view query. This localizes the observed failure to the later update; it does not prove that additional queries would have repaired it.
+In C-L2-s0, Claude passes initial reconstruction but misses hidden-view and position thresholds after the target changes, using thirteen actions without querying another view.
 
-GPT C-L2-s1 exposes a different failure: the first reconstruction passes visual overlap and metric-centre checks but retains a native physical conflict. Its second stage passes, yet the episode fails because earlier committed errors remain. This is why visual agreement and terminal-only evaluation are insufficient. Claude shares the physical-conflict label on this instance and additionally fails metric grounding, distinguishing the common geometric blind spot from its reconstruction errors.
+In C-L2-s1, GPT passes silhouette and centre checks but retains a physical conflict at stage one. Stage two passes; episode scoring preserves the earlier error, demonstrating the value of cumulative, multidimensional acceptance. Claude shares the physical conflict and additionally misses position thresholds.
 
-E-L3-s1 separates repair from diagnosis: GPT meets 26/26 native relations and detects 2/4 checker faults; Claude meets 25/26 and detects 0/4. Geometric success therefore does not imply complete diagnosis; scalar summaries must not collapse these dimensions.
+E-L3-s1 separates repair from diagnosis: GPT meets 26/26 native relations and detects 2/4 checker faults; Claude meets 25/26 and detects 0/4. Separate metrics make both capabilities inspectable.
 
 \paragraph{Reward evidence.}
 
-Calibration across 30 instances and 360 repeated scores establishes a reproducible measurement baseline: maximum fixed-control shaped-reward variance is 0.0000, and ordering checks all pass. Scorer repeatability and participant generation variance are measured separately, supporting interpretable comparisons in subsequent optimization studies.
+Calibration across 30 instances and 360 repeated scores establishes repeatability: maximum fixed-control shaped-reward variance is 0.0000, and ordering checks all pass. Scorer repeatability and generation variance are measured separately.
 
-The completed Qwen study comprises 10/10 pools with four candidates each. Public-reward selection raises mean independently audited hidden quality from 0.000 for the first candidate to 0.200. Observed gains occur in A. The gain supports reward-guided candidate selection in this cohort. Exact replay preserves the selection, including ties and task-level outcomes.
+The completed Qwen study comprises 10/10 pools with four candidates each. Public-reward selection raises mean independently audited hidden quality from 0.000 for the first candidate to 0.200. Observed gains occur in A. Exact replay preserves selection and ties.
 
-E makes feedback alignment directly auditable: selected public reward averages 0.300, while hidden quality is 0.000. This separation identifies checker validation and feedback-aware curricula as concrete learning-design targets.
+E makes feedback alignment directly auditable: selected public reward averages 0.300, while hidden quality is 0.000. This identifies feedback-validation and curriculum targets.
 
-GPT-6 Astra, the auxiliary vision-language judge, quantifies visual-assessment consistency: fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts, with mean coverage (fraction of rubric items scored) 0.906. Native checks additionally identify 7 functional failures with visual scores of at least 0.75, demonstrating the complementary value of the layered evaluation design.
+GPT-6 Astra, the auxiliary vision-language judge, quantifies visual-assessment consistency: fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts, with mean coverage (fraction of rubric items scored) 0.906. Native checks identify 7 functional failures with visual scores of at least 0.75, supporting complementary visual and executable evaluation.
 
-Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. Weak ordering means reference scores are no lower than safe partial scores, which are no lower than stale scores. This validity diagnostic identifies priorities for finer rubric discrimination.
+Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. Weak ordering allows ties: reference scores exceed or equal safe partial scores, then stale scores. This validity diagnostic guides rubric refinement.
 
-Together, executable acceptance, controlled ordering and candidate selection provide a practical basis for learning-oriented reward research. Curriculum schedules and feedback density can now be tested against unchanged native acceptance criteria.
+Controlled selection and acceptance support learning-oriented reward research.
