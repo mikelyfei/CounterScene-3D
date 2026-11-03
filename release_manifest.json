@@ -3425,7 +3425,7 @@
     "site/inputs/sessions/E-L3-s0_gpt_structured_active_r2.json": "da23a7d84b29c4c49523724edad94a17dc37120704211c563ed6ae9d649838c7",
     "site/inputs/sessions/E-L3-s1_claude_structured_active_r1.json": "e4f77e94ade2445dcf022bd9250363ee5cebeee5a4c903988322c590eaca319e",
     "site/inputs/sessions/E-L3-s1_gpt_structured_active_r1.json": "a46986fd505b006e9329c047f5d35a6c5bbd93d36bd6809e433e5e9c0c6d7db5",
-    "media/report.svg": "b82fa819a844fcf9bc9be017d98b471db165a39e814db8933304f76052dbcdf4"
+    "media/report.svg": "45699c1790569451ff50b7e02dc7ff79162e8ee5aed89a8eb51a74cb8ee96c3d"
   },
   "scope": "Public artifact hashes; excludes this manifest itself. Private source records are represented only by provenance hashes."
 }
