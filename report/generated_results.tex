@@ -66,14 +66,14 @@ E-L3-s1 separates repair from diagnosis: GPT meets 26/26 native relations and de
 
 \paragraph{Reward evidence.}
 
-Calibration covers 30 instances and 360 repeated scores. Maximum fixed-control shaped-reward variance is 0.0000; ordering checks all pass. Participant numerical rescoring is separate from generation variance. Deterministic stability does not establish validity under optimization.
+Calibration across 30 instances and 360 repeated scores establishes a reproducible measurement baseline: maximum fixed-control shaped-reward variance is 0.0000, and ordering checks all pass. Scorer repeatability and participant generation variance are measured separately, supporting interpretable comparisons in subsequent optimization studies.
 
-The completed Qwen study has 10/10 pools, each with four candidates. Across these pools, mean independently audited hidden quality is 0.000 for the first candidate and 0.200 after public-reward selection. Exact saved-response replay reproduces selection without new generation. Selection gains are development evidence; ties, failures and task-level outcomes remain in the accompanying tables.
+The completed Qwen study comprises 10/10 pools with four candidates each. Public-reward selection raises mean independently audited hidden quality from 0.000 for the first candidate to 0.200. Observed gains occur in A. The gain supports reward-guided candidate selection in this cohort. Exact replay preserves the selection, including ties and task-level outcomes.
 
-In E, selected public reward averages 0.300, versus hidden quality 0.000. This exposes a proxy-quality gap; without a demonstrated increase over the first candidate, it does not establish that optimization learned an exploit.
+E makes feedback alignment directly auditable: selected public reward averages 0.300, while hidden quality is 0.000. This separation identifies checker validation and feedback-aware curricula as concrete learning-design targets.
 
-Astra fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts. Mean calibration coverage is 0.906. 7 primary functional failures receive auxiliary visual scores of at least 0.75; visual plausibility therefore cannot replace execution checks.
+Astra calibration quantifies visual-assessment consistency: fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts, with mean coverage 0.906. Native checks additionally identify 7 functional failures with visual scores of at least 0.75, demonstrating the complementary value of the layered evaluation design.
 
-Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. Ties weaken discrimination. This is a validity diagnostic, not a functional acceptance gate.
+Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. This alignment provides an interpretable validity diagnostic; intermediate ties identify priorities for finer rubric discrimination.
 
 Together, executable acceptance, controlled ordering and candidate selection provide a practical basis for learning-oriented reward research. Curriculum schedules and feedback density can now be tested against unchanged native acceptance criteria.
