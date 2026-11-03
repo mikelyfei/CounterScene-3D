@@ -1,0 +1,127 @@
+{
+  "instance": "C-L1-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "baa2bd54cbf3f10408444a30a2ee72eb2e96bbf08d8612f5591acd4e9fdeede5",
+  "sanitized_evidence_excerpt": {
+    "success": true,
+    "manifest_sha256": "647717cb9dd17dedea329b5b417811a071d219dfc59a73f4628e97e67f74c059",
+    "result": {
+      "transitions": [],
+      "candidate_audits": [
+        {
+          "turn": 1,
+          "stage": 0,
+          "executed": true,
+          "valid_output": true
+        }
+      ],
+      "execution_valid": true,
+      "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+      "native_schema_valid": true,
+      "stage_results": [
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "desk_blue": 0.0,
+            "lamp_white": 0.0,
+            "crate_red": 0.0,
+            "bin_gray": 0.0
+          },
+          "per_view": {
+            "top": 1.0,
+            "side": 1.0,
+            "back": 1.0,
+            "front": 1.0,
+            "back_right": 1.0,
+            "back_left": 1.0,
+            "low_front_right": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "e7fb7ae57e0a4c2bb8ed61d2153bd58667dd22a5e0fe21ce332f4004e661b674",
+            "instance_ids": [
+              "bin_gray",
+              "crate_red",
+              "desk_blue",
+              "lamp_white"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        }
+      ],
+      "success": true,
+      "stages_completed": 1,
+      "stage_executions": 1,
+      "stage_successes": 1,
+      "stages_required": 1,
+      "last_stage_result": {
+        "success": true,
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [],
+          "physical": [],
+          "all_satisfied": true,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "hidden_mean_iou": 1.0,
+        "seen_mean_iou": 1.0,
+        "overfit_gap": 0.0,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.0,
+          "lamp_white": 0.0,
+          "crate_red": 0.0,
+          "bin_gray": 0.0
+        },
+        "per_view": {
+          "top": 1.0,
+          "side": 1.0,
+          "back": 1.0,
+          "front": 1.0,
+          "back_right": 1.0,
+          "back_left": 1.0,
+          "low_front_right": 1.0
+        },
+        "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+        "scene_artifact": {
+          "sha256": "e7fb7ae57e0a4c2bb8ed61d2153bd58667dd22a5e0fe21ce332f4004e661b674",
+          "instance_ids": [
+            "bin_gray",
+            "crate_red",
+            "desk_blue",
+            "lamp_white"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    },
+    "controls": [],
+    "delivered_view_hashes": [
+      [
+        "c3fddeb8b1cb1fa195b83344ae2652dc0055700620f8286b974685dea1bebcdf",
+        "898a6396e7b51438c7198e1fce5a2d20f90b3cd5eb920ca69636bf9e044f1966",
+        "f9aca8ee6fb849690ebbbb735f70cd72c1b8dd260f710ec57ecdcd684c400533"
+      ]
+    ]
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

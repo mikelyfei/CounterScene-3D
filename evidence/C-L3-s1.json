@@ -1,0 +1,1031 @@
+{
+  "instance": "C-L3-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "eba50e3eb2f162ee1deefa6a9d31a0fdf01572c0fdd9fcbb398c35975470859a",
+  "sanitized_evidence_excerpt": {
+    "success": true,
+    "manifest_sha256": "12573cb6bd5c03bc453ffa108f3435fd7f814e993a556322ac5debff47132fe2",
+    "result": {
+      "transitions": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "physical_event": null,
+          "before_event": {
+            "shelf_orange": {
+              "position": [
+                1.3855,
+                4.2328,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.764412,
+                0.33443,
+                1.337721
+              ]
+            },
+            "desk_blue": {
+              "position": [
+                3.146,
+                1.8613,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.572025,
+                0.839654,
+                0.822762
+              ]
+            },
+            "deskchair_black": {
+              "position": [
+                2.9477,
+                2.7254,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.626291,
+                0.587677,
+                1.136093
+              ]
+            },
+            "plant_pink": {
+              "position": [
+                5.7536,
+                1.4457,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.252737,
+                0.28778,
+                0.779473
+              ]
+            },
+            "soccer_white": {
+              "position": [
+                1.3435,
+                3.6869,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.22,
+                0.22,
+                0.22
+              ]
+            },
+            "column_cyan": {
+              "position": [
+                0.7464,
+                1.117,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311372,
+                0.311372,
+                2.283394
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                3.8019,
+                2.8875,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.415975,
+                0.415975,
+                0.534825
+              ]
+            },
+            "monitor_gray": {
+              "position": [
+                2.9739,
+                1.5897,
+                0.8228
+              ],
+              "yaw": 180,
+              "size": [
+                0.457633,
+                0.121205,
+                0.342956
+              ]
+            },
+            "rugby_brown": {
+              "position": [
+                1.2678,
+                4.1662,
+                0.9018
+              ],
+              "yaw": 0,
+              "size": [
+                0.28,
+                0.18,
+                0.18
+              ]
+            },
+            "flowerpot_green": {
+              "position": [
+                1.1646,
+                4.2492,
+                0.4659
+              ],
+              "yaw": 0,
+              "size": [
+                0.180485,
+                0.180485,
+                0.266932
+              ]
+            }
+          },
+          "after_event": null,
+          "committed_action": {
+            "tool": "commit_stage",
+            "source": "def build(public_params):\n    return {'shelf_orange': {'position': [1.3855, 4.2328, 0.0], 'yaw': 0, 'size': [0.764412, 0.33443, 1.337721]}, 'desk_blue': {'position': [3.146, 1.8613, 0.0], 'yaw': 0, 'size': [1.572025, 0.839654, 0.822762]}, 'deskchair_black': {'position': [2.9477, 2.7254, 0.0], 'yaw': 0, 'size': [0.626291, 0.587677, 1.136093]}, 'plant_pink': {'position': [5.7536, 1.4457, 0.0], 'yaw': 0, 'size': [0.252737, 0.28778, 0.779473]}, 'soccer_white': {'position': [1.3435, 3.6869, 0.0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]}, 'column_cyan': {'position': [0.7464, 1.117, 0.0], 'yaw': 0, 'size': [0.311372, 0.311372, 2.283394]}, 'stool_purple': {'position': [3.8019, 2.8875, 0.0], 'yaw': 0, 'size': [0.415975, 0.415975, 0.534825]}, 'monitor_gray': {'position': [2.9739, 1.5897, 0.8228], 'yaw': 180, 'size': [0.457633, 0.121205, 0.342956]}, 'rugby_brown': {'position': [1.2678, 4.1662, 0.9018], 'yaw': 0, 'size': [0.28, 0.18, 0.18]}, 'flowerpot_green': {'position': [1.1646, 4.2492, 0.4659], 'yaw': 0, 'size': [0.180485, 0.180485, 0.266932]}}"
+          },
+          "committed_result": {
+            "success": true,
+            "geometry": {
+              "valid_output": true,
+              "output_problems": [],
+              "constraints": [],
+              "physical": [],
+              "all_satisfied": true,
+              "limits": [
+                "Static stability not simulated",
+                "Native image relations fail closed until actual-view evidence is supplied"
+              ]
+            },
+            "hidden_mean_iou": 1.0,
+            "seen_mean_iou": 1.0,
+            "overfit_gap": 0.0,
+            "metric_centres_ok": true,
+            "metric_centre_errors_m": {
+              "shelf_orange": 0.0,
+              "desk_blue": 0.0,
+              "deskchair_black": 0.0,
+              "plant_pink": 0.0,
+              "soccer_white": 0.0,
+              "column_cyan": 0.0,
+              "stool_purple": 0.0,
+              "monitor_gray": 0.0,
+              "rugby_brown": 0.0,
+              "flowerpot_green": 0.0
+            },
+            "per_view": {
+              "back": 1.0,
+              "back_right": 1.0,
+              "front": 1.0,
+              "top": 1.0,
+              "side": 1.0,
+              "low_front_right": 1.0,
+              "back_left": 1.0
+            },
+            "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+            "scene_artifact": {
+              "sha256": "a0324c1c010f69339871353c49cc6ba2fdcbd053ba021ce508a9938e01b32692",
+              "instance_ids": [
+                "column_cyan",
+                "desk_blue",
+                "deskchair_black",
+                "flowerpot_green",
+                "monitor_gray",
+                "plant_pink",
+                "rugby_brown",
+                "shelf_orange",
+                "soccer_white",
+                "stool_purple"
+              ],
+              "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+            }
+          },
+          "scope": "Actual prior reconstruction is retained in the trace; new target must be acquired through public views. No target gold is substituted for model output.",
+          "environment_changed_objects": null,
+          "carried_candidate": {
+            "shelf_orange": {
+              "position": [
+                1.3855,
+                4.2328,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.764412,
+                0.33443,
+                1.337721
+              ]
+            },
+            "desk_blue": {
+              "position": [
+                3.146,
+                1.8613,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.572025,
+                0.839654,
+                0.822762
+              ]
+            },
+            "deskchair_black": {
+              "position": [
+                2.9477,
+                2.7254,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.626291,
+                0.587677,
+                1.136093
+              ]
+            },
+            "plant_pink": {
+              "position": [
+                5.7536,
+                1.4457,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.252737,
+                0.28778,
+                0.779473
+              ]
+            },
+            "soccer_white": {
+              "position": [
+                1.3435,
+                3.6869,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.22,
+                0.22,
+                0.22
+              ]
+            },
+            "column_cyan": {
+              "position": [
+                0.7464,
+                1.117,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311372,
+                0.311372,
+                2.283394
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                3.8019,
+                2.8875,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.415975,
+                0.415975,
+                0.534825
+              ]
+            },
+            "monitor_gray": {
+              "position": [
+                2.9739,
+                1.5897,
+                0.8228
+              ],
+              "yaw": 180,
+              "size": [
+                0.457633,
+                0.121205,
+                0.342956
+              ]
+            },
+            "rugby_brown": {
+              "position": [
+                1.2678,
+                4.1662,
+                0.9018
+              ],
+              "yaw": 0,
+              "size": [
+                0.28,
+                0.18,
+                0.18
+              ]
+            },
+            "flowerpot_green": {
+              "position": [
+                1.1646,
+                4.2492,
+                0.4659
+              ],
+              "yaw": 0,
+              "size": [
+                0.180485,
+                0.180485,
+                0.266932
+              ]
+            }
+          }
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "physical_event": null,
+          "before_event": {
+            "shelf_orange": {
+              "position": [
+                3.0,
+                4.2328,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.764412,
+                0.33443,
+                1.337721
+              ]
+            },
+            "desk_blue": {
+              "position": [
+                3.146,
+                1.8613,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.572025,
+                0.839654,
+                0.822762
+              ]
+            },
+            "deskchair_black": {
+              "position": [
+                2.9477,
+                2.7254,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.626291,
+                0.587677,
+                1.136093
+              ]
+            },
+            "plant_pink": {
+              "position": [
+                5.7536,
+                1.4457,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.252737,
+                0.28778,
+                0.779473
+              ]
+            },
+            "soccer_white": {
+              "position": [
+                1.3435,
+                3.6869,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.22,
+                0.22,
+                0.22
+              ]
+            },
+            "column_cyan": {
+              "position": [
+                0.7464,
+                1.117,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311372,
+                0.311372,
+                2.283394
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                3.8019,
+                2.8875,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.415975,
+                0.415975,
+                0.534825
+              ]
+            },
+            "monitor_gray": {
+              "position": [
+                2.9739,
+                1.5897,
+                0.8228
+              ],
+              "yaw": 180,
+              "size": [
+                0.457633,
+                0.121205,
+                0.342956
+              ]
+            },
+            "rugby_brown": {
+              "position": [
+                2.8823,
+                4.1662,
+                0.9018
+              ],
+              "yaw": 0,
+              "size": [
+                0.28,
+                0.18,
+                0.18
+              ]
+            },
+            "flowerpot_green": {
+              "position": [
+                2.7791,
+                4.2492,
+                0.4659
+              ],
+              "yaw": 0,
+              "size": [
+                0.180485,
+                0.180485,
+                0.266932
+              ]
+            }
+          },
+          "after_event": null,
+          "committed_action": {
+            "tool": "commit_stage",
+            "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.0, 4.2328, 0.0], 'yaw': 0, 'size': [0.764412, 0.33443, 1.337721]}, 'desk_blue': {'position': [3.146, 1.8613, 0.0], 'yaw': 0, 'size': [1.572025, 0.839654, 0.822762]}, 'deskchair_black': {'position': [2.9477, 2.7254, 0.0], 'yaw': 0, 'size': [0.626291, 0.587677, 1.136093]}, 'plant_pink': {'position': [5.7536, 1.4457, 0.0], 'yaw': 0, 'size': [0.252737, 0.28778, 0.779473]}, 'soccer_white': {'position': [1.3435, 3.6869, 0.0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]}, 'column_cyan': {'position': [0.7464, 1.117, 0.0], 'yaw': 0, 'size': [0.311372, 0.311372, 2.283394]}, 'stool_purple': {'position': [3.8019, 2.8875, 0.0], 'yaw': 0, 'size': [0.415975, 0.415975, 0.534825]}, 'monitor_gray': {'position': [2.9739, 1.5897, 0.8228], 'yaw': 180, 'size': [0.457633, 0.121205, 0.342956]}, 'rugby_brown': {'position': [2.8823, 4.1662, 0.9018], 'yaw': 0, 'size': [0.28, 0.18, 0.18]}, 'flowerpot_green': {'position': [2.7791, 4.2492, 0.4659], 'yaw': 0, 'size': [0.180485, 0.180485, 0.266932]}}"
+          },
+          "committed_result": {
+            "success": true,
+            "geometry": {
+              "valid_output": true,
+              "output_problems": [],
+              "constraints": [],
+              "physical": [],
+              "all_satisfied": true,
+              "limits": [
+                "Static stability not simulated",
+                "Native image relations fail closed until actual-view evidence is supplied"
+              ]
+            },
+            "hidden_mean_iou": 1.0,
+            "seen_mean_iou": 1.0,
+            "overfit_gap": 0.0,
+            "metric_centres_ok": true,
+            "metric_centre_errors_m": {
+              "shelf_orange": 0.0,
+              "desk_blue": 0.0,
+              "deskchair_black": 0.0,
+              "plant_pink": 0.0,
+              "soccer_white": 0.0,
+              "column_cyan": 0.0,
+              "stool_purple": 0.0,
+              "monitor_gray": 0.0,
+              "rugby_brown": 0.0,
+              "flowerpot_green": 0.0
+            },
+            "per_view": {
+              "back": 1.0,
+              "back_right": 1.0,
+              "right": 1.0,
+              "low_front_right": 1.0,
+              "back_left": 1.0,
+              "front_left": 1.0
+            },
+            "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+            "scene_artifact": {
+              "sha256": "02f96dab29397c1b76764252af614f3935b473dd0489a238aea88fb6e2dd1854",
+              "instance_ids": [
+                "column_cyan",
+                "desk_blue",
+                "deskchair_black",
+                "flowerpot_green",
+                "monitor_gray",
+                "plant_pink",
+                "rugby_brown",
+                "shelf_orange",
+                "soccer_white",
+                "stool_purple"
+              ],
+              "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+            }
+          },
+          "scope": "Actual prior reconstruction is retained in the trace; new target must be acquired through public views. No target gold is substituted for model output.",
+          "environment_changed_objects": null,
+          "carried_candidate": {
+            "shelf_orange": {
+              "position": [
+                3.0,
+                4.2328,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.764412,
+                0.33443,
+                1.337721
+              ]
+            },
+            "desk_blue": {
+              "position": [
+                3.146,
+                1.8613,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.572025,
+                0.839654,
+                0.822762
+              ]
+            },
+            "deskchair_black": {
+              "position": [
+                2.9477,
+                2.7254,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.626291,
+                0.587677,
+                1.136093
+              ]
+            },
+            "plant_pink": {
+              "position": [
+                5.7536,
+                1.4457,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.252737,
+                0.28778,
+                0.779473
+              ]
+            },
+            "soccer_white": {
+              "position": [
+                1.3435,
+                3.6869,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.22,
+                0.22,
+                0.22
+              ]
+            },
+            "column_cyan": {
+              "position": [
+                0.7464,
+                1.117,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311372,
+                0.311372,
+                2.283394
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                3.8019,
+                2.8875,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.415975,
+                0.415975,
+                0.534825
+              ]
+            },
+            "monitor_gray": {
+              "position": [
+                2.9739,
+                1.5897,
+                0.8228
+              ],
+              "yaw": 180,
+              "size": [
+                0.457633,
+                0.121205,
+                0.342956
+              ]
+            },
+            "rugby_brown": {
+              "position": [
+                2.8823,
+                4.1662,
+                0.9018
+              ],
+              "yaw": 0,
+              "size": [
+                0.28,
+                0.18,
+                0.18
+              ]
+            },
+            "flowerpot_green": {
+              "position": [
+                2.7791,
+                4.2492,
+                0.4659
+              ],
+              "yaw": 0,
+              "size": [
+                0.180485,
+                0.180485,
+                0.266932
+              ]
+            }
+          }
+        }
+      ],
+      "candidate_audits": [
+        {
+          "turn": 1,
+          "stage": 0,
+          "executed": true,
+          "valid_output": true
+        },
+        {
+          "turn": 2,
+          "stage": 1,
+          "executed": true,
+          "valid_output": true
+        },
+        {
+          "turn": 3,
+          "stage": 2,
+          "executed": true,
+          "valid_output": true
+        }
+      ],
+      "execution_valid": true,
+      "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+      "native_schema_valid": true,
+      "stage_results": [
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "shelf_orange": 0.0,
+            "desk_blue": 0.0,
+            "deskchair_black": 0.0,
+            "plant_pink": 0.0,
+            "soccer_white": 0.0,
+            "column_cyan": 0.0,
+            "stool_purple": 0.0,
+            "monitor_gray": 0.0,
+            "rugby_brown": 0.0,
+            "flowerpot_green": 0.0
+          },
+          "per_view": {
+            "back": 1.0,
+            "back_right": 1.0,
+            "front": 1.0,
+            "top": 1.0,
+            "side": 1.0,
+            "low_front_right": 1.0,
+            "back_left": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "a0324c1c010f69339871353c49cc6ba2fdcbd053ba021ce508a9938e01b32692",
+            "instance_ids": [
+              "column_cyan",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "monitor_gray",
+              "plant_pink",
+              "rugby_brown",
+              "shelf_orange",
+              "soccer_white",
+              "stool_purple"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "shelf_orange": 0.0,
+            "desk_blue": 0.0,
+            "deskchair_black": 0.0,
+            "plant_pink": 0.0,
+            "soccer_white": 0.0,
+            "column_cyan": 0.0,
+            "stool_purple": 0.0,
+            "monitor_gray": 0.0,
+            "rugby_brown": 0.0,
+            "flowerpot_green": 0.0
+          },
+          "per_view": {
+            "back": 1.0,
+            "back_right": 1.0,
+            "right": 1.0,
+            "low_front_right": 1.0,
+            "back_left": 1.0,
+            "front_left": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "02f96dab29397c1b76764252af614f3935b473dd0489a238aea88fb6e2dd1854",
+            "instance_ids": [
+              "column_cyan",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "monitor_gray",
+              "plant_pink",
+              "rugby_brown",
+              "shelf_orange",
+              "soccer_white",
+              "stool_purple"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "shelf_orange": 0.0,
+            "desk_blue": 0.0,
+            "deskchair_black": 0.0,
+            "plant_pink": 0.0,
+            "soccer_white": 0.0,
+            "column_cyan": 0.0,
+            "stool_purple": 0.0,
+            "monitor_gray": 0.0,
+            "rugby_brown": 0.0,
+            "flowerpot_green": 0.0
+          },
+          "per_view": {
+            "back": 1.0,
+            "back_right": 1.0,
+            "front_right": 1.0,
+            "low_front_right": 1.0,
+            "back_left": 1.0,
+            "left": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "381859b2216b57c9bdec81e0856f99a60548471ba173020f8e96297afd73a794",
+            "instance_ids": [
+              "column_cyan",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "monitor_gray",
+              "plant_pink",
+              "rugby_brown",
+              "shelf_orange",
+              "soccer_white",
+              "stool_purple"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        }
+      ],
+      "success": true,
+      "stages_completed": 3,
+      "stage_executions": 3,
+      "stage_successes": 3,
+      "stages_required": 3,
+      "last_stage_result": {
+        "success": true,
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [],
+          "physical": [],
+          "all_satisfied": true,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "hidden_mean_iou": 1.0,
+        "seen_mean_iou": 1.0,
+        "overfit_gap": 0.0,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "shelf_orange": 0.0,
+          "desk_blue": 0.0,
+          "deskchair_black": 0.0,
+          "plant_pink": 0.0,
+          "soccer_white": 0.0,
+          "column_cyan": 0.0,
+          "stool_purple": 0.0,
+          "monitor_gray": 0.0,
+          "rugby_brown": 0.0,
+          "flowerpot_green": 0.0
+        },
+        "per_view": {
+          "back": 1.0,
+          "back_right": 1.0,
+          "front_right": 1.0,
+          "low_front_right": 1.0,
+          "back_left": 1.0,
+          "left": 1.0
+        },
+        "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+        "scene_artifact": {
+          "sha256": "381859b2216b57c9bdec81e0856f99a60548471ba173020f8e96297afd73a794",
+          "instance_ids": [
+            "column_cyan",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "monitor_gray",
+            "plant_pink",
+            "rugby_brown",
+            "shelf_orange",
+            "soccer_white",
+            "stool_purple"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    },
+    "controls": [
+      {
+        "stage": 1,
+        "shortcut": "reuse_old_answer_ignore_new_views",
+        "result": {
+          "success": false,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 0.7035730109944521,
+          "seen_mean_iou": 0.7027327935222671,
+          "overfit_gap": -0.0008402174721849898,
+          "metric_centres_ok": false,
+          "metric_centre_errors_m": {
+            "shelf_orange": 1.6145000457763672,
+            "desk_blue": 0.0,
+            "deskchair_black": 0.0,
+            "plant_pink": 0.0,
+            "soccer_white": 0.0,
+            "column_cyan": 0.0,
+            "stool_purple": 0.0,
+            "monitor_gray": 0.0,
+            "rugby_brown": 1.6144999265670776,
+            "flowerpot_green": 1.6144999265670776
+          },
+          "per_view": {
+            "back": 0.6810874094752599,
+            "back_right": 0.7510631834750912,
+            "right": 0.7054655870445343,
+            "low_front_right": 0.6666666666666666,
+            "back_left": 0.7154747843607907,
+            "front_left": 0.7
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score"
+        }
+      },
+      {
+        "stage": 2,
+        "shortcut": "reuse_old_answer_ignore_new_views",
+        "result": {
+          "success": false,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 0.5563721274208069,
+          "seen_mean_iou": 0.6359393126081865,
+          "overfit_gap": 0.0795671851873796,
+          "metric_centres_ok": false,
+          "metric_centre_errors_m": {
+            "shelf_orange": 0.0,
+            "desk_blue": 2.245999902486801,
+            "deskchair_black": 2.2460000813007355,
+            "plant_pink": 0.0,
+            "soccer_white": 0.0,
+            "column_cyan": 0.0,
+            "stool_purple": 0.0,
+            "monitor_gray": 2.246000051498413,
+            "rugby_brown": 0.0,
+            "flowerpot_green": 0.0
+          },
+          "per_view": {
+            "back": 0.5805412371134021,
+            "back_right": 0.5404791408508881,
+            "front_right": 0.7035591274397245,
+            "low_front_right": 0.5277719665271967,
+            "back_left": 0.5766961651917404,
+            "left": 0.5683194977766486
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score"
+        }
+      }
+    ],
+    "delivered_view_hashes": [
+      [
+        "cda34d787a42b9e56d90d2a78019a6e4ec131ba0c2bad1280da893e1b86e0303",
+        "50c4fbeb87d8761192769df805f74e33d837611bb49acef6c30351657a832b95",
+        "907bdd89e630653e17bdd600b40c9ea1d006dc821d0dc6f181ba1c3a33ec8bbd"
+      ],
+      [
+        "63f9034e23a958aae5a27036496847a135687c467c8f95daa2e557f75cb3ac47",
+        "8bf8d162e580de74047e9acb297af3ea6c174b6d16fe5a4b8bcda8a99b5c6d64"
+      ],
+      [
+        "93ad23352630e22184b9e776be48296e1eb5e731011d862d55cafb5e6b50e2d2",
+        "7b1a825a3437aad794e4021b0c49f5f3b3e855caa558ca3f8a1aea264cd33e91"
+      ]
+    ]
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

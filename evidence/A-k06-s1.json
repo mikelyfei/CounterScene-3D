@@ -1,0 +1,509 @@
+{
+  "instance": "A-k06-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "ffae902334f136886b9e7441afd008ce49e2dc869b9ae8be7c2ec882f17ff44e",
+  "sanitized_evidence_excerpt": {
+    "protocol": "native-operations-v3",
+    "manifest_sha256": "6e1d21cfc0518c9f6127078e0aec3689a2eccf8db13319fc3cbefbedef7d8579",
+    "success": true,
+    "relocation_m": 1.8140091730749324,
+    "result": {
+      "transitions": [],
+      "candidate_audits": [
+        {
+          "turn": 2,
+          "stage": 0,
+          "executed": true,
+          "alignment": null,
+          "regression": null,
+          "regression_count": 0,
+          "regression_denominator": 0,
+          "aligned_count": 0,
+          "alignment_denominator": 0,
+          "valid_output": true,
+          "physical_issues": 0,
+          "constraint_satisfied": 1,
+          "constraint_total": 1
+        }
+      ],
+      "execution_valid": true,
+      "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+      "native_schema_valid": true,
+      "stage_results": [
+        {
+          "success": true,
+          "satisfied": 1,
+          "total": 1,
+          "physical": [],
+          "violated_types": [],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "5401d4fb39e38d6a194bb270e67f3245544828d846a2285c901ab9948575ebe9",
+            "instance_ids": [
+              "cabinet_blue",
+              "lamp_white",
+              "monitor_gray",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 0.0,
+              "ok": true
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 0.0,
+              "ok": true
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "stages_completed": 1,
+      "stage_executions": 1,
+      "stage_successes": 1,
+      "stages_required": 1,
+      "last_stage_result": {
+        "success": true,
+        "satisfied": 1,
+        "total": 1,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "scene_artifact": {
+          "sha256": "5401d4fb39e38d6a194bb270e67f3245544828d846a2285c901ab9948575ebe9",
+          "instance_ids": [
+            "cabinet_blue",
+            "lamp_white",
+            "monitor_gray",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        },
+        "operation_checks": [
+          {
+            "object": "table_green",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "monitor_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      }
+    },
+    "controls": [
+      {
+        "stage": 0,
+        "shortcut": "final_before_parking",
+        "result": {
+          "success": false,
+          "satisfied": 0,
+          "total": 1,
+          "physical": [],
+          "violated_types": [
+            "on_floor"
+          ],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "9a450e575a97036c2e28e5b89926f3bd83480f897be9b1eb2c0656ca4d60e877",
+            "instance_ids": [
+              "cabinet_blue",
+              "lamp_white",
+              "monitor_gray",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 1.8140091730749324,
+              "ok": false
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 0.75,
+              "ok": false
+            }
+          ]
+        }
+      }
+    ],
+    "trace": [
+      {
+        "turn": 1,
+        "stage": 0,
+        "action": {
+          "tool": "inspect_scene"
+        },
+        "observation": {
+          "placements": {
+            "cabinet_blue": {
+              "position": [
+                1.4194,
+                2.7,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.2992,
+                1.4308,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                4.0239,
+                2.2366,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                2.6821,
+                1.5234,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                1.3046,
+                1.7529,
+                0.75
+              ],
+              "yaw": 0
+            }
+          },
+          "capture": {
+            "scene_sha256": "9a450e575a97036c2e28e5b89926f3bd83480f897be9b1eb2c0656ca4d60e877",
+            "renders": [
+              {
+                "sha256": "6429f746dad76806be8434e9d159d692c62fbc559f49318d06cd0ff9fa3b0754",
+                "camera": {
+                  "eye": [
+                    2.125,
+                    -2.5077,
+                    2.9324
+                  ],
+                  "target": [
+                    2.125,
+                    1.625,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "f5907d5563919f8c915d72185eb8451f4ec1787d1f364551b3df03e7ba4f5f44",
+                "camera": {
+                  "eye": [
+                    -1.1079,
+                    -1.0878,
+                    2.7866
+                  ],
+                  "target": [
+                    2.125,
+                    1.625,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "da3177e36a7a9f1ce6c1691f96bd363206aba705e5056700197afda5866e50cb",
+                "camera": {
+                  "eye": [
+                    2.125,
+                    5.8453,
+                    2.7866
+                  ],
+                  "target": [
+                    2.125,
+                    1.625,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              }
+            ],
+            "instances": {
+              "cabinet_blue": {
+                "asset": "kitchencabinet",
+                "asset_sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+                "position": [
+                  1.4194,
+                  2.7,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.0000000529819077,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.4300000071525574
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.9893999695777893,
+                    1.8494000434875488
+                  ],
+                  [
+                    2.25,
+                    3.1500000953674316
+                  ],
+                  [
+                    0.0,
+                    0.8999999761581421
+                  ]
+                ]
+              },
+              "table_green": {
+                "asset": "table",
+                "asset_sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+                "position": [
+                  1.2992,
+                  1.4308,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.2954453889327673,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.8414879441261292
+                  ],
+                  [
+                    0.0,
+                    0.44737333059310913
+                  ],
+                  [
+                    0.0,
+                    0.3267339766025543
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.33340519666671753,
+                    2.2649948596954346
+                  ],
+                  [
+                    0.9173394441604614,
+                    1.9442604780197144
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "lamp_white": {
+                "asset": "lamproundfloor",
+                "asset_sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+                "position": [
+                  4.0239,
+                  2.2366,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.3953488139992734,
+                "native_bounds": [
+                  [
+                    -0.016019709408283234,
+                    0.13601970672607422
+                  ],
+                  [
+                    -0.027779998257756233,
+                    0.14778000116348267
+                  ],
+                  [
+                    0.0,
+                    0.8600000143051147
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.917825937271118,
+                    4.129973888397217
+                  ],
+                  [
+                    2.1141161918640137,
+                    2.359083652496338
+                  ],
+                  [
+                    0.0,
+                    1.1999999284744263
+                  ]
+                ]
+              },
+              "stool_purple": {
+                "asset": "proc_stool",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  2.6821,
+                  1.5234,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000264909539,
+                "native_bounds": [
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    2.5071001052856445,
+                    2.857100009918213
+                  ],
+                  [
+                    1.3483999967575073,
+                    1.6983999013900757
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ]
+              },
+              "monitor_gray": {
+                "asset": "computerscreen",
+                "asset_sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+                "position": [
+                  1.3046,
+                  1.7529,
+                  0.75
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.4271869213990316,
+                "native_bounds": [
+                  [
+                    -1.4438228216156449e-15,
+                    0.39268800616264343
+                  ],
+                  [
+                    5.414335713407566e-16,
+                    0.10400399565696716
+                  ],
+                  [
+                    -8.014826700184745e-32,
+                    0.29428520798683167
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.0243804454803467,
+                    1.5848195552825928
+                  ],
+                  [
+                    1.6786834001541138,
+                    1.82711660861969
+                  ],
+                  [
+                    0.75,
+                    1.1700000762939453
+                  ]
+                ]
+              }
+            }
+          },
+          "operation": {
+            "phase": "relocate_and_floor_stage",
+            "host": "table_green",
+            "payloads": [
+              "monitor_gray"
+            ],
+            "destination": {
+              "position": [
+                3.0,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "instructions": "Move the host to the destination and park payloads on the floor at their original XY positions."
+          },
+          "turns_left": 13,
+          "total_actions_left": 13
+        },
+        "n_images": 3
+      },
+      {
+        "turn": 2,
+        "stage": 0,
+        "action": {
+          "tool": "submit",
+          "source": "def build(public_params):\n    return {'cabinet_blue': {'position': [1.4194, 2.7, 0.0], 'yaw': 0}, 'table_green': {'position': [3.0, 0.8, 0], 'yaw': 0}, 'lamp_white': {'position': [4.0239, 2.2366, 0.0], 'yaw': 0}, 'stool_purple': {'position': [2.6821, 1.5234, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [1.3046, 1.7529, 0.0], 'yaw': 0}}"
+        },
+        "observation": {
+          "result": "submitted",
+          "total_actions_left": 12
+        },
+        "n_images": 0
+      }
+    ],
+    "scope": "Native endpoint episode and ordering controls; continuous transit has a separate certificate"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

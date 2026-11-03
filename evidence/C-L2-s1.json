@@ -1,0 +1,452 @@
+{
+  "instance": "C-L2-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "a6d90d0663678d5b7f223bfa46836aa83eab98dc330e5b482408c678eb74af81",
+  "sanitized_evidence_excerpt": {
+    "success": true,
+    "manifest_sha256": "16aaa95da908ab1fcff3feb1655495fdd7374c6cffcd7a688b93ca5a6cdba0d0",
+    "result": {
+      "transitions": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "physical_event": null,
+          "before_event": {
+            "table_green": {
+              "position": [
+                1.7555,
+                1.5286,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.767899,
+                0.939896,
+                0.686442
+              ]
+            },
+            "chair_cyan": {
+              "position": [
+                1.8629,
+                2.4444,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.310544,
+                0.310544,
+                0.729777
+              ]
+            },
+            "lamp_white": {
+              "position": [
+                4.3683,
+                2.7283,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.223372,
+                0.257927,
+                1.263485
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                2.8587,
+                0.5894,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311209,
+                0.311209,
+                0.400126
+              ]
+            },
+            "bin_gray": {
+              "position": [
+                0.408,
+                0.8627,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.404792,
+                0.404792,
+                0.607189
+              ]
+            },
+            "tv_black": {
+              "position": [
+                1.8454,
+                1.6002,
+                0.6864
+              ],
+              "yaw": 180,
+              "size": [
+                0.95373,
+                0.178824,
+                0.633336
+              ]
+            }
+          },
+          "after_event": null,
+          "committed_action": {
+            "tool": "commit_stage",
+            "source": "def build(public_params):\n    return {'table_green': {'position': [1.7555, 1.5286, 0.0], 'yaw': 0, 'size': [1.767899, 0.939896, 0.686442]}, 'chair_cyan': {'position': [1.8629, 2.4444, 0.0], 'yaw': 0, 'size': [0.310544, 0.310544, 0.729777]}, 'lamp_white': {'position': [4.3683, 2.7283, 0.0], 'yaw': 0, 'size': [0.223372, 0.257927, 1.263485]}, 'stool_purple': {'position': [2.8587, 0.5894, 0.0], 'yaw': 0, 'size': [0.311209, 0.311209, 0.400126]}, 'bin_gray': {'position': [0.408, 0.8627, 0.0], 'yaw': 0, 'size': [0.404792, 0.404792, 0.607189]}, 'tv_black': {'position': [1.8454, 1.6002, 0.6864], 'yaw': 180, 'size': [0.95373, 0.178824, 0.633336]}}"
+          },
+          "committed_result": {
+            "success": true,
+            "geometry": {
+              "valid_output": true,
+              "output_problems": [],
+              "constraints": [],
+              "physical": [],
+              "all_satisfied": true,
+              "limits": [
+                "Static stability not simulated",
+                "Native image relations fail closed until actual-view evidence is supplied"
+              ]
+            },
+            "hidden_mean_iou": 1.0,
+            "seen_mean_iou": 1.0,
+            "overfit_gap": 0.0,
+            "metric_centres_ok": true,
+            "metric_centre_errors_m": {
+              "table_green": 0.0,
+              "chair_cyan": 0.0,
+              "lamp_white": 0.0,
+              "stool_purple": 0.0,
+              "bin_gray": 0.0,
+              "tv_black": 0.0
+            },
+            "per_view": {
+              "side": 1.0,
+              "top": 1.0,
+              "back_right": 1.0,
+              "front": 1.0,
+              "back": 1.0,
+              "low_front_right": 1.0,
+              "back_left": 1.0
+            },
+            "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+            "scene_artifact": {
+              "sha256": "fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f",
+              "instance_ids": [
+                "bin_gray",
+                "chair_cyan",
+                "lamp_white",
+                "stool_purple",
+                "table_green",
+                "tv_black"
+              ],
+              "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+            }
+          },
+          "scope": "Actual prior reconstruction is retained in the trace; new target must be acquired through public views. No target gold is substituted for model output.",
+          "environment_changed_objects": null,
+          "carried_candidate": {
+            "table_green": {
+              "position": [
+                1.7555,
+                1.5286,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                1.767899,
+                0.939896,
+                0.686442
+              ]
+            },
+            "chair_cyan": {
+              "position": [
+                1.8629,
+                2.4444,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.310544,
+                0.310544,
+                0.729777
+              ]
+            },
+            "lamp_white": {
+              "position": [
+                4.3683,
+                2.7283,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.223372,
+                0.257927,
+                1.263485
+              ]
+            },
+            "stool_purple": {
+              "position": [
+                2.8587,
+                0.5894,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.311209,
+                0.311209,
+                0.400126
+              ]
+            },
+            "bin_gray": {
+              "position": [
+                0.408,
+                0.8627,
+                0.0
+              ],
+              "yaw": 0,
+              "size": [
+                0.404792,
+                0.404792,
+                0.607189
+              ]
+            },
+            "tv_black": {
+              "position": [
+                1.8454,
+                1.6002,
+                0.6864
+              ],
+              "yaw": 180,
+              "size": [
+                0.95373,
+                0.178824,
+                0.633336
+              ]
+            }
+          }
+        }
+      ],
+      "candidate_audits": [
+        {
+          "turn": 1,
+          "stage": 0,
+          "executed": true,
+          "valid_output": true
+        },
+        {
+          "turn": 2,
+          "stage": 1,
+          "executed": true,
+          "valid_output": true
+        }
+      ],
+      "execution_valid": true,
+      "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+      "native_schema_valid": true,
+      "stage_results": [
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "table_green": 0.0,
+            "chair_cyan": 0.0,
+            "lamp_white": 0.0,
+            "stool_purple": 0.0,
+            "bin_gray": 0.0,
+            "tv_black": 0.0
+          },
+          "per_view": {
+            "side": 1.0,
+            "top": 1.0,
+            "back_right": 1.0,
+            "front": 1.0,
+            "back": 1.0,
+            "low_front_right": 1.0,
+            "back_left": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f",
+            "instance_ids": [
+              "bin_gray",
+              "chair_cyan",
+              "lamp_white",
+              "stool_purple",
+              "table_green",
+              "tv_black"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        {
+          "success": true,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 1.0,
+          "seen_mean_iou": 1.0,
+          "overfit_gap": 0.0,
+          "metric_centres_ok": true,
+          "metric_centre_errors_m": {
+            "table_green": 0.0,
+            "chair_cyan": 0.0,
+            "lamp_white": 0.0,
+            "stool_purple": 0.0,
+            "bin_gray": 0.0,
+            "tv_black": 0.0
+          },
+          "per_view": {
+            "back_right": 1.0,
+            "right": 1.0,
+            "back": 1.0,
+            "low_front_right": 1.0,
+            "front_left": 1.0,
+            "back_left": 1.0
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+          "scene_artifact": {
+            "sha256": "3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609",
+            "instance_ids": [
+              "bin_gray",
+              "chair_cyan",
+              "lamp_white",
+              "stool_purple",
+              "table_green",
+              "tv_black"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        }
+      ],
+      "success": true,
+      "stages_completed": 2,
+      "stage_executions": 2,
+      "stage_successes": 2,
+      "stages_required": 2,
+      "last_stage_result": {
+        "success": true,
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [],
+          "physical": [],
+          "all_satisfied": true,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "hidden_mean_iou": 1.0,
+        "seen_mean_iou": 1.0,
+        "overfit_gap": 0.0,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "table_green": 0.0,
+          "chair_cyan": 0.0,
+          "lamp_white": 0.0,
+          "stool_purple": 0.0,
+          "bin_gray": 0.0,
+          "tv_black": 0.0
+        },
+        "per_view": {
+          "back_right": 1.0,
+          "right": 1.0,
+          "back": 1.0,
+          "low_front_right": 1.0,
+          "front_left": 1.0,
+          "back_left": 1.0
+        },
+        "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+        "scene_artifact": {
+          "sha256": "3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609",
+          "instance_ids": [
+            "bin_gray",
+            "chair_cyan",
+            "lamp_white",
+            "stool_purple",
+            "table_green",
+            "tv_black"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    },
+    "controls": [
+      {
+        "stage": 1,
+        "shortcut": "reuse_old_answer_ignore_new_views",
+        "result": {
+          "success": false,
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [],
+            "physical": [],
+            "all_satisfied": true,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "hidden_mean_iou": 0.5009170320876088,
+          "seen_mean_iou": 0.5921678409126587,
+          "overfit_gap": 0.09125080882504988,
+          "metric_centres_ok": false,
+          "metric_centre_errors_m": {
+            "table_green": 1.9445000290870667,
+            "chair_cyan": 0.0,
+            "lamp_white": 0.0,
+            "stool_purple": 0.0,
+            "bin_gray": 0.0,
+            "tv_black": 1.9445000290870667
+          },
+          "per_view": {
+            "back_right": 0.3872523028295274,
+            "right": 0.6258316008316008,
+            "back": 0.5729864785420341,
+            "low_front_right": 0.534939624011939,
+            "front_left": 0.5585040809937165,
+            "back_left": 0.5084897229669347
+          },
+          "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score"
+        }
+      }
+    ],
+    "delivered_view_hashes": [
+      [
+        "4eb9b180886196444a77304d9bc9a0c7c0b6bbdd0378a6a0e391bd05a8455d04",
+        "837c1764256c35a05a379e6c13be9ff33e978d4296a7802c28ea765a92c22b3f",
+        "cac2075302be0662f66ed49afcb1388657d745d30299b2dd6eab7505f1882cb7"
+      ],
+      [
+        "bcdcfb570c570341ec670027de446420ee25d94d712a3059dd714380bc68ebcd",
+        "224b49aeee2384ed075bd7f409aea74f9ae305a7d566264276ac125b86ecb223"
+      ]
+    ]
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

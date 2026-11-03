@@ -1,0 +1,123 @@
+{
+  "instance": "E-L1-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "0371980a53a217b47f76bc444b20df3e1291750008fa963abc00ad904776d40e",
+  "sanitized_evidence_excerpt": {
+    "transitions": [],
+    "candidate_audits": [
+      {
+        "turn": 2,
+        "stage": 0,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 3,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 0,
+        "constraint_satisfied": 6,
+        "constraint_total": 6
+      }
+    ],
+    "execution_valid": true,
+    "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+    "native_schema_valid": true,
+    "stage_results": [
+      {
+        "success": true,
+        "true_satisfied": 6,
+        "total": 6,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            1
+          ],
+          "clusters": [
+            0,
+            0
+          ]
+        },
+        "conflict_count": 1,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "stool_purple"
+          ],
+          "n_moved": 1,
+          "displacement_m": 1.3658
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": [],
+        "scene_artifact": {
+          "sha256": "838a60e799acc122f1f52954e97bdd7cf8593a4c514e9a7fbc7dfb2bdf0e99eb",
+          "instance_ids": [
+            "cabinet_blue",
+            "deskchair_black",
+            "lamp_white",
+            "soccer_white",
+            "stool_purple"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    ],
+    "success": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "last_stage_result": {
+      "success": true,
+      "true_satisfied": 6,
+      "total": 6,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          1,
+          1
+        ],
+        "clusters": [
+          0,
+          0
+        ]
+      },
+      "conflict_count": 1,
+      "clean_disturbed": [],
+      "detect_tp": 4,
+      "detect_fp": 0,
+      "detect_fn": 0,
+      "edit": {
+        "moved": [
+          "stool_purple"
+        ],
+        "n_moved": 1,
+        "displacement_m": 1.3658
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "838a60e799acc122f1f52954e97bdd7cf8593a4c514e9a7fbc7dfb2bdf0e99eb",
+        "instance_ids": [
+          "cabinet_blue",
+          "deskchair_black",
+          "lamp_white",
+          "soccer_white",
+          "stool_purple"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    "manifest_sha256": "2f0bc8fd75ab385e95ae6bfdd5f95c8b7cb5453b079ac3f588f5eba0520cb9da"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

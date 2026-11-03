@@ -1,0 +1,73 @@
+{
+  "schema": "visible-model-call-attachments-v1",
+  "models": [
+    {
+      "model": "gpt-6.1-sol",
+      "trajectories": 35,
+      "visible_responses": 379,
+      "archives": [
+        {
+          "file": "downloads/gpt_model_calls_part1.zip",
+          "bytes": 66996299,
+          "sha256": "5963f439300d1e471cb54f9b891391f76edc747d37b3434453eb07a891198a8c"
+        },
+        {
+          "file": "downloads/gpt_model_calls_part2.zip",
+          "bytes": 69828839,
+          "sha256": "c1e5de7236538504e1bc2139d88949b2468834f20a16f811bf128a48e4990a45"
+        },
+        {
+          "file": "downloads/gpt_model_calls_part3.zip",
+          "bytes": 3666682,
+          "sha256": "32a3c26e6114d257e1a6bfb63a64d8231b829aaca9101218eb968fb9c583e72d"
+        }
+      ]
+    },
+    {
+      "model": "claude-opus-5-5",
+      "trajectories": 35,
+      "visible_responses": 294,
+      "archives": [
+        {
+          "file": "downloads/claude_model_calls_part1.zip",
+          "bytes": 66657122,
+          "sha256": "b410b7374a73c52108ba72feaf4009f6bae9e3b8371a9f521e4d27b1659d1d22"
+        },
+        {
+          "file": "downloads/claude_model_calls_part2.zip",
+          "bytes": 53271617,
+          "sha256": "53d386d00e91ad5d338c66bd9cf15eec79cfbeeb1e21daa69acdd52e4453d615"
+        }
+      ]
+    },
+    {
+      "model": "qwen3.5:9b",
+      "candidates": 40,
+      "visible_responses": 391,
+      "archives": [
+        {
+          "file": "downloads/qwen_model_calls.zip",
+          "bytes": 18152981,
+          "sha256": "253e8656b537a8273795463ceda0ff7b07c1a5569a060d7b37ac44d2d92fe132"
+        }
+      ]
+    },
+    {
+      "model": "gpt-6-astra",
+      "ratings": 105,
+      "archives": [
+        {
+          "file": "downloads/astra_visual_calls_part1.zip",
+          "bytes": 69600071,
+          "sha256": "e376b1119f46b7372b9088cfbaf43c3acd3769be0f62e3401d408a51bd98b722"
+        },
+        {
+          "file": "downloads/astra_visual_calls_part2.zip",
+          "bytes": 33709147,
+          "sha256": "78bf074fcdee2c4266df053fc1ab4b8124a7c8a8521dd0810344d7ba121b34bc"
+        }
+      ]
+    }
+  ],
+  "scope": "Complete visible histories for70 frontier trajectories,40 Qwen candidates and105 auxiliary ratings. Exact images and executed actions are retained. Internal reasoning, provider identifiers, personal paths and financial fields are excluded."
+}

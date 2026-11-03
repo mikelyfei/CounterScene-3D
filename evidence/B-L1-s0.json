@@ -1,0 +1,119 @@
+{
+  "instance": "B-L1-s0",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "254bff9a816c021c6250438aac0c93175d945589b978cb25676681956cb4fb3a",
+  "sanitized_evidence_excerpt": {
+    "transitions": [],
+    "candidate_audits": [
+      {
+        "turn": 2,
+        "stage": 0,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 5,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 0,
+        "constraint_satisfied": 7,
+        "constraint_total": 7
+      }
+    ],
+    "execution_valid": true,
+    "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+    "native_schema_valid": true,
+    "stage_results": [
+      {
+        "success": true,
+        "hard_ok": true,
+        "physical": [],
+        "locked_moved": [],
+        "hard_satisfied": 6,
+        "hard_total": 6,
+        "preserved": 5,
+        "preserved_total": 5,
+        "soft_feasible_ok": 1,
+        "soft_feasible_total": 1,
+        "conflict_tp": 0,
+        "conflict_fp": 0,
+        "conflict_fn": 0,
+        "edit": {
+          "moved": [
+            "lamp_white"
+          ],
+          "n_moved": 1,
+          "displacement_m": 2.551
+        },
+        "gold_edit": {
+          "moved": [
+            "lamp_white"
+          ],
+          "n_moved": 1,
+          "displacement_m": 2.551
+        },
+        "collateral_moves": [],
+        "scene_artifact": {
+          "sha256": "4d72987d4bf17ce7dd8bd6df30554d5afe2d313515fa2f03e2f13b203d90556b",
+          "instance_ids": [
+            "bin_gray",
+            "case_brown",
+            "column_cyan",
+            "lamp_white",
+            "sidetable_brown"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    ],
+    "success": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "last_stage_result": {
+      "success": true,
+      "hard_ok": true,
+      "physical": [],
+      "locked_moved": [],
+      "hard_satisfied": 6,
+      "hard_total": 6,
+      "preserved": 5,
+      "preserved_total": 5,
+      "soft_feasible_ok": 1,
+      "soft_feasible_total": 1,
+      "conflict_tp": 0,
+      "conflict_fp": 0,
+      "conflict_fn": 0,
+      "edit": {
+        "moved": [
+          "lamp_white"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.551
+      },
+      "gold_edit": {
+        "moved": [
+          "lamp_white"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.551
+      },
+      "collateral_moves": [],
+      "scene_artifact": {
+        "sha256": "4d72987d4bf17ce7dd8bd6df30554d5afe2d313515fa2f03e2f13b203d90556b",
+        "instance_ids": [
+          "bin_gray",
+          "case_brown",
+          "column_cyan",
+          "lamp_white",
+          "sidetable_brown"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    "manifest_sha256": "d990f727b31f4065fbb7232a6ac9fe72211891e91002adf3dedb677212c6d2c1"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}
