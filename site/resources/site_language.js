@@ -32,7 +32,7 @@ if (typeof document !== 'undefined') {
   }
   async function changeLanguage() {
     if (selector.value === 'zh' && !locale) {
-      const response = await fetch('locales/zh.json');
+      const response = await fetch('locales/zh.json?v=annotations1');
       if (!response.ok) throw Error('Chinese locale unavailable');
       locale = await response.json();
     }
