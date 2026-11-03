@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "hard_ok": true,
+      "physical": [],
+      "locked_moved": [],
+      "hard_satisfied": 6,
+      "hard_total": 6,
+      "preserved": 3,
+      "preserved_total": 3,
+      "soft_feasible_ok": 1,
+      "soft_feasible_total": 1,
+      "conflict_tp": 0,
+      "conflict_fp": 0,
+      "conflict_fn": 0,
+      "edit": {
+        "moved": [
+          "cabinet_blue"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.9232
+      },
+      "gold_edit": {
+        "moved": [
+          "cabinet_blue"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.7182
+      },
+      "collateral_moves": [],
+      "scene_artifact": {
+        "sha256": "bd443b1f6021cb2ad2869beaec82ea3249fbe76c382b096e3a687370e5fb3d9c",
+        "instance_ids": [
+          "bin_gray",
+          "cabinet_blue",
+          "monitor_gray",
+          "shelf_orange",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

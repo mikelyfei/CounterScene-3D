@@ -1,0 +1,271 @@
+{
+  "exact": {
+    "Language": "语言",
+    "English": "English",
+    "Chinese": "中文",
+    "Visible changes · Stateful decisions · Actual asset execution": "明显变化 · 状态延续 · 实际素材执行",
+    "Model evaluation results: expand comparison table": "模型评测结果：展开比较表",
+    "Benchmark instance": "基准样例",
+    "Execution": "执行记录",
+    "Before this operation": "本次操作前",
+    "After offline gold execution": "离线参考解执行后",
+    "Required operation and preserved accomplishments": "本阶段目标与此前成果保留",
+    "Deterministic evaluation details": "确定性评分明细",
+    "Model performance": "模型表现",
+    "Reset cameras": "重置视角",
+    "Focus changed objects": "聚焦变化物体",
+    "Play physical keyframes": "播放实际运动关键帧",
+    "Pause": "暂停",
+    "Instance": "样例",
+    "Model": "模型",
+    "Outcome": "结果",
+    "Stages": "阶段",
+    "Calls": "调用次数",
+    "Inspect": "查看",
+    "Open": "打开",
+    "Passed": "通过",
+    "Failed": "失败",
+    "Strict success": "严格成功率",
+    "Strict failure": "严格失败",
+    "Task": "任务",
+    "Instances": "实例数",
+    "Shaped reward": "形状奖励",
+    "Parts 1–4: study and reproducibility": "研究结果与可复现性",
+    "Does optimizing reward improve actual outcomes?": "优化奖励是否改善真实质量？",
+    "Pools": "候选池",
+    "First hidden": "首个候选隐藏质量",
+    "Selected hidden": "选中候选隐藏质量",
+    "Gain": "提升",
+    "Native scorer repeatability": "原生评分重复性",
+    "Shared and divergent frontier failures": "两个参测模型的共同与不同失败",
+    "GPT success": "GPT 成功",
+    "Claude success": "Claude 成功",
+    "Shared": "共有问题",
+    "GPT only": "仅 GPT",
+    "Claude only": "仅 Claude",
+    "How could a policy exploit each dimension?": "策略如何利用各评分维度？",
+    "Dimension": "维度",
+    "Classification": "分类",
+    "Attack": "攻击方式",
+    "Limit": "边界",
+    "Auxiliary judge repeatability and limits": "辅助视觉评估器的重复性与局限",
+    "Control": "控制样本",
+    "Observed ratings": "有效评分次数",
+    "Mean": "均值",
+    "Sample variance": "样本方差",
+    "Coverage": "可评分覆盖率",
+    "Inspect actual visual-judge evidence": "查看实际视觉评分证据",
+    "Report": "研究报告",
+    "English report": "英文报告",
+    "Chinese report": "中文报告",
+    "Structured model call attachments": "结构化模型调用附件",
+    "Visual guide": "设计与样例可视化",
+    "Benchmark design": "基准阶段设计",
+    "Evaluation flow": "评估流程",
+    "Benchmark examples": "基准样例",
+    "Motion examples": "运动样例",
+    "Reconstruction comparison": "重建结果比较",
+    "Performance by level": "分层级表现",
+    "hard-to-hack": "难以利用",
+    "hackable-but-bounded": "可利用但有边界",
+    "soft/vibes": "软性视觉判断",
+    "checker diagnosis": "检查器诊断",
+    "hard constraint violation": "硬约束失败",
+    "hidden view grounding": "隐藏视角失败",
+    "metric grounding": "度量定位失败",
+    "native physical conflict": "原生物理冲突",
+    "native relation violation": "原生关系失败",
+    "tool or program error": "工具或程序错误",
+    "None": "无",
+    "True": "是",
+    "False": "否",
+    "Source and reproduction instructions": "源码与复现说明",
+    "Task/model TSV": "任务/模型 TSV",
+    "Individual records": "逐轨迹记录",
+    "Generation variance": "生成方差",
+    "Condition coverage": "条件覆盖",
+    "Gold is benchmark validation. Missing trajectories remain pending; geometry and continuous-motion checks determine task success, separately from auxiliary visual judgments.": "Gold 是参考验证，不是模型结果。缺失记录不记作模型零分；几何和连续运动检查决定成功，视觉评分单独报告。",
+    "Drag to orbit; scroll to zoom. Each GLB is checked against its retained SHA-256 before display.": "拖动旋转，滚轮缩放。展示前核对每个 GLB 的 SHA-256。",
+    "Frozen development-cohort evaluation. Missing dimensions are NA; no held-out generalization claim.": "冻结开发集评测；不适用维度记为 NA，不宣称留出集泛化。",
+    "Only completed matched primary pairs appear. Labels summarize observed outcomes; exact stage actions and feedback are in the linked study data.": "只展示完成的基础配对。标签来自实际结果；阶段动作与反馈保存在研究数据中。",
+    "Native geometry and continuous motion are primary. Astra provides anonymous auxiliary visual ratings; uncertain scores remain NA. Static images do not establish metric, event or continuous-motion correctness.": "以原生几何和连续运动检查为主。Astra 提供匿名辅助视觉评分，不确定项记为 NA；静态图像不能证明度量、事件或连续运动正确性。",
+    "Python and Blender are external runtimes.": "Python 与 Blender 为外部运行时。",
+    "office chair": "办公椅",
+    "side table": "边桌",
+    "flowerpot": "花盆",
+    "monitor": "显示器",
+    "laptop": "笔记本电脑",
+    "cabinet": "柜子",
+    "shelf": "架子",
+    "stool": "凳子",
+    "desk": "工作台",
+    "table": "桌子",
+    "column": "立柱",
+    "plant": "植物",
+    "crate": "箱体",
+    "lamp": "灯",
+    "bin": "垃圾桶",
+    "C requires hidden-view IoU ≥ 0.8 and every object centre within 0.05 m, in addition to valid native geometry. B requires the exact infeasible soft-constraint IDs. E diagnosis is reported separately from its geometry success.": "C 同时要求隐藏视角 IoU 至少 0.8、每个物体中心误差不超过 0.05 米，并通过原生几何检查。B 要求准确识别不可满足的软约束；E 的诊断质量与几何成功分开报告。",
+    "Deterministic calibration: 30 instances, 360 repeated scores; ordering gate passed. Fixed-output scorer variance, generation variance and auxiliary judge variance are distinct.": "确定性校准：30 个实例、360 次重复数值评分，排序全部通过。同一输出重算、独立生成与视觉评分的方差分别报告。",
+    "Local best-of-four selects by public feedback and separately audits hidden quality.": "本地 best-of-four 根据公开反馈选择，再独立审计隐藏质量。",
+    ". Each package contains public prompts/images, evaluator-only targets, gold actions, real assets, source and an offline scorer. Python and Blender are external runtimes.": "。每个任务包包含提示、图像、仅供评估器使用的目标、gold、实际素材、源码和离线评分器。Python 与 Blender 为外部运行时。",
+    "Qwen best-of-four: 10/10 pools independently replayed. Selection uses public-tool reward; the table reports withheld hidden quality. This is development selection evidence, not RL training or held-out generalization.": "Qwen best-of-four：10/10 个候选池已独立重放。选择使用公开工具奖励，表格报告未参与选择的隐藏质量。这只是开发集选择证据，不是 RL 训练或泛化证明。",
+    "One retained GPT output per family was independently executed again through its task package, including failures: two native executions per output. Full stage scoring measurements match and paired reward variance is zero in this five-output subset. This is separate from numerical rescoring, participant generation variability and visual-judge repetitions. Unobserved native-repeat statistics are NA in the task/model TSV; no whole-cohort stability claim follows.": "每类任务取一个 GPT 输出，包含失败案例，通过任务包独立执行第二次。五个输出的完整阶段指标一致，配对奖励方差为零。这与数值重算、独立生成和视觉评分重复不同；未观测的原生重跑统计记为 NA，不宣称全体输出稳定。",
+    "Not a proof of interpreter security; invalid-output fixtures do not exhaust possible programs.": "不是解释器安全性的完备证明；无效输出样例不能穷尽所有程序。",
+    "Numerical/contact tolerances, conservative enclosures and absent dynamics bound the claim.": "数值与接触容差、保守包络和缺失的动力学限制了结论。",
+    "Targets encode the authored task and may omit other desirable qualities.": "目标只表达当前任务，可能遗漏其他期望质量。",
+    "Coverage is a ray-visibility heuristic and does not prove a unique inverse reconstruction.": "射线可见性覆盖不证明逆向重建具有唯一解。",
+    "Use attractive endpoints or a stationary sequence instead of a valid transfer": "用漂亮端点或静止序列代替有效转移。",
+    "Conservative kinematics only; no friction, forces, torque or real hardware guarantee.": "只验证保守运动学，不保证摩擦、力、扭矩或真实硬件。",
+    "Public reward selection can still prefer a misleading proxy; measured selection quality must be audited independently.": "公开奖励仍可能选择误导性代理，必须独立审计质量。",
+    "Stochastic judge and same-provider bias; static views cannot certify metric or motion validity.": "评分器随机性与同提供方偏差仍存在；静态图像不能证明度量或运动有效。",
+    "Development templates are known and are not held-out adversarial security tests.": "开发模板已知，不等于留出集上的对抗安全测试。",
+    "Hard-to-hack applies only within the tested domain. Stable scores do not prove validity under adaptive optimization.": "“难以利用”仅针对已测试领域。分数稳定不证明其在自适应优化下有效。",
+    "Identical-image repetitions only. Uncertain criteria are missing, not failures. High visual scores coexist with functional failure in 7 primary outputs; inspect their labels in studies.json.": "只比较相同图像的重复评分。不确定项为缺失而非失败；7 个功能失败输出仍获得较高视觉分数，详情见研究数据。",
+    "B-L2-s0_gpt_structured_active_r1. Anonymous reference/candidate images in the exact scoring order. The full rubric, all input hashes and retained ratings are in": "B-L2-s0_gpt_structured_active_r1。这里按实际评分顺序排列匿名参考与候选图像；完整量表、图像哈希和评分见研究数据。",
+    "Full evidence, mitigations, variance and limitations": "完整证据、缓解措施、方差与局限",
+    "Reward calibration, small-model pools and auxiliary ratings": "奖励校准、小模型候选池与辅助评分",
+    "Dimensions and failure records": "评分维度与失败记录",
+    "Full rubric, all input hashes and retained ratings": "完整量表、输入哈希和保留评分",
+    "Machine-readable attachment index and hashes": "机器可读附件索引与哈希",
+    "Actual images, immutable programs and source hashes are retained.": "保留实际图像、原始程序与源记录哈希。"
+  },
+  "phrases": [
+    [
+      "independently replayed current-version benchmark instances.",
+      "个已独立验证的当前版本基准实例。"
+    ],
+    [
+      "30 certified offline instances.",
+      "30 个已认证离线实例。"
+    ],
+    [
+      "current evaluation trajectories available.",
+      "条当前评测轨迹。"
+    ],
+    [
+      "Gold and model executions are separate; historical results are excluded.",
+      "参考解与模型执行分开展示，不混入历史版本结果。"
+    ],
+    [
+      "Offline gold (not a model)",
+      "离线参考解（非模型）"
+    ],
+    [
+      "Offline gold",
+      "离线参考解"
+    ],
+    [
+      "Stage ",
+      "阶段 "
+    ],
+    [
+      "ordered operations",
+      "个有序操作"
+    ],
+    [
+      "Before this operation",
+      "本次操作前"
+    ],
+    [
+      "Previous reconstruction / initial target",
+      "先前重建 / 初始参考目标"
+    ],
+    [
+      "New target and gold reconstruction",
+      "更新目标与参考重建"
+    ],
+    [
+      " actual execution",
+      " 实际执行"
+    ],
+    [
+      " result",
+      " 结果"
+    ],
+    [
+      "passed",
+      "通过"
+    ],
+    [
+      "failed",
+      "失败"
+    ],
+    [
+      "Changed objects:",
+      "变化物体："
+    ],
+    [
+      "Declared pending collisions:",
+      "声明允许暂留的碰撞："
+    ],
+    [
+      "Display names use neutral object aliases; technical programs retain frozen identifiers. The native asset defines appearance.",
+      "界面使用中性名称；技术程序保留冻结标识以便复现。实际素材决定外观。"
+    ],
+    [
+      "Physical keyframe",
+      "实际运动关键帧"
+    ],
+    [
+      "Playback speed is illustrative. Continuous certificates establish safety; snapshots do not.",
+      "播放速度仅用于说明。安全性来自连续检查证书，而非静态截图。"
+    ],
+    [
+      "Target view:",
+      "目标视角："
+    ],
+    [
+      "Independent benchmark replay certificate",
+      "基准独立重放证据"
+    ],
+    [
+      "successful stages",
+      "个成功阶段"
+    ],
+    [
+      "model calls",
+      "次模型调用"
+    ],
+    [
+      "Structured model call attachments",
+      "结构化模型调用附件"
+    ],
+    [
+      "Reference view",
+      "参考视图"
+    ],
+    [
+      "Candidate view",
+      "候选视图"
+    ],
+    [
+      "Anonymous reference/candidate images in the exact scoring order.",
+      "按照实际评分顺序排列的匿名参考与候选图像。"
+    ],
+    [
+      "Condition coverage",
+      "条件覆盖"
+    ],
+    [
+      "Task A",
+      "任务 A"
+    ],
+    [
+      "Task B",
+      "任务 B"
+    ],
+    [
+      "Task C",
+      "任务 C"
+    ],
+    [
+      "Task D",
+      "任务 D"
+    ],
+    [
+      "Task E",
+      "任务 E"
+    ]
+  ]
+}

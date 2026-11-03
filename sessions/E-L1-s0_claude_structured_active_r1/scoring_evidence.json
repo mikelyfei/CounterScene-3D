@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "true_satisfied": 6,
+      "total": 6,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          1,
+          1
+        ],
+        "clusters": [
+          0,
+          0
+        ]
+      },
+      "conflict_count": 1,
+      "clean_disturbed": [],
+      "detect_tp": 2,
+      "detect_fp": 0,
+      "detect_fn": 2,
+      "edit": {
+        "moved": [
+          "plant_pink"
+        ],
+        "n_moved": 1,
+        "displacement_m": 0.9998
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "521a56c709add07c708ab54b91d046a89cd84f1f0db135a54ff388773ad9e266",
+        "instance_ids": [
+          "column_cyan",
+          "deskchair_black",
+          "flowerpot_green",
+          "plant_pink",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

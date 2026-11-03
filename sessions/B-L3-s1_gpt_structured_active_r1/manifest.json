@@ -1,0 +1,98 @@
+{
+  "id": "B-L3-s1_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "B-L3-s1",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.007352941176470588,
+    "alignment": 0.0,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": 1.0,
+    "feasible_soft_fraction": 1.0,
+    "conflict_precision": 1.0,
+    "conflict_recall": 1.0,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": 1,
+    "displacement_m": 0.4937,
+    "episode_object_move_count": 1,
+    "episode_displacement_m": 0.4937,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": 1.0,
+    "actions": 9,
+    "R_det": 1.0,
+    "R_shaped": 1.0,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "5f753d7b0222b954c400e64fcd0ab730e79229012a8db8cd87ee4b1fa537fc5e",
+  "actions_sha256": "6377cffe8da6c67ede456351dc8ae5b45d75cb9e2c60b14cb5501a36c89da78e",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 3,
+    "stage_executions": 3,
+    "stage_successes": 3,
+    "stages_required": 3,
+    "stages": [
+      {
+        "success": true,
+        "locked_moved": []
+      },
+      {
+        "success": true,
+        "locked_moved": []
+      },
+      {
+        "success": true,
+        "hard_ok": true,
+        "physical": [],
+        "locked_moved": [],
+        "hard_satisfied": 28,
+        "hard_total": 28,
+        "preserved": 26,
+        "preserved_total": 26,
+        "soft_feasible_ok": 1,
+        "soft_feasible_total": 1,
+        "conflict_tp": 2,
+        "conflict_fp": 0,
+        "conflict_fn": 0,
+        "edit": {
+          "moved": [
+            "crate_red"
+          ],
+          "n_moved": 1,
+          "displacement_m": 0.4937
+        },
+        "gold_edit": {
+          "moved": [
+            "cabinet_blue",
+            "chair_cyan",
+            "crate_red"
+          ],
+          "n_moved": 3,
+          "displacement_m": 2.826
+        },
+        "collateral_moves": []
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "04dde6472705db079a1dd2457af4d68aebc860de152f5d929f5bb1d3c01d82f6"
+}

@@ -1,0 +1,151 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 3,
+  "stage_executions": 3,
+  "stage_successes": 3,
+  "stages_required": 3,
+  "stage_results": [
+    {
+      "success": true,
+      "satisfied": 23,
+      "total": 23,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "6a4f82a144ee7b0495f88989ef71734ccbf3c70b0fa8ed629d4a5eba6f0b5b7e",
+        "instance_ids": [
+          "bin_gray",
+          "box_yellow",
+          "cabinet_blue",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "lamp_white",
+          "laptop_gray",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "sidetable_brown",
+          "soccer_white",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "monitor_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "desk_blue",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "laptop_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "success": true,
+      "satisfied": 23,
+      "total": 23,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "05ed1108fcf16378f579cdd740c476301ed3863534c743adebc6c2d005a46102",
+        "instance_ids": [
+          "bin_gray",
+          "box_yellow",
+          "cabinet_blue",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "lamp_white",
+          "laptop_gray",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "sidetable_brown",
+          "soccer_white",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "monitor_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "desk_blue",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "laptop_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "success": true,
+      "satisfied": 21,
+      "total": 21,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "578c2f18aa509039034b39e17a3a4a15815cf1e2b0e0cdc0b04e213244b93f8b",
+        "instance_ids": [
+          "bin_gray",
+          "box_yellow",
+          "cabinet_blue",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "lamp_white",
+          "laptop_gray",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "sidetable_brown",
+          "soccer_white",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "crate_red",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

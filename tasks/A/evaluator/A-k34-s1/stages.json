@@ -1,0 +1,17 @@
+{
+  "protocol": "native-operations-v3",
+  "stages": [
+    {
+      "file": "stage0.json",
+      "sha256": "c89aa1be16cfe8d7ae92ebfa776151b3bab496b4a18916e2900615b90c07a3ec"
+    },
+    {
+      "file": "stage1.json",
+      "sha256": "d6eb28930538b307520cf91f236590200de7720ea8310d647e07f539f4476430"
+    },
+    {
+      "file": "stage2.json",
+      "sha256": "65d4ee9306f1879ceb24e95003b547b12d492c1181dc6e940db49723171ddf5e"
+    }
+  ]
+}

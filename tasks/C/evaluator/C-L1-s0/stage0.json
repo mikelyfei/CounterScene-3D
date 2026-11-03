@@ -1,0 +1,470 @@
+{
+  "gold": {
+    "table_green": {
+      "position": [
+        2.0271,
+        1.471,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.93688,
+        1.029734,
+        0.752054
+      ]
+    },
+    "deskchair_black": {
+      "position": [
+        1.8745,
+        0.4364,
+        0.0
+      ],
+      "yaw": 180,
+      "size": [
+        0.48654,
+        0.456543,
+        0.882584
+      ]
+    },
+    "plant_pink": {
+      "position": [
+        3.6564,
+        1.3246,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.247126,
+        0.28139,
+        0.762166
+      ]
+    },
+    "crate_red": {
+      "position": [
+        2.5604,
+        0.3631,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.423137,
+        0.33851,
+        0.33851
+      ]
+    }
+  },
+  "hidden_cameras": {
+    "back": {
+      "eye": [
+        1.95,
+        5.4299,
+        2.6189
+      ],
+      "target": [
+        1.95,
+        1.5,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_left": {
+      "eye": [
+        -1.0251,
+        4.4751,
+        2.0499
+      ],
+      "target": [
+        1.95,
+        1.5,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_right": {
+      "eye": [
+        4.4081,
+        3.9581,
+        3.2669
+      ],
+      "target": [
+        1.95,
+        1.5,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "low_front_right": {
+      "eye": [
+        4.0339,
+        -2.4192,
+        1.2935
+      ],
+      "target": [
+        1.95,
+        1.5,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "visibility": {
+    "table_green": {
+      "reference": 0.842,
+      "front_left": 0.913,
+      "front_right": 0.948,
+      "left": 1.0,
+      "right": 0.888,
+      "top": 1.0
+    },
+    "deskchair_black": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 0.949,
+      "left": 1.0,
+      "right": 0.914,
+      "top": 1.0
+    },
+    "plant_pink": {
+      "reference": 1.0,
+      "front_left": 0.65,
+      "front_right": 1.0,
+      "left": 0.28,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "crate_red": {
+      "reference": 1.0,
+      "front_left": 0.489,
+      "front_right": 1.0,
+      "left": 0.0,
+      "right": 1.0,
+      "top": 1.0
+    }
+  },
+  "tall_occluder_hides": {},
+  "occlusion_witness": null,
+  "perspective_witness": null,
+  "task_internal": {
+    "experiment": "C",
+    "instance": "C-L1-s0",
+    "tier": "L1",
+    "room": [
+      3.9,
+      3.0,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "table_green",
+        "color": "green",
+        "size_range": [
+          [
+            1.545,
+            0.822,
+            0.6
+          ],
+          [
+            2.318,
+            1.232,
+            0.9
+          ]
+        ],
+        "size": [
+          1.932,
+          1.027,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "color": "black",
+        "size_range": [
+          [
+            0.419,
+            0.393,
+            0.76
+          ],
+          [
+            0.628,
+            0.59,
+            1.14
+          ]
+        ],
+        "size": [
+          0.524,
+          0.491,
+          0.95
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "color": "pink",
+        "size_range": [
+          [
+            0.208,
+            0.236,
+            0.64
+          ],
+          [
+            0.311,
+            0.354,
+            0.96
+          ]
+        ],
+        "size": [
+          0.259,
+          0.295,
+          0.8
+        ]
+      },
+      {
+        "id": "crate_red",
+        "color": "red",
+        "size_range": [
+          [
+            0.4,
+            0.32,
+            0.32
+          ],
+          [
+            0.6,
+            0.48,
+            0.48
+          ]
+        ],
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      }
+    ],
+    "constraints": [],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "uses_yaw": true,
+    "query_budget": 1,
+    "public_cameras": {
+      "reference": {
+        "eye": [
+          1.95,
+          -2.3483,
+          2.7547
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_left": {
+        "eye": [
+          -1.0605,
+          -1.0261,
+          2.6189
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_right": {
+        "eye": [
+          4.9605,
+          -1.0261,
+          2.6189
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "left": {
+        "eye": [
+          -2.1627,
+          1.5,
+          2.2678
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "right": {
+        "eye": [
+          6.0627,
+          1.5,
+          2.2678
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "top": {
+        "eye": [
+          1.95,
+          0.5565,
+          4.7887
+        ],
+        "target": [
+          1.95,
+          1.5,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "queryable_views": [
+      "front_left",
+      "front_right",
+      "left",
+      "right",
+      "top"
+    ],
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "observation_contract": "three-view-v1",
+    "initial_view_names": [
+      "front",
+      "side",
+      "top"
+    ]
+  }
+}

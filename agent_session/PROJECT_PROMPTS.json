@@ -1,0 +1,37 @@
+{
+  "scope": "English translations of selected user-authored project instructions. Ambient UI context and unrelated or private content are omitted. Original event hashes bind each selected source message; these are not translations of internal instructions or reasoning.",
+  "prompts": [
+    {
+      "translation": "Check all constraints and solvability.",
+      "source_event_sha256": "5a449fcc9dca0c9c3fb3b17a3da8ab41b10644738be4ceb7b339b750b6a4e97b"
+    },
+    {
+      "translation": "Our Part 1 requirements must also be fully satisfied.",
+      "source_event_sha256": "c48d2421f37c87423f8c03d7d1ee555f07f1b08cf101151a83d8a0f348806485"
+    },
+    {
+      "translation": "Ensure end-to-end guarantees are completed.",
+      "source_event_sha256": "815c2a9f1adf055e866f55f79f461e9dc8fe3e98aa0019c9c4888a7c3ff767b6"
+    },
+    {
+      "translation": "Does the motion task require models to provide explicit motion trajectories? If so, show both gold and model motion on the review page.",
+      "source_event_sha256": "23632461125559b4a7ffdc50985d114cba02dba065563ba07cf3b7c18f024be1"
+    },
+    {
+      "translation": "Provide the review page with motion trajectories now.",
+      "source_event_sha256": "6df4994a8264c77017128272b597842fd58eef282755c698bf09793c9b115e2a"
+    },
+    {
+      "translation": "All pushed files must be in English; README and the site may additionally provide a switchable Chinese version.",
+      "source_event_sha256": "d84b34f32311c7ee42822b15d4870f9337870350aa1acbfcd6a93f0cc6bf326b"
+    },
+    {
+      "translation": "Use Astra as the scoring VLM; keep the original participant models.",
+      "source_event_sha256": "a46c4597d70e942b4a59c46949e5553460fb170fef831f4ab153acf47bb1719b"
+    },
+    {
+      "translation": "Prevent the computer from sleeping during execution until completion.",
+      "source_event_sha256": "ed79b5ca7786a8a2ebe15d40c0972418f6af471592448f6b0564517db6de06b1"
+    }
+  ]
+}

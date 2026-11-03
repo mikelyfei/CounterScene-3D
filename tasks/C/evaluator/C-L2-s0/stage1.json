@@ -1,0 +1,568 @@
+{
+  "gold": {
+    "desk_blue": {
+      "position": [
+        3.0,
+        0.9,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.285532,
+        0.686632,
+        0.672818
+      ]
+    },
+    "lamp_white": {
+      "position": [
+        0.2418,
+        2.8783,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.243549,
+        0.281226,
+        1.377617
+      ]
+    },
+    "plant_pink": {
+      "position": [
+        4.3253,
+        1.8072,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.309319,
+        0.352207,
+        0.953976
+      ]
+    },
+    "bin_gray": {
+      "position": [
+        1.7908,
+        2.8669,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.453304,
+        0.453304,
+        0.679956
+      ]
+    },
+    "crate_red": {
+      "position": [
+        2.8757,
+        3.022,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.575522,
+        0.460417,
+        0.460417
+      ]
+    },
+    "flowerpot_green": {
+      "position": [
+        2.9215,
+        1.1127,
+        0.6728
+      ],
+      "yaw": 0,
+      "size": [
+        0.18085,
+        0.18085,
+        0.267471
+      ]
+    }
+  },
+  "hidden_cameras": {
+    "back": {
+      "eye": [
+        2.3,
+        6.2607,
+        2.9543
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_left": {
+      "eye": [
+        -1.1148,
+        5.1648,
+        2.3011
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_right": {
+      "eye": [
+        5.1213,
+        4.5713,
+        3.698
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "low_front_right": {
+      "eye": [
+        4.6918,
+        -2.7483,
+        1.4329
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "visibility": {
+    "desk_blue": {
+      "reference": 0.971,
+      "front_left": 0.979,
+      "front_right": 0.975,
+      "left": 0.931,
+      "right": 0.963,
+      "top": 0.948
+    },
+    "lamp_white": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 0.844,
+      "left": 1.0,
+      "right": 0.897,
+      "top": 1.0
+    },
+    "plant_pink": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "bin_gray": {
+      "reference": 0.625,
+      "front_left": 0.896,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 0.942,
+      "top": 1.0
+    },
+    "crate_red": {
+      "reference": 1.0,
+      "front_left": 0.778,
+      "front_right": 1.0,
+      "left": 0.5,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "flowerpot_green": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    }
+  },
+  "tall_occluder_hides": {
+    "lamp_white": 0.0
+  },
+  "occlusion_witness": null,
+  "perspective_witness": null,
+  "task_internal": {
+    "experiment": "C",
+    "instance": "C-L2-s0",
+    "tier": "L2",
+    "room": [
+      4.6,
+      3.5,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "desk_blue",
+        "color": "blue",
+        "size_range": [
+          [
+            1.146,
+            0.612,
+            0.6
+          ],
+          [
+            1.72,
+            0.918,
+            0.9
+          ]
+        ],
+        "size": [
+          1.433,
+          0.765,
+          0.75
+        ]
+      },
+      {
+        "id": "lamp_white",
+        "color": "white",
+        "size_range": [
+          [
+            0.17,
+            0.196,
+            0.96
+          ],
+          [
+            0.255,
+            0.294,
+            1.44
+          ]
+        ],
+        "size": [
+          0.212,
+          0.245,
+          1.2
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "color": "pink",
+        "size_range": [
+          [
+            0.208,
+            0.236,
+            0.64
+          ],
+          [
+            0.311,
+            0.354,
+            0.96
+          ]
+        ],
+        "size": [
+          0.259,
+          0.295,
+          0.8
+        ]
+      },
+      {
+        "id": "bin_gray",
+        "color": "gray",
+        "size_range": [
+          [
+            0.32,
+            0.32,
+            0.48
+          ],
+          [
+            0.48,
+            0.48,
+            0.72
+          ]
+        ],
+        "size": [
+          0.4,
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "id": "crate_red",
+        "color": "red",
+        "size_range": [
+          [
+            0.4,
+            0.32,
+            0.32
+          ],
+          [
+            0.6,
+            0.48,
+            0.48
+          ]
+        ],
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "id": "flowerpot_green",
+        "color": "green",
+        "size_range": [
+          [
+            0.162,
+            0.162,
+            0.24
+          ],
+          [
+            0.243,
+            0.243,
+            0.36
+          ]
+        ],
+        "size": [
+          0.203,
+          0.203,
+          0.3
+        ]
+      }
+    ],
+    "constraints": [],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "uses_yaw": true,
+    "query_budget": 2,
+    "public_cameras": {
+      "reference": {
+        "eye": [
+          2.3,
+          -2.6671,
+          3.1101
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_left": {
+        "eye": [
+          -1.1554,
+          -1.1494,
+          2.9543
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_right": {
+        "eye": [
+          5.7554,
+          -1.1494,
+          2.9543
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "left": {
+        "eye": [
+          -2.4205,
+          1.75,
+          2.5512
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "right": {
+        "eye": [
+          7.0205,
+          1.75,
+          2.5512
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "top": {
+        "eye": [
+          2.3,
+          0.6671,
+          5.4447
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "queryable_views": [
+      "front_left",
+      "front_right",
+      "left",
+      "right",
+      "top"
+    ],
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "observation_contract": "three-view-v1",
+    "initial_view_names": [
+      "front_left",
+      "right"
+    ]
+  },
+  "target_change": {
+    "host": "desk_blue",
+    "objects": [
+      "desk_blue",
+      "flowerpot_green"
+    ],
+    "translation_m": [
+      1.3775,
+      -0.7131,
+      0
+    ],
+    "distance_m": 1.551134378446948
+  }
+}

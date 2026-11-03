@@ -1,0 +1,4665 @@
+{
+  "instance": "A-k34-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "eec1e365c7d38cda17ab0784ede6a1900c331b04160449c153be5b0c7c269ceb",
+  "sanitized_evidence_excerpt": {
+    "protocol": "native-operations-v3",
+    "manifest_sha256": "696255c26013c3e79891df31cf0de0c36e4b6b1fcb6e32bdb19cba1011d27365",
+    "success": true,
+    "relocation_m": 3.107281821785723,
+    "result": {
+      "transitions": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "physical_event": null,
+          "before_event": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                3.8641,
+                2.1922,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "after_event": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                3.8641,
+                2.1922,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "committed_action": {
+            "tool": "commit_stage",
+            "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.9718, 6.225, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6439, 5.95, 0.0], 'yaw': 0}, 'desk_blue': {'position': [5.9025, 3.3173, 0.0], 'yaw': 0}, 'table_green': {'position': [1.5, 0.8, 0], 'yaw': 0}, 'deskchair_black': {'position': [6.063, 2.3897, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [3.8608, 3.5542, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [8.2976, 0.3199, 0.0], 'yaw': 0}, 'plant_pink': {'position': [0.2497, 2.2036, 0.0], 'yaw': 0}, 'lamp_white': {'position': [8.5739, 4.9744, 0.0], 'yaw': 0}, 'column_cyan': {'position': [1.9559, 4.4901, 0.0], 'yaw': 0}, 'crate_red': {'position': [7.4609, 1.3662, 0.0], 'yaw': 0}, 'stool_purple': {'position': [3.9887, 4.4264, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.4877, 4.0464, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [3.8641, 2.1922, 0.0], 'yaw': 180}, 'soccer_white': {'position': [4.1132, 6.2568, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.757, 6.2323, 0.9433], 'yaw': 0}, 'case_brown': {'position': [8.4201, 0.3218, 0.55], 'yaw': 0}, 'box_yellow': {'position': [4.1473, 6.215, 0.4867], 'yaw': 0}}"
+          },
+          "committed_result": {
+            "success": true,
+            "satisfied": 27,
+            "total": 27,
+            "physical": [],
+            "violated_types": [],
+            "mirror_errors": [],
+            "locked_moved": [],
+            "scene_artifact": {
+              "sha256": "361d187a3593dda691b981fb66017488551733eb894ba70445d870926eda3aec",
+              "instance_ids": [
+                "bin_gray",
+                "box_yellow",
+                "cabinet_blue",
+                "case_brown",
+                "chair_cyan",
+                "column_cyan",
+                "crate_red",
+                "desk_blue",
+                "deskchair_black",
+                "flowerpot_green",
+                "lamp_white",
+                "monitor_gray",
+                "plant_pink",
+                "shelf_orange",
+                "sidetable_brown",
+                "soccer_white",
+                "stool_purple",
+                "table_green"
+              ],
+              "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+            },
+            "operation_checks": [
+              {
+                "object": "table_green",
+                "position_error_m": 0.0,
+                "ok": true
+              },
+              {
+                "object": "monitor_gray",
+                "position_error_m": 0.0,
+                "ok": true
+              }
+            ]
+          },
+          "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+          "environment_changed_objects": []
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "physical_event": null,
+          "before_event": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                1.3517,
+                0.3638,
+                0.75
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "after_event": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                1.3517,
+                0.3638,
+                0.75
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "committed_action": {
+            "tool": "commit_stage",
+            "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.9718, 6.225, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6439, 5.95, 0.0], 'yaw': 0}, 'desk_blue': {'position': [5.9025, 3.3173, 0.0], 'yaw': 0}, 'table_green': {'position': [1.5, 0.8, 0], 'yaw': 0}, 'deskchair_black': {'position': [6.063, 2.3897, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [3.8608, 3.5542, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [8.2976, 0.3199, 0.0], 'yaw': 0}, 'plant_pink': {'position': [0.2497, 2.2036, 0.0], 'yaw': 0}, 'lamp_white': {'position': [8.5739, 4.9744, 0.0], 'yaw': 0}, 'column_cyan': {'position': [1.9559, 4.4901, 0.0], 'yaw': 0}, 'crate_red': {'position': [7.4609, 1.3662, 0.0], 'yaw': 0}, 'stool_purple': {'position': [3.9887, 4.4264, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.4877, 4.0464, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [1.3517, 0.3638, 0.75], 'yaw': 180}, 'soccer_white': {'position': [4.1132, 6.2568, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.757, 6.2323, 0.9433], 'yaw': 0}, 'case_brown': {'position': [8.4201, 0.3218, 0.55], 'yaw': 0}, 'box_yellow': {'position': [4.1473, 6.215, 0.4867], 'yaw': 0}}"
+          },
+          "committed_result": {
+            "success": true,
+            "satisfied": 27,
+            "total": 27,
+            "physical": [],
+            "violated_types": [],
+            "mirror_errors": [],
+            "locked_moved": [],
+            "scene_artifact": {
+              "sha256": "edd0e085045bdbe1b3a7e27409c7a593d3270f8f9d2e5fd96e7517d135aadd67",
+              "instance_ids": [
+                "bin_gray",
+                "box_yellow",
+                "cabinet_blue",
+                "case_brown",
+                "chair_cyan",
+                "column_cyan",
+                "crate_red",
+                "desk_blue",
+                "deskchair_black",
+                "flowerpot_green",
+                "lamp_white",
+                "monitor_gray",
+                "plant_pink",
+                "shelf_orange",
+                "sidetable_brown",
+                "soccer_white",
+                "stool_purple",
+                "table_green"
+              ],
+              "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+            },
+            "operation_checks": [
+              {
+                "object": "table_green",
+                "position_error_m": 0.0,
+                "ok": true
+              },
+              {
+                "object": "monitor_gray",
+                "position_error_m": 0.0,
+                "ok": true
+              }
+            ]
+          },
+          "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+          "environment_changed_objects": []
+        }
+      ],
+      "candidate_audits": [
+        {
+          "turn": 2,
+          "stage": 0,
+          "executed": true,
+          "alignment": null,
+          "regression": 0.0,
+          "regression_count": 0,
+          "regression_denominator": 26,
+          "aligned_count": 0,
+          "alignment_denominator": 0,
+          "valid_output": true,
+          "physical_issues": 0,
+          "constraint_satisfied": 27,
+          "constraint_total": 27
+        },
+        {
+          "turn": 4,
+          "stage": 1,
+          "executed": true,
+          "alignment": null,
+          "regression": 0.0,
+          "regression_count": 0,
+          "regression_denominator": 26,
+          "aligned_count": 0,
+          "alignment_denominator": 0,
+          "valid_output": true,
+          "physical_issues": 0,
+          "constraint_satisfied": 27,
+          "constraint_total": 27
+        },
+        {
+          "turn": 6,
+          "stage": 2,
+          "executed": true,
+          "alignment": null,
+          "regression": 0.0,
+          "regression_count": 0,
+          "regression_denominator": 27,
+          "aligned_count": 0,
+          "alignment_denominator": 0,
+          "valid_output": true,
+          "physical_issues": 0,
+          "constraint_satisfied": 27,
+          "constraint_total": 27
+        }
+      ],
+      "execution_valid": true,
+      "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+      "native_schema_valid": true,
+      "stage_results": [
+        {
+          "success": true,
+          "satisfied": 27,
+          "total": 27,
+          "physical": [],
+          "violated_types": [],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "361d187a3593dda691b981fb66017488551733eb894ba70445d870926eda3aec",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 0.0,
+              "ok": true
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 0.0,
+              "ok": true
+            }
+          ]
+        },
+        {
+          "success": true,
+          "satisfied": 27,
+          "total": 27,
+          "physical": [],
+          "violated_types": [],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "edd0e085045bdbe1b3a7e27409c7a593d3270f8f9d2e5fd96e7517d135aadd67",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 0.0,
+              "ok": true
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 0.0,
+              "ok": true
+            }
+          ]
+        },
+        {
+          "success": true,
+          "satisfied": 27,
+          "total": 27,
+          "physical": [],
+          "violated_types": [],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "74913a8b03f50cea86c415d9b376aba8809246ceb4e34d4d5aeb562c4775802b",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "crate_red",
+              "position_error_m": 0.0,
+              "ok": true
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "stages_completed": 3,
+      "stage_executions": 3,
+      "stage_successes": 3,
+      "stages_required": 3,
+      "last_stage_result": {
+        "success": true,
+        "satisfied": 27,
+        "total": 27,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "scene_artifact": {
+          "sha256": "74913a8b03f50cea86c415d9b376aba8809246ceb4e34d4d5aeb562c4775802b",
+          "instance_ids": [
+            "bin_gray",
+            "box_yellow",
+            "cabinet_blue",
+            "case_brown",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "lamp_white",
+            "monitor_gray",
+            "plant_pink",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        },
+        "operation_checks": [
+          {
+            "object": "crate_red",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      }
+    },
+    "controls": [
+      {
+        "stage": 0,
+        "shortcut": "final_before_parking",
+        "result": {
+          "success": false,
+          "satisfied": 26,
+          "total": 27,
+          "physical": [],
+          "violated_types": [
+            "on_floor"
+          ],
+          "mirror_errors": [],
+          "locked_moved": [],
+          "scene_artifact": {
+            "sha256": "edd0e085045bdbe1b3a7e27409c7a593d3270f8f9d2e5fd96e7517d135aadd67",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 0.0,
+              "ok": true
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 3.196513775975321,
+              "ok": false
+            }
+          ]
+        }
+      },
+      {
+        "stage": 1,
+        "shortcut": "reuse_parked_layout",
+        "result": {
+          "success": false,
+          "satisfied": 26,
+          "total": 27,
+          "physical": [
+            {
+              "check": "locked_instance_unchanged",
+              "objects": [
+                "crate_red"
+              ],
+              "native_evidence": true
+            }
+          ],
+          "violated_types": [
+            "left_of"
+          ],
+          "mirror_errors": [
+            "c01"
+          ],
+          "locked_moved": [
+            "crate_red"
+          ],
+          "scene_artifact": {
+            "sha256": "74913a8b03f50cea86c415d9b376aba8809246ceb4e34d4d5aeb562c4775802b",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "table_green",
+              "position_error_m": 0.0,
+              "ok": true
+            },
+            {
+              "object": "monitor_gray",
+              "position_error_m": 0.0,
+              "ok": true
+            }
+          ]
+        }
+      },
+      {
+        "stage": 2,
+        "shortcut": "reuse_parked_layout",
+        "result": {
+          "success": false,
+          "satisfied": 26,
+          "total": 27,
+          "physical": [
+            {
+              "check": "tabletop_required",
+              "objects": [
+                "monitor_gray"
+              ]
+            },
+            {
+              "check": "locked_instance_unchanged",
+              "objects": [
+                "monitor_gray"
+              ],
+              "native_evidence": true
+            }
+          ],
+          "violated_types": [
+            "on_top_of"
+          ],
+          "mirror_errors": [],
+          "locked_moved": [
+            "monitor_gray"
+          ],
+          "scene_artifact": {
+            "sha256": "361d187a3593dda691b981fb66017488551733eb894ba70445d870926eda3aec",
+            "instance_ids": [
+              "bin_gray",
+              "box_yellow",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          },
+          "operation_checks": [
+            {
+              "object": "crate_red",
+              "position_error_m": 6.858344643571071,
+              "ok": false
+            }
+          ]
+        }
+      }
+    ],
+    "trace": [
+      {
+        "turn": 1,
+        "stage": 0,
+        "action": {
+          "tool": "inspect_scene"
+        },
+        "observation": {
+          "placements": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                4.0124,
+                2.6284,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                3.8641,
+                2.1922,
+                0.75
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "capture": {
+            "scene_sha256": "37a831d6c4d20dd2c8e2f9b4ec4a3db6b650959dac2f5263fa3b506d89a000be",
+            "renders": [
+              {
+                "sha256": "d1bc13e929a69e12c600ec6fbd158642ffd50fd5ec8787115a19d84f49615f61",
+                "camera": {
+                  "eye": [
+                    10.7863,
+                    9.6363,
+                    2.2697
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "505412de69a10b370b692ee211bb677f632f43e1d9be14be546ade7ceab60961",
+                "camera": {
+                  "eye": [
+                    -1.7256,
+                    -1.89,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "3a09b503214f101ed3555570ad872c95049d7ff8dec8ad4288ec4e8393c91c39",
+                "camera": {
+                  "eye": [
+                    4.4,
+                    11.2464,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              }
+            ],
+            "instances": {
+              "shelf_orange": {
+                "asset": "proc_bookcase",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9718,
+                  6.225,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000170298988,
+                "native_bounds": [
+                  [
+                    -0.3999999761581421,
+                    0.3999999761581421
+                  ],
+                  [
+                    -0.17500001192092896,
+                    0.17500001192092896
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.5718002319335938,
+                    4.371799945831299
+                  ],
+                  [
+                    6.049999713897705,
+                    6.400000095367432
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ]
+              },
+              "cabinet_blue": {
+                "asset": "kitchencabinet",
+                "asset_sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+                "position": [
+                  5.6439,
+                  5.95,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.0000000529819077,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.4300000071525574
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.213900089263916,
+                    6.073899745941162
+                  ],
+                  [
+                    5.5,
+                    6.399999618530273
+                  ],
+                  [
+                    0.0,
+                    0.8999999761581421
+                  ]
+                ]
+              },
+              "desk_blue": {
+                "asset": "desk",
+                "asset_sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+                "position": [
+                  5.9025,
+                  3.3173,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.9510542907174955,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.7244754433631897
+                  ],
+                  [
+                    -0.012299999594688416,
+                    0.3799999952316284
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.185999393463135,
+                    6.6190009117126465
+                  ],
+                  [
+                    2.934600830078125,
+                    3.6999993324279785
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "table_green": {
+                "asset": "table",
+                "asset_sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+                "position": [
+                  4.0124,
+                  2.6284,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.2954453889327673,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.8414879441261292
+                  ],
+                  [
+                    0.0,
+                    0.44737333059310913
+                  ],
+                  [
+                    0.0,
+                    0.3267339766025543
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.046605348587036,
+                    4.9781951904296875
+                  ],
+                  [
+                    2.1149396896362305,
+                    3.1418604850769043
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "deskchair_black": {
+                "asset": "chairdesk",
+                "asset_sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+                "position": [
+                  6.063,
+                  2.3897,
+                  0.0
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.5635287049938806,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.3349500000476837
+                  ],
+                  [
+                    0.0,
+                    0.3142990469932556
+                  ],
+                  [
+                    0.0,
+                    0.6075999736785889
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.801148414611816,
+                    6.324851989746094
+                  ],
+                  [
+                    2.1439921855926514,
+                    2.6354076862335205
+                  ],
+                  [
+                    0.0,
+                    0.949999988079071
+                  ]
+                ]
+              },
+              "chair_cyan": {
+                "asset": "chair",
+                "asset_sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+                "position": [
+                  3.8608,
+                  3.5542,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.8085106428849205,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4699999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6799490451812744,
+                    4.041651248931885
+                  ],
+                  [
+                    3.3733489513397217,
+                    3.735050916671753
+                  ],
+                  [
+                    0.0,
+                    0.8500000238418579
+                  ]
+                ]
+              },
+              "sidetable_brown": {
+                "asset": "sidetable",
+                "asset_sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+                "position": [
+                  8.2976,
+                  0.3199,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.4307731465261635,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.5244754552841187
+                  ],
+                  [
+                    -0.009999999776482582,
+                    0.20999999344348907
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.915243148803711,
+                    8.679956436157227
+                  ],
+                  [
+                    0.16251496970653534,
+                    0.4772850573062897
+                  ],
+                  [
+                    0.0,
+                    0.550000011920929
+                  ]
+                ]
+              },
+              "plant_pink": {
+                "asset": "pottedplant",
+                "asset_sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+                "position": [
+                  0.2497,
+                  2.2036,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.2232101818159284,
+                "native_bounds": [
+                  [
+                    -0.10602963715791702,
+                    0.10602963715791702
+                  ],
+                  [
+                    -0.12073097378015518,
+                    0.12073097378015518
+                  ],
+                  [
+                    0.0,
+                    0.6540167927742004
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.12000346183776855,
+                    0.3793965280056
+                  ],
+                  [
+                    2.0559206008911133,
+                    2.3512792587280273
+                  ],
+                  [
+                    0.0,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "lamp_white": {
+                "asset": "lamproundfloor",
+                "asset_sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+                "position": [
+                  8.5739,
+                  4.9744,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.3953488139992734,
+                "native_bounds": [
+                  [
+                    -0.016019709408283234,
+                    0.13601970672607422
+                  ],
+                  [
+                    -0.027779998257756233,
+                    0.14778000116348267
+                  ],
+                  [
+                    0.0,
+                    0.8600000143051147
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.467825889587402,
+                    8.679974555969238
+                  ],
+                  [
+                    4.851916313171387,
+                    5.096883773803711
+                  ],
+                  [
+                    0.0,
+                    1.1999999284744263
+                  ]
+                ]
+              },
+              "column_cyan": {
+                "asset": "proc_column",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.9559,
+                  4.4901,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999783255843,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.805899977684021,
+                    2.1059000492095947
+                  ],
+                  [
+                    4.340099811553955,
+                    4.640100002288818
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ]
+              },
+              "crate_red": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  7.4609,
+                  1.3662,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.999999985098839,
+                "native_bounds": [
+                  [
+                    -0.25,
+                    0.25
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.210899829864502,
+                    7.710899829864502
+                  ],
+                  [
+                    1.1661999225616455,
+                    1.5662000179290771
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ]
+              },
+              "stool_purple": {
+                "asset": "proc_stool",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9887,
+                  4.4264,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000264909539,
+                "native_bounds": [
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.813699960708618,
+                    4.163700103759766
+                  ],
+                  [
+                    4.251399993896484,
+                    4.601400375366211
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ]
+              },
+              "bin_gray": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.4877,
+                  4.0464,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.6000000238418579
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.2876999378204346,
+                    1.6877000331878662
+                  ],
+                  [
+                    3.846400022506714,
+                    4.246399879455566
+                  ],
+                  [
+                    0.0,
+                    0.5999999642372131
+                  ]
+                ]
+              },
+              "monitor_gray": {
+                "asset": "computerscreen",
+                "asset_sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+                "position": [
+                  3.8641,
+                  2.1922,
+                  0.75
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.4271869213990316,
+                "native_bounds": [
+                  [
+                    -1.4438228216156449e-15,
+                    0.39268800616264343
+                  ],
+                  [
+                    5.414335713407566e-16,
+                    0.10400399565696716
+                  ],
+                  [
+                    -8.014826700184745e-32,
+                    0.29428520798683167
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.5838804244995117,
+                    4.144319534301758
+                  ],
+                  [
+                    2.117983341217041,
+                    2.266416549682617
+                  ],
+                  [
+                    0.75,
+                    1.1700000762939453
+                  ]
+                ]
+              },
+              "soccer_white": {
+                "asset": "proc_soccer",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1132,
+                  6.2568,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.000000005418604,
+                "native_bounds": [
+                  [
+                    -0.10999999195337296,
+                    0.10999999940395355
+                  ],
+                  [
+                    -0.10999999940395355,
+                    0.10999999940395355
+                  ],
+                  [
+                    0.0,
+                    0.2199999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    4.003200054168701,
+                    4.22320032119751
+                  ],
+                  [
+                    6.1468000411987305,
+                    6.366800308227539
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.1633000373840332
+                  ]
+                ]
+              },
+              "flowerpot_green": {
+                "asset": "plantsmall1",
+                "asset_sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+                "position": [
+                  3.757,
+                  6.2323,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.142857133733983,
+                "native_bounds": [
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    0.0,
+                    0.14000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6555776596069336,
+                    3.85842227935791
+                  ],
+                  [
+                    6.130877494812012,
+                    6.333722114562988
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.243299961090088
+                  ]
+                ]
+              },
+              "case_brown": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  8.4201,
+                  0.3218,
+                  0.55
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0,
+                "native_bounds": [
+                  [
+                    -0.22499999403953552,
+                    0.22499999403953552
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.25
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.195099830627441,
+                    8.645100593566895
+                  ],
+                  [
+                    0.17179998755455017,
+                    0.4717999994754791
+                  ],
+                  [
+                    0.550000011920929,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "box_yellow": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1473,
+                  6.215,
+                  0.4867
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.30000001192092896
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.9972996711730957,
+                    4.297299861907959
+                  ],
+                  [
+                    6.065000057220459,
+                    6.365000247955322
+                  ],
+                  [
+                    0.48669999837875366,
+                    0.7867000102996826
+                  ]
+                ]
+              }
+            }
+          },
+          "operation": {
+            "phase": "relocate_and_floor_stage",
+            "host": "table_green",
+            "payloads": [
+              "monitor_gray"
+            ],
+            "destination": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "instructions": "Move the host to the destination and park payloads on the floor at their original XY positions."
+          },
+          "turns_left": 13,
+          "total_actions_left": 41
+        },
+        "n_images": 3
+      },
+      {
+        "turn": 2,
+        "stage": 1,
+        "action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.9718, 6.225, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6439, 5.95, 0.0], 'yaw': 0}, 'desk_blue': {'position': [5.9025, 3.3173, 0.0], 'yaw': 0}, 'table_green': {'position': [1.5, 0.8, 0], 'yaw': 0}, 'deskchair_black': {'position': [6.063, 2.3897, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [3.8608, 3.5542, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [8.2976, 0.3199, 0.0], 'yaw': 0}, 'plant_pink': {'position': [0.2497, 2.2036, 0.0], 'yaw': 0}, 'lamp_white': {'position': [8.5739, 4.9744, 0.0], 'yaw': 0}, 'column_cyan': {'position': [1.9559, 4.4901, 0.0], 'yaw': 0}, 'crate_red': {'position': [7.4609, 1.3662, 0.0], 'yaw': 0}, 'stool_purple': {'position': [3.9887, 4.4264, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.4877, 4.0464, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [3.8641, 2.1922, 0.0], 'yaw': 180}, 'soccer_white': {'position': [4.1132, 6.2568, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.757, 6.2323, 0.9433], 'yaw': 0}, 'case_brown': {'position': [8.4201, 0.3218, 0.55], 'yaw': 0}, 'box_yellow': {'position': [4.1473, 6.215, 0.4867], 'yaw': 0}}"
+        },
+        "observation": {
+          "execution_committed": true,
+          "stage": 1,
+          "event": "Previous operation committed. Continue the next operation from the actual current installation; no placement reset occurred.",
+          "operation": {
+            "phase": "restore_original_host_relative_offsets",
+            "host": "table_green",
+            "payloads": [
+              "monitor_gray"
+            ],
+            "destination": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "instructions": "Restore payloads to the same measured host-relative positions and orientations as in the initial installation."
+          },
+          "active_constraints": [
+            {
+              "type": "left_of",
+              "args": [
+                "column_cyan",
+                "crate_red"
+              ],
+              "id": "c01"
+            },
+            {
+              "type": "behind",
+              "args": [
+                "bin_gray",
+                "case_brown"
+              ],
+              "id": "c02"
+            },
+            {
+              "type": "on_top_of",
+              "args": [
+                "case_brown",
+                "sidetable_brown"
+              ],
+              "id": "c03"
+            },
+            {
+              "type": "between",
+              "args": [
+                "stool_purple",
+                "bin_gray",
+                "lamp_white"
+              ],
+              "id": "c04"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "column_cyan",
+                "soccer_white"
+              ],
+              "id": "c05"
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "range": [
+                2
+              ],
+              "id": "c06"
+            },
+            {
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "flowerpot_green",
+                "lamp_white"
+              ],
+              "id": "c07"
+            },
+            {
+              "type": "between",
+              "args": [
+                "shelf_orange",
+                "desk_blue",
+                "flowerpot_green"
+              ],
+              "id": "c10"
+            },
+            {
+              "type": "between",
+              "args": [
+                "bin_gray",
+                "column_cyan",
+                "plant_pink"
+              ],
+              "id": "c11"
+            },
+            {
+              "type": "between",
+              "args": [
+                "shelf_orange",
+                "deskchair_black",
+                "flowerpot_green"
+              ],
+              "id": "c12"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "chair_cyan",
+                "shelf_orange"
+              ],
+              "id": "c13"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "cabinet_blue",
+                "soccer_white"
+              ],
+              "id": "c14"
+            },
+            {
+              "type": "occludes",
+              "args": [
+                "cabinet_blue",
+                "stool_purple"
+              ],
+              "id": "c16",
+              "native_margin": 0.5
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "flowerpot_green"
+              ],
+              "id": "c17",
+              "native_margin": 1.492190085382116
+            },
+            {
+              "type": "distance",
+              "args": [
+                "chair_cyan",
+                "shelf_orange"
+              ],
+              "range": [
+                2.47,
+                2.87
+              ],
+              "id": "c18"
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "box_yellow",
+                "shelf_orange"
+              ],
+              "range": [
+                1
+              ],
+              "id": "c20"
+            },
+            {
+              "type": "appears_larger_than",
+              "args": [
+                "lamp_white",
+                "bin_gray"
+              ],
+              "id": "c21",
+              "native_margin": 0.8
+            },
+            {
+              "type": "aligned_y",
+              "args": [
+                "box_yellow",
+                "flowerpot_green"
+              ],
+              "id": "c23"
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "shelf_orange"
+              ],
+              "id": "c24",
+              "native_margin": 1.4626634323054208
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "flowerpot_green",
+                "shelf_orange"
+              ],
+              "range": [
+                2
+              ],
+              "id": "c25"
+            },
+            {
+              "type": "in_front_of",
+              "args": [
+                "plant_pink",
+                "desk_blue"
+              ],
+              "id": "c26"
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "soccer_white"
+              ],
+              "id": "c27",
+              "native_margin": 1.459393976607446
+            },
+            {
+              "type": "occludes",
+              "args": [
+                "shelf_orange",
+                "box_yellow"
+              ],
+              "id": "c28",
+              "native_margin": 0.5
+            },
+            {
+              "type": "right_of",
+              "args": [
+                "case_brown",
+                "soccer_white"
+              ],
+              "id": "c29"
+            },
+            {
+              "type": "distance",
+              "args": [
+                "bin_gray",
+                "chair_cyan"
+              ],
+              "range": [
+                2.22,
+                2.62
+              ],
+              "id": "c30"
+            },
+            {
+              "type": "facing",
+              "args": [
+                "deskchair_black",
+                "box_yellow"
+              ],
+              "id": "c31"
+            },
+            {
+              "id": "operation_monitor_gray",
+              "type": "on_top_of",
+              "args": [
+                "monitor_gray",
+                "table_green"
+              ],
+              "priority": "hard"
+            }
+          ],
+          "scene_policy": {
+            "version": "logical-room-3",
+            "flat_supports": [
+              "table_green",
+              "cabinet_blue",
+              "desk_blue",
+              "sidetable_brown"
+            ],
+            "surface_objects": [
+              "box_yellow",
+              "case_brown",
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray",
+              "flowerpot_green",
+              "soccer_white",
+              "rugby_brown"
+            ],
+            "tabletop_required": [
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray"
+            ],
+            "wall_storage": [
+              "shelf_orange",
+              "cabinet_blue"
+            ],
+            "wall_distance_m": 0.35,
+            "shelf_supports": [
+              "shelf_orange"
+            ],
+            "shelf_items": [
+              "box_yellow",
+              "case_brown",
+              "flowerpot_green",
+              "soccer_white",
+              "rugby_brown"
+            ],
+            "seats": [
+              "chair_cyan",
+              "deskchair_black"
+            ],
+            "work_surfaces": [
+              "table_green",
+              "desk_blue"
+            ],
+            "screens": [
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray"
+            ],
+            "seat_reach_m": 0.5,
+            "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+          },
+          "total_actions_left": 40
+        },
+        "n_images": 0
+      },
+      {
+        "turn": 3,
+        "stage": 1,
+        "action": {
+          "tool": "inspect_scene"
+        },
+        "observation": {
+          "placements": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                3.8641,
+                2.1922,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "capture": {
+            "scene_sha256": "361d187a3593dda691b981fb66017488551733eb894ba70445d870926eda3aec",
+            "renders": [
+              {
+                "sha256": "19d3a901217b1dc1984151acc766e36ac202d160d091c45ac29d2b1e6ef61482",
+                "camera": {
+                  "eye": [
+                    10.7863,
+                    9.6363,
+                    2.2697
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "900fd16a8cc44b14d5cd2823a999d2b65c07c1e63870015200125c6a57bf107a",
+                "camera": {
+                  "eye": [
+                    -1.7256,
+                    -1.89,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "d433b8f5a677ec5fc70c519a40ca4378870a8af8a4a9ef5a2db56787cabb576b",
+                "camera": {
+                  "eye": [
+                    4.4,
+                    11.2464,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              }
+            ],
+            "instances": {
+              "shelf_orange": {
+                "asset": "proc_bookcase",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9718,
+                  6.225,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000170298988,
+                "native_bounds": [
+                  [
+                    -0.3999999761581421,
+                    0.3999999761581421
+                  ],
+                  [
+                    -0.17500001192092896,
+                    0.17500001192092896
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.5718002319335938,
+                    4.371799945831299
+                  ],
+                  [
+                    6.049999713897705,
+                    6.400000095367432
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ]
+              },
+              "cabinet_blue": {
+                "asset": "kitchencabinet",
+                "asset_sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+                "position": [
+                  5.6439,
+                  5.95,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.0000000529819077,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.4300000071525574
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.213900089263916,
+                    6.073899745941162
+                  ],
+                  [
+                    5.5,
+                    6.399999618530273
+                  ],
+                  [
+                    0.0,
+                    0.8999999761581421
+                  ]
+                ]
+              },
+              "desk_blue": {
+                "asset": "desk",
+                "asset_sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+                "position": [
+                  5.9025,
+                  3.3173,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.9510542907174955,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.7244754433631897
+                  ],
+                  [
+                    -0.012299999594688416,
+                    0.3799999952316284
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.185999393463135,
+                    6.6190009117126465
+                  ],
+                  [
+                    2.934600830078125,
+                    3.6999993324279785
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "table_green": {
+                "asset": "table",
+                "asset_sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+                "position": [
+                  1.5,
+                  0.8,
+                  0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.2954453889327673,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.8414879441261292
+                  ],
+                  [
+                    0.0,
+                    0.44737333059310913
+                  ],
+                  [
+                    0.0,
+                    0.3267339766025543
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.5342051386833191,
+                    2.465794801712036
+                  ],
+                  [
+                    0.2865394949913025,
+                    1.3134605884552002
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "deskchair_black": {
+                "asset": "chairdesk",
+                "asset_sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+                "position": [
+                  6.063,
+                  2.3897,
+                  0.0
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.5635287049938806,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.3349500000476837
+                  ],
+                  [
+                    0.0,
+                    0.3142990469932556
+                  ],
+                  [
+                    0.0,
+                    0.6075999736785889
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.801148414611816,
+                    6.324851989746094
+                  ],
+                  [
+                    2.1439921855926514,
+                    2.6354076862335205
+                  ],
+                  [
+                    0.0,
+                    0.949999988079071
+                  ]
+                ]
+              },
+              "chair_cyan": {
+                "asset": "chair",
+                "asset_sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+                "position": [
+                  3.8608,
+                  3.5542,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.8085106428849205,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4699999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6799490451812744,
+                    4.041651248931885
+                  ],
+                  [
+                    3.3733489513397217,
+                    3.735050916671753
+                  ],
+                  [
+                    0.0,
+                    0.8500000238418579
+                  ]
+                ]
+              },
+              "sidetable_brown": {
+                "asset": "sidetable",
+                "asset_sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+                "position": [
+                  8.2976,
+                  0.3199,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.4307731465261635,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.5244754552841187
+                  ],
+                  [
+                    -0.009999999776482582,
+                    0.20999999344348907
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.915243148803711,
+                    8.679956436157227
+                  ],
+                  [
+                    0.16251496970653534,
+                    0.4772850573062897
+                  ],
+                  [
+                    0.0,
+                    0.550000011920929
+                  ]
+                ]
+              },
+              "plant_pink": {
+                "asset": "pottedplant",
+                "asset_sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+                "position": [
+                  0.2497,
+                  2.2036,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.2232101818159284,
+                "native_bounds": [
+                  [
+                    -0.10602963715791702,
+                    0.10602963715791702
+                  ],
+                  [
+                    -0.12073097378015518,
+                    0.12073097378015518
+                  ],
+                  [
+                    0.0,
+                    0.6540167927742004
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.12000346183776855,
+                    0.3793965280056
+                  ],
+                  [
+                    2.0559206008911133,
+                    2.3512792587280273
+                  ],
+                  [
+                    0.0,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "lamp_white": {
+                "asset": "lamproundfloor",
+                "asset_sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+                "position": [
+                  8.5739,
+                  4.9744,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.3953488139992734,
+                "native_bounds": [
+                  [
+                    -0.016019709408283234,
+                    0.13601970672607422
+                  ],
+                  [
+                    -0.027779998257756233,
+                    0.14778000116348267
+                  ],
+                  [
+                    0.0,
+                    0.8600000143051147
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.467825889587402,
+                    8.679974555969238
+                  ],
+                  [
+                    4.851916313171387,
+                    5.096883773803711
+                  ],
+                  [
+                    0.0,
+                    1.1999999284744263
+                  ]
+                ]
+              },
+              "column_cyan": {
+                "asset": "proc_column",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.9559,
+                  4.4901,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999783255843,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.805899977684021,
+                    2.1059000492095947
+                  ],
+                  [
+                    4.340099811553955,
+                    4.640100002288818
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ]
+              },
+              "crate_red": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  7.4609,
+                  1.3662,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.999999985098839,
+                "native_bounds": [
+                  [
+                    -0.25,
+                    0.25
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.210899829864502,
+                    7.710899829864502
+                  ],
+                  [
+                    1.1661999225616455,
+                    1.5662000179290771
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ]
+              },
+              "stool_purple": {
+                "asset": "proc_stool",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9887,
+                  4.4264,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000264909539,
+                "native_bounds": [
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.813699960708618,
+                    4.163700103759766
+                  ],
+                  [
+                    4.251399993896484,
+                    4.601400375366211
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ]
+              },
+              "bin_gray": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.4877,
+                  4.0464,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.6000000238418579
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.2876999378204346,
+                    1.6877000331878662
+                  ],
+                  [
+                    3.846400022506714,
+                    4.246399879455566
+                  ],
+                  [
+                    0.0,
+                    0.5999999642372131
+                  ]
+                ]
+              },
+              "monitor_gray": {
+                "asset": "computerscreen",
+                "asset_sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+                "position": [
+                  3.8641,
+                  2.1922,
+                  0.0
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.4271869213990316,
+                "native_bounds": [
+                  [
+                    -1.4438228216156449e-15,
+                    0.39268800616264343
+                  ],
+                  [
+                    5.414335713407566e-16,
+                    0.10400399565696716
+                  ],
+                  [
+                    -8.014826700184745e-32,
+                    0.29428520798683167
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.5838804244995117,
+                    4.144319534301758
+                  ],
+                  [
+                    2.117983341217041,
+                    2.266416549682617
+                  ],
+                  [
+                    0.0,
+                    0.42000001668930054
+                  ]
+                ]
+              },
+              "soccer_white": {
+                "asset": "proc_soccer",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1132,
+                  6.2568,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.000000005418604,
+                "native_bounds": [
+                  [
+                    -0.10999999195337296,
+                    0.10999999940395355
+                  ],
+                  [
+                    -0.10999999940395355,
+                    0.10999999940395355
+                  ],
+                  [
+                    0.0,
+                    0.2199999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    4.003200054168701,
+                    4.22320032119751
+                  ],
+                  [
+                    6.1468000411987305,
+                    6.366800308227539
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.1633000373840332
+                  ]
+                ]
+              },
+              "flowerpot_green": {
+                "asset": "plantsmall1",
+                "asset_sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+                "position": [
+                  3.757,
+                  6.2323,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.142857133733983,
+                "native_bounds": [
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    0.0,
+                    0.14000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6555776596069336,
+                    3.85842227935791
+                  ],
+                  [
+                    6.130877494812012,
+                    6.333722114562988
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.243299961090088
+                  ]
+                ]
+              },
+              "case_brown": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  8.4201,
+                  0.3218,
+                  0.55
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0,
+                "native_bounds": [
+                  [
+                    -0.22499999403953552,
+                    0.22499999403953552
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.25
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.195099830627441,
+                    8.645100593566895
+                  ],
+                  [
+                    0.17179998755455017,
+                    0.4717999994754791
+                  ],
+                  [
+                    0.550000011920929,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "box_yellow": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1473,
+                  6.215,
+                  0.4867
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.30000001192092896
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.9972996711730957,
+                    4.297299861907959
+                  ],
+                  [
+                    6.065000057220459,
+                    6.365000247955322
+                  ],
+                  [
+                    0.48669999837875366,
+                    0.7867000102996826
+                  ]
+                ]
+              }
+            }
+          },
+          "operation": {
+            "phase": "restore_original_host_relative_offsets",
+            "host": "table_green",
+            "payloads": [
+              "monitor_gray"
+            ],
+            "destination": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "instructions": "Restore payloads to the same measured host-relative positions and orientations as in the initial installation."
+          },
+          "turns_left": 13,
+          "total_actions_left": 39
+        },
+        "n_images": 3
+      },
+      {
+        "turn": 4,
+        "stage": 2,
+        "action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.9718, 6.225, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6439, 5.95, 0.0], 'yaw': 0}, 'desk_blue': {'position': [5.9025, 3.3173, 0.0], 'yaw': 0}, 'table_green': {'position': [1.5, 0.8, 0], 'yaw': 0}, 'deskchair_black': {'position': [6.063, 2.3897, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [3.8608, 3.5542, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [8.2976, 0.3199, 0.0], 'yaw': 0}, 'plant_pink': {'position': [0.2497, 2.2036, 0.0], 'yaw': 0}, 'lamp_white': {'position': [8.5739, 4.9744, 0.0], 'yaw': 0}, 'column_cyan': {'position': [1.9559, 4.4901, 0.0], 'yaw': 0}, 'crate_red': {'position': [7.4609, 1.3662, 0.0], 'yaw': 0}, 'stool_purple': {'position': [3.9887, 4.4264, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.4877, 4.0464, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [1.3517, 0.3638, 0.75], 'yaw': 180}, 'soccer_white': {'position': [4.1132, 6.2568, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.757, 6.2323, 0.9433], 'yaw': 0}, 'case_brown': {'position': [8.4201, 0.3218, 0.55], 'yaw': 0}, 'box_yellow': {'position': [4.1473, 6.215, 0.4867], 'yaw': 0}}"
+        },
+        "observation": {
+          "execution_committed": true,
+          "stage": 2,
+          "event": "Previous operation committed. Continue the next operation from the actual current installation; no placement reset occurred.",
+          "operation": {
+            "phase": "open_secondary_work_area",
+            "object": "crate_red",
+            "destination": [
+              0.8,
+              3.0,
+              0
+            ],
+            "instructions": "Move this floor object to the new secondary work area. Preserve the relocated table, restored payload offsets and all other objects."
+          },
+          "active_constraints": [
+            {
+              "type": "behind",
+              "args": [
+                "bin_gray",
+                "case_brown"
+              ],
+              "id": "c02"
+            },
+            {
+              "type": "on_top_of",
+              "args": [
+                "case_brown",
+                "sidetable_brown"
+              ],
+              "id": "c03"
+            },
+            {
+              "type": "between",
+              "args": [
+                "stool_purple",
+                "bin_gray",
+                "lamp_white"
+              ],
+              "id": "c04"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "column_cyan",
+                "soccer_white"
+              ],
+              "id": "c05"
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "range": [
+                2
+              ],
+              "id": "c06"
+            },
+            {
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "flowerpot_green",
+                "lamp_white"
+              ],
+              "id": "c07"
+            },
+            {
+              "type": "between",
+              "args": [
+                "shelf_orange",
+                "desk_blue",
+                "flowerpot_green"
+              ],
+              "id": "c10"
+            },
+            {
+              "type": "between",
+              "args": [
+                "bin_gray",
+                "column_cyan",
+                "plant_pink"
+              ],
+              "id": "c11"
+            },
+            {
+              "type": "between",
+              "args": [
+                "shelf_orange",
+                "deskchair_black",
+                "flowerpot_green"
+              ],
+              "id": "c12"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "chair_cyan",
+                "shelf_orange"
+              ],
+              "id": "c13"
+            },
+            {
+              "type": "between",
+              "args": [
+                "box_yellow",
+                "cabinet_blue",
+                "soccer_white"
+              ],
+              "id": "c14"
+            },
+            {
+              "type": "occludes",
+              "args": [
+                "cabinet_blue",
+                "stool_purple"
+              ],
+              "id": "c16",
+              "native_margin": 0.5
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "flowerpot_green"
+              ],
+              "id": "c17",
+              "native_margin": 1.492190085382116
+            },
+            {
+              "type": "distance",
+              "args": [
+                "chair_cyan",
+                "shelf_orange"
+              ],
+              "range": [
+                2.47,
+                2.87
+              ],
+              "id": "c18"
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "box_yellow",
+                "shelf_orange"
+              ],
+              "range": [
+                1
+              ],
+              "id": "c20"
+            },
+            {
+              "type": "appears_larger_than",
+              "args": [
+                "lamp_white",
+                "bin_gray"
+              ],
+              "id": "c21",
+              "native_margin": 0.8
+            },
+            {
+              "type": "aligned_y",
+              "args": [
+                "box_yellow",
+                "flowerpot_green"
+              ],
+              "id": "c23"
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "shelf_orange"
+              ],
+              "id": "c24",
+              "native_margin": 1.4626634323054208
+            },
+            {
+              "type": "on_shelf",
+              "args": [
+                "flowerpot_green",
+                "shelf_orange"
+              ],
+              "range": [
+                2
+              ],
+              "id": "c25"
+            },
+            {
+              "type": "in_front_of",
+              "args": [
+                "plant_pink",
+                "desk_blue"
+              ],
+              "id": "c26"
+            },
+            {
+              "type": "appears_left_of",
+              "args": [
+                "case_brown",
+                "soccer_white"
+              ],
+              "id": "c27",
+              "native_margin": 1.459393976607446
+            },
+            {
+              "type": "occludes",
+              "args": [
+                "shelf_orange",
+                "box_yellow"
+              ],
+              "id": "c28",
+              "native_margin": 0.5
+            },
+            {
+              "type": "right_of",
+              "args": [
+                "case_brown",
+                "soccer_white"
+              ],
+              "id": "c29"
+            },
+            {
+              "type": "distance",
+              "args": [
+                "bin_gray",
+                "chair_cyan"
+              ],
+              "range": [
+                2.22,
+                2.62
+              ],
+              "id": "c30"
+            },
+            {
+              "type": "facing",
+              "args": [
+                "deskchair_black",
+                "box_yellow"
+              ],
+              "id": "c31"
+            },
+            {
+              "id": "operation_monitor_gray",
+              "type": "on_top_of",
+              "args": [
+                "monitor_gray",
+                "table_green"
+              ],
+              "priority": "hard"
+            },
+            {
+              "id": "secondary_floor",
+              "type": "on_floor",
+              "args": [
+                "crate_red"
+              ],
+              "priority": "hard"
+            }
+          ],
+          "scene_policy": {
+            "version": "logical-room-3",
+            "flat_supports": [
+              "table_green",
+              "cabinet_blue",
+              "desk_blue",
+              "sidetable_brown"
+            ],
+            "surface_objects": [
+              "box_yellow",
+              "case_brown",
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray",
+              "flowerpot_green",
+              "soccer_white",
+              "rugby_brown"
+            ],
+            "tabletop_required": [
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray"
+            ],
+            "wall_storage": [
+              "shelf_orange",
+              "cabinet_blue"
+            ],
+            "wall_distance_m": 0.35,
+            "shelf_supports": [
+              "shelf_orange"
+            ],
+            "shelf_items": [
+              "box_yellow",
+              "case_brown",
+              "flowerpot_green",
+              "soccer_white",
+              "rugby_brown"
+            ],
+            "seats": [
+              "chair_cyan",
+              "deskchair_black"
+            ],
+            "work_surfaces": [
+              "table_green",
+              "desk_blue"
+            ],
+            "screens": [
+              "tv_black",
+              "monitor_gray",
+              "laptop_gray"
+            ],
+            "seat_reach_m": 0.5,
+            "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+          },
+          "total_actions_left": 38
+        },
+        "n_images": 0
+      },
+      {
+        "turn": 5,
+        "stage": 2,
+        "action": {
+          "tool": "inspect_scene"
+        },
+        "observation": {
+          "placements": {
+            "shelf_orange": {
+              "position": [
+                3.9718,
+                6.225,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "cabinet_blue": {
+              "position": [
+                5.6439,
+                5.95,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "desk_blue": {
+              "position": [
+                5.9025,
+                3.3173,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "table_green": {
+              "position": [
+                1.5,
+                0.8,
+                0
+              ],
+              "yaw": 0
+            },
+            "deskchair_black": {
+              "position": [
+                6.063,
+                2.3897,
+                0.0
+              ],
+              "yaw": 180
+            },
+            "chair_cyan": {
+              "position": [
+                3.8608,
+                3.5542,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "sidetable_brown": {
+              "position": [
+                8.2976,
+                0.3199,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "plant_pink": {
+              "position": [
+                0.2497,
+                2.2036,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "lamp_white": {
+              "position": [
+                8.5739,
+                4.9744,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "column_cyan": {
+              "position": [
+                1.9559,
+                4.4901,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "crate_red": {
+              "position": [
+                7.4609,
+                1.3662,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "stool_purple": {
+              "position": [
+                3.9887,
+                4.4264,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "bin_gray": {
+              "position": [
+                1.4877,
+                4.0464,
+                0.0
+              ],
+              "yaw": 0
+            },
+            "monitor_gray": {
+              "position": [
+                1.3517,
+                0.3638,
+                0.75
+              ],
+              "yaw": 180
+            },
+            "soccer_white": {
+              "position": [
+                4.1132,
+                6.2568,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "flowerpot_green": {
+              "position": [
+                3.757,
+                6.2323,
+                0.9433
+              ],
+              "yaw": 0
+            },
+            "case_brown": {
+              "position": [
+                8.4201,
+                0.3218,
+                0.55
+              ],
+              "yaw": 0
+            },
+            "box_yellow": {
+              "position": [
+                4.1473,
+                6.215,
+                0.4867
+              ],
+              "yaw": 0
+            }
+          },
+          "capture": {
+            "scene_sha256": "edd0e085045bdbe1b3a7e27409c7a593d3270f8f9d2e5fd96e7517d135aadd67",
+            "renders": [
+              {
+                "sha256": "de35029d863e3efb4c10b3e488bff6860a0f76f878039a53db8b94f09e3ef6ab",
+                "camera": {
+                  "eye": [
+                    10.7863,
+                    9.6363,
+                    2.2697
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "0781e5d3a897d51e8021f7f7aaec339395cfd5ecd7547a149e1054dac7187c4c",
+                "camera": {
+                  "eye": [
+                    -1.7256,
+                    -1.89,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              },
+              {
+                "sha256": "e8404feab0296cab1b420cd0bada6eb67a62c8ede8a9e6ef78f37e42a3cdfdd2",
+                "camera": {
+                  "eye": [
+                    4.4,
+                    11.2464,
+                    4.9667
+                  ],
+                  "target": [
+                    4.4,
+                    3.25,
+                    0.35
+                  ],
+                  "fov_deg": 50,
+                  "width": 320,
+                  "height": 240,
+                  "up": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "raster_width": 640,
+                "raster_height": 480
+              }
+            ],
+            "instances": {
+              "shelf_orange": {
+                "asset": "proc_bookcase",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9718,
+                  6.225,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000170298988,
+                "native_bounds": [
+                  [
+                    -0.3999999761581421,
+                    0.3999999761581421
+                  ],
+                  [
+                    -0.17500001192092896,
+                    0.17500001192092896
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.5718002319335938,
+                    4.371799945831299
+                  ],
+                  [
+                    6.049999713897705,
+                    6.400000095367432
+                  ],
+                  [
+                    0.0,
+                    1.399999976158142
+                  ]
+                ]
+              },
+              "cabinet_blue": {
+                "asset": "kitchencabinet",
+                "asset_sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+                "position": [
+                  5.6439,
+                  5.95,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.0000000529819077,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.4300000071525574
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.213900089263916,
+                    6.073899745941162
+                  ],
+                  [
+                    5.5,
+                    6.399999618530273
+                  ],
+                  [
+                    0.0,
+                    0.8999999761581421
+                  ]
+                ]
+              },
+              "desk_blue": {
+                "asset": "desk",
+                "asset_sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+                "position": [
+                  5.9025,
+                  3.3173,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.9510542907174955,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.7244754433631897
+                  ],
+                  [
+                    -0.012299999594688416,
+                    0.3799999952316284
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.185999393463135,
+                    6.6190009117126465
+                  ],
+                  [
+                    2.934600830078125,
+                    3.6999993324279785
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "table_green": {
+                "asset": "table",
+                "asset_sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+                "position": [
+                  1.5,
+                  0.8,
+                  0
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.2954453889327673,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.8414879441261292
+                  ],
+                  [
+                    0.0,
+                    0.44737333059310913
+                  ],
+                  [
+                    0.0,
+                    0.3267339766025543
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.5342051386833191,
+                    2.465794801712036
+                  ],
+                  [
+                    0.2865394949913025,
+                    1.3134605884552002
+                  ],
+                  [
+                    0.0,
+                    0.75
+                  ]
+                ]
+              },
+              "deskchair_black": {
+                "asset": "chairdesk",
+                "asset_sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+                "position": [
+                  6.063,
+                  2.3897,
+                  0.0
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.5635287049938806,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.3349500000476837
+                  ],
+                  [
+                    0.0,
+                    0.3142990469932556
+                  ],
+                  [
+                    0.0,
+                    0.6075999736785889
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    5.801148414611816,
+                    6.324851989746094
+                  ],
+                  [
+                    2.1439921855926514,
+                    2.6354076862335205
+                  ],
+                  [
+                    0.0,
+                    0.949999988079071
+                  ]
+                ]
+              },
+              "chair_cyan": {
+                "asset": "chair",
+                "asset_sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+                "position": [
+                  3.8608,
+                  3.5542,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.8085106428849205,
+                "native_bounds": [
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4699999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6799490451812744,
+                    4.041651248931885
+                  ],
+                  [
+                    3.3733489513397217,
+                    3.735050916671753
+                  ],
+                  [
+                    0.0,
+                    0.8500000238418579
+                  ]
+                ]
+              },
+              "sidetable_brown": {
+                "asset": "sidetable",
+                "asset_sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+                "position": [
+                  8.2976,
+                  0.3199,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.4307731465261635,
+                "native_bounds": [
+                  [
+                    -0.009999999776482582,
+                    0.5244754552841187
+                  ],
+                  [
+                    -0.009999999776482582,
+                    0.20999999344348907
+                  ],
+                  [
+                    0.0,
+                    0.38440755009651184
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.915243148803711,
+                    8.679956436157227
+                  ],
+                  [
+                    0.16251496970653534,
+                    0.4772850573062897
+                  ],
+                  [
+                    0.0,
+                    0.550000011920929
+                  ]
+                ]
+              },
+              "plant_pink": {
+                "asset": "pottedplant",
+                "asset_sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+                "position": [
+                  0.2497,
+                  2.2036,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.2232101818159284,
+                "native_bounds": [
+                  [
+                    -0.10602963715791702,
+                    0.10602963715791702
+                  ],
+                  [
+                    -0.12073097378015518,
+                    0.12073097378015518
+                  ],
+                  [
+                    0.0,
+                    0.6540167927742004
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    0.12000346183776855,
+                    0.3793965280056
+                  ],
+                  [
+                    2.0559206008911133,
+                    2.3512792587280273
+                  ],
+                  [
+                    0.0,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "lamp_white": {
+                "asset": "lamproundfloor",
+                "asset_sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+                "position": [
+                  8.5739,
+                  4.9744,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.3953488139992734,
+                "native_bounds": [
+                  [
+                    -0.016019709408283234,
+                    0.13601970672607422
+                  ],
+                  [
+                    -0.027779998257756233,
+                    0.14778000116348267
+                  ],
+                  [
+                    0.0,
+                    0.8600000143051147
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.467825889587402,
+                    8.679974555969238
+                  ],
+                  [
+                    4.851916313171387,
+                    5.096883773803711
+                  ],
+                  [
+                    0.0,
+                    1.1999999284744263
+                  ]
+                ]
+              },
+              "column_cyan": {
+                "asset": "proc_column",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.9559,
+                  4.4901,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999783255843,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.805899977684021,
+                    2.1059000492095947
+                  ],
+                  [
+                    4.340099811553955,
+                    4.640100002288818
+                  ],
+                  [
+                    0.0,
+                    2.200000047683716
+                  ]
+                ]
+              },
+              "crate_red": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  7.4609,
+                  1.3662,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.999999985098839,
+                "native_bounds": [
+                  [
+                    -0.25,
+                    0.25
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    7.210899829864502,
+                    7.710899829864502
+                  ],
+                  [
+                    1.1661999225616455,
+                    1.5662000179290771
+                  ],
+                  [
+                    0.0,
+                    0.4000000059604645
+                  ]
+                ]
+              },
+              "stool_purple": {
+                "asset": "proc_stool",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  3.9887,
+                  4.4264,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0000000264909539,
+                "native_bounds": [
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    -0.17499999701976776,
+                    0.17499999701976776
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.813699960708618,
+                    4.163700103759766
+                  ],
+                  [
+                    4.251399993896484,
+                    4.601400375366211
+                  ],
+                  [
+                    0.0,
+                    0.44999998807907104
+                  ]
+                ]
+              },
+              "bin_gray": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  1.4877,
+                  4.0464,
+                  0.0
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    -0.20000000298023224,
+                    0.20000000298023224
+                  ],
+                  [
+                    0.0,
+                    0.6000000238418579
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.2876999378204346,
+                    1.6877000331878662
+                  ],
+                  [
+                    3.846400022506714,
+                    4.246399879455566
+                  ],
+                  [
+                    0.0,
+                    0.5999999642372131
+                  ]
+                ]
+              },
+              "monitor_gray": {
+                "asset": "computerscreen",
+                "asset_sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+                "position": [
+                  1.3517,
+                  0.3638,
+                  0.75
+                ],
+                "yaw": 180,
+                "uniform_scale": 1.4271869213990316,
+                "native_bounds": [
+                  [
+                    -1.4438228216156449e-15,
+                    0.39268800616264343
+                  ],
+                  [
+                    5.414335713407566e-16,
+                    0.10400399565696716
+                  ],
+                  [
+                    -8.014826700184745e-32,
+                    0.29428520798683167
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    1.0714802742004395,
+                    1.6319196224212646
+                  ],
+                  [
+                    0.2895834147930145,
+                    0.4380165636539459
+                  ],
+                  [
+                    0.75,
+                    1.1700000762939453
+                  ]
+                ]
+              },
+              "soccer_white": {
+                "asset": "proc_soccer",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1132,
+                  6.2568,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.000000005418604,
+                "native_bounds": [
+                  [
+                    -0.10999999195337296,
+                    0.10999999940395355
+                  ],
+                  [
+                    -0.10999999940395355,
+                    0.10999999940395355
+                  ],
+                  [
+                    0.0,
+                    0.2199999988079071
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    4.003200054168701,
+                    4.22320032119751
+                  ],
+                  [
+                    6.1468000411987305,
+                    6.366800308227539
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.1633000373840332
+                  ]
+                ]
+              },
+              "flowerpot_green": {
+                "asset": "plantsmall1",
+                "asset_sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+                "position": [
+                  3.757,
+                  6.2323,
+                  0.9433
+                ],
+                "yaw": 0,
+                "uniform_scale": 2.142857133733983,
+                "native_bounds": [
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    -0.04733036458492279,
+                    0.04733036458492279
+                  ],
+                  [
+                    0.0,
+                    0.14000000059604645
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.6555776596069336,
+                    3.85842227935791
+                  ],
+                  [
+                    6.130877494812012,
+                    6.333722114562988
+                  ],
+                  [
+                    0.9433000087738037,
+                    1.243299961090088
+                  ]
+                ]
+              },
+              "case_brown": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  8.4201,
+                  0.3218,
+                  0.55
+                ],
+                "yaw": 0,
+                "uniform_scale": 1.0,
+                "native_bounds": [
+                  [
+                    -0.22499999403953552,
+                    0.22499999403953552
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.25
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    8.195099830627441,
+                    8.645100593566895
+                  ],
+                  [
+                    0.17179998755455017,
+                    0.4717999994754791
+                  ],
+                  [
+                    0.550000011920929,
+                    0.800000011920929
+                  ]
+                ]
+              },
+              "box_yellow": {
+                "asset": "proc_storage",
+                "asset_sha256": "2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c",
+                "position": [
+                  4.1473,
+                  6.215,
+                  0.4867
+                ],
+                "yaw": 0,
+                "uniform_scale": 0.9999999602635717,
+                "native_bounds": [
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    -0.15000000596046448,
+                    0.15000000596046448
+                  ],
+                  [
+                    0.0,
+                    0.30000001192092896
+                  ]
+                ],
+                "world_bounds": [
+                  [
+                    3.9972996711730957,
+                    4.297299861907959
+                  ],
+                  [
+                    6.065000057220459,
+                    6.365000247955322
+                  ],
+                  [
+                    0.48669999837875366,
+                    0.7867000102996826
+                  ]
+                ]
+              }
+            }
+          },
+          "operation": {
+            "phase": "open_secondary_work_area",
+            "object": "crate_red",
+            "destination": [
+              0.8,
+              3.0,
+              0
+            ],
+            "instructions": "Move this floor object to the new secondary work area. Preserve the relocated table, restored payload offsets and all other objects."
+          },
+          "turns_left": 13,
+          "total_actions_left": 37
+        },
+        "n_images": 3
+      },
+      {
+        "turn": 6,
+        "stage": 2,
+        "action": {
+          "tool": "submit",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.9718, 6.225, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6439, 5.95, 0.0], 'yaw': 0}, 'desk_blue': {'position': [5.9025, 3.3173, 0.0], 'yaw': 0}, 'table_green': {'position': [1.5, 0.8, 0], 'yaw': 0}, 'deskchair_black': {'position': [6.063, 2.3897, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [3.8608, 3.5542, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [8.2976, 0.3199, 0.0], 'yaw': 0}, 'plant_pink': {'position': [0.2497, 2.2036, 0.0], 'yaw': 0}, 'lamp_white': {'position': [8.5739, 4.9744, 0.0], 'yaw': 0}, 'column_cyan': {'position': [1.9559, 4.4901, 0.0], 'yaw': 0}, 'crate_red': {'position': [0.8, 3.0, 0], 'yaw': 0}, 'stool_purple': {'position': [3.9887, 4.4264, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.4877, 4.0464, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [1.3517, 0.3638, 0.75], 'yaw': 180}, 'soccer_white': {'position': [4.1132, 6.2568, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.757, 6.2323, 0.9433], 'yaw': 0}, 'case_brown': {'position': [8.4201, 0.3218, 0.55], 'yaw': 0}, 'box_yellow': {'position': [4.1473, 6.215, 0.4867], 'yaw': 0}}"
+        },
+        "observation": {
+          "result": "submitted",
+          "total_actions_left": 36
+        },
+        "n_images": 0
+      }
+    ],
+    "scope": "Native endpoint episode and ordering controls; continuous transit has a separate certificate"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

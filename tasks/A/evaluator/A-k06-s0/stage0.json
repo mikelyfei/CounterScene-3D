@@ -1,0 +1,259 @@
+{
+  "gold": {
+    "cabinet_blue": {
+      "position": [
+        3.4931,
+        2.7,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "shelf_orange": {
+      "position": [
+        1.7905,
+        2.975,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "desk_blue": {
+      "position": [
+        0.8,
+        0.8,
+        0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        0.8277,
+        1.6794,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        2.1215,
+        1.3624,
+        0.0
+      ],
+      "yaw": 0
+    }
+  },
+  "task_internal": {
+    "experiment": "A",
+    "instance": "A-k06-s0",
+    "k": 6,
+    "room": [
+      4.25,
+      3.25,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "cabinet_blue",
+        "size": [
+          0.8600000370873355,
+          0.9,
+          0.9
+        ]
+      },
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "desk_blue",
+        "size": [
+          1.4330014647642915,
+          0.7653985881543368,
+          0.75
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "monitor_gray",
+        "size": [
+          0.560439186585589,
+          0.14843314237486446,
+          0.42
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "id": "operation_monitor_gray",
+        "type": "on_floor",
+        "args": [
+          "monitor_gray"
+        ],
+        "priority": "hard"
+      }
+    ],
+    "relation_types": [
+      "behind",
+      "between",
+      "distance",
+      "left_of",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": false,
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "initial": {
+      "cabinet_blue": {
+        "position": [
+          3.4931,
+          2.7,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "shelf_orange": {
+        "position": [
+          1.7905,
+          2.975,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "desk_blue": {
+        "position": [
+          2.1231,
+          1.5416,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          0.8277,
+          1.6794,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "monitor_gray": {
+        "position": [
+          2.1215,
+          1.3624,
+          0.75
+        ],
+        "yaw": 0
+      }
+    },
+    "locked": [
+      "cabinet_blue",
+      "column_cyan",
+      "shelf_orange"
+    ],
+    "show_live_installation": true,
+    "carry_all_previous_state": true,
+    "operation": {
+      "phase": "relocate_and_floor_stage",
+      "host": "desk_blue",
+      "payloads": [
+        "monitor_gray"
+      ],
+      "destination": {
+        "position": [
+          0.8,
+          0.8,
+          0
+        ],
+        "yaw": 0
+      },
+      "instructions": "Move the host to the destination and park payloads on the floor at their original XY positions."
+    }
+  },
+  "operation_targets": {
+    "desk_blue": {
+      "position": [
+        0.8,
+        0.8,
+        0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        2.1215,
+        1.3624,
+        0.0
+      ],
+      "yaw": 0
+    }
+  }
+}

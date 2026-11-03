@@ -1,0 +1,860 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 2,
+  "stage_executions": 2,
+  "stage_successes": 2,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "waypoints_ok": 3,
+      "waypoints": 3,
+      "segments_ok": 7,
+      "segments": 7,
+      "limits_ok": true,
+      "payload_ok": true,
+      "payload_report": {
+        "ok": true,
+        "problems": [],
+        "carry_segments": [
+          {
+            "from_keyframe": 2,
+            "to_keyframe": 3,
+            "ball": "ball_1",
+            "certified_clearance_m": 0.4903,
+            "floor_margin_m": 6e-05,
+            "closest": "ball_1 vs cabinet_1",
+            "ok": true
+          },
+          {
+            "from_keyframe": 3,
+            "to_keyframe": 4,
+            "ball": "ball_1",
+            "certified_clearance_m": 0.18492,
+            "floor_margin_m": 0.86991,
+            "closest": "ball_1 vs cabinet_1",
+            "ok": true
+          },
+          {
+            "from_keyframe": 4,
+            "to_keyframe": 5,
+            "ball": "ball_1",
+            "certified_clearance_m": 0.86804,
+            "floor_margin_m": 0.67989,
+            "closest": "ball_1 vs fixed post",
+            "ok": true
+          }
+        ],
+        "arm_vs_balls": [
+          {
+            "from_keyframe": 0,
+            "to_keyframe": 1,
+            "certified_clearance_m": 0.74507,
+            "closest": "link2 vs resting ball_1",
+            "ok": true
+          },
+          {
+            "from_keyframe": 6,
+            "to_keyframe": 7,
+            "certified_clearance_m": 0.06482,
+            "closest": "link2 vs resting ball_1",
+            "ok": true
+          }
+        ],
+        "events": [
+          {
+            "keyframe": 2,
+            "action": "grasp",
+            "ball": "ball_1"
+          },
+          {
+            "keyframe": 5,
+            "action": "release",
+            "ball": "ball_1"
+          }
+        ],
+        "model": "ideal kinematic grasp: an attached ball centre follows the tip; resting balls are static sphere obstacles; only the segment into a grasp and the segment out of a release may touch that ball; no grasp-force dynamics"
+      },
+      "joint_travel_deg": 346.03999999999996,
+      "min_certified_clearance_m": 0.03494434893916191,
+      "native_report": {
+        "ok": true,
+        "onward_ok": true,
+        "arm_ok": true,
+        "arm_report": {
+          "valid_output": true,
+          "problems": [],
+          "waypoints": [
+            {
+              "id": "pickup_ball_1",
+              "keyframe": 2,
+              "tip": [
+                1.584,
+                0.865,
+                0.08
+              ],
+              "error_m": 0.0001,
+              "ok": true
+            },
+            {
+              "id": "place_ball_1",
+              "keyframe": 5,
+              "tip": [
+                2.319,
+                0.969,
+                0.76
+              ],
+              "error_m": 0.0001,
+              "ok": true
+            },
+            {
+              "id": "onward",
+              "keyframe": 7,
+              "tip": [
+                2.341,
+                1.448,
+                1.019
+              ],
+              "error_m": 0.0,
+              "ok": true
+            }
+          ],
+          "segments": [
+            {
+              "from_keyframe": 0,
+              "to_keyframe": 1,
+              "min_clearance_m": 0.525,
+              "certified_margin_m": 0.52,
+              "closest": "link1 vs pedestal",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 1,
+              "to_keyframe": 2,
+              "min_clearance_m": 0.04,
+              "certified_margin_m": 0.035,
+              "closest": "link2 vs floor",
+              "at_t": 1.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 2,
+              "to_keyframe": 3,
+              "min_clearance_m": 0.04,
+              "certified_margin_m": 0.035,
+              "closest": "link2 vs floor",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 3,
+              "to_keyframe": 4,
+              "min_clearance_m": 0.22,
+              "certified_margin_m": 0.215,
+              "closest": "link2 vs cabinet_1",
+              "at_t": 0.771,
+              "ok": true
+            },
+            {
+              "from_keyframe": 4,
+              "to_keyframe": 5,
+              "min_clearance_m": 0.0299,
+              "certified_margin_m": 0.0251,
+              "closest": "link2 vs cabinet_1",
+              "at_t": 1.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 5,
+              "to_keyframe": 6,
+              "min_clearance_m": 0.0299,
+              "certified_margin_m": 0.0251,
+              "closest": "link2 vs cabinet_1",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 6,
+              "to_keyframe": 7,
+              "min_clearance_m": 0.22,
+              "certified_margin_m": 0.215,
+              "closest": "link2 vs cabinet_1",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 7,
+              "to_keyframe": 7,
+              "min_clearance_m": 0.4161,
+              "certified_margin_m": 0.4161,
+              "closest": "link2 vs cabinet_1",
+              "at_t": 0.0,
+              "ok": true
+            }
+          ],
+          "limits": [
+            {
+              "joint": 1,
+              "declared": [
+                -170.0,
+                170.0
+              ],
+              "hardware": [
+                -170,
+                170
+              ],
+              "ok": true
+            },
+            {
+              "joint": 2,
+              "declared": [
+                -30.0,
+                110.0
+              ],
+              "hardware": [
+                -30,
+                110
+              ],
+              "ok": true
+            },
+            {
+              "joint": 3,
+              "declared": [
+                -150.0,
+                150.0
+              ],
+              "hardware": [
+                -150,
+                150
+              ],
+              "ok": true
+            }
+          ],
+          "all_ok": true,
+          "mechanism": {
+            "base": [
+              1.8,
+              1.8
+            ],
+            "link_lengths": [
+              0.85,
+              0.65
+            ]
+          },
+          "payload": {
+            "ok": true,
+            "problems": [],
+            "carry_segments": [
+              {
+                "from_keyframe": 2,
+                "to_keyframe": 3,
+                "ball": "ball_1",
+                "certified_clearance_m": 0.4903,
+                "floor_margin_m": 6e-05,
+                "closest": "ball_1 vs cabinet_1",
+                "ok": true
+              },
+              {
+                "from_keyframe": 3,
+                "to_keyframe": 4,
+                "ball": "ball_1",
+                "certified_clearance_m": 0.18492,
+                "floor_margin_m": 0.86991,
+                "closest": "ball_1 vs cabinet_1",
+                "ok": true
+              },
+              {
+                "from_keyframe": 4,
+                "to_keyframe": 5,
+                "ball": "ball_1",
+                "certified_clearance_m": 0.86804,
+                "floor_margin_m": 0.67989,
+                "closest": "ball_1 vs fixed post",
+                "ok": true
+              }
+            ],
+            "arm_vs_balls": [
+              {
+                "from_keyframe": 0,
+                "to_keyframe": 1,
+                "certified_clearance_m": 0.74507,
+                "closest": "link2 vs resting ball_1",
+                "ok": true
+              },
+              {
+                "from_keyframe": 6,
+                "to_keyframe": 7,
+                "certified_clearance_m": 0.06482,
+                "closest": "link2 vs resting ball_1",
+                "ok": true
+              }
+            ],
+            "events": [
+              {
+                "keyframe": 2,
+                "action": "grasp",
+                "ball": "ball_1"
+              },
+              {
+                "keyframe": 5,
+                "action": "release",
+                "ball": "ball_1"
+              }
+            ],
+            "model": "ideal kinematic grasp: an attached ball centre follows the tip; resting balls are static sphere obstacles; only the segment into a grasp and the segment out of a release may touch that ball; no grasp-force dynamics"
+          }
+        },
+        "fixed": [
+          {
+            "obstacle": "cabinet_1",
+            "pedestal_gap_m": 0.5942368488122831,
+            "post_clearance_m": 0.7161288984148012,
+            "ok": true
+          },
+          {
+            "obstacle": "cabinet_2",
+            "pedestal_gap_m": 0.5942368488122827,
+            "post_clearance_m": 0.7161288984148009,
+            "ok": true
+          },
+          {
+            "ball": "ball_1",
+            "role": "pickup",
+            "pedestal_clearance_m": 0.7373358742946599,
+            "ok": true
+          },
+          {
+            "ball": "ball_1",
+            "role": "destination",
+            "pedestal_clearance_m": 1.0128279812964802,
+            "ok": true
+          }
+        ],
+        "segments": [
+          {
+            "segment": 0,
+            "certified_margin_m": 0.3871437443021158,
+            "closest": "connector link1",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 1,
+            "certified_margin_m": 0.03507132103927693,
+            "closest": "gripper floor",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 2,
+            "certified_margin_m": 0.03507132103927682,
+            "closest": "gripper floor",
+            "held_connector_clearance_m": 0.016183878613377965,
+            "ok": true
+          },
+          {
+            "segment": 3,
+            "certified_margin_m": 0.22491953082198293,
+            "closest": "gripper cabinet_1",
+            "held_connector_clearance_m": 0.016183456321726422,
+            "ok": true
+          },
+          {
+            "segment": 4,
+            "certified_margin_m": 0.03494434893916191,
+            "closest": "gripper cabinet_1",
+            "held_connector_clearance_m": 0.01622493578662853,
+            "ok": true
+          },
+          {
+            "segment": 5,
+            "certified_margin_m": 0.03494434893916191,
+            "closest": "gripper cabinet_1",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 6,
+            "certified_margin_m": 0.0649172029429319,
+            "closest": "gripper resting ball_1",
+            "held_connector_clearance_m": null,
+            "ok": true
+          }
+        ],
+        "scope": "Conservative enclosure certificate; requires separately verified rendered mesh enclosure; no force dynamics"
+      },
+      "scene_artifact": {
+        "sha256": "5126a517680e2f49d77a64aa59b0d249167a19e63cf2be9c25a07bfae768dee9",
+        "physical_q": [
+          -103.0,
+          58.23,
+          -93.22
+        ],
+        "enclosure": {
+          "keyframe": 3,
+          "mesh_counts": {
+            "ball": 1,
+            "fixture": 10,
+            "post": 1,
+            "gripper": 3,
+            "connector": 1,
+            "link1": 2,
+            "link2": 2,
+            "guide": 79,
+            "pedestal": 1
+          },
+          "max_enclosure_excess_m": 1.5532094366221827e-07
+        },
+        "ball_positions": {
+          "ball_1": null
+        }
+      }
+    },
+    {
+      "success": true,
+      "waypoints_ok": 3,
+      "waypoints": 3,
+      "segments_ok": 8,
+      "segments": 8,
+      "limits_ok": true,
+      "payload_ok": true,
+      "payload_report": {
+        "ok": true,
+        "problems": [],
+        "carry_segments": [
+          {
+            "from_keyframe": 2,
+            "to_keyframe": 3,
+            "ball": "ball_2",
+            "certified_clearance_m": 0.43725,
+            "floor_margin_m": 6e-05,
+            "closest": "ball_2 vs cabinet_1",
+            "ok": true
+          },
+          {
+            "from_keyframe": 3,
+            "to_keyframe": 4,
+            "ball": "ball_2",
+            "certified_clearance_m": 0.09492,
+            "floor_margin_m": 0.86991,
+            "closest": "ball_2 vs cabinet_2",
+            "ok": true
+          },
+          {
+            "from_keyframe": 4,
+            "to_keyframe": 5,
+            "ball": "ball_2",
+            "certified_clearance_m": 0.88646,
+            "floor_margin_m": 0.77004,
+            "closest": "ball_2 vs fixed post",
+            "ok": true
+          }
+        ],
+        "arm_vs_balls": [
+          {
+            "from_keyframe": 0,
+            "to_keyframe": 1,
+            "certified_clearance_m": 0.74505,
+            "closest": "link2 vs resting ball_2",
+            "ok": true
+          },
+          {
+            "from_keyframe": 6,
+            "to_keyframe": 7,
+            "certified_clearance_m": 0.08493,
+            "closest": "link2 vs resting ball_2",
+            "ok": true
+          },
+          {
+            "from_keyframe": 7,
+            "to_keyframe": 8,
+            "certified_clearance_m": 0.33633,
+            "closest": "link2 vs resting ball_2",
+            "ok": true
+          }
+        ],
+        "events": [
+          {
+            "keyframe": 2,
+            "action": "grasp",
+            "ball": "ball_2"
+          },
+          {
+            "keyframe": 5,
+            "action": "release",
+            "ball": "ball_2"
+          }
+        ],
+        "model": "ideal kinematic grasp: an attached ball centre follows the tip; resting balls are static sphere obstacles; only the segment into a grasp and the segment out of a release may touch that ball; no grasp-force dynamics"
+      },
+      "joint_travel_deg": 322.48,
+      "min_certified_clearance_m": 0.03507132103927682,
+      "native_report": {
+        "ok": true,
+        "onward_ok": true,
+        "arm_ok": true,
+        "arm_report": {
+          "valid_output": true,
+          "problems": [],
+          "waypoints": [
+            {
+              "id": "pickup_ball_2",
+              "keyframe": 2,
+              "tip": [
+                2.735,
+                1.584,
+                0.08
+              ],
+              "error_m": 0.0001,
+              "ok": true
+            },
+            {
+              "id": "place_ball_2",
+              "keyframe": 5,
+              "tip": [
+                2.631,
+                2.319,
+                0.85
+              ],
+              "error_m": 0.0001,
+              "ok": true
+            },
+            {
+              "id": "onward",
+              "keyframe": 8,
+              "tip": [
+                2.152,
+                2.341,
+                1.019
+              ],
+              "error_m": 0.0,
+              "ok": true
+            }
+          ],
+          "segments": [
+            {
+              "from_keyframe": 0,
+              "to_keyframe": 1,
+              "min_clearance_m": 0.3878,
+              "certified_margin_m": 0.3828,
+              "closest": "link2 vs ball_1",
+              "at_t": 0.043,
+              "ok": true
+            },
+            {
+              "from_keyframe": 1,
+              "to_keyframe": 2,
+              "min_clearance_m": 0.04,
+              "certified_margin_m": 0.035,
+              "closest": "link2 vs floor",
+              "at_t": 1.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 2,
+              "to_keyframe": 3,
+              "min_clearance_m": 0.04,
+              "certified_margin_m": 0.035,
+              "closest": "link2 vs floor",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 3,
+              "to_keyframe": 4,
+              "min_clearance_m": 0.13,
+              "certified_margin_m": 0.125,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 0.771,
+              "ok": true
+            },
+            {
+              "from_keyframe": 4,
+              "to_keyframe": 5,
+              "min_clearance_m": 0.0301,
+              "certified_margin_m": 0.0252,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 1.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 5,
+              "to_keyframe": 6,
+              "min_clearance_m": 0.0301,
+              "certified_margin_m": 0.0251,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 6,
+              "to_keyframe": 7,
+              "min_clearance_m": 0.24,
+              "certified_margin_m": 0.2351,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 0.0,
+              "ok": true
+            },
+            {
+              "from_keyframe": 7,
+              "to_keyframe": 8,
+              "min_clearance_m": 0.2959,
+              "certified_margin_m": 0.2909,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 0.205,
+              "ok": true
+            },
+            {
+              "from_keyframe": 8,
+              "to_keyframe": 8,
+              "min_clearance_m": 0.3553,
+              "certified_margin_m": 0.3553,
+              "closest": "link2 vs cabinet_2",
+              "at_t": 0.0,
+              "ok": true
+            }
+          ],
+          "limits": [
+            {
+              "joint": 1,
+              "declared": [
+                -170.0,
+                170.0
+              ],
+              "hardware": [
+                -170,
+                170
+              ],
+              "ok": true
+            },
+            {
+              "joint": 2,
+              "declared": [
+                -30.0,
+                110.0
+              ],
+              "hardware": [
+                -30,
+                110
+              ],
+              "ok": true
+            },
+            {
+              "joint": 3,
+              "declared": [
+                -150.0,
+                150.0
+              ],
+              "hardware": [
+                -150,
+                150
+              ],
+              "ok": true
+            }
+          ],
+          "all_ok": true,
+          "mechanism": {
+            "base": [
+              1.8,
+              1.8
+            ],
+            "link_lengths": [
+              0.85,
+              0.65
+            ]
+          },
+          "payload": {
+            "ok": true,
+            "problems": [],
+            "carry_segments": [
+              {
+                "from_keyframe": 2,
+                "to_keyframe": 3,
+                "ball": "ball_2",
+                "certified_clearance_m": 0.43725,
+                "floor_margin_m": 6e-05,
+                "closest": "ball_2 vs cabinet_1",
+                "ok": true
+              },
+              {
+                "from_keyframe": 3,
+                "to_keyframe": 4,
+                "ball": "ball_2",
+                "certified_clearance_m": 0.09492,
+                "floor_margin_m": 0.86991,
+                "closest": "ball_2 vs cabinet_2",
+                "ok": true
+              },
+              {
+                "from_keyframe": 4,
+                "to_keyframe": 5,
+                "ball": "ball_2",
+                "certified_clearance_m": 0.88646,
+                "floor_margin_m": 0.77004,
+                "closest": "ball_2 vs fixed post",
+                "ok": true
+              }
+            ],
+            "arm_vs_balls": [
+              {
+                "from_keyframe": 0,
+                "to_keyframe": 1,
+                "certified_clearance_m": 0.74505,
+                "closest": "link2 vs resting ball_2",
+                "ok": true
+              },
+              {
+                "from_keyframe": 6,
+                "to_keyframe": 7,
+                "certified_clearance_m": 0.08493,
+                "closest": "link2 vs resting ball_2",
+                "ok": true
+              },
+              {
+                "from_keyframe": 7,
+                "to_keyframe": 8,
+                "certified_clearance_m": 0.33633,
+                "closest": "link2 vs resting ball_2",
+                "ok": true
+              }
+            ],
+            "events": [
+              {
+                "keyframe": 2,
+                "action": "grasp",
+                "ball": "ball_2"
+              },
+              {
+                "keyframe": 5,
+                "action": "release",
+                "ball": "ball_2"
+              }
+            ],
+            "model": "ideal kinematic grasp: an attached ball centre follows the tip; resting balls are static sphere obstacles; only the segment into a grasp and the segment out of a release may touch that ball; no grasp-force dynamics"
+          }
+        },
+        "fixed": [
+          {
+            "obstacle": "cabinet_1",
+            "pedestal_gap_m": 0.5942368488122831,
+            "post_clearance_m": 0.7161288984148012,
+            "ok": true
+          },
+          {
+            "obstacle": "cabinet_2",
+            "pedestal_gap_m": 0.5942368488122827,
+            "post_clearance_m": 0.7161288984148009,
+            "ok": true
+          },
+          {
+            "obstacle": "ball_1",
+            "pedestal_gap_m": 0.9590285826496534,
+            "post_clearance_m": 0.8287421313000359,
+            "ok": true
+          },
+          {
+            "ball": "ball_2",
+            "role": "pickup",
+            "pedestal_clearance_m": 0.7373358742946597,
+            "ok": true
+          },
+          {
+            "ball": "ball_2",
+            "role": "destination",
+            "pedestal_clearance_m": 1.0752804839970853,
+            "ok": true
+          }
+        ],
+        "segments": [
+          {
+            "segment": 0,
+            "certified_margin_m": 0.384345812298808,
+            "closest": "gripper link1",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 1,
+            "certified_margin_m": 0.03507132103927693,
+            "closest": "gripper floor",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 2,
+            "certified_margin_m": 0.03507132103927682,
+            "closest": "gripper floor",
+            "held_connector_clearance_m": 0.016183878613377993,
+            "ok": true
+          },
+          {
+            "segment": 3,
+            "certified_margin_m": 0.13491953082198296,
+            "closest": "gripper cabinet_2",
+            "held_connector_clearance_m": 0.016183456321726408,
+            "ok": true
+          },
+          {
+            "segment": 4,
+            "certified_margin_m": 0.035179347883771084,
+            "closest": "gripper cabinet_2",
+            "held_connector_clearance_m": 0.01631290650489133,
+            "ok": true
+          },
+          {
+            "segment": 5,
+            "certified_margin_m": 0.03507171924656477,
+            "closest": "gripper cabinet_2",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 6,
+            "certified_margin_m": 0.08499034258374615,
+            "closest": "gripper resting ball_2",
+            "held_connector_clearance_m": null,
+            "ok": true
+          },
+          {
+            "segment": 7,
+            "certified_margin_m": 0.2550885601431434,
+            "closest": "gripper cabinet_2",
+            "held_connector_clearance_m": null,
+            "ok": true
+          }
+        ],
+        "scope": "Conservative enclosure certificate; requires separately verified rendered mesh enclosure; no force dynamics"
+      },
+      "scene_artifact": {
+        "sha256": "b6aefab4b35893310cfb4b2460bf8ff67bdcdf102de9413f4ca0ef80a506fc55",
+        "physical_q": [
+          -13.0,
+          58.23,
+          -93.22
+        ],
+        "enclosure": {
+          "keyframe": 3,
+          "mesh_counts": {
+            "ball": 1,
+            "fixture": 10,
+            "post": 1,
+            "gripper": 3,
+            "connector": 1,
+            "link1": 2,
+            "link2": 2,
+            "guide": 80,
+            "pedestal": 1,
+            "released_ball": 1
+          },
+          "max_enclosure_excess_m": 1.5532094366221827e-07
+        },
+        "ball_positions": {
+          "ball_2": null
+        }
+      }
+    }
+  ]
+}

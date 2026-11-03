@@ -1,0 +1,2 @@
+{"tool": "capture_reference"}
+{"tool": "submit", "source": "def build(public_params):\n    return {'desk_blue': {'position': [1.5702, 1.7849, 0.0], 'yaw': 0, 'size': [1.297218, 0.692874, 0.678934]}, 'lamp_white': {'position': [0.2259, 0.3015, 0.0], 'yaw': 0, 'size': [0.211875, 0.244652, 1.198456]}, 'crate_red': {'position': [3.455, 0.8383, 0.0], 'yaw': 0, 'size': [0.58005, 0.46404, 0.46404]}, 'bin_gray': {'position': [0.5721, 2.2635, 0.0], 'yaw': 0, 'size': [0.324327, 0.324327, 0.486491]}}"}

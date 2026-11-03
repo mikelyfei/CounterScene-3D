@@ -1,0 +1,131 @@
+{
+  "scope": "Unedited native renders arranged into manuscript montages. Diagram text describes implemented contracts; performance cells count actual primary runs. Image hashes bind source views; no local artifact paths are published.",
+  "sources": [
+    {
+      "instance": "A-k34-s0",
+      "stage": 1,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "ead7fde0dcddfb95d5000dc0b42c2e5a33b74d436a7e0080d95b9595890077eb"
+    },
+    {
+      "instance": "A-k34-s0",
+      "stage": 2,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "4fd0ed06163db738fbcdf1717b5064aac77a8de75c2fb9118b937496a1012eeb"
+    },
+    {
+      "instance": "A-k34-s0",
+      "stage": 3,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "8a599515623e6a71a22fcfb9fb298587a58df9a9b89c368bba18ae47661feb3b"
+    },
+    {
+      "instance": "B-L3-s0",
+      "stage": 1,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "8a94524ebdab24aa719c3e909e622cbac171e2637f88df9b2701b3a1bb0813ca"
+    },
+    {
+      "instance": "B-L3-s0",
+      "stage": 2,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "47a0f76219852ec4666e745aad6f33e05915849403c6aa62bcb8367d73f20156"
+    },
+    {
+      "instance": "B-L3-s0",
+      "stage": 3,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "2c37e9b24511f508b869dac505e05a0ccfe25b853e0cf47b9c85443106a95b01"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 1,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "9102a374d2e05eddedec7b44090a5c72979002ac33ea1f9a2e6f075b3dc6030c"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 2,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "a31b660834e4200d3eef02ee26804f957e7a6fef47ddfbf0f1f7c7551c6a5251"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 3,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "6cc47b6ca82df53d51851ab1a900f03ad29f79e5ddc748739ab88cfa0406855e"
+    },
+    {
+      "instance": "E-L3-s0",
+      "stage": 1,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "b7cd31edccee70719a6e8412dc10b25ea28493edf9b45f4cf12a1b0af24a54bb"
+    },
+    {
+      "instance": "E-L3-s0",
+      "stage": 2,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "746a73ff24be7fa827f61fcf717a187a6af229bf76f06635e01356860521178c"
+    },
+    {
+      "instance": "E-L3-s0",
+      "stage": 3,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "483eda79ff354cdf11491524ae0724e10b28713241e4c6bef49a6c8df98dbc4a"
+    },
+    {
+      "instance": "D-L3-s0",
+      "stage": 1,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "ca7c17ddbef5ce96f5fc512019546bf5ccd93d1d6f81d7b198001bc800f050a4"
+    },
+    {
+      "instance": "D-L3-s0",
+      "stage": 2,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "a86d48a0021bc8d3272b357a6c7e07fba019fdca720f61e20bdb4d1758ee6d33"
+    },
+    {
+      "instance": "D-L3-s0",
+      "stage": 3,
+      "role": "offline_gold",
+      "camera": "front_left",
+      "image_sha256": "862a3d53b5be00a9b2f26ef97056a3e43a2d7232bd1b61dae7f08a0375c44680"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 3,
+      "role": "Gold",
+      "camera": "front_left",
+      "image_sha256": "6cc47b6ca82df53d51851ab1a900f03ad29f79e5ddc748739ab88cfa0406855e"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 3,
+      "role": "GPT",
+      "camera": "front_left",
+      "image_sha256": "d63e4a722c2cb324ce6d620e08aec8e4772f3564e96eb602f0a8551fd246ac6d"
+    },
+    {
+      "instance": "C-L3-s0",
+      "stage": 3,
+      "role": "Claude",
+      "camera": "front_left",
+      "image_sha256": "e1d95b3082685bcf7c6b942ac4c348e32ff8dc52cc744c6be160a6d88c17f5ed"
+    }
+  ]
+}

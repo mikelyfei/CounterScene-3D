@@ -1,0 +1,2099 @@
+{
+  "instance": "E-L3-s1",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "379e31d862d07d43257590b903267fe7da820b6deff69bc05c9bfdd1e9e4357a",
+  "sanitized_evidence_excerpt": {
+    "transitions": [
+      {
+        "from_stage": 0,
+        "to_stage": 1,
+        "physical_event": null,
+        "before_event": {
+          "shelf_orange": {
+            "position": [
+              1.9492,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              5.6629,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              3.1421,
+              2.4212,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              5.4799,
+              3.1136,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.3809,
+              2.2043,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "chair_cyan": {
+            "position": [
+              5.417,
+              2.168,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              4.5933,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "plant_pink": {
+            "position": [
+              7.8503,
+              1.8142,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              3.1383,
+              2.4626,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              5.9753,
+              1.2763,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              2.09,
+              4.7533,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.5201,
+              3.443,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              5.3645,
+              3.1714,
+              0.75
+            ],
+            "yaw": 0
+          },
+          "soccer_white": {
+            "position": [
+              1.7713,
+              5.7089,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              1.7685,
+              5.7624,
+              0.4867
+            ],
+            "yaw": 90
+          },
+          "case_brown": {
+            "position": [
+              5.8048,
+              2.9119,
+              0.75
+            ],
+            "yaw": 90
+          }
+        },
+        "after_event": {
+          "shelf_orange": {
+            "position": [
+              1.9492,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              5.6629,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              3.1421,
+              2.4212,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              5.4799,
+              3.1136,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.3809,
+              2.2043,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "chair_cyan": {
+            "position": [
+              5.417,
+              2.168,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              4.5933,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "plant_pink": {
+            "position": [
+              7.8503,
+              1.8142,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              3.1383,
+              2.4626,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              5.9753,
+              1.2763,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              2.09,
+              4.7533,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.5201,
+              3.443,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              5.3645,
+              3.1714,
+              0.75
+            ],
+            "yaw": 0
+          },
+          "soccer_white": {
+            "position": [
+              1.7713,
+              5.7089,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              1.7685,
+              5.7624,
+              0.4867
+            ],
+            "yaw": 90
+          },
+          "case_brown": {
+            "position": [
+              5.8048,
+              2.9119,
+              0.75
+            ],
+            "yaw": 90
+          }
+        },
+        "committed_action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [1.9492, 5.725, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6629, 5.45, 0.0], 'yaw': 0}, 'desk_blue': {'position': [3.1421, 2.4212, 0.0], 'yaw': 0}, 'table_green': {'position': [5.4799, 3.1136, 0.0], 'yaw': 0}, 'deskchair_black': {'position': [3.3809, 2.2043, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [5.417, 2.168, 0.0], 'yaw': 180}, 'sidetable_brown': {'position': [7.5976, 4.5933, 0.0], 'yaw': 0}, 'plant_pink': {'position': [7.8503, 1.8142, 0.0], 'yaw': 0}, 'column_cyan': {'position': [3.1383, 2.4626, 0.0], 'yaw': 0}, 'crate_red': {'position': [5.9753, 1.2763, 0.0], 'yaw': 0}, 'stool_purple': {'position': [2.09, 4.7533, 0.0], 'yaw': 0}, 'bin_gray': {'position': [4.5201, 3.443, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [5.3645, 3.1714, 0.75], 'yaw': 0}, 'soccer_white': {'position': [1.7713, 5.7089, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [1.7685, 5.7624, 0.4867], 'yaw': 90}, 'case_brown': {'position': [5.8048, 2.9119, 0.75], 'yaw': 90}}",
+          "infeasible": [],
+          "checker_issues": [
+            {
+              "id": "c07",
+              "issue": "false_fail",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c09",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "no_interpenetration:case_brown+table_green",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            }
+          ]
+        },
+        "committed_result": {
+          "success": true,
+          "true_satisfied": 12,
+          "total": 12,
+          "physical": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "overtrust": [],
+          "conflicts_resolved": {
+            "pairs": [
+              1,
+              2
+            ],
+            "clusters": [
+              0,
+              1
+            ]
+          },
+          "conflict_count": 5,
+          "clean_disturbed": [],
+          "detect_tp": 3,
+          "detect_fp": 0,
+          "detect_fn": 0,
+          "edit": {
+            "moved": [
+              "case_brown"
+            ],
+            "n_moved": 1,
+            "displacement_m": 0.043
+          },
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [
+              {
+                "id": "c07",
+                "type": "on_shelf",
+                "args": [
+                  "soccer_white",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c09",
+                "type": "between",
+                "args": [
+                  "soccer_white",
+                  "flowerpot_green",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 0.0136
+              },
+              {
+                "id": "c10",
+                "type": "between",
+                "args": [
+                  "soccer_white",
+                  "cabinet_blue",
+                  "flowerpot_green"
+                ],
+                "satisfied": true,
+                "value": 0.0531
+              },
+              {
+                "id": "c13",
+                "type": "appears_left_of",
+                "args": [
+                  "crate_red",
+                  "cabinet_blue"
+                ],
+                "satisfied": true,
+                "value": 0.5529526821490075,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c15",
+                "type": "facing",
+                "args": [
+                  "sidetable_brown",
+                  "crate_red"
+                ],
+                "satisfied": true,
+                "value": 26.0626
+              },
+              {
+                "id": "c16",
+                "type": "distance",
+                "args": [
+                  "plant_pink",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 6.4668
+              },
+              {
+                "id": "c19",
+                "type": "appears_left_of",
+                "args": [
+                  "plant_pink",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 0.3285940724102945,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c20",
+                "type": "appears_larger_than",
+                "args": [
+                  "case_brown",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 1.7777777777777777,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c21",
+                "type": "behind",
+                "args": [
+                  "cabinet_blue",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 0.0717
+              },
+              {
+                "id": "c22",
+                "type": "distance",
+                "args": [
+                  "chair_cyan",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 3.2615
+              },
+              {
+                "id": "c24",
+                "type": "left_of",
+                "args": [
+                  "flowerpot_green",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 3.2144
+              },
+              {
+                "id": "c26",
+                "type": "aligned_x",
+                "args": [
+                  "flowerpot_green",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.0028
+              }
+            ],
+            "physical": [
+              {
+                "check": "seat_faces_work_surface",
+                "objects": [
+                  "deskchair_black",
+                  "desk_blue"
+                ]
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "deskchair_black"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "all_satisfied": false,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "stage_scope": {
+            "valid_output": true,
+            "pending_collisions": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "deskchair_black"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "pending_issues": [
+              {
+                "check": "seat_faces_work_surface",
+                "objects": [
+                  "deskchair_black",
+                  "desk_blue"
+                ]
+              }
+            ],
+            "violations": []
+          },
+          "locked_moved": [],
+          "completion_witness_valid": true,
+          "continuation_status": "witnessed_by_fixed_gold",
+          "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+          "scene_artifact": {
+            "sha256": "94e39b83c4557e78dad133f96aa38f4d82f7f359b6ef99e56d0c2df04d7d8a50",
+            "instance_ids": [
+              "bin_gray",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+        "environment_changed_objects": []
+      },
+      {
+        "from_stage": 1,
+        "to_stage": 2,
+        "physical_event": null,
+        "before_event": {
+          "shelf_orange": {
+            "position": [
+              1.9492,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              5.6629,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              3.1421,
+              2.4212,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              5.4799,
+              3.1136,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.3809,
+              2.2043,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "chair_cyan": {
+            "position": [
+              5.417,
+              2.168,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              4.5933,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "plant_pink": {
+            "position": [
+              7.8503,
+              1.8142,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              3.1383,
+              2.4626,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              5.9753,
+              1.2763,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              2.09,
+              4.7533,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              1.9575,
+              3.443,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              5.3645,
+              3.1714,
+              0.75
+            ],
+            "yaw": 0
+          },
+          "soccer_white": {
+            "position": [
+              1.7713,
+              5.7089,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              1.7685,
+              5.7624,
+              0.4867
+            ],
+            "yaw": 90
+          },
+          "case_brown": {
+            "position": [
+              5.8048,
+              2.9119,
+              0.75
+            ],
+            "yaw": 90
+          }
+        },
+        "after_event": {
+          "shelf_orange": {
+            "position": [
+              1.9492,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              5.6629,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              3.1421,
+              2.4212,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              5.4799,
+              3.1136,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.3809,
+              2.2043,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "chair_cyan": {
+            "position": [
+              5.417,
+              2.168,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              4.5933,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "plant_pink": {
+            "position": [
+              7.8503,
+              1.8142,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              3.1383,
+              2.4626,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              5.9753,
+              1.2763,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              2.09,
+              4.7533,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              1.9575,
+              3.443,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              5.3645,
+              3.1714,
+              0.75
+            ],
+            "yaw": 0
+          },
+          "soccer_white": {
+            "position": [
+              1.7713,
+              5.7089,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              1.7685,
+              5.7624,
+              0.4867
+            ],
+            "yaw": 90
+          },
+          "case_brown": {
+            "position": [
+              5.8048,
+              2.9119,
+              0.75
+            ],
+            "yaw": 90
+          }
+        },
+        "committed_action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [1.9492, 5.725, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [5.6629, 5.45, 0.0], 'yaw': 0}, 'desk_blue': {'position': [3.1421, 2.4212, 0.0], 'yaw': 0}, 'table_green': {'position': [5.4799, 3.1136, 0.0], 'yaw': 0}, 'deskchair_black': {'position': [3.3809, 2.2043, 0.0], 'yaw': 180}, 'chair_cyan': {'position': [5.417, 2.168, 0.0], 'yaw': 180}, 'sidetable_brown': {'position': [7.5976, 4.5933, 0.0], 'yaw': 0}, 'plant_pink': {'position': [7.8503, 1.8142, 0.0], 'yaw': 0}, 'column_cyan': {'position': [3.1383, 2.4626, 0.0], 'yaw': 0}, 'crate_red': {'position': [5.9753, 1.2763, 0.0], 'yaw': 0}, 'stool_purple': {'position': [2.09, 4.7533, 0.0], 'yaw': 0}, 'bin_gray': {'position': [1.9575, 3.443, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [5.3645, 3.1714, 0.75], 'yaw': 0}, 'soccer_white': {'position': [1.7713, 5.7089, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [1.7685, 5.7624, 0.4867], 'yaw': 90}, 'case_brown': {'position': [5.8048, 2.9119, 0.75], 'yaw': 90}}",
+          "infeasible": [],
+          "checker_issues": [
+            {
+              "id": "c17",
+              "issue": "false_pass",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c01",
+              "issue": "false_fail",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c04",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "no_interpenetration:bin_gray+table_green",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            }
+          ]
+        },
+        "committed_result": {
+          "success": true,
+          "true_satisfied": 17,
+          "total": 17,
+          "physical": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "overtrust": [],
+          "conflicts_resolved": {
+            "pairs": [
+              2,
+              2
+            ],
+            "clusters": [
+              0,
+              1
+            ]
+          },
+          "conflict_count": 5,
+          "clean_disturbed": [],
+          "detect_tp": 4,
+          "detect_fp": 0,
+          "detect_fn": 0,
+          "edit": {
+            "moved": [
+              "bin_gray"
+            ],
+            "n_moved": 1,
+            "displacement_m": 2.5626
+          },
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [
+              {
+                "id": "c01",
+                "type": "right_of",
+                "args": [
+                  "sidetable_brown",
+                  "bin_gray"
+                ],
+                "satisfied": true,
+                "value": 5.0577
+              },
+              {
+                "id": "c04",
+                "type": "on_top_of",
+                "args": [
+                  "case_brown",
+                  "table_green"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c05",
+                "type": "between",
+                "args": [
+                  "soccer_white",
+                  "bin_gray",
+                  "flowerpot_green"
+                ],
+                "satisfied": true,
+                "value": 0.0016
+              },
+              {
+                "id": "c06",
+                "type": "on_top_of",
+                "args": [
+                  "monitor_gray",
+                  "table_green"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c07",
+                "type": "on_shelf",
+                "args": [
+                  "soccer_white",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c09",
+                "type": "between",
+                "args": [
+                  "soccer_white",
+                  "flowerpot_green",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 0.0136
+              },
+              {
+                "id": "c10",
+                "type": "between",
+                "args": [
+                  "soccer_white",
+                  "cabinet_blue",
+                  "flowerpot_green"
+                ],
+                "satisfied": true,
+                "value": 0.0531
+              },
+              {
+                "id": "c13",
+                "type": "appears_left_of",
+                "args": [
+                  "crate_red",
+                  "cabinet_blue"
+                ],
+                "satisfied": true,
+                "value": 0.5529526821490075,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c15",
+                "type": "facing",
+                "args": [
+                  "sidetable_brown",
+                  "crate_red"
+                ],
+                "satisfied": true,
+                "value": 26.0626
+              },
+              {
+                "id": "c16",
+                "type": "distance",
+                "args": [
+                  "plant_pink",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 6.4668
+              },
+              {
+                "id": "c17",
+                "type": "aligned_x",
+                "args": [
+                  "bin_gray",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": 0.0083
+              },
+              {
+                "id": "c19",
+                "type": "appears_left_of",
+                "args": [
+                  "plant_pink",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 0.3285940724102945,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c20",
+                "type": "appears_larger_than",
+                "args": [
+                  "case_brown",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 1.7777777777777777,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c21",
+                "type": "behind",
+                "args": [
+                  "cabinet_blue",
+                  "stool_purple"
+                ],
+                "satisfied": true,
+                "value": 0.0717
+              },
+              {
+                "id": "c22",
+                "type": "distance",
+                "args": [
+                  "chair_cyan",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 3.2615
+              },
+              {
+                "id": "c24",
+                "type": "left_of",
+                "args": [
+                  "flowerpot_green",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 3.2144
+              },
+              {
+                "id": "c26",
+                "type": "aligned_x",
+                "args": [
+                  "flowerpot_green",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.0028
+              }
+            ],
+            "physical": [
+              {
+                "check": "seat_faces_work_surface",
+                "objects": [
+                  "deskchair_black",
+                  "desk_blue"
+                ]
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "deskchair_black"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "all_satisfied": false,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "stage_scope": {
+            "valid_output": true,
+            "pending_collisions": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "deskchair_black"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "desk_blue",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "pending_issues": [
+              {
+                "check": "seat_faces_work_surface",
+                "objects": [
+                  "deskchair_black",
+                  "desk_blue"
+                ]
+              }
+            ],
+            "violations": []
+          },
+          "locked_moved": [],
+          "completion_witness_valid": true,
+          "continuation_status": "witnessed_by_fixed_gold",
+          "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+          "scene_artifact": {
+            "sha256": "d7d4d416536eba9ec2baab5aa5d84900032c10112a005df27aeef45009dbb0ba",
+            "instance_ids": [
+              "bin_gray",
+              "cabinet_blue",
+              "case_brown",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "monitor_gray",
+              "plant_pink",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+        "environment_changed_objects": []
+      }
+    ],
+    "candidate_audits": [
+      {
+        "turn": 2,
+        "stage": 0,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 12,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 5,
+        "constraint_satisfied": 12,
+        "constraint_total": 12
+      },
+      {
+        "turn": 4,
+        "stage": 1,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 16,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 4,
+        "constraint_satisfied": 17,
+        "constraint_total": 17
+      },
+      {
+        "turn": 6,
+        "stage": 2,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 22,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 0,
+        "constraint_satisfied": 26,
+        "constraint_total": 26
+      }
+    ],
+    "execution_valid": true,
+    "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+    "native_schema_valid": true,
+    "stage_results": [
+      {
+        "success": true,
+        "true_satisfied": 12,
+        "total": 12,
+        "physical": [
+          {
+            "check": "seat_faces_work_surface",
+            "objects": [
+              "deskchair_black",
+              "desk_blue"
+            ]
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "deskchair_black"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 3,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "case_brown"
+          ],
+          "n_moved": 1,
+          "displacement_m": 0.043
+        },
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [
+            {
+              "id": "c07",
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c09",
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "flowerpot_green",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 0.0136
+            },
+            {
+              "id": "c10",
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "cabinet_blue",
+                "flowerpot_green"
+              ],
+              "satisfied": true,
+              "value": 0.0531
+            },
+            {
+              "id": "c13",
+              "type": "appears_left_of",
+              "args": [
+                "crate_red",
+                "cabinet_blue"
+              ],
+              "satisfied": true,
+              "value": 0.5529526821490075,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c15",
+              "type": "facing",
+              "args": [
+                "sidetable_brown",
+                "crate_red"
+              ],
+              "satisfied": true,
+              "value": 26.0626
+            },
+            {
+              "id": "c16",
+              "type": "distance",
+              "args": [
+                "plant_pink",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 6.4668
+            },
+            {
+              "id": "c19",
+              "type": "appears_left_of",
+              "args": [
+                "plant_pink",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 0.3285940724102945,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c20",
+              "type": "appears_larger_than",
+              "args": [
+                "case_brown",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 1.7777777777777777,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c21",
+              "type": "behind",
+              "args": [
+                "cabinet_blue",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 0.0717
+            },
+            {
+              "id": "c22",
+              "type": "distance",
+              "args": [
+                "chair_cyan",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 3.2615
+            },
+            {
+              "id": "c24",
+              "type": "left_of",
+              "args": [
+                "flowerpot_green",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 3.2144
+            },
+            {
+              "id": "c26",
+              "type": "aligned_x",
+              "args": [
+                "flowerpot_green",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.0028
+            }
+          ],
+          "physical": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "all_satisfied": false,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "stage_scope": {
+          "valid_output": true,
+          "pending_collisions": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "pending_issues": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            }
+          ],
+          "violations": []
+        },
+        "locked_moved": [],
+        "completion_witness_valid": true,
+        "continuation_status": "witnessed_by_fixed_gold",
+        "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+        "scene_artifact": {
+          "sha256": "94e39b83c4557e78dad133f96aa38f4d82f7f359b6ef99e56d0c2df04d7d8a50",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "case_brown",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "monitor_gray",
+            "plant_pink",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      },
+      {
+        "success": true,
+        "true_satisfied": 17,
+        "total": 17,
+        "physical": [
+          {
+            "check": "seat_faces_work_surface",
+            "objects": [
+              "deskchair_black",
+              "desk_blue"
+            ]
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "deskchair_black"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "bin_gray"
+          ],
+          "n_moved": 1,
+          "displacement_m": 2.5626
+        },
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [
+            {
+              "id": "c01",
+              "type": "right_of",
+              "args": [
+                "sidetable_brown",
+                "bin_gray"
+              ],
+              "satisfied": true,
+              "value": 5.0577
+            },
+            {
+              "id": "c04",
+              "type": "on_top_of",
+              "args": [
+                "case_brown",
+                "table_green"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c05",
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "bin_gray",
+                "flowerpot_green"
+              ],
+              "satisfied": true,
+              "value": 0.0016
+            },
+            {
+              "id": "c06",
+              "type": "on_top_of",
+              "args": [
+                "monitor_gray",
+                "table_green"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c07",
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c09",
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "flowerpot_green",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 0.0136
+            },
+            {
+              "id": "c10",
+              "type": "between",
+              "args": [
+                "soccer_white",
+                "cabinet_blue",
+                "flowerpot_green"
+              ],
+              "satisfied": true,
+              "value": 0.0531
+            },
+            {
+              "id": "c13",
+              "type": "appears_left_of",
+              "args": [
+                "crate_red",
+                "cabinet_blue"
+              ],
+              "satisfied": true,
+              "value": 0.5529526821490075,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c15",
+              "type": "facing",
+              "args": [
+                "sidetable_brown",
+                "crate_red"
+              ],
+              "satisfied": true,
+              "value": 26.0626
+            },
+            {
+              "id": "c16",
+              "type": "distance",
+              "args": [
+                "plant_pink",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 6.4668
+            },
+            {
+              "id": "c17",
+              "type": "aligned_x",
+              "args": [
+                "bin_gray",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": 0.0083
+            },
+            {
+              "id": "c19",
+              "type": "appears_left_of",
+              "args": [
+                "plant_pink",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 0.3285940724102945,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c20",
+              "type": "appears_larger_than",
+              "args": [
+                "case_brown",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 1.7777777777777777,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c21",
+              "type": "behind",
+              "args": [
+                "cabinet_blue",
+                "stool_purple"
+              ],
+              "satisfied": true,
+              "value": 0.0717
+            },
+            {
+              "id": "c22",
+              "type": "distance",
+              "args": [
+                "chair_cyan",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 3.2615
+            },
+            {
+              "id": "c24",
+              "type": "left_of",
+              "args": [
+                "flowerpot_green",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 3.2144
+            },
+            {
+              "id": "c26",
+              "type": "aligned_x",
+              "args": [
+                "flowerpot_green",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.0028
+            }
+          ],
+          "physical": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "all_satisfied": false,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "stage_scope": {
+          "valid_output": true,
+          "pending_collisions": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "deskchair_black"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "desk_blue",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "pending_issues": [
+            {
+              "check": "seat_faces_work_surface",
+              "objects": [
+                "deskchair_black",
+                "desk_blue"
+              ]
+            }
+          ],
+          "violations": []
+        },
+        "locked_moved": [],
+        "completion_witness_valid": true,
+        "continuation_status": "witnessed_by_fixed_gold",
+        "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+        "scene_artifact": {
+          "sha256": "d7d4d416536eba9ec2baab5aa5d84900032c10112a005df27aeef45009dbb0ba",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "case_brown",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "monitor_gray",
+            "plant_pink",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      },
+      {
+        "success": true,
+        "true_satisfied": 26,
+        "total": 26,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            1,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "column_cyan",
+            "desk_blue"
+          ],
+          "n_moved": 2,
+          "displacement_m": 4.9101
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": [],
+        "scene_artifact": {
+          "sha256": "adff01a0b0df87d51e33229f1c50413a86b5efdd0dc6745460974d6ce2511cea",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "case_brown",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "monitor_gray",
+            "plant_pink",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    ],
+    "success": true,
+    "stages_completed": 3,
+    "stage_executions": 3,
+    "stage_successes": 3,
+    "stages_required": 3,
+    "last_stage_result": {
+      "success": true,
+      "true_satisfied": 26,
+      "total": 26,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          2,
+          2
+        ],
+        "clusters": [
+          1,
+          1
+        ]
+      },
+      "conflict_count": 5,
+      "clean_disturbed": [],
+      "detect_tp": 4,
+      "detect_fp": 0,
+      "detect_fn": 0,
+      "edit": {
+        "moved": [
+          "column_cyan",
+          "desk_blue"
+        ],
+        "n_moved": 2,
+        "displacement_m": 4.9101
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "adff01a0b0df87d51e33229f1c50413a86b5efdd0dc6745460974d6ce2511cea",
+        "instance_ids": [
+          "bin_gray",
+          "cabinet_blue",
+          "case_brown",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "sidetable_brown",
+          "soccer_white",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    "manifest_sha256": "d05a01223d0dda48d97c6de46ccbe83e2048b714fc1ecbe5c06a88c7b0ace955"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

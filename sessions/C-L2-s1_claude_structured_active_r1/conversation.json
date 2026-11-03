@@ -1,0 +1,291 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L2-s1. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"table_green\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"chair_cyan\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"lamp_white\": {\"position\": [8.75, 1.75, 0], \"yaw\": 0}, \"stool_purple\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"bin_gray\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}, \"tv_black\": {\"position\": [8.75, 5.25, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"2cb9a1f13c3d2949be4b10df091ce08ff3c4b4dc78bf34095bc0ac99220869da\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e\", \"camera\": {\"eye\": [5.25, -5.4411, 5.937], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a\", \"camera\": {\"eye\": [-1.7445, -2.3691, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228\", \"camera\": {\"eye\": [5.25, 12.6306, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"table_green\": {\"asset\": \"table\", \"asset_sha256\": \"ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 2.2954453889327673, \"native_bounds\": [[0.0, 0.8414879441261292], [0.0, 0.44737333059310913], [0.0, 0.3267339766025543]], \"world_bounds\": [[0.7842051386833191, 2.715794801712036], [1.2365394830703735, 2.263460636138916], [0.0, 0.75]]}, \"chair_cyan\": {\"asset\": \"chair\", \"asset_sha256\": \"c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.8085106428849205, \"native_bounds\": [[0.0, 0.20000000298023224], [0.0, 0.20000000298023224], [0.0, 0.4699999988079071]], \"world_bounds\": [[5.069149017333984, 5.430850982666016], [1.5691488981246948, 1.9308511018753052], [0.0, 0.8500000238418579]]}, \"lamp_white\": {\"asset\": \"lamproundfloor\", \"asset_sha256\": \"50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908\", \"position\": [8.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.3953488139992734, \"native_bounds\": [[-0.016019709408283234, 0.13601970672607422], [-0.027779998257756233, 0.14778000116348267], [0.0, 0.8600000143051147]], \"world_bounds\": [[8.643925666809082, 8.856074333190918], [1.627516269683838, 1.872483730316162], [0.0, 1.1999999284744263]]}, \"stool_purple\": {\"asset\": \"proc_stool\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.0000000264909539, \"native_bounds\": [[-0.17499999701976776, 0.17499999701976776], [-0.17499999701976776, 0.17499999701976776], [0.0, 0.44999998807907104]], \"world_bounds\": [[1.5750000476837158, 1.9249999523162842], [5.074999809265137, 5.425000190734863], [0.0, 0.44999998807907104]]}, \"bin_gray\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999602635717, \"native_bounds\": [[-0.20000000298023224, 0.20000000298023224], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.6000000238418579]], \"world_bounds\": [[5.050000190734863, 5.449999809265137], [5.050000190734863, 5.449999809265137], [0.0, 0.5999999642372131]]}, \"tv_black\": {\"asset\": \"televisionmodern\", \"asset_sha256\": \"d89519ad0a5f28b5b0dccb0d83209dccf610cda959578238dd21bbf9e219cfc6\", \"position\": [8.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.2094557411101918, \"native_bounds\": [[-0.3424000144004822, 0.3424000144004822], [-0.06419999897480011, 0.06419999897480011], [0.0, 0.4547500014305115]], \"world_bounds\": [[8.335882186889648, 9.164117813110352], [5.1723527908325195, 5.3276472091674805], [0.0, 0.550000011920929]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"table_green\": {\"size\": [1.932, 1.027, 0.75], \"size_range\": [[1.545, 0.822, 0.6], [2.318, 1.232, 0.9]]}, \"chair_cyan\": {\"size\": [0.362, 0.362, 0.85], \"size_range\": [[0.289, 0.289, 0.68], [0.434, 0.434, 1.02]]}, \"lamp_white\": {\"size\": [0.212, 0.245, 1.2], \"size_range\": [[0.17, 0.196, 0.96], [0.255, 0.294, 1.44]]}, \"stool_purple\": {\"size\": [0.35, 0.35, 0.45], \"size_range\": [[0.28, 0.28, 0.36], [0.42, 0.42, 0.54]]}, \"bin_gray\": {\"size\": [0.4, 0.4, 0.6], \"size_range\": [[0.32, 0.32, 0.48], [0.48, 0.48, 0.72]]}, \"tv_black\": {\"size\": [0.828, 0.155, 0.55], \"size_range\": [[0.663, 0.124, 0.44], [0.994, 0.186, 0.66]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[4.6, 3.5, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 2 distinct extra views. Cameras={\"reference\": {\"eye\": [2.3, -2.6671, 3.1101], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [5.7554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.4205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 2 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 28.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1c263c580dfd8fcf8070ccf0b10431226cc6316564d6ca027c54c70f732db2a2",
+    "images": [
+      {
+        "file": "../media/7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e.png",
+        "sha256": "7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e"
+      },
+      {
+        "file": "../media/a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a.png",
+        "sha256": "a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a"
+      },
+      {
+        "file": "../media/c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228.png",
+        "sha256": "c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228"
+      },
+      {
+        "file": "../media/551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6.png",
+        "sha256": "551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6"
+      },
+      {
+        "file": "../media/479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6.png",
+        "sha256": "479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6"
+      },
+      {
+        "file": "../media/7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596.png",
+        "sha256": "7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.75, 1.53, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.85, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.87, 2.41, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.46, 0.885, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.84, 0.61, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.34, 2.74, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "0ffd0605f263ac1add8c0af6342c77a7e6e1f04e540910c8142c9068ae8e8e5b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.604}, \"side\": {\"mean_object_iou\": 0.51}, \"top\": {\"mean_object_iou\": 0.779}, \"turns_left\": 13, \"total_actions_left\": 27}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "978a47354e55635f54b66d5644e072b7bd0cb45d6814c2620e9ea5ba68216d85",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.75, 1.53, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.85, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.87, 2.41, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.46, 0.885, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.84, 0.61, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.34, 2.74, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\", \"view\": \"side\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "381661b81fc3403c73ad90e058e8d60ef2d5cdd6d5f268f9ab7f19c1982cb4da",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"f1286b7ecbde36e373f7f5813945aeb16deb779b6bb8d2c4d08d2c539ecfcc12\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"6709293e87db347c3ad03beea31ba5c01f5c2093e601f11f8c4794fa26b1877b\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 26}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "cb73076703dde00dca1b6730670ea8fed348b52e3ba63d1120cef3b5d71fe05a",
+    "images": [
+      {
+        "file": "../media/6709293e87db347c3ad03beea31ba5c01f5c2093e601f11f8c4794fa26b1877b.png",
+        "sha256": "6709293e87db347c3ad03beea31ba5c01f5c2093e601f11f8c4794fa26b1877b"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.75, 1.53, 0], 'yaw': 0, 'size': [1.854, 0.986, 0.72]},\\n        'tv_black': {'position': [1.85, 1.63, 0.72], 'yaw': 0, 'size': [0.903, 0.169, 0.6]},\\n        'chair_cyan': {'position': [1.87, 2.41, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.46, 0.885, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.84, 0.61, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.34, 2.74, 0], 'yaw': 0, 'size': [0.223, 0.258, 1.265]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a4ac349cd54e9cbfef7872407038d8d20b404c875f3b81caec2969d3b8852188",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.614}, \"side\": {\"mean_object_iou\": 0.529}, \"top\": {\"mean_object_iou\": 0.727}, \"turns_left\": 11, \"total_actions_left\": 25}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "375cba7c45b0e76d5b9bd08463fdd26bec2427474945235b857aad7726b858fd",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.757, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.86, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "0b0084bb6d45288692c3a14f786dc9090292a159e3958912ff25b99ef9a0c0e4",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.657}, \"side\": {\"mean_object_iou\": 0.621}, \"top\": {\"mean_object_iou\": 0.816}, \"turns_left\": 10, \"total_actions_left\": 24}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "187444c38d90e50b818639d440ed7007f63ac83a8831220fbeff1bbdf1884048",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.765, 1.537, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.87, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.89, 2.43, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.44, 0.875, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.86, 0.59, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.37, 2.76, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "26b683ee50be33f11734faa1fa970e354530b37fa4fc5ad32718cf5bb1ac2e30",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.634}, \"side\": {\"mean_object_iou\": 0.594}, \"top\": {\"mean_object_iou\": 0.826}, \"turns_left\": 9, \"total_actions_left\": 23}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ab68246881b1d2990795b83d14b2ec1d4aecd3e2b7fb3c30668cc837ed7316c4",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.757, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.86, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\", \"view\": \"front\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "de792d1bf47c39aaaf4e9ed0d051e563fa40484d36e337592b757aab686d7b34",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate front\", \"capture\": {\"scene_sha256\": \"d6ca3049b6ee842b6d39198b3c8802f933107bd12ba1c36d9a4cb503a3fc90fd\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"33ce90e68e833ec3a0d14ef3a1f63593719aacc8893882d5960e3ca787a9d14d\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 8, \"total_actions_left\": 22}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "29899bb8480f3b17469aa10971bf2032d29491b398a9f93aaa320914e0af8236",
+    "images": [
+      {
+        "file": "../media/33ce90e68e833ec3a0d14ef3a1f63593719aacc8893882d5960e3ca787a9d14d.png",
+        "sha256": "33ce90e68e833ec3a0d14ef3a1f63593719aacc8893882d5960e3ca787a9d14d"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.757, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.86, 1.63, 0.691], 'yaw': 0, 'size': [0.92, 0.172, 0.611]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "55048b43cb1e60f1b186a7a48b88eaf0cf419ce5d0d292dd18b92794e4ea3f0f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.676}, \"side\": {\"mean_object_iou\": 0.63}, \"top\": {\"mean_object_iou\": 0.77}, \"turns_left\": 7, \"total_actions_left\": 21}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "8122e692df6e70ab55e6f5005063cfa1966a6b25a5497c616b4553bb332aeb71",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"commit_stage\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [1.757, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [1.86, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "abfd9938a8c2f1e05b647ab40b93fb3f55e1a67f96aa8663ebdb907de88284df",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 1, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_left\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"right\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 20}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "38a5d61a7697eb5c5c8b40748debbac3648085f69108f0fd26286339a8379616",
+    "images": [
+      {
+        "file": "../media/ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd.png",
+        "sha256": "ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd"
+      },
+      {
+        "file": "../media/bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f.png",
+        "sha256": "bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"query_view\", \"view\": \"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "932574949ba466bbc9b3cbbd05fc740101cdf5696c84256dd33b2287d99e7a96",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 19}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2ba6bfa0a6ea9e7d7d111af79c2464d6d122001c485803bdbe1afb8ea02111b1",
+    "images": [
+      {
+        "file": "../media/b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6.png",
+        "sha256": "b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [3.685, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [3.79, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "efbffe8900ff44a42b74a07fdd9b0580ee7f776ade671298382a80416a0a4232",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.689}, \"right\": {\"mean_object_iou\": 0.718}, \"top\": {\"mean_object_iou\": 0.79}, \"turns_left\": 12, \"total_actions_left\": 18}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9aa47bdeedfbfd2f694e17db37ecb0dac6a5db29a5bb2c8ff4801f7e590a5780",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [3.70, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [3.82, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1789943b6e46eab71783f176baf5c647b881c8f2967142a40d04e838f6697535",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.69}, \"right\": {\"mean_object_iou\": 0.733}, \"top\": {\"mean_object_iou\": 0.816}, \"turns_left\": 11, \"total_actions_left\": 17}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "b1b7b35a028ed301db02beeda24cb37a919e6acf5923e85e2a1cf2bc5e5a08dd",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [3.72, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [3.85, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "97ec2935c16fb1cac6559c806a335d7d69b9b0074fa307b3902942628dcb9afe",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.684}, \"right\": {\"mean_object_iou\": 0.731}, \"top\": {\"mean_object_iou\": 0.81}, \"turns_left\": 10, \"total_actions_left\": 16}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "03cde78e2a2115523be3d08618c02d7f0e858c42429cc397314a56939dde49d6",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [3.70, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [3.805, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "909903f95d0dc545048b0622e29c88fde2b6d6091649f93214325fb4ce04a05d",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.691}, \"right\": {\"mean_object_iou\": 0.729}, \"top\": {\"mean_object_iou\": 0.816}, \"turns_left\": 9, \"total_actions_left\": 15}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "5726ba9f5bdf9e33cb8490c899859435b8e79b81f86a0cbf804204665cf1759b",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"submit\", \"source\": \"def build(public_params):\\n    return {\\n        'table_green': {'position': [3.70, 1.533, 0], 'yaw': 0, 'size': [1.78, 0.946, 0.691]},\\n        'tv_black': {'position': [3.81, 1.63, 0.691], 'yaw': 0, 'size': [0.828, 0.155, 0.55]},\\n        'chair_cyan': {'position': [1.88, 2.42, 0], 'yaw': 0, 'size': [0.362, 0.362, 0.85]},\\n        'bin_gray': {'position': [0.45, 0.88, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'stool_purple': {'position': [2.85, 0.6, 0], 'yaw': 0, 'size': [0.35, 0.35, 0.45]},\\n        'lamp_white': {'position': [4.355, 2.75, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "32aa3a3b63b6fbcacdc9cddca1deb505efd151f58f7129ca33867981dabba597",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 14}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "82d6c9586f18f054d97f4be52ac8eb690da9d9a25c6bb4531f2077327d53d6c2",
+    "images": []
+  }
+]

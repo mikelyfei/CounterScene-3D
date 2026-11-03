@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "true_satisfied": 6,
+      "total": 6,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          1,
+          1
+        ],
+        "clusters": [
+          0,
+          0
+        ]
+      },
+      "conflict_count": 1,
+      "clean_disturbed": [],
+      "detect_tp": 0,
+      "detect_fp": 0,
+      "detect_fn": 4,
+      "edit": {
+        "moved": [
+          "stool_purple"
+        ],
+        "n_moved": 1,
+        "displacement_m": 1.3395
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "be06b183f331d01cefeb09cb574c5be0012b18a2d9dfd4bb86acad1aef46679d",
+        "instance_ids": [
+          "cabinet_blue",
+          "deskchair_black",
+          "lamp_white",
+          "soccer_white",
+          "stool_purple"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

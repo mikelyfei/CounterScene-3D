@@ -1,0 +1,71 @@
+{
+  "id": "C-L1-s0_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "C-L1-s0",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": null,
+    "alignment": null,
+    "hidden_iou": 0.9463572086201395,
+    "metric_centres_ok": true,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 13,
+    "R_det": 1.0,
+    "R_shaped": 0.9821190695400466,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "fd7a9fb4d5ef30ed49536152a156e1c3e2eb668438ee0a15da3182d71c22e6cf",
+  "actions_sha256": "655bcf9aa82d8096a36cf918c4dd4a57c76e83ed74c8161988aef88e0d887a82",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "hidden_mean_iou": 0.9463572086201395,
+        "seen_mean_iou": 0.9685483249822178,
+        "overfit_gap": 0.022191116362078267,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "table_green": 0.007243345534122318,
+          "deskchair_black": 0.0075470986686836305,
+          "plant_pink": 0.00703298916648505,
+          "crate_red": 0.0033682410778014264
+        }
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "b7d444fe9ea1f065eb051ba5cfeffda060e40b27508c76c88609d2328f159aa9"
+}

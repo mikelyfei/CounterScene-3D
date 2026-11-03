@@ -1,0 +1,182 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": false,
+  "stages_completed": 3,
+  "stage_executions": 3,
+  "stage_successes": 3,
+  "stages_required": 3,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8133310975003589,
+      "seen_mean_iou": 0.8038803593664177,
+      "overfit_gap": -0.009450738133941261,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "shelf_orange": 0.004078910601116073,
+        "desk_blue": 0.014792333197820624,
+        "deskchair_black": 0.031298980084277755,
+        "plant_pink": 0.03281058476188699,
+        "soccer_white": 0.02355098454309957,
+        "column_cyan": 0.026538626776071578,
+        "crate_red": 0.03185858303376903,
+        "monitor_gray": 0.0372599036122085,
+        "rugby_brown": 0.015780254884012055,
+        "flowerpot_green": 0.04952478288261896
+      },
+      "per_view": {
+        "reference": 0.8488986050288098,
+        "top": 0.7695470717022441,
+        "right": 0.7275597188980123,
+        "low_front_right": 0.731200265297853,
+        "side": 0.7677417539119666,
+        "back": 0.8502637914724578,
+        "back_right": 0.83678711285068,
+        "front": 0.9056546472910559,
+        "back_left": 0.8350732203804447
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "a2b43e18e1bed119768e5dd9138d9b7be412c72008d670dc49d1e6fe367b636e",
+        "instance_ids": [
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "monitor_gray",
+          "plant_pink",
+          "rugby_brown",
+          "shelf_orange",
+          "soccer_white"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8314946578441901,
+      "seen_mean_iou": 0.791620883499483,
+      "overfit_gap": -0.03987377434470707,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "shelf_orange": 0.0039997100830078125,
+        "desk_blue": 0.014792333197820624,
+        "deskchair_black": 0.031298980084277755,
+        "plant_pink": 0.03909646952326412,
+        "soccer_white": 0.0065307144311102724,
+        "column_cyan": 0.026538626776071578,
+        "crate_red": 0.013526560836970136,
+        "monitor_gray": 0.0372599036122085,
+        "rugby_brown": 0.016091508226378507,
+        "flowerpot_green": 0.049679595006679615
+      },
+      "per_view": {
+        "back_right": 0.8753844346824804,
+        "front_left": 0.8743995704300209,
+        "back_left": 0.7755792776396695,
+        "top": 0.8749042145593869,
+        "right": 0.6255588655090413,
+        "low_front_right": 0.8139091654497363,
+        "back": 0.861105753604874
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "b97d19d9631450360e286636be0cb70e738c4057cbe584b261c4edf8b0af3d18",
+        "instance_ids": [
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "monitor_gray",
+          "plant_pink",
+          "rugby_brown",
+          "shelf_orange",
+          "soccer_white"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8411843322292899,
+      "seen_mean_iou": 0.864558782344965,
+      "overfit_gap": 0.02337445011567507,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "shelf_orange": 0.0039997100830078125,
+        "desk_blue": 0.014795130981601309,
+        "deskchair_black": 0.014033566657559525,
+        "plant_pink": 0.034993374024654446,
+        "soccer_white": 0.0065307144311102724,
+        "column_cyan": 0.007892651731996722,
+        "crate_red": 0.013526560836970136,
+        "monitor_gray": 0.039245705945386615,
+        "rugby_brown": 0.016091508226378507,
+        "flowerpot_green": 0.049679595006679615
+      },
+      "per_view": {
+        "top": 0.8681422393641889,
+        "low_front_right": 0.8245935251053638,
+        "back": 0.8310949147993977,
+        "back_right": 0.8724138985894109,
+        "left": 0.8513075696238864,
+        "front_right": 0.8659769774531224,
+        "front_left": 0.8728083429386624,
+        "back_left": 0.8366349904229873
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "6075032b4d0f7f6a771cc2ca321fe22467934e191ebd1cd2f667bf822b473a41",
+        "instance_ids": [
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "monitor_gray",
+          "plant_pink",
+          "rugby_brown",
+          "shelf_orange",
+          "soccer_white"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "native-operations-v3",
+  "motion_contract": "actual-terminal-state-v1",
+  "stages": [
+    {
+      "file": "stage0.json",
+      "sha256": "fad3579f8fe27437ccd0894e966393926b622ca8096c35624f9a470b9ea32e24"
+    },
+    {
+      "file": "stage1.json",
+      "sha256": "1d9c8e3d20f8f35583b744b418bf3c0d1a0f4b48ae65ba941aefeeb6631c700c"
+    },
+    {
+      "file": "stage2.json",
+      "sha256": "3a9b8d4e34b06cd933f731b845e8d5e93e8d32dc920354d0ff973ed8324e7947"
+    }
+  ]
+}

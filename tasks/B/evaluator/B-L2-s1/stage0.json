@@ -1,0 +1,1211 @@
+{
+  "gold": {
+    "shelf_orange": {
+      "position": [
+        1.5354,
+        3.725,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "table_green": {
+      "position": [
+        1.6123,
+        1.6211,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "chair_cyan": {
+      "position": [
+        1.6748,
+        0.7177,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "deskchair_black": {
+      "position": [
+        3.0381,
+        3.1322,
+        0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        0.63,
+        0.833,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "crate_red": {
+      "position": [
+        2.3554,
+        3.2034,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "stool_purple": {
+      "position": [
+        3.0381,
+        3.1322,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        1.6463,
+        1.8272,
+        0.75
+      ],
+      "yaw": 0
+    }
+  },
+  "corrupted": [
+    "chair_cyan",
+    "deskchair_black"
+  ],
+  "soft": {
+    "c13": {
+      "feasible": true,
+      "certificate": ""
+    },
+    "c14": {
+      "feasible": false,
+      "certificate": "hard between(crate_red,shelf_orange#side_l,deskchair_black) and left_of(shelf_orange#side_l,deskchair_black) bound the centre overshoot by 0.25 m; opposite full-box separation needs more than this even with 0.01 m tolerance"
+    }
+  },
+  "gold_edit": {
+    "moved": [
+      "chair_cyan",
+      "deskchair_black"
+    ],
+    "n_moved": 2,
+    "displacement_m": 4.045
+  },
+  "task_internal": {
+    "experiment": "B",
+    "instance": "B-L2-s1",
+    "k": 10,
+    "room": [
+      5.3,
+      4.0,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "chair_cyan",
+        "size": [
+          0.36170213396676587,
+          0.36170213396676587,
+          0.85
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "crate_red",
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "monitor_gray",
+        "size": [
+          0.560439186585589,
+          0.14843314237486446,
+          0.42
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "behind",
+        "args": [
+          "monitor_gray",
+          "column_cyan"
+        ],
+        "id": "c02",
+        "priority": "hard"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "monitor_gray",
+          "table_green"
+        ],
+        "id": "c03",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "monitor_gray",
+          "shelf_orange",
+          "table_green"
+        ],
+        "id": "c04",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "table_green",
+          "chair_cyan",
+          "monitor_gray"
+        ],
+        "id": "c05",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "monitor_gray",
+          "crate_red",
+          "table_green"
+        ],
+        "id": "c06",
+        "priority": "hard"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "chair_cyan",
+          "monitor_gray"
+        ],
+        "id": "c09",
+        "priority": "hard"
+      },
+      {
+        "type": "in_front_of",
+        "args": [
+          "chair_cyan",
+          "table_green"
+        ],
+        "priority": "soft",
+        "id": "c13"
+      }
+    ],
+    "relation_types": [
+      "aligned_x",
+      "behind",
+      "between",
+      "distance",
+      "in_front_of",
+      "left_of",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": false,
+    "tier": "L2",
+    "locked": [
+      "column_cyan",
+      "crate_red",
+      "deskchair_black",
+      "monitor_gray",
+      "shelf_orange",
+      "stool_purple",
+      "table_green"
+    ],
+    "initial": {
+      "shelf_orange": {
+        "position": [
+          1.5354,
+          3.725,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "table_green": {
+        "position": [
+          1.6123,
+          1.6211,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "chair_cyan": {
+        "position": [
+          2.3554,
+          3.2034,
+          0
+        ],
+        "yaw": 180
+      },
+      "deskchair_black": {
+        "position": [
+          3.0381,
+          3.1322,
+          0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          0.63,
+          0.833,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "crate_red": {
+        "position": [
+          2.3554,
+          3.2034,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "stool_purple": {
+        "position": [
+          3.0381,
+          3.1322,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "monitor_gray": {
+        "position": [
+          1.6463,
+          1.8272,
+          0.75
+        ],
+        "yaw": 0
+      }
+    },
+    "initial_report": {
+      "valid_output": true,
+      "output_problems": [],
+      "constraints": [
+        {
+          "id": "c01",
+          "type": "right_of",
+          "args": [
+            "stool_purple",
+            "monitor_gray"
+          ],
+          "satisfied": true,
+          "value": 0.9366
+        },
+        {
+          "id": "c02",
+          "type": "behind",
+          "args": [
+            "monitor_gray",
+            "column_cyan"
+          ],
+          "satisfied": true,
+          "value": 0.77
+        },
+        {
+          "id": "c03",
+          "type": "on_top_of",
+          "args": [
+            "monitor_gray",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0,
+          "evidence": "Actual projected footprint covered on named host within height tolerance"
+        },
+        {
+          "id": "c04",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "shelf_orange",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0415
+        },
+        {
+          "id": "c05",
+          "type": "between",
+          "args": [
+            "table_green",
+            "chair_cyan",
+            "monitor_gray"
+          ],
+          "satisfied": false,
+          "value": 0.0642
+        },
+        {
+          "id": "c06",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "crate_red",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0568
+        },
+        {
+          "id": "c07",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "deskchair_black",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.1167
+        },
+        {
+          "id": "c08",
+          "type": "distance",
+          "args": [
+            "chair_cyan",
+            "deskchair_black"
+          ],
+          "satisfied": false,
+          "value": 0.6864
+        },
+        {
+          "id": "c09",
+          "type": "aligned_x",
+          "args": [
+            "chair_cyan",
+            "monitor_gray"
+          ],
+          "satisfied": false,
+          "value": 0.7091
+        },
+        {
+          "id": "c10",
+          "type": "distance",
+          "args": [
+            "deskchair_black",
+            "stool_purple"
+          ],
+          "satisfied": false,
+          "value": 0.0
+        },
+        {
+          "id": "c11",
+          "type": "between",
+          "args": [
+            "crate_red",
+            "shelf_orange#side_l",
+            "deskchair_black"
+          ],
+          "satisfied": true,
+          "value": 0.1366
+        },
+        {
+          "id": "c12",
+          "type": "left_of",
+          "args": [
+            "shelf_orange#side_l",
+            "deskchair_black"
+          ],
+          "satisfied": true,
+          "value": 1.6108
+        },
+        {
+          "id": "c13",
+          "type": "in_front_of",
+          "args": [
+            "chair_cyan",
+            "table_green"
+          ],
+          "satisfied": false,
+          "value": -2.2766
+        },
+        {
+          "id": "c14",
+          "type": "right_of",
+          "args": [
+            "crate_red",
+            "deskchair_black"
+          ],
+          "satisfied": false,
+          "value": -1.1946
+        }
+      ],
+      "physical": [
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "chair_cyan",
+            "crate_red"
+          ],
+          "native_status": "surface_intersection"
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "deskchair_black",
+            "stool_purple"
+          ],
+          "native_status": "surface_intersection"
+        }
+      ],
+      "all_satisfied": false,
+      "limits": [
+        "Static stability not simulated",
+        "Native image relations fail closed until actual-view evidence is supplied"
+      ]
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "repair_stage": 0,
+    "repair_stage_final": false,
+    "allowed_pending_pairs": [
+      [
+        "deskchair_black",
+        "stool_purple"
+      ]
+    ],
+    "carry_all_previous_state": true,
+    "operation": {
+      "phase": "repair_released_zone",
+      "editable_objects": [
+        "chair_cyan"
+      ],
+      "preserve_objects": [
+        "column_cyan",
+        "crate_red",
+        "deskchair_black",
+        "monitor_gray",
+        "shelf_orange",
+        "stool_purple",
+        "table_green"
+      ],
+      "pending_collision_pairs": [
+        [
+          "deskchair_black",
+          "stool_purple"
+        ]
+      ]
+    }
+  },
+  "native_planted_zones": [
+    {
+      "actor": "chair_cyan",
+      "host": "crate_red",
+      "pair": [
+        "chair_cyan",
+        "crate_red"
+      ]
+    },
+    {
+      "actor": "deskchair_black",
+      "host": "stool_purple",
+      "pair": [
+        "deskchair_black",
+        "stool_purple"
+      ]
+    }
+  ],
+  "final_task": {
+    "experiment": "B",
+    "instance": "B-L2-s1",
+    "k": 10,
+    "room": [
+      5.3,
+      4.0,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "chair_cyan",
+        "size": [
+          0.36170213396676587,
+          0.36170213396676587,
+          0.85
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "crate_red",
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "monitor_gray",
+        "size": [
+          0.560439186585589,
+          0.14843314237486446,
+          0.42
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "right_of",
+        "args": [
+          "stool_purple",
+          "monitor_gray"
+        ],
+        "id": "c01",
+        "priority": "hard"
+      },
+      {
+        "type": "behind",
+        "args": [
+          "monitor_gray",
+          "column_cyan"
+        ],
+        "id": "c02",
+        "priority": "hard"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "monitor_gray",
+          "table_green"
+        ],
+        "id": "c03",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "monitor_gray",
+          "shelf_orange",
+          "table_green"
+        ],
+        "id": "c04",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "table_green",
+          "chair_cyan",
+          "monitor_gray"
+        ],
+        "id": "c05",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "monitor_gray",
+          "crate_red",
+          "table_green"
+        ],
+        "id": "c06",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "monitor_gray",
+          "deskchair_black",
+          "table_green"
+        ],
+        "id": "c07",
+        "priority": "hard"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "chair_cyan",
+          "deskchair_black"
+        ],
+        "range": [
+          2.67,
+          3.07
+        ],
+        "id": "c08",
+        "priority": "hard"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "chair_cyan",
+          "monitor_gray"
+        ],
+        "id": "c09",
+        "priority": "hard"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "deskchair_black",
+          "stool_purple"
+        ],
+        "range": [
+          1.27,
+          1.67
+        ],
+        "id": "c10",
+        "priority": "hard"
+      },
+      {
+        "type": "between",
+        "args": [
+          "crate_red",
+          "shelf_orange#side_l",
+          "deskchair_black"
+        ],
+        "priority": "hard",
+        "id": "c11"
+      },
+      {
+        "type": "left_of",
+        "args": [
+          "shelf_orange#side_l",
+          "deskchair_black"
+        ],
+        "priority": "hard",
+        "id": "c12"
+      },
+      {
+        "type": "in_front_of",
+        "args": [
+          "chair_cyan",
+          "table_green"
+        ],
+        "priority": "soft",
+        "id": "c13"
+      },
+      {
+        "type": "right_of",
+        "args": [
+          "crate_red",
+          "deskchair_black"
+        ],
+        "priority": "soft",
+        "id": "c14"
+      }
+    ],
+    "relation_types": [
+      "aligned_x",
+      "behind",
+      "between",
+      "distance",
+      "in_front_of",
+      "left_of",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": false,
+    "tier": "L2",
+    "locked": [
+      "crate_red",
+      "table_green"
+    ],
+    "initial": {
+      "shelf_orange": {
+        "position": [
+          1.5354,
+          3.725,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "table_green": {
+        "position": [
+          1.6123,
+          1.6211,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "chair_cyan": {
+        "position": [
+          2.3554,
+          3.2034,
+          0
+        ],
+        "yaw": 180
+      },
+      "deskchair_black": {
+        "position": [
+          3.0381,
+          3.1322,
+          0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          0.63,
+          0.833,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "crate_red": {
+        "position": [
+          2.3554,
+          3.2034,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "stool_purple": {
+        "position": [
+          3.0381,
+          3.1322,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "monitor_gray": {
+        "position": [
+          1.6463,
+          1.8272,
+          0.75
+        ],
+        "yaw": 0
+      }
+    },
+    "initial_report": {
+      "valid_output": true,
+      "output_problems": [],
+      "constraints": [
+        {
+          "id": "c01",
+          "type": "right_of",
+          "args": [
+            "stool_purple",
+            "monitor_gray"
+          ],
+          "satisfied": true,
+          "value": 0.9366
+        },
+        {
+          "id": "c02",
+          "type": "behind",
+          "args": [
+            "monitor_gray",
+            "column_cyan"
+          ],
+          "satisfied": true,
+          "value": 0.77
+        },
+        {
+          "id": "c03",
+          "type": "on_top_of",
+          "args": [
+            "monitor_gray",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0,
+          "evidence": "Actual projected footprint covered on named host within height tolerance"
+        },
+        {
+          "id": "c04",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "shelf_orange",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0415
+        },
+        {
+          "id": "c05",
+          "type": "between",
+          "args": [
+            "table_green",
+            "chair_cyan",
+            "monitor_gray"
+          ],
+          "satisfied": false,
+          "value": 0.0642
+        },
+        {
+          "id": "c06",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "crate_red",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0568
+        },
+        {
+          "id": "c07",
+          "type": "between",
+          "args": [
+            "monitor_gray",
+            "deskchair_black",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.1167
+        },
+        {
+          "id": "c08",
+          "type": "distance",
+          "args": [
+            "chair_cyan",
+            "deskchair_black"
+          ],
+          "satisfied": false,
+          "value": 0.6864
+        },
+        {
+          "id": "c09",
+          "type": "aligned_x",
+          "args": [
+            "chair_cyan",
+            "monitor_gray"
+          ],
+          "satisfied": false,
+          "value": 0.7091
+        },
+        {
+          "id": "c10",
+          "type": "distance",
+          "args": [
+            "deskchair_black",
+            "stool_purple"
+          ],
+          "satisfied": false,
+          "value": 0.0
+        },
+        {
+          "id": "c11",
+          "type": "between",
+          "args": [
+            "crate_red",
+            "shelf_orange#side_l",
+            "deskchair_black"
+          ],
+          "satisfied": true,
+          "value": 0.1366
+        },
+        {
+          "id": "c12",
+          "type": "left_of",
+          "args": [
+            "shelf_orange#side_l",
+            "deskchair_black"
+          ],
+          "satisfied": true,
+          "value": 1.6108
+        },
+        {
+          "id": "c13",
+          "type": "in_front_of",
+          "args": [
+            "chair_cyan",
+            "table_green"
+          ],
+          "satisfied": false,
+          "value": -2.2766
+        },
+        {
+          "id": "c14",
+          "type": "right_of",
+          "args": [
+            "crate_red",
+            "deskchair_black"
+          ],
+          "satisfied": false,
+          "value": -1.1946
+        }
+      ],
+      "physical": [
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "chair_cyan",
+            "crate_red"
+          ],
+          "native_status": "surface_intersection"
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "deskchair_black",
+            "stool_purple"
+          ],
+          "native_status": "surface_intersection"
+        }
+      ],
+      "all_satisfied": false,
+      "limits": [
+        "Static stability not simulated",
+        "Native image relations fail closed until actual-view evidence is supplied"
+      ]
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    }
+  },
+  "remaining_to_repair": [
+    "deskchair_black"
+  ],
+  "completion_gold": {
+    "shelf_orange": {
+      "position": [
+        1.5354,
+        3.725,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "table_green": {
+      "position": [
+        1.6123,
+        1.6211,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "chair_cyan": {
+      "position": [
+        1.6748,
+        0.7177,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "deskchair_black": {
+      "position": [
+        4.1491,
+        2.1729,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        0.63,
+        0.833,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "crate_red": {
+      "position": [
+        2.3554,
+        3.2034,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "stool_purple": {
+      "position": [
+        3.0381,
+        3.1322,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        1.6463,
+        1.8272,
+        0.75
+      ],
+      "yaw": 0
+    }
+  }
+}

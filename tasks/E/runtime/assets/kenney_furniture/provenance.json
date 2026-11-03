@@ -1,0 +1,171 @@
+{
+  "author": "Kenney",
+  "official_source": "https://kenney.nl/assets/furniture-kit",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "mirror": "Hidencod/tge-assets",
+  "commit": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+  "files": [
+    {
+      "file": "loungesofa.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/loungesofa.glb",
+      "sha256": "1886b811c0d3ad0d8525a4fd43adf4112c497c8e0ed906f06877ca3517f4c7dd",
+      "git_blob": "7761b15cc9d53b9cd5e28d5a5dc5eaea72a648a7",
+      "bytes": 9644
+    },
+    {
+      "file": "loungechair.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/loungechair.glb",
+      "sha256": "ddfe6bc4b3451bca61666d7b614552d6ed2a03d82fc76244b72ae3155874dc6c",
+      "git_blob": "fb3537daa44d3fa6ae3d13344dff5e726c82df2f",
+      "bytes": 9648
+    },
+    {
+      "file": "tablecoffee.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/tablecoffee.glb",
+      "sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179",
+      "git_blob": "945caf455a089fcdd2dbe909db6f78326b9b4cc3",
+      "bytes": 8256
+    },
+    {
+      "file": "table.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/table.glb",
+      "sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+      "git_blob": "8add1baf8a97bd813524a441c947a9e1457f4b13",
+      "bytes": 8196
+    },
+    {
+      "file": "bookcaseopen.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/bookcaseopen.glb",
+      "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+      "git_blob": "9a0cce7691e94277f3409719e9e68c910c25aa2c",
+      "bytes": 18020
+    },
+    {
+      "file": "cabinettelevision.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/cabinettelevision.glb",
+      "sha256": "811719593d676ff76f7b5904d52c845ce0396af2bc9a6a2636c4818ead320b99",
+      "git_blob": "eb73b4c130f066eefdf8e586b543449bf4e7cf10",
+      "bytes": 10524
+    },
+    {
+      "file": "pottedplant.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/pottedplant.glb",
+      "sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+      "git_blob": "774d659a2d2be3f9af3fea78e13b2f250fdbb262",
+      "bytes": 7576
+    },
+    {
+      "file": "chair.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chair.glb",
+      "sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+      "git_blob": "2d57af4fef2a32910e3af9283d1e45f177068d63",
+      "bytes": 10756
+    },
+    {
+      "file": "kitchencabinet.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/kitchencabinet.glb",
+      "sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+      "git_blob": "6292e587214afb9543734486db449c47a5e52730",
+      "bytes": 10444
+    },
+    {
+      "file": "kitchenfridge.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/kitchenfridge.glb",
+      "sha256": "8af4f4bbb1b5525ad8226e97926a5af60fa8fb20a3cb74dbda5328a9d320dbab",
+      "git_blob": "936da186152577e3336f81e150fcc5eb2c2a7117",
+      "bytes": 20116
+    },
+    {
+      "file": "books.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/books.glb",
+      "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+      "git_blob": "615aaa9632cf1b262c257f2cb7c208a6f199ab84",
+      "bytes": 6864
+    },
+    {
+      "file": "televisionmodern.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/televisionmodern.glb",
+      "sha256": "d89519ad0a5f28b5b0dccb0d83209dccf610cda959578238dd21bbf9e219cfc6",
+      "git_blob": "f047576f3d77a469e59059b1ae0aa1cdbbae7d0f",
+      "bytes": 6368
+    },
+    {
+      "file": "lamproundfloor.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/lamproundfloor.glb",
+      "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "git_blob": "69f7c9df4fb9e2fb327c59f3b20e8669faf7df0d",
+      "bytes": 6600
+    },
+    {
+      "file": "desk.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/desk.glb",
+      "sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+      "git_blob": "8ca187070cd666239ab1d93dda2e98105f7de776",
+      "bytes": 15048,
+      "pack": "furniture-kit"
+    },
+    {
+      "file": "chairdesk.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chairdesk.glb",
+      "sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+      "git_blob": "131101f3dbc72f41ca624ddd77ce53d8bafea9ed",
+      "bytes": 39016,
+      "pack": "furniture-kit"
+    },
+    {
+      "file": "computerscreen.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/computerscreen.glb",
+      "sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+      "git_blob": "c509093d35ee40bb6791dde9ad8e9de4bc3348dd",
+      "bytes": 6404,
+      "pack": "furniture-kit"
+    },
+    {
+      "file": "laptop.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/laptop.glb",
+      "sha256": "5fa8a1f4a71ab8d82ef64da77a6973ffd350c6d4557516069a4ffd4bb8d808af",
+      "git_blob": "5a30fe5caac134e2c14aa9ee50a258bc11e456ba",
+      "bytes": 5540,
+      "pack": "furniture-kit"
+    },
+    {
+      "file": "sidetable.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/sidetable.glb",
+      "sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+      "git_blob": "061724e768063fae18b226fdee0e31ca0a133969",
+      "bytes": 8800,
+      "pack": "furniture-kit"
+    },
+    {
+      "file": "plantsmall1.glb",
+      "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/plantsmall1.glb",
+      "sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+      "git_blob": "6c64ddaef49e831446cf673d9d8c6c37e446928b",
+      "bytes": 8224,
+      "pack": "furniture-kit"
+    }
+  ],
+  "procedural": [
+    {
+      "name": "soccer_ball",
+      "method": "Blender icosphere (subdivisions 2); faces near the 12 icosahedron vertices black, others white",
+      "license": "CC0-1.0 (generated by project code)"
+    },
+    {
+      "name": "rugby_ball",
+      "method": "Blender UV sphere scaled to its catalogue box (long axis horizontal) with a white lace stripe",
+      "license": "CC0-1.0 (generated by project code)"
+    },
+    {
+      "name": "bookcase_composite",
+      "method": "Scored side/back panels and shelf boards drawn as bevelled wood boxes",
+      "license": "CC0-1.0 (generated by project code)"
+    },
+    {
+      "name": "column",
+      "method": "Blender cylinder with base and cap fitted to its catalogue box",
+      "license": "CC0-1.0 (generated by project code)"
+    }
+  ]
+}

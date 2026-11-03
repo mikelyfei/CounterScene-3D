@@ -1,0 +1,29 @@
+{
+  "protocol": "native-operations-v3",
+  "images": [
+    {
+      "file": "input_0.png",
+      "sha256": "5dbd44a7ca3e163ffd3a4170715061753334bccaa73302a91d31c5b65c92c4ca"
+    },
+    {
+      "file": "input_1.png",
+      "sha256": "54fcef0d45ff4e20845329697ce3c7b353d60d4134d897b16e65dcc7e244a5c1"
+    },
+    {
+      "file": "input_2.png",
+      "sha256": "17857b4bd1b06cdec29470b6f7dc4bd1cd9a75a44eb3e23c076413720b78c066"
+    },
+    {
+      "file": "input_3.png",
+      "sha256": "079b985a1b82be237565791e83e6f4eb7d5cc4320335184dab2b5a57fd2693d6"
+    },
+    {
+      "file": "input_4.png",
+      "sha256": "4c789b57a32c3677ab5555052c75f4e5f7015457b5c8509d4a6527a99137eef0"
+    },
+    {
+      "file": "input_5.png",
+      "sha256": "dd2c63f32fa340a950872d3271ffe7b207474d5ae9221e62130845b54596d8f6"
+    }
+  ]
+}

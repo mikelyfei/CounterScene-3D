@@ -1,0 +1,90 @@
+{
+  "id": "E-L1-s0_claude_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "E-L1-s0",
+  "model": "claude-opus-5-5",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": 0.0,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": 1.0,
+    "checker_recall": 0.5,
+    "moved_objects": 1,
+    "displacement_m": 0.9998,
+    "episode_object_move_count": 1,
+    "episode_displacement_m": 0.9998,
+    "clean_disturbed": 0,
+    "forced_support_repairs": 0,
+    "unnecessary_clean_disturbed": 0,
+    "preservation": null,
+    "actions": 4,
+    "R_det": 1.0,
+    "R_shaped": 0.9166666666666666,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "c3372f509eb1bb15086b62130fa2aac7cff40ad25893a90037c8b4f0beb939fe",
+  "actions_sha256": "e42d9a4bcb7851d663645ae45c5b8c26419a92b1980d9314467eb7d44674282e",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "true_satisfied": 6,
+        "total": 6,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            1
+          ],
+          "clusters": [
+            0,
+            0
+          ]
+        },
+        "conflict_count": 1,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 2,
+        "edit": {
+          "moved": [
+            "plant_pink"
+          ],
+          "n_moved": 1,
+          "displacement_m": 0.9998
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": []
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "a4e89289ae2f26e2b368832fe71bb93342f56ab4063e50028e7f9828ba7b7df3"
+}

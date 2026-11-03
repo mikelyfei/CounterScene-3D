@@ -1,0 +1,88 @@
+{
+  "id": "C-L2-s0_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "C-L2-s0",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": null,
+    "alignment": null,
+    "hidden_iou": 0.8810308908169695,
+    "metric_centres_ok": true,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 26,
+    "R_det": 1.0,
+    "R_shaped": 0.9587984676762848,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "02abf43664aab921bfe102f9acb09b903b08948f0d43995f8a1cabe23a70af8e",
+  "actions_sha256": "9847ac266a4117fc79c1c8a257b5cf5087ab2a9792feb999dd3d06803802cebd",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 2,
+    "stage_executions": 2,
+    "stage_successes": 2,
+    "stages_required": 2,
+    "stages": [
+      {
+        "success": true,
+        "hidden_mean_iou": 0.8717599152407389,
+        "seen_mean_iou": 0.8760228155426055,
+        "overfit_gap": 0.004262900301866601,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.004224285934541863,
+          "lamp_white": 0.021807244408605007,
+          "plant_pink": 0.020288911232782286,
+          "bin_gray": 0.004048470361541877,
+          "crate_red": 0.006431883146403333,
+          "flowerpot_green": 0.01483242463781821
+        }
+      },
+      {
+        "success": true,
+        "hidden_mean_iou": 0.8810308908169695,
+        "seen_mean_iou": 0.9314851685232102,
+        "overfit_gap": 0.05045427770624067,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.001408994197845459,
+          "lamp_white": 0.023488865735310695,
+          "plant_pink": 0.026379603295604445,
+          "bin_gray": 0.004048470361541877,
+          "crate_red": 0.006431883146403333,
+          "flowerpot_green": 0.0034492321734920384
+        }
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "035d5440579e1a1ee36b5586f5417849e55ca5b8cd70102e417d3c61ead96cb4"
+}

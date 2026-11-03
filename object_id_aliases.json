@@ -1,0 +1,27 @@
+{
+  "schema": "neutral-object-ids-v1",
+  "aliases": {
+    "bin_gray": "bin",
+    "box_yellow": "box",
+    "cabinet_blue": "cabinet",
+    "case_brown": "case",
+    "chair_cyan": "chair",
+    "column_cyan": "column",
+    "crate_red": "crate",
+    "desk_blue": "desk",
+    "deskchair_black": "office_chair",
+    "flowerpot_green": "flowerpot",
+    "lamp_white": "lamp",
+    "laptop_gray": "laptop",
+    "monitor_gray": "monitor",
+    "plant_pink": "plant",
+    "rugby_brown": "rugby_ball",
+    "shelf_orange": "shelf",
+    "sidetable_brown": "side_table",
+    "soccer_white": "soccer_ball",
+    "stool_purple": "stool",
+    "table_green": "table",
+    "tv_black": "tv"
+  },
+  "scope": "Neutral publication/display identifiers mapped from frozen execution IDs. Current provider inputs, retained programs and scoring evidence preserve their original IDs for exact replay."
+}

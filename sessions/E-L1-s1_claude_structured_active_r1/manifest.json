@@ -1,0 +1,90 @@
+{
+  "id": "E-L1-s1_claude_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "E-L1-s1",
+  "model": "claude-opus-5-5",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": null,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": 0.0,
+    "moved_objects": 1,
+    "displacement_m": 1.3395,
+    "episode_object_move_count": 1,
+    "episode_displacement_m": 1.3395,
+    "clean_disturbed": 0,
+    "forced_support_repairs": 0,
+    "unnecessary_clean_disturbed": 0,
+    "preservation": null,
+    "actions": 3,
+    "R_det": 1.0,
+    "R_shaped": 0.75,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "4e4d8ade35ad679cd17f1f424a39dd30bca6ba97e541e82cf75a05a604224aeb",
+  "actions_sha256": "4d3f55de12fb0723c96f8a9f36045ccd070f16eaf537dede69525353aea31109",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "true_satisfied": 6,
+        "total": 6,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            1
+          ],
+          "clusters": [
+            0,
+            0
+          ]
+        },
+        "conflict_count": 1,
+        "clean_disturbed": [],
+        "detect_tp": 0,
+        "detect_fp": 0,
+        "detect_fn": 4,
+        "edit": {
+          "moved": [
+            "stool_purple"
+          ],
+          "n_moved": 1,
+          "displacement_m": 1.3395
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": []
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "3d1f00379d140a1013fb0ba84506a4a61039ec31d7dc77c0be29052804cd870e"
+}

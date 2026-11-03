@@ -1,0 +1,637 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L3-s1. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"shelf_orange\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"desk_blue\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"deskchair_black\": {\"position\": [8.75, 1.75, 0], \"yaw\": 0}, \"plant_pink\": {\"position\": [12.25, 1.75, 0], \"yaw\": 0}, \"soccer_white\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"column_cyan\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}, \"stool_purple\": {\"position\": [8.75, 5.25, 0], \"yaw\": 0}, \"monitor_gray\": {\"position\": [12.25, 5.25, 0], \"yaw\": 0}, \"rugby_brown\": {\"position\": [1.75, 8.75, 0], \"yaw\": 0}, \"flowerpot_green\": {\"position\": [5.25, 8.75, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"07886402cb7525928e98ec10bb77cace30fc49ee846b950e03e368d90ef1bbdc\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"01b0374570e1d8ec9fceb127fbc91723bdecf1a0c28cd5fee20997caecabf7c8\", \"camera\": {\"eye\": [7.0, -6.9195, 7.9543], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"c3a4d207b9c8465dc58e0715158f12ddbc053fb754000945f32f6154a1818acd\", \"camera\": {\"eye\": [-2.52, -2.7382, 7.525], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"5f37882ad514b6c477df73443a1496dc9e0aa8473c13ff21144839bf522ea5cb\", \"camera\": {\"eye\": [7.0, 17.6775, 7.525], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"shelf_orange\": {\"asset\": \"proc_bookcase\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.0000000073401185, \"native_bounds\": [[-0.382205992937088, 0.382205992937088], [-0.1672150045633316, 0.1672150045633316], [0.0, 1.3377209901809692]], \"world_bounds\": [[1.3677940368652344, 2.1322059631347656], [1.5827850103378296, 1.9172149896621704], [0.0, 1.3377209901809692]]}, \"desk_blue\": {\"asset\": \"desk\", \"asset_sha256\": \"0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.9510542907174955, \"native_bounds\": [[-0.009999999776482582, 0.7244754433631897], [-0.012299999594688416, 0.3799999952316284], [0.0, 0.38440755009651184]], \"world_bounds\": [[4.533499240875244, 5.966500759124756], [1.3673007488250732, 2.1326992511749268], [0.0, 0.75]]}, \"deskchair_black\": {\"asset\": \"chairdesk\", \"asset_sha256\": \"46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6\", \"position\": [8.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.5635287049938806, \"native_bounds\": [[0.0, 0.3349500000476837], [0.0, 0.3142990469932556], [0.0, 0.6075999736785889]], \"world_bounds\": [[8.488147735595703, 9.011852264404297], [1.5042922496795654, 1.9957077503204346], [0.0, 0.949999988079071]]}, \"plant_pink\": {\"asset\": \"pottedplant\", \"asset_sha256\": \"5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15\", \"position\": [12.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.2232101818159284, \"native_bounds\": [[-0.10602963715791702, 0.10602963715791702], [-0.12073097378015518, 0.12073097378015518], [0.0, 0.6540167927742004]], \"world_bounds\": [[12.1203031539917, 12.3796968460083], [1.602320671081543, 1.897679328918457], [0.0, 0.800000011920929]]}, \"soccer_white\": {\"asset\": \"proc_soccer\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.000000005418604, \"native_bounds\": [[-0.10999999195337296, 0.10999999940395355], [-0.10999999940395355, 0.10999999940395355], [0.0, 0.2199999988079071]], \"world_bounds\": [[1.6399999856948853, 1.8600000143051147], [5.139999866485596, 5.360000133514404], [0.0, 0.2199999988079071]]}, \"column_cyan\": {\"asset\": \"proc_column\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999783255843, \"native_bounds\": [[-0.15000000596046448, 0.15000000596046448], [-0.15000000596046448, 0.15000000596046448], [0.0, 2.200000047683716]], \"world_bounds\": [[5.099999904632568, 5.400000095367432], [5.099999904632568, 5.400000095367432], [0.0, 2.200000047683716]]}, \"stool_purple\": {\"asset\": \"proc_stool\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [8.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.0000000264909539, \"native_bounds\": [[-0.17499999701976776, 0.17499999701976776], [-0.17499999701976776, 0.17499999701976776], [0.0, 0.44999998807907104]], \"world_bounds\": [[8.574999809265137, 8.925000190734863], [5.074999809265137, 5.425000190734863], [0.0, 0.44999998807907104]]}, \"monitor_gray\": {\"asset\": \"computerscreen\", \"asset_sha256\": \"5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643\", \"position\": [12.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.4271869213990316, \"native_bounds\": [[-1.4438228216156449e-15, 0.39268800616264343], [5.414335713407566e-16, 0.10400399565696716], [-8.014826700184745e-32, 0.29428520798683167]], \"world_bounds\": [[11.969779968261719, 12.530220031738281], [5.175783634185791, 5.324216365814209], [0.0, 0.42000001668930054]]}, \"rugby_brown\": {\"asset\": \"proc_rugby\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 8.75, 0], \"yaw\": 0, \"uniform_scale\": 0.9782608676638405, \"native_bounds\": [[-0.1399998664855957, 0.13999995589256287], [-0.08999994397163391, 0.09000000357627869], [0.0, 0.18400000035762787]], \"world_bounds\": [[1.6130435466766357, 1.8869564533233643], [8.661956787109375, 8.838043212890625], [0.0, 0.18000000715255737]]}, \"flowerpot_green\": {\"asset\": \"plantsmall1\", \"asset_sha256\": \"2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15\", \"position\": [5.25, 8.75, 0], \"yaw\": 0, \"uniform_scale\": 2.142857133733983, \"native_bounds\": [[-0.04733036458492279, 0.04733036458492279], [-0.04733036458492279, 0.04733036458492279], [0.0, 0.14000000059604645]], \"world_bounds\": [[5.148577690124512, 5.351422309875488], [8.648577690124512, 8.851422309875488], [0.0, 0.29999998211860657]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"shelf_orange\": {\"size\": [0.764412, 0.33443, 1.337721]}, \"desk_blue\": {\"size\": [1.433, 0.765, 0.75], \"size_range\": [[1.146, 0.612, 0.6], [1.72, 0.918, 0.9]]}, \"deskchair_black\": {\"size\": [0.524, 0.491, 0.95], \"size_range\": [[0.419, 0.393, 0.76], [0.628, 0.59, 1.14]]}, \"plant_pink\": {\"size\": [0.259, 0.295, 0.8], \"size_range\": [[0.208, 0.236, 0.64], [0.311, 0.354, 0.96]]}, \"soccer_white\": {\"size\": [0.22, 0.22, 0.22]}, \"column_cyan\": {\"size\": [0.3, 0.3, 2.2], \"size_range\": [[0.24, 0.24, 1.76], [0.36, 0.36, 2.64]]}, \"stool_purple\": {\"size\": [0.35, 0.35, 0.45], \"size_range\": [[0.28, 0.28, 0.36], [0.42, 0.42, 0.54]]}, \"monitor_gray\": {\"size\": [0.56, 0.148, 0.42], \"size_range\": [[0.448, 0.119, 0.336], [0.673, 0.178, 0.504]]}, \"rugby_brown\": {\"size\": [0.28, 0.18, 0.18]}, \"flowerpot_green\": {\"size\": [0.203, 0.203, 0.3], \"size_range\": [[0.162, 0.162, 0.24], [0.243, 0.243, 0.36]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[6.0, 4.5, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 3 distinct extra views. Cameras={\"reference\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"d5468c557ef9d9595d27dc6266f5eec41021924d77aef98a9143b9728da3252b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7444e65a55f4c9c09fd64e5566871ca3fe957564063dde829abb60f35c52ea69\", \"camera\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"96764465ef11ecd821fecaaa36038687a7b876e6f3b4fcc02e6e7fc21c6eb3c4\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"5dbff68a6a5d08b8dceb957a7988040c0d361c8becebd670eedcf4081f9d34f5\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"6f03b22a503e37cc1a4eebe5ebb5100b8e4aa0aef625e032876da68e927d08c3\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 3 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 42.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "fc10b43932be5b44b2c4e831ed94e8e3ce1724863c7b1ae1eb30e5c02ef449ed",
+    "images": [
+      {
+        "file": "../media/01b0374570e1d8ec9fceb127fbc91723bdecf1a0c28cd5fee20997caecabf7c8.png",
+        "sha256": "01b0374570e1d8ec9fceb127fbc91723bdecf1a0c28cd5fee20997caecabf7c8"
+      },
+      {
+        "file": "../media/c3a4d207b9c8465dc58e0715158f12ddbc053fb754000945f32f6154a1818acd.png",
+        "sha256": "c3a4d207b9c8465dc58e0715158f12ddbc053fb754000945f32f6154a1818acd"
+      },
+      {
+        "file": "../media/5f37882ad514b6c477df73443a1496dc9e0aa8473c13ff21144839bf522ea5cb.png",
+        "sha256": "5f37882ad514b6c477df73443a1496dc9e0aa8473c13ff21144839bf522ea5cb"
+      },
+      {
+        "file": "../media/7444e65a55f4c9c09fd64e5566871ca3fe957564063dde829abb60f35c52ea69.png",
+        "sha256": "7444e65a55f4c9c09fd64e5566871ca3fe957564063dde829abb60f35c52ea69"
+      },
+      {
+        "file": "../media/5dbff68a6a5d08b8dceb957a7988040c0d361c8becebd670eedcf4081f9d34f5.png",
+        "sha256": "5dbff68a6a5d08b8dceb957a7988040c0d361c8becebd670eedcf4081f9d34f5"
+      },
+      {
+        "file": "../media/9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7.png",
+        "sha256": "9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "692259e850badd92d01d887910e13cec76983e075eb6dad36f9e32e8802f6aa1",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"d5468c557ef9d9595d27dc6266f5eec41021924d77aef98a9143b9728da3252b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"ae2010375dbfa0e4e4f6ac6f6bab336817fca6c7c1cde79caed069c4f2075a5f\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 41}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e74d726889f38cf9d7d3504b7e5bcf1542579ab565f4bee2c63e589bd4439a83",
+    "images": [
+      {
+        "file": "../media/ae2010375dbfa0e4e4f6ac6f6bab336817fca6c7c1cde79caed069c4f2075a5f.png",
+        "sha256": "ae2010375dbfa0e4e4f6ac6f6bab336817fca6c7c1cde79caed069c4f2075a5f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "af8e2fb7d8f2a0a063157d7ac023daf144eab45b78afc644132a79a4cb0f3f19",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"6f03b22a503e37cc1a4eebe5ebb5100b8e4aa0aef625e032876da68e927d08c3\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 40}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f221bf390d589a1da3e022e44b7dec2e1f022c6bc4523ba4b8bd270383492538",
+    "images": [
+      {
+        "file": "../media/9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7.png",
+        "sha256": "9af21b9bead60393951edcf3503d7bba2984d5bb7d2d2e1c4b15dd7bbc4118e7"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"inspect_asset\",\"id\":\"shelf_orange\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6822bd4aef522115f72760436eb65b133caf497545a0243ff4b51dc5c6ba8b4b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual catalogue asset close-up; staging pose, not target\", \"instance\": \"shelf_orange\", \"capture\": {\"scene_sha256\": \"25271df407ed8d0926aaa8d5a3f5977eefcfcb66c48554acb983dac0c4b5787f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"3ba0410c9d065de25947e1d35a53cbb73305c3ffdef7b0df39d2e9d59dd78f6d\", \"camera\": {\"eye\": [3.5065815, -1.1754420000000003, 2.34101175], \"target\": [1.5, 1.5, 0.6688605], \"up\": [0, 0, 1], \"fov_deg\": 35, \"width\": 640, \"height\": 480}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"shelf_orange\": {\"asset\": \"proc_bookcase\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.5, 1.5, 0], \"yaw\": 0, \"uniform_scale\": 1.0000000073401185, \"native_bounds\": [[-0.382205992937088, 0.382205992937088], [-0.1672150045633316, 0.1672150045633316], [0.0, 1.3377209901809692]], \"world_bounds\": [[1.1177940368652344, 1.8822059631347656], [1.3327850103378296, 1.6672149896621704], [0.0, 1.3377209901809692]]}}}, \"turns_left\": 11, \"total_actions_left\": 39}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c8e11581ddb3bbe211afef37184cd68114bd9e608caa548c5cb0e4dcb33d22dd",
+    "images": [
+      {
+        "file": "../media/3ba0410c9d065de25947e1d35a53cbb73305c3ffdef7b0df39d2e9d59dd78f6d.png",
+        "sha256": "3ba0410c9d065de25947e1d35a53cbb73305c3ffdef7b0df39d2e9d59dd78f6d"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"reference\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.45,4.15,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':180,'size':[0.5516,0.5168,1.0]},'plant_pink':{'position':[5.7,1.45,0],'yaw':0,'size':[0.2331,0.2655,0.72]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.30818,0.30818,2.26]},'stool_purple':{'position':[3.8,2.88,0],'yaw':0,'size':[0.38889,0.38889,0.5]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.36,4.13,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.27,4.1,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "939112e03278d93a562f0e7fd2b9c286aae6334bf187c0ae42a5c27ca65065a5",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"3d237c0e2cb78f15d8570edc602d4bad21687ad469e52dab88c9e2eeda86e4b6\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"ce0a594c1fa4b680f361c06b8f4313bd3babc0fee527da33284d4ac6d174358c\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 38}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "cfc6f523e333d0114a5cab4e005a59f16c3732e096c2789d7c4b91ea1009ca5d",
+    "images": [
+      {
+        "file": "../media/ce0a594c1fa4b680f361c06b8f4313bd3babc0fee527da33284d4ac6d174358c.png",
+        "sha256": "ce0a594c1fa4b680f361c06b8f4313bd3babc0fee527da33284d4ac6d174358c"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"front\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d3320e8d6713cc840eba9c69651565b1081a273c816b8cab892ebe74b310966a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"error\": \"Unknown public view\", \"turns_left\": 9, \"total_actions_left\": 37}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6f47e8e139f76021561e537255214dbe3b9a6b5f1a0e4b434beb1d0a716586f9",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.4,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.5516,0.5168,1.0]},'plant_pink':{'position':[5.7,1.45,0],'yaw':0,'size':[0.2331,0.2655,0.72]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.88,0],'yaw':0,'size':[0.38889,0.38889,0.5]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.36,4.13,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.27,4.1,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "71749dab1a70832a343c4ceef8c66f9ad7035ade9fe44cb880cfda5f6f0d5fe0",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"bec53c06ee4d6edfbc2f9a75190e1f00fab566d68eb5c6aa6b0e8d6a384e9745\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"afbf3aca5cc2da3f42a0570f95964eb9cc5cfa63ec8478aff540ac922af96b05\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 8, \"total_actions_left\": 36}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "fa3c37bc5fee231637a269c712b168ffed62a49c7482d627217f292d47fba8f0",
+    "images": [
+      {
+        "file": "../media/afbf3aca5cc2da3f42a0570f95964eb9cc5cfa63ec8478aff540ac922af96b05.png",
+        "sha256": "afbf3aca5cc2da3f42a0570f95964eb9cc5cfa63ec8478aff540ac922af96b05"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"reference\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.38,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.57916,0.54264,1.05]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.2331,0.2655,0.72]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.88,0],'yaw':0,'size':[0.38889,0.38889,0.5]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.27,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.21,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bd7c65e41c6193a25f04264b487bd55c04aa5d16f6bfaa0d5902d83bc788ccbb",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"05de6d018e20776362ba9d070d65643ab7bfba68e280843ec506d2b11a3ec448\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"65220fc70786a35572e6867d289a3ae6b9ad261a5791ce021a9776fb8316b65d\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 7, \"total_actions_left\": 35}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "4d21d531e1cd74fbfa185c8f51b0ca00bc0bde1ed1bf3e51b9c44328afca127a",
+    "images": [
+      {
+        "file": "../media/65220fc70786a35572e6867d289a3ae6b9ad261a5791ce021a9776fb8316b65d.png",
+        "sha256": "65220fc70786a35572e6867d289a3ae6b9ad261a5791ce021a9776fb8316b65d"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.38,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.60674,0.56842,1.1]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.2331,0.2655,0.72]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.27,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.21,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "76501ab48a8e05c29c2e9dc566d278665d3ad237c844013509611df83deec673",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.909}, \"front\": {\"mean_object_iou\": 0.885}, \"side\": {\"mean_object_iou\": 0.77}, \"top\": {\"mean_object_iou\": 0.942}, \"turns_left\": 6, \"total_actions_left\": 34}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "30ce5ca64b026170497f464bfd8f26d4263f63bb74bd4a483aad3945d88343dd",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"side\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.38,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.60674,0.56842,1.1]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.2331,0.2655,0.72]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.27,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.21,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "5a044ee216db75d775da52686246cf871e78228a3ea759f4eb74c38f557be713",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"541b6fa682b639083803d4a788162a8981f4a390551930dae446ea1f9f3189e4\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"e02d518ce93a82ae98dc214e3fb13429f64f448d255786c58936d0dfe73a9f0d\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 5, \"total_actions_left\": 33}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7feb3b7879699352364010ea24e8e68dc591695c8f9536fb2d27cd9a865b2a7b",
+    "images": [
+      {
+        "file": "../media/e02d518ce93a82ae98dc214e3fb13429f64f448d255786c58936d0dfe73a9f0d.png",
+        "sha256": "e02d518ce93a82ae98dc214e3fb13429f64f448d255786c58936d0dfe73a9f0d"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"commit_stage\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[1.38,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.60674,0.56842,1.1]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[1.27,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[1.21,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f680eaebd665114775a964d29cfadef0228c3873f9c759e7807f7c098c125dfe",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 1, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_left\", \"camera\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"1c409bec0513682fd26a12912a0a1c3d54c1b154d9697ff3cc364a74c395b88e\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"22aaa9c94c63464576159d6ff68244fb7558ac2ed36b5c0708fbdbfb563b4a84\", \"camera\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"right\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"61b9b92c948ff3f6221e9b58d1be2e88a9767755fdc129086ad60468d91e8028\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"5ee3b8e7af63458a1f64bd3a87ba77a89a0acfba3cda05c6d9279c10df77bcdf\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 32}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bd3e7a53ae279ff6185724e0cce431e0b4254f2bbd2d3b4baf05c96a68176785",
+    "images": [
+      {
+        "file": "../media/22aaa9c94c63464576159d6ff68244fb7558ac2ed36b5c0708fbdbfb563b4a84.png",
+        "sha256": "22aaa9c94c63464576159d6ff68244fb7558ac2ed36b5c0708fbdbfb563b4a84"
+      },
+      {
+        "file": "../media/5ee3b8e7af63458a1f64bd3a87ba77a89a0acfba3cda05c6d9279c10df77bcdf.png",
+        "sha256": "5ee3b8e7af63458a1f64bd3a87ba77a89a0acfba3cda05c6d9279c10df77bcdf"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "692259e850badd92d01d887910e13cec76983e075eb6dad36f9e32e8802f6aa1",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"bbca9dc6c134f44f0b0e269caf618f5bc8a11c1d9f2309bd9cc9354b3459d1e8\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"555629ef93162b4c4af5465332d1a84e56c2df1327859af345b8a0368b13f4cd\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 31}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "b8c33d9fefd54bf936232e69cba62c86afdef1cc9854bb51cf42138fc76d00df",
+    "images": [
+      {
+        "file": "../media/555629ef93162b4c4af5465332d1a84e56c2df1327859af345b8a0368b13f4cd.png",
+        "sha256": "555629ef93162b4c4af5465332d1a84e56c2df1327859af345b8a0368b13f4cd"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "af8e2fb7d8f2a0a063157d7ac023daf144eab45b78afc644132a79a4cb0f3f19",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"0eab3e76d103203aa9bb0251f626e5aede4d8cd0b3cdc90adc8a61f6fd8523e0\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"26a92b40b652720d99ed413dd377c3a87119ffc4d16bd36495e6227eb108a282\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 30}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f3a6b93e8505f9bf04525897109787c21050c43b98c9a953a83421dbbdee48e7",
+    "images": [
+      {
+        "file": "../media/26a92b40b652720d99ed413dd377c3a87119ffc4d16bd36495e6227eb108a282.png",
+        "sha256": "26a92b40b652720d99ed413dd377c3a87119ffc4d16bd36495e6227eb108a282"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.60674,0.56842,1.1]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "78a1b14f4fa98840028a07c9a703fc7631bdfbee0c359e55c55dffe8d8e0f905",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.843}, \"front_left\": {\"mean_object_iou\": 0.758}, \"right\": {\"mean_object_iou\": 0.798}, \"top\": {\"mean_object_iou\": 0.965}, \"turns_left\": 11, \"total_actions_left\": 29}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "79d8dba7a9eb0a23fe1a3f5cc79593b5808f5491523d3fd917703da4d4f36160",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"right\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.75,0],'yaw':0,'size':[0.60674,0.56842,1.1]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.17,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.18,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "822e95bb96c9fea0c659c1ab3bf0e447ad54e423c00129c7f1d414911a54ec4a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate right\", \"capture\": {\"scene_sha256\": \"41c26ff6d212c983751ee772c6ca4e9a86b05d004048f24306e9c3b4603d407e\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"f4ac58babe088d0dc32f627005b0afc9563c061c6751625fd1dc4bdfdc4befe2\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 28}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "4b4ad118c7da8796fd0d9bd47b0807d429115d1d03a61a0a06e4040bbf9469ac",
+    "images": [
+      {
+        "file": "../media/f4ac58babe088d0dc32f627005b0afc9563c061c6751625fd1dc4bdfdc4befe2.png",
+        "sha256": "f4ac58babe088d0dc32f627005b0afc9563c061c6751625fd1dc4bdfdc4befe2"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"front_left\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "dcbf50cb367ded01bf8fdce71eb765db37bd12ca371b49dac23a3e7f4225af41",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate front_left\", \"capture\": {\"scene_sha256\": \"ac27404e32ef43e2d118c649d618042deabcd9ca66c56e954b213f6a5f5a0ef2\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"a7e639659e3aefde524e1423375c96c522b28f1003042d4ddf76e5a82e14ea29\", \"camera\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 9, \"total_actions_left\": 27}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2490c381b8dbdb23c6d7b7ecb99024723c3b82cce8fb8c689afe34eb720a0dd2",
+    "images": [
+      {
+        "file": "../media/a7e639659e3aefde524e1423375c96c522b28f1003042d4ddf76e5a82e14ea29.png",
+        "sha256": "a7e639659e3aefde524e1423375c96c522b28f1003042d4ddf76e5a82e14ea29"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1f477db54d7586cb86ecc5d3e250256092af62e0dbe51cb510d3851d2b323669",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.863}, \"front_left\": {\"mean_object_iou\": 0.764}, \"right\": {\"mean_object_iou\": 0.813}, \"top\": {\"mean_object_iou\": 0.965}, \"turns_left\": 8, \"total_actions_left\": 26}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "477f3d8d536d23699106b6f759ca95fc7a7e16995e96ea98aa7f5adcdfa100b3",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"reference\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.73,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "86da900009ea6b7f672411e558a046e64712e54f1f5d28260f2a013f5d533491",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"7ff2405d32a91cc4fe6b684224681fd29c6521f4cd4a31654023906ad3f6677e\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"9234a265418dd441035391a3d6f1a168e1c22b62193000948a65417d174fa80e\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 7, \"total_actions_left\": 25}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "21ae6cc4ca933a8f03a303408b7160e20cd3d0bd9a6dcb31b6f586e51b852b36",
+    "images": [
+      {
+        "file": "../media/9234a265418dd441035391a3d6f1a168e1c22b62193000948a65417d174fa80e.png",
+        "sha256": "9234a265418dd441035391a3d6f1a168e1c22b62193000948a65417d174fa80e"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.86,4.13,0.87],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.85,4.16,0.47],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "4f3ed74f25747090f813984c358cbbaa1ff43d1b15b578b12b8694ac18fb7f4a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.819}, \"front_left\": {\"mean_object_iou\": 0.746}, \"right\": {\"mean_object_iou\": 0.77}, \"top\": {\"mean_object_iou\": 0.839}, \"turns_left\": 6, \"total_actions_left\": 24}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a67a04924e0cd424490f6df1bfc192fdd5579901ac91dfc59b81a1d285371634",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"commit_stage\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[3.15,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[2.95,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[2.97,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "29aacdf1d5ec1b2418fb9371e707ca7b352e7d478a988b3399dcad80370c3a27",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 2, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_right\", \"camera\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"b44ac27f0a4abb465bd0b9c3ed2fbd589976a2fa290154e11c9a55153d41e651\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"8b74eb0d57a274be47de9911c6b6239e7c231100d4ad841c95736ebe52f928e7\", \"camera\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"left\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"91ff1afe0665ab28abc0f1158d83d3e4a8dadd5039788f5daeab0078ff8e2958\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"1a8321496b2376332c754045021630eb8abfeea0b9b69992fc0997db0d1c9f5c\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 23}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "57e5b00a51615227e849ef1ecc9b42cb355186ca5e8f596bb82b95570920bb94",
+    "images": [
+      {
+        "file": "../media/8b74eb0d57a274be47de9911c6b6239e7c231100d4ad841c95736ebe52f928e7.png",
+        "sha256": "8b74eb0d57a274be47de9911c6b6239e7c231100d4ad841c95736ebe52f928e7"
+      },
+      {
+        "file": "../media/1a8321496b2376332c754045021630eb8abfeea0b9b69992fc0997db0d1c9f5c.png",
+        "sha256": "1a8321496b2376332c754045021630eb8abfeea0b9b69992fc0997db0d1c9f5c"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "af8e2fb7d8f2a0a063157d7ac023daf144eab45b78afc644132a79a4cb0f3f19",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"d281babc40a2aacb612327e7468e47e28236d08edfad30724c68bb87bab17612\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"fcc1304e0d58cc5fb946ab6062c6498a1226427e5eef0f8cd192a054235db885\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 22}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "cd87d8c4538f18f61543e45b0fed9a1823091b188b4807e27299bb0c8b24b114",
+    "images": [
+      {
+        "file": "../media/fcc1304e0d58cc5fb946ab6062c6498a1226427e5eef0f8cd192a054235db885.png",
+        "sha256": "fcc1304e0d58cc5fb946ab6062c6498a1226427e5eef0f8cd192a054235db885"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "692259e850badd92d01d887910e13cec76983e075eb6dad36f9e32e8802f6aa1",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"ce6f6b63b22441ea18cf3a934c3c896c11162011d8a2a24abba4128d1938b334\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"b890e05e1d721c45df89f27b7723906386e3a8fa7bd5780d893d49c3a2f7da44\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 21}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "777af1c752fda7eb60da2de671fd135576763dbede0c287f46f48bad036c8672",
+    "images": [
+      {
+        "file": "../media/b890e05e1d721c45df89f27b7723906386e3a8fa7bd5780d893d49c3a2f7da44.png",
+        "sha256": "b890e05e1d721c45df89f27b7723906386e3a8fa7bd5780d893d49c3a2f7da44"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.95,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.75,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.77,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "18bb0580293089b3f3b1c92ed8054aed47e658fcfbff99b7bed1b654ec74239c",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.833}, \"front_right\": {\"mean_object_iou\": 0.819}, \"left\": {\"mean_object_iou\": 0.73}, \"top\": {\"mean_object_iou\": 0.897}, \"turns_left\": 11, \"total_actions_left\": 20}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3ea552d16ac2cc9504a6996497e04e2a2a967dd94596c68071f7c10d44f6a36f",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"left\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.95,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.75,2.72,0],'yaw':0,'size':[0.6233,0.5839,1.13]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.77,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.22,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3990632f301d632a71fb48d3fed55b405a82f43668db3510981b2c33b215c02b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate left\", \"capture\": {\"scene_sha256\": \"f430472734cdc9fc4033370bd934ad58b56df196575b52c086baa5187857d3a9\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"53f9cfa89a5a1604e022f97b3a8b368f51983bb3fca508f70769258d64518862\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 19}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "39677c9787913141e9f98e40ad51592a9d52686719620966f5c50462f3f2a80a",
+    "images": [
+      {
+        "file": "../media/53f9cfa89a5a1604e022f97b3a8b368f51983bb3fca508f70769258d64518862.png",
+        "sha256": "53f9cfa89a5a1604e022f97b3a8b368f51983bb3fca508f70769258d64518862"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.25,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.95,1.85,0],'yaw':0,'size':[1.52853,0.816,0.8]},'deskchair_black':{'position':[0.75,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.77,1.6,0.8],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.25,0.91],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.83,4.27,0.48],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "65a3f2f47d43e1db5965f536455a1ec0d8bacc2ced5b45de7234f12efbf193a4",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.81}, \"front_right\": {\"mean_object_iou\": 0.777}, \"left\": {\"mean_object_iou\": 0.744}, \"top\": {\"mean_object_iou\": 0.897}, \"turns_left\": 9, \"total_actions_left\": 18}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a4348f6fe12f9ce21918556daca896597f7cc57c94094c6edaec65776df03eaa",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.95,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.75,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.77,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.923],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.2,0.487],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9549a1653bf2479165e441d27fd4d7617f6a2ec31837df1168787572bc10cd94",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.85}, \"front_right\": {\"mean_object_iou\": 0.839}, \"left\": {\"mean_object_iou\": 0.743}, \"top\": {\"mean_object_iou\": 0.903}, \"turns_left\": 8, \"total_actions_left\": 17}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c427890c8f75ac625afbbfb317dcdafaf040a2e44f14e30badc63f430e23619b",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.2,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.95,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.75,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.77,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.2,0.923],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.2,0.487],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e03b84e613c5e36736d18e18a47f1107a2d1a74e92bb288a21d201bd796a54ac",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"30bc6a7dced045f345ddb37534fd62ed2e9ff96245bed60dfd89b2aad6f43c41\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"2f050ac16ae1c7eca5f32a21a00602ca0b351dbad9c58120c65ae9f87ea18de1\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 7, \"total_actions_left\": 16}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2936be4b15750915c9db33c9a285a44a80bdad1b74046fd15f8ae87e12c39461",
+    "images": [
+      {
+        "file": "../media/2f050ac16ae1c7eca5f32a21a00602ca0b351dbad9c58120c65ae9f87ea18de1.png",
+        "sha256": "2f050ac16ae1c7eca5f32a21a00602ca0b351dbad9c58120c65ae9f87ea18de1"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.24,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.9,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.7,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.15,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.72,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.24,0.923],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.24,0.487],'yaw':0,'size':[0.18947,0.18947,0.28]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ac3c8c6a29f8765d70a5f1eff454f92d62deb390a79538676106a5b4b1faf899",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.886}, \"front_right\": {\"mean_object_iou\": 0.849}, \"left\": {\"mean_object_iou\": 0.757}, \"top\": {\"mean_object_iou\": 0.936}, \"turns_left\": 6, \"total_actions_left\": 15}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "fc92cbbdeb30501adff7ea61807a9642b15f3ca1e98f2b9f594a46985675944c",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.24,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.9,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.7,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.72,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.24,0.923],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.24,0.487],'yaw':0,'size':[0.203,0.203,0.3]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f1bfb0b4433b994a23c7a84c9fbea8bbbecc6fe316733214aa70b00227cd7dcf",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.879}, \"front_right\": {\"mean_object_iou\": 0.864}, \"left\": {\"mean_object_iou\": 0.769}, \"top\": {\"mean_object_iou\": 0.946}, \"turns_left\": 5, \"total_actions_left\": 14}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "da0e53a45ff2cd790aef9bcb230621b00cf017727a5c570b661ce059f6ebe4fc",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.24,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.9,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.7,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.72,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.24,0.914],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.24,0.474],'yaw':0,'size':[0.203,0.203,0.3]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7ef418b7968702679955824c03b1fd31b1c150824c4fe4416acbd56b429b85b4",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.89}, \"front_right\": {\"mean_object_iou\": 0.871}, \"left\": {\"mean_object_iou\": 0.769}, \"top\": {\"mean_object_iou\": 0.946}, \"turns_left\": 4, \"total_actions_left\": 13}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6c8478db9f061646aa2979c7a41e574089760e5db620b5ccc084c10c6aa0ac43",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.24,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.9,1.85,0],'yaw':0,'size':[1.54764,0.8262,0.81]},'deskchair_black':{'position':[0.7,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.72,1.6,0.81],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.24,0.914],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.24,0.474],'yaw':0,'size':[0.203,0.203,0.3]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9299f10bbe4b8eba1e1123612e4077defb95a338ab3f67a67a8add10549cd650",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.89}, \"front_right\": {\"mean_object_iou\": 0.869}, \"left\": {\"mean_object_iou\": 0.766}, \"top\": {\"mean_object_iou\": 0.947}, \"turns_left\": 3, \"total_actions_left\": 12}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6356846d815475c2f4db60a437b591afd7bdb8f5c3f615e0cd1741c99e34c956",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"submit\",\"source\":\"def build(public_params):\\n return {'shelf_orange':{'position':[3.0,4.24,0],'yaw':0,'size':[0.764412,0.33443,1.337721]},'desk_blue':{'position':[0.9,1.85,0],'yaw':0,'size':[1.56675,0.8364,0.82]},'deskchair_black':{'position':[0.7,2.75,0],'yaw':0,'size':[0.61777,0.57886,1.12]},'plant_pink':{'position':[5.75,1.45,0],'yaw':0,'size':[0.24029,0.27369,0.74]},'soccer_white':{'position':[1.35,3.68,0],'yaw':0,'size':[0.22,0.22,0.22]},'column_cyan':{'position':[0.75,1.1,0],'yaw':0,'size':[0.31091,0.31091,2.28]},'stool_purple':{'position':[3.8,2.9,0],'yaw':0,'size':[0.40444,0.40444,0.52]},'monitor_gray':{'position':[0.72,1.6,0.82],'yaw':180,'size':[0.48533,0.12827,0.364]},'rugby_brown':{'position':[2.89,4.24,0.914],'yaw':0,'size':[0.28,0.18,0.18]},'flowerpot_green':{'position':[2.8,4.24,0.474],'yaw':0,'size':[0.203,0.203,0.3]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "81b2cce214c2dc3324f72a02750c4970c9d95247a7fcaecba9d3f470f4b2f719",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 11}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d9555e7b84671b639049c8dbd5f0bb9ecce72acdc389e054c2bf44663503d261",
+    "images": []
+  }
+]

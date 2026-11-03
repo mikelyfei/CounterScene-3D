@@ -1,0 +1,14 @@
+{
+  "protocol": "native-operations-v3",
+  "motion_contract": "actual-terminal-state-v1",
+  "stages": [
+    {
+      "file": "stage0.json",
+      "sha256": "9c1e2061975963cbe81374d6e5c90793705f82c64531b5076ddd41a1bb59f816"
+    },
+    {
+      "file": "stage1.json",
+      "sha256": "868d41f2b870390a01ff9d0c0447e8129d7d67ae8f3c13842ee414d0124284dd"
+    }
+  ]
+}

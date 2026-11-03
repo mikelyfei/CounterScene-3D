@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "satisfied": 1,
+      "total": 1,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "5401d4fb39e38d6a194bb270e67f3245544828d846a2285c901ab9948575ebe9",
+        "instance_ids": [
+          "cabinet_blue",
+          "lamp_white",
+          "monitor_gray",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "table_green",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "monitor_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

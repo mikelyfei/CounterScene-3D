@@ -1,0 +1,185 @@
+{
+  "success": false,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 2,
+  "stage_successes": 1,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [
+          {
+            "id": "c01",
+            "type": "left_of",
+            "args": [
+              "column_cyan",
+              "plant_pink"
+            ],
+            "satisfied": true,
+            "value": 0.3773
+          },
+          {
+            "id": "c05",
+            "type": "between",
+            "args": [
+              "monitor_gray",
+              "shelf_orange",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0822
+          },
+          {
+            "id": "c07",
+            "type": "on_top_of",
+            "args": [
+              "monitor_gray",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0,
+            "evidence": "Actual projected footprint covered on named host within height tolerance"
+          },
+          {
+            "id": "c10",
+            "type": "aligned_x",
+            "args": [
+              "chair_cyan",
+              "monitor_gray"
+            ],
+            "satisfied": true,
+            "value": 0.0
+          },
+          {
+            "id": "c11",
+            "type": "left_of",
+            "args": [
+              "chair_cyan",
+              "shelf_orange#back"
+            ],
+            "satisfied": true,
+            "value": 1.2365
+          },
+          {
+            "id": "c12",
+            "type": "left_of",
+            "args": [
+              "shelf_orange#back",
+              "shelf_orange#side_r"
+            ],
+            "satisfied": true,
+            "value": 0.0
+          },
+          {
+            "id": "c14",
+            "type": "right_of",
+            "args": [
+              "chair_cyan",
+              "shelf_orange#side_r"
+            ],
+            "satisfied": false,
+            "value": -2.3683
+          }
+        ],
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "crate_red",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "all_satisfied": false,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "stage_scope": {
+        "valid_output": true,
+        "pending_collisions": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "crate_red",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "pending_issues": [],
+        "violations": []
+      },
+      "locked_moved": [],
+      "completion_witness_valid": false,
+      "continuation_status": "not_established_by_fixed_gold",
+      "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+      "scene_artifact": {
+        "sha256": "5e8ea6e5b1d8b90ba3d7682741142d29cf5886970d05aa205bd7b565f51926f5",
+        "instance_ids": [
+          "bin_gray",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": false,
+      "hard_ok": false,
+      "physical": [],
+      "locked_moved": [],
+      "hard_satisfied": 11,
+      "hard_total": 12,
+      "preserved": 9,
+      "preserved_total": 9,
+      "soft_feasible_ok": 1,
+      "soft_feasible_total": 1,
+      "conflict_tp": 1,
+      "conflict_fp": 0,
+      "conflict_fn": 0,
+      "edit": {
+        "moved": [
+          "bin_gray"
+        ],
+        "n_moved": 1,
+        "displacement_m": 1.391
+      },
+      "gold_edit": {
+        "moved": [
+          "bin_gray",
+          "chair_cyan"
+        ],
+        "n_moved": 2,
+        "displacement_m": 4.032
+      },
+      "collateral_moves": [],
+      "scene_artifact": {
+        "sha256": "fd4f1d084fbbca2310b177d94862863ceaf82d31f2163d21c5cd17f707a9f3b6",
+        "instance_ids": [
+          "bin_gray",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "monitor_gray",
+          "plant_pink",
+          "shelf_orange",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

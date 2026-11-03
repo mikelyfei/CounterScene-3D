@@ -1,0 +1,88 @@
+{
+  "id": "C-L2-s0_claude_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "C-L2-s0",
+  "model": "claude-opus-5-5",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": false,
+  "dimensions": {
+    "strict_success": 0,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 0.5,
+    "regression": null,
+    "alignment": null,
+    "hidden_iou": 0.6894206972895411,
+    "metric_centres_ok": false,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 21,
+    "R_det": 0.5,
+    "R_shaped": 0.5829468851785248,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "2e33da379219bdc1eb7abf7d69e54129e6e1b5f5ce43fc3a1a88a3cf1e133f1f",
+  "actions_sha256": "b50613599731230c8ff6f4e3324f2f03d8fd81f68fcbfd260e7263822e22905a",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": false,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 2,
+    "stage_successes": 1,
+    "stages_required": 2,
+    "stages": [
+      {
+        "success": true,
+        "hidden_mean_iou": 0.8082606137816076,
+        "seen_mean_iou": 0.8122501674829761,
+        "overfit_gap": 0.003989553701368442,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.01698751404882083,
+          "lamp_white": 0.03409747634035047,
+          "plant_pink": 0.011347356747074381,
+          "bin_gray": 0.009916473621676658,
+          "crate_red": 0.022797017059808838,
+          "flowerpot_green": 0.04611727277849326
+        }
+      },
+      {
+        "success": false,
+        "hidden_mean_iou": 0.6894206972895411,
+        "seen_mean_iou": 0.8314352638677344,
+        "overfit_gap": 0.14201456657819322,
+        "metric_centres_ok": false,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.0773608685787318,
+          "lamp_white": 0.03409747634035047,
+          "plant_pink": 0.011347356747074381,
+          "bin_gray": 0.009916473621676658,
+          "crate_red": 0.022797017059808838,
+          "flowerpot_green": 0.12706179989618144
+        }
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "0e2aca5b1d8dadd9fd88631bb31be932e67e93dcc2ac0ebd2db16783f4d1caaa"
+}

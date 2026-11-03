@@ -1,0 +1,403 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L2-s0. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"desk_blue\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"lamp_white\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"plant_pink\": {\"position\": [8.75, 1.75, 0], \"yaw\": 0}, \"bin_gray\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"crate_red\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}, \"flowerpot_green\": {\"position\": [8.75, 5.25, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"5b042dae976edbc5dfc37c2b65159e20985fc1f522cf4673f0299ec1fe818cfd\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"1a71391243293123527d277d3795350c10187f8c11945038084515df7810a355\", \"camera\": {\"eye\": [5.25, -5.4411, 5.937], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"9e5ce19fcccc9f7bb477243c5f0143f4689ec4cdad2b3b04697a3a4062325f8d\", \"camera\": {\"eye\": [-1.7445, -2.3691, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"3015df925f0f08894699016eb9eaaafe26c3f1c79743e3606a6418b4e6857854\", \"camera\": {\"eye\": [5.25, 12.6306, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"desk_blue\": {\"asset\": \"desk\", \"asset_sha256\": \"0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.9510542907174955, \"native_bounds\": [[-0.009999999776482582, 0.7244754433631897], [-0.012299999594688416, 0.3799999952316284], [0.0, 0.38440755009651184]], \"world_bounds\": [[1.0334992408752441, 2.466500759124756], [1.3673007488250732, 2.1326992511749268], [0.0, 0.75]]}, \"lamp_white\": {\"asset\": \"lamproundfloor\", \"asset_sha256\": \"50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.3953488139992734, \"native_bounds\": [[-0.016019709408283234, 0.13601970672607422], [-0.027779998257756233, 0.14778000116348267], [0.0, 0.8600000143051147]], \"world_bounds\": [[5.14392614364624, 5.35607385635376], [1.627516269683838, 1.872483730316162], [0.0, 1.1999999284744263]]}, \"plant_pink\": {\"asset\": \"pottedplant\", \"asset_sha256\": \"5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15\", \"position\": [8.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.2232101818159284, \"native_bounds\": [[-0.10602963715791702, 0.10602963715791702], [-0.12073097378015518, 0.12073097378015518], [0.0, 0.6540167927742004]], \"world_bounds\": [[8.6203031539917, 8.8796968460083], [1.602320671081543, 1.897679328918457], [0.0, 0.800000011920929]]}, \"bin_gray\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999602635717, \"native_bounds\": [[-0.20000000298023224, 0.20000000298023224], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.6000000238418579]], \"world_bounds\": [[1.5499999523162842, 1.9500000476837158], [5.050000190734863, 5.449999809265137], [0.0, 0.5999999642372131]]}, \"crate_red\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.999999985098839, \"native_bounds\": [[-0.25, 0.25], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.4000000059604645]], \"world_bounds\": [[5.0, 5.5], [5.050000190734863, 5.449999809265137], [0.0, 0.4000000059604645]]}, \"flowerpot_green\": {\"asset\": \"plantsmall1\", \"asset_sha256\": \"2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15\", \"position\": [8.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 2.142857133733983, \"native_bounds\": [[-0.04733036458492279, 0.04733036458492279], [-0.04733036458492279, 0.04733036458492279], [0.0, 0.14000000059604645]], \"world_bounds\": [[8.648577690124512, 8.851422309875488], [5.148577690124512, 5.351422309875488], [0.0, 0.29999998211860657]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"desk_blue\": {\"size\": [1.433, 0.765, 0.75], \"size_range\": [[1.146, 0.612, 0.6], [1.72, 0.918, 0.9]]}, \"lamp_white\": {\"size\": [0.212, 0.245, 1.2], \"size_range\": [[0.17, 0.196, 0.96], [0.255, 0.294, 1.44]]}, \"plant_pink\": {\"size\": [0.259, 0.295, 0.8], \"size_range\": [[0.208, 0.236, 0.64], [0.311, 0.354, 0.96]]}, \"bin_gray\": {\"size\": [0.4, 0.4, 0.6], \"size_range\": [[0.32, 0.32, 0.48], [0.48, 0.48, 0.72]]}, \"crate_red\": {\"size\": [0.5, 0.4, 0.4], \"size_range\": [[0.4, 0.32, 0.32], [0.6, 0.48, 0.48]]}, \"flowerpot_green\": {\"size\": [0.203, 0.203, 0.3], \"size_range\": [[0.162, 0.162, 0.24], [0.243, 0.243, 0.36]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[4.6, 3.5, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 2 distinct extra views. Cameras={\"reference\": {\"eye\": [2.3, -2.6671, 3.1101], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [5.7554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.4205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"313e8e6a4048f6ef8748b81b0e0fe63fc17d5f0402a9f8794128ecec1ff8a155\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"0ce773d892547f388c110a4d2338b2cd2db479540ab8f328242c3426975ddd16\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"313e8e6a4048f6ef8748b81b0e0fe63fc17d5f0402a9f8794128ecec1ff8a155\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"2b549130e35e211dbb2c91847fe4a14b51c2670364a11c9f25566e899bf950a6\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"313e8e6a4048f6ef8748b81b0e0fe63fc17d5f0402a9f8794128ecec1ff8a155\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"bd029fccf72121dcbc7e6ad29277f24034ed99bae865712dcecfdbf852bccf55\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 2 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 28.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "57c1f234b7217dc68b79d24ddb9a384ca4a025f8b73e14accb79b59ccf26870b",
+    "images": [
+      {
+        "file": "../media/1a71391243293123527d277d3795350c10187f8c11945038084515df7810a355.png",
+        "sha256": "1a71391243293123527d277d3795350c10187f8c11945038084515df7810a355"
+      },
+      {
+        "file": "../media/9e5ce19fcccc9f7bb477243c5f0143f4689ec4cdad2b3b04697a3a4062325f8d.png",
+        "sha256": "9e5ce19fcccc9f7bb477243c5f0143f4689ec4cdad2b3b04697a3a4062325f8d"
+      },
+      {
+        "file": "../media/3015df925f0f08894699016eb9eaaafe26c3f1c79743e3606a6418b4e6857854.png",
+        "sha256": "3015df925f0f08894699016eb9eaaafe26c3f1c79743e3606a6418b4e6857854"
+      },
+      {
+        "file": "../media/0ce773d892547f388c110a4d2338b2cd2db479540ab8f328242c3426975ddd16.png",
+        "sha256": "0ce773d892547f388c110a4d2338b2cd2db479540ab8f328242c3426975ddd16"
+      },
+      {
+        "file": "../media/2b549130e35e211dbb2c91847fe4a14b51c2670364a11c9f25566e899bf950a6.png",
+        "sha256": "2b549130e35e211dbb2c91847fe4a14b51c2670364a11c9f25566e899bf950a6"
+      },
+      {
+        "file": "../media/bd029fccf72121dcbc7e6ad29277f24034ed99bae865712dcecfdbf852bccf55.png",
+        "sha256": "bd029fccf72121dcbc7e6ad29277f24034ed99bae865712dcecfdbf852bccf55"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.62, 1.62, 0], 'yaw': 0, 'size': [1.30, 0.694, 0.68]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.68], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.22, 2.9, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]},\\n        'plant_pink': {'position': [4.28, 1.8, 0], 'yaw': 0, 'size': [0.259, 0.295, 0.8]},\\n        'bin_gray': {'position': [1.78, 2.87, 0], 'yaw': 0, 'size': [0.4, 0.4, 0.6]},\\n        'crate_red': {'position': [2.87, 3.01, 0], 'yaw': 0, 'size': [0.5, 0.4, 0.4]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "aa45d21d861899eda7f8bfede88c6a3b13077737f9ccc36d6350400517e00d99",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.505}, \"side\": {\"mean_object_iou\": 0.693}, \"top\": {\"mean_object_iou\": 0.698}, \"turns_left\": 13, \"total_actions_left\": 27}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "468c5fe955152d1efe37d5d4487504d66f8f01c35f089bbce6c764fbe5862487",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.259, 0.295, 0.8]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c629e68dede6fddc945c83dec7c62b30f68c51034785fb744bd81b34565b2c17",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.7}, \"side\": {\"mean_object_iou\": 0.659}, \"top\": {\"mean_object_iou\": 0.841}, \"turns_left\": 12, \"total_actions_left\": 26}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "80a74a803976c9e311da5bed9b3a69a454ca986ed1193b34dc2d25bc7327b270",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.259, 0.295, 0.8]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\", \"view\": \"side\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3489ed976f32f7808e1ddabf7d78e809e32d524800b321fd5e655e6a5bc534c9",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"05aba3412c90ca7a567c781f9fa6eae78378695e51d50c8f7a4e5e6a5540972d\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"5f7d79987f47e1d327a061eeac9d2a27901d7884c065793a9a9251aa80a1ed19\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 25}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6dbda220c2ff9eb4fd43f41ebd9eca89656670c6aa184b8f66f9c8808c20be9a",
+    "images": [
+      {
+        "file": "../media/5f7d79987f47e1d327a061eeac9d2a27901d7884c065793a9a9251aa80a1ed19.png",
+        "sha256": "5f7d79987f47e1d327a061eeac9d2a27901d7884c065793a9a9251aa80a1ed19"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.212, 0.245, 1.2]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.259, 0.295, 0.8]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\", \"view\": \"front\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "21100c549ace5494fc64edbe1a91064a64693cf21105370ec3e5d8f8bd86544c",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate front\", \"capture\": {\"scene_sha256\": \"05aba3412c90ca7a567c781f9fa6eae78378695e51d50c8f7a4e5e6a5540972d\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"c51c2eefe628b1a0849d068bb30e73dbe2f7bc4326866e09fd8b62be389d5665\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 24}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "854b5bae8d066b6505eb1940d86d62be8eb2dc965acbae804b3c69d7c79a8302",
+    "images": [
+      {
+        "file": "../media/c51c2eefe628b1a0849d068bb30e73dbe2f7bc4326866e09fd8b62be389d5665.png",
+        "sha256": "c51c2eefe628b1a0849d068bb30e73dbe2f7bc4326866e09fd8b62be389d5665"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1884c60d128b874b6a3dca496808fd55f14fe3cc8f4e71da1b0e1978b8a8c2ef",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.776}, \"side\": {\"mean_object_iou\": 0.769}, \"top\": {\"mean_object_iou\": 0.892}, \"turns_left\": 9, \"total_actions_left\": 23}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "5cd7210cbc23fdfc4b16491703dd6f1d41eea5792a85e307e759ae50944171bf",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.433, 0.765, 0.75]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.75], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d805d6d6a548438b19ac3ba445206ad52e44c69e7c7242c4e59ec17ddeaaa01e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.553}, \"side\": {\"mean_object_iou\": 0.748}, \"top\": {\"mean_object_iou\": 0.899}, \"turns_left\": 8, \"total_actions_left\": 22}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3d0404ef3a1f5b93fe17545d8457cad9c1a7ea9d2158e56bc3d1c4e58967d913",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.23, 0.23, 0.34]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f9861d20c898c3e555a961424a359544465431a228790d8671a09f93991e0ebf",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front\": {\"mean_object_iou\": 0.764}, \"side\": {\"mean_object_iou\": 0.755}, \"top\": {\"mean_object_iou\": 0.916}, \"turns_left\": 7, \"total_actions_left\": 21}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "abe37b4bd7661f775959c5103f8ee740fc3d858dfa79fa356880b62f072c7985",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"commit_stage\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1e777e4a3202018e5a049b21a3d1edc95d8dd314170db52da63e6a20e18e9722",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 1, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_left\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"9a3e11337bab42d2e3e4392fdd6ad7991d209e1c6dece5550ea4f05517fb8d22\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7935729d1e84c9a815fefd07b0929a255be9f7df21c41815a287d6d3741f4545\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"right\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"9a3e11337bab42d2e3e4392fdd6ad7991d209e1c6dece5550ea4f05517fb8d22\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"3b347ac3777279f40b28a3e3dfd3b75c87e7ce89e8df278a71fe509f519cd239\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 20}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "33fad543325d89609e0fdb3064f263b1c64dda2394cc0f734ef2c542ed1425fa",
+    "images": [
+      {
+        "file": "../media/7935729d1e84c9a815fefd07b0929a255be9f7df21c41815a287d6d3741f4545.png",
+        "sha256": "7935729d1e84c9a815fefd07b0929a255be9f7df21c41815a287d6d3741f4545"
+      },
+      {
+        "file": "../media/3b347ac3777279f40b28a3e3dfd3b75c87e7ce89e8df278a71fe509f519cd239.png",
+        "sha256": "3b347ac3777279f40b28a3e3dfd3b75c87e7ce89e8df278a71fe509f519cd239"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [1.63, 1.62, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [1.55, 1.84, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1884c60d128b874b6a3dca496808fd55f14fe3cc8f4e71da1b0e1978b8a8c2ef",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.466}, \"right\": {\"mean_object_iou\": 0.601}, \"turns_left\": 13, \"total_actions_left\": 19}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "842eb1d8fccb5e55164116fa208954cde2e239169845db6b48e95d1928d51d16",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [3.0, 0.98, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.88, 1.18, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "84372cd04a10700eb4419e1013738cefa007c419c31e29fe5d438fa4c408397d",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.698}, \"right\": {\"mean_object_iou\": 0.77}, \"turns_left\": 12, \"total_actions_left\": 18}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6d37c7cfd7769c419e94afe59136dd4f234b8a1d40ef349174888fdde797d8ef",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [3.0, 0.98, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.88, 1.18, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\", \"view\": \"right\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f9ebe25610a7d02e943d2f99024b29c01643949207ab13957b4365eec7dc2d06",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate right\", \"capture\": {\"scene_sha256\": \"eb3ccbaf53f31e00f02721e2118751bca1e11cc263f6dce693a432edc5c8f129\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"577b51a0195c765f67d5d564e3216244d59eb18a555ab66f42619094e8e9ad81\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 17}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e919828dd099525b2c0a6bb8456e00889a85bd74e95f30417e4f902f65b9ebe7",
+    "images": [
+      {
+        "file": "../media/577b51a0195c765f67d5d564e3216244d59eb18a555ab66f42619094e8e9ad81.png",
+        "sha256": "577b51a0195c765f67d5d564e3216244d59eb18a555ab66f42619094e8e9ad81"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.9, 0.93, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.78, 1.13, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "de6e4985949278f7f6430cd299c25c7ba21aeda0f24f6f367eaa582ea1e07118",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.71}, \"right\": {\"mean_object_iou\": 0.785}, \"turns_left\": 10, \"total_actions_left\": 16}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a51107ed859107994343be89776e130c0f4ea90b6266da1babf5b7de13415fe0",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.8, 0.88, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.68, 1.08, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3c7a4079fa392c9f4de0389b7d4bdd08b091193ba7b1dd3a70d07d027315b2dd",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.699}, \"right\": {\"mean_object_iou\": 0.767}, \"turns_left\": 9, \"total_actions_left\": 15}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "04f1b26eb9a00af62d668923fb9ca4623ca661e918d909dbf2d2ed6ed8980b84",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.9, 1.0, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.78, 1.2, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "486bf6a37c3f5e8e14da3013afc167a48425090dbf76f90d078776a48fb316d9",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.644}, \"right\": {\"mean_object_iou\": 0.722}, \"turns_left\": 8, \"total_actions_left\": 14}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7b6fa62326b341c6678826f7c122ff684db82c7175ff2e34ce0f976b93429145",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.95, 0.86, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.83, 1.06, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a9812877ad8cb5acd1f6ba99568995d744a0a69ad27f1ded8b13583084c7c4fc",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.847}, \"right\": {\"mean_object_iou\": 0.809}, \"turns_left\": 7, \"total_actions_left\": 13}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "438a8e9a4b05b61b78e85f87e2a6f1385320452c24d26de0e97ef65076275fd6",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [3.0, 0.8, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.88, 1.0, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3c344bfe1b2800ad22c812f3695b1b97b1fa9743bf83286b3f10b95e8510103d",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.711}, \"right\": {\"mean_object_iou\": 0.738}, \"turns_left\": 6, \"total_actions_left\": 12}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bd633880763ef477634d0cc799ce6f081a63b7c8523dd0113bb3dcb0775451f5",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.97, 0.85, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.85, 1.05, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1124d10213fab75b153e8f804dfd123676d36671d1d729b3c085496846de895b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.814}, \"right\": {\"mean_object_iou\": 0.788}, \"turns_left\": 5, \"total_actions_left\": 11}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "935d771a800e333795c4179a5936775baafd2f5391e36b39c35af8b79a00c9b4",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.93, 0.87, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.81, 1.07, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2882ca113219acc06c16ee75f3643e60fbe431b9c55640d56cbe1552500d28c9",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.847}, \"right\": {\"mean_object_iou\": 0.816}, \"turns_left\": 4, \"total_actions_left\": 10}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "158754f6451924d04b2c65d6fa5e15b4103c7864e490f42ad89e7e9b7dc01654",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.92, 0.86, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.8, 1.06, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7542c33d8c17f7f00940e62c4a2f31443f3d663b6a381b4f536e7be601063bde",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.845}, \"right\": {\"mean_object_iou\": 0.797}, \"turns_left\": 3, \"total_actions_left\": 9}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bfb71aa10820d28f7c0e26f676d6759da6e1482b34d8fa841db6b85583555cd1",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.94, 0.88, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.82, 1.08, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a27d766bb734f12bd4ffd901a426a1189f927935817006ade57fab8b01d470c4",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.832}, \"right\": {\"mean_object_iou\": 0.824}, \"turns_left\": 2, \"total_actions_left\": 8}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "70f743b9226c81785e45993c19a3d23cf7e1182e888c11df2e53a80fa150c506",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"submit\", \"source\": \"def build(public_params):\\n    return {\\n        'desk_blue': {'position': [2.93, 0.87, 0], 'yaw': 0, 'size': [1.338, 0.714, 0.70]},\\n        'flowerpot_green': {'position': [2.81, 1.07, 0.70], 'yaw': 0, 'size': [0.203, 0.203, 0.3]},\\n        'lamp_white': {'position': [0.21, 2.89, 0], 'yaw': 0, 'size': [0.242, 0.28, 1.37]},\\n        'plant_pink': {'position': [4.32, 1.8, 0], 'yaw': 0, 'size': [0.304, 0.347, 0.94]},\\n        'bin_gray': {'position': [1.8, 2.87, 0], 'yaw': 0, 'size': [0.456, 0.456, 0.684]},\\n        'crate_red': {'position': [2.87, 3.0, 0], 'yaw': 0, 'size': [0.58, 0.464, 0.464]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2be3ec6678c592966a97501936677239e0261690f3494f0742ca90608cf02de8",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 7}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ed283a3bc1d5537008b6861c0d589b493debb0620acbfdda864b03190fff78d2",
+    "images": []
+  }
+]

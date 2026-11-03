@@ -1,0 +1,777 @@
+{
+  "gold": {
+    "table_green": {
+      "position": [
+        2.364,
+        1.3127,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "deskchair_black": {
+      "position": [
+        2.5325,
+        0.3761,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "plant_pink": {
+      "position": [
+        0.2497,
+        1.0621,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        3.2928,
+        0.3939,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "flowerpot_green": {
+      "position": [
+        1.5787,
+        1.0377,
+        0.75
+      ],
+      "yaw": 0
+    }
+  },
+  "corrupted": [
+    "plant_pink"
+  ],
+  "faults": {
+    "hidden_pairs": [
+      [
+        "table_green",
+        "plant_pink"
+      ]
+    ],
+    "false_fail": [
+      "c01"
+    ],
+    "false_pass": [
+      "c03"
+    ],
+    "noisy_value": 0.15,
+    "omission": [
+      "c02"
+    ]
+  },
+  "planted": {
+    "c03": "false_pass",
+    "c01": "false_fail",
+    "c02": "missing",
+    "no_interpenetration:plant_pink+table_green": "missing"
+  },
+  "conflicts": [
+    {
+      "kind": "pair",
+      "subtype": "shallow",
+      "members": [
+        "plant_pink",
+        "table_green"
+      ],
+      "moved": [
+        "plant_pink"
+      ],
+      "id": "k1",
+      "pairs": [
+        {
+          "objects": [
+            "plant_pink",
+            "table_green"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": false
+        }
+      ],
+      "proxy_planned_depth_m": null,
+      "depth_note": "No native penetration-depth claim; old planned depth was an envelope construction parameter"
+    }
+  ],
+  "conflict_count": 1,
+  "overlap_pair_count": 1,
+  "max_conflict_depth_m": 0.031,
+  "clean_objects": [
+    "deskchair_black",
+    "column_cyan",
+    "flowerpot_green"
+  ],
+  "task_internal": {
+    "experiment": "E",
+    "instance": "E-L1-s0",
+    "k": 6,
+    "room": [
+      4.25,
+      3.25,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "size": [
+          0.2593930634916252,
+          0.2953587127768754,
+          0.8
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "flowerpot_green",
+        "size": [
+          0.20284441878606413,
+          0.20284441878606413,
+          0.3
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "right_of",
+        "args": [
+          "column_cyan",
+          "flowerpot_green"
+        ],
+        "id": "c01"
+      },
+      {
+        "type": "behind",
+        "args": [
+          "table_green",
+          "column_cyan"
+        ],
+        "id": "c02"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "column_cyan",
+          "plant_pink"
+        ],
+        "range": [
+          2.92,
+          3.32
+        ],
+        "id": "c03"
+      },
+      {
+        "type": "between",
+        "args": [
+          "deskchair_black",
+          "column_cyan",
+          "plant_pink"
+        ],
+        "id": "c04"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "flowerpot_green",
+          "table_green"
+        ],
+        "id": "c05"
+      },
+      {
+        "type": "aligned_y",
+        "args": [
+          "flowerpot_green",
+          "plant_pink"
+        ],
+        "id": "c06"
+      }
+    ],
+    "relation_types": [
+      "aligned_y",
+      "behind",
+      "between",
+      "distance",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": false,
+    "tier": "L1",
+    "initial": {
+      "table_green": {
+        "position": [
+          2.364,
+          1.3127,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "deskchair_black": {
+        "position": [
+          2.5325,
+          0.3761,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "plant_pink": {
+        "position": [
+          1.2995,
+          1.0621,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          3.2928,
+          0.3939,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "flowerpot_green": {
+        "position": [
+          1.5787,
+          1.0377,
+          0.75
+        ],
+        "yaw": 0
+      }
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "locked": [
+      "column_cyan",
+      "deskchair_black",
+      "flowerpot_green",
+      "table_green"
+    ],
+    "repair_stage": 0,
+    "repair_stage_final": true,
+    "allowed_pending_pairs": [],
+    "carry_all_previous_state": true,
+    "operation": {
+      "phase": "repair_released_zone",
+      "editable_objects": [
+        "plant_pink"
+      ],
+      "preserve_objects": [
+        "column_cyan",
+        "deskchair_black",
+        "flowerpot_green",
+        "table_green"
+      ],
+      "pending_collision_pairs": []
+    },
+    "initial_report": {
+      "valid_output": true,
+      "output_problems": [],
+      "constraints": [
+        {
+          "id": "c01",
+          "type": "right_of",
+          "args": [
+            "column_cyan",
+            "flowerpot_green"
+          ],
+          "satisfied": true,
+          "value": 1.4627
+        },
+        {
+          "id": "c02",
+          "type": "behind",
+          "args": [
+            "table_green",
+            "column_cyan"
+          ],
+          "satisfied": true,
+          "value": 0.2553
+        },
+        {
+          "id": "c03",
+          "type": "distance",
+          "args": [
+            "column_cyan",
+            "plant_pink"
+          ],
+          "satisfied": false,
+          "value": 2.1023
+        },
+        {
+          "id": "c04",
+          "type": "between",
+          "args": [
+            "deskchair_black",
+            "column_cyan",
+            "plant_pink"
+          ],
+          "satisfied": false,
+          "value": 0.2585
+        },
+        {
+          "id": "c05",
+          "type": "on_top_of",
+          "args": [
+            "flowerpot_green",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0,
+          "evidence": "Actual projected footprint covered on named host within height tolerance"
+        },
+        {
+          "id": "c06",
+          "type": "aligned_y",
+          "args": [
+            "flowerpot_green",
+            "plant_pink"
+          ],
+          "satisfied": true,
+          "value": 0.0244
+        }
+      ],
+      "physical": [
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "table_green",
+            "plant_pink"
+          ],
+          "native_status": "surface_intersection"
+        }
+      ],
+      "all_satisfied": false,
+      "limits": [
+        "Static stability not simulated",
+        "Native image relations fail closed until actual-view evidence is supplied"
+      ]
+    }
+  },
+  "native_extra_initial_pairs": [],
+  "final_task": {
+    "experiment": "E",
+    "instance": "E-L1-s0",
+    "k": 6,
+    "room": [
+      4.25,
+      3.25,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "size": [
+          0.2593930634916252,
+          0.2953587127768754,
+          0.8
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "flowerpot_green",
+        "size": [
+          0.20284441878606413,
+          0.20284441878606413,
+          0.3
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "right_of",
+        "args": [
+          "column_cyan",
+          "flowerpot_green"
+        ],
+        "id": "c01"
+      },
+      {
+        "type": "behind",
+        "args": [
+          "table_green",
+          "column_cyan"
+        ],
+        "id": "c02"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "column_cyan",
+          "plant_pink"
+        ],
+        "range": [
+          2.92,
+          3.32
+        ],
+        "id": "c03"
+      },
+      {
+        "type": "between",
+        "args": [
+          "deskchair_black",
+          "column_cyan",
+          "plant_pink"
+        ],
+        "id": "c04"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "flowerpot_green",
+          "table_green"
+        ],
+        "id": "c05"
+      },
+      {
+        "type": "aligned_y",
+        "args": [
+          "flowerpot_green",
+          "plant_pink"
+        ],
+        "id": "c06"
+      }
+    ],
+    "relation_types": [
+      "aligned_y",
+      "behind",
+      "between",
+      "distance",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": false,
+    "tier": "L1",
+    "initial": {
+      "table_green": {
+        "position": [
+          2.364,
+          1.3127,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "deskchair_black": {
+        "position": [
+          2.5325,
+          0.3761,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "plant_pink": {
+        "position": [
+          1.2995,
+          1.0621,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          3.2928,
+          0.3939,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "flowerpot_green": {
+        "position": [
+          1.5787,
+          1.0377,
+          0.75
+        ],
+        "yaw": 0
+      }
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "locked": [
+      "deskchair_black"
+    ]
+  },
+  "remaining_to_repair": [],
+  "completion_gold": {
+    "table_green": {
+      "position": [
+        2.364,
+        1.3127,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "deskchair_black": {
+      "position": [
+        2.5325,
+        0.3761,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "plant_pink": {
+      "position": [
+        0.2497,
+        1.0621,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        3.2928,
+        0.3939,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "flowerpot_green": {
+      "position": [
+        1.5787,
+        1.0377,
+        0.75
+      ],
+      "yaw": 0
+    }
+  },
+  "fault_evidence": {
+    "initial_true_constraints": [
+      {
+        "id": "c01",
+        "type": "right_of",
+        "args": [
+          "column_cyan",
+          "flowerpot_green"
+        ],
+        "satisfied": true,
+        "value": 1.4627
+      },
+      {
+        "id": "c02",
+        "type": "behind",
+        "args": [
+          "table_green",
+          "column_cyan"
+        ],
+        "satisfied": true,
+        "value": 0.2553
+      },
+      {
+        "id": "c03",
+        "type": "distance",
+        "args": [
+          "column_cyan",
+          "plant_pink"
+        ],
+        "satisfied": false,
+        "value": 2.1023
+      },
+      {
+        "id": "c04",
+        "type": "between",
+        "args": [
+          "deskchair_black",
+          "column_cyan",
+          "plant_pink"
+        ],
+        "satisfied": false,
+        "value": 0.2585
+      },
+      {
+        "id": "c05",
+        "type": "on_top_of",
+        "args": [
+          "flowerpot_green",
+          "table_green"
+        ],
+        "satisfied": true,
+        "value": 0.0,
+        "evidence": "Actual projected footprint covered on named host within height tolerance"
+      },
+      {
+        "id": "c06",
+        "type": "aligned_y",
+        "args": [
+          "flowerpot_green",
+          "plant_pink"
+        ],
+        "satisfied": true,
+        "value": 0.0244
+      }
+    ],
+    "hidden_pairs": [
+      [
+        "table_green",
+        "plant_pink"
+      ]
+    ]
+  },
+  "gold_edit": {
+    "moved": [
+      "plant_pink"
+    ],
+    "n_moved": 1,
+    "displacement_m": 1.0498
+  }
+}

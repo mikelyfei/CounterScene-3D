@@ -1,0 +1,71 @@
+{
+  "id": "C-L1-s1_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "C-L1-s1",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": null,
+    "alignment": null,
+    "hidden_iou": 0.8788907274839222,
+    "metric_centres_ok": true,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 13,
+    "R_det": 1.0,
+    "R_shaped": 0.9596302424946407,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "93b53a85fb7b95081ee3bafc40cebff80abb9aaaf2fd2c861caa79ee1320a7dc",
+  "actions_sha256": "45e4a6b8bd79037f75c0276ee98a9ff0c7c3e5868239917bc49b8505912d8545",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "hidden_mean_iou": 0.8788907274839222,
+        "seen_mean_iou": 0.8820945802969338,
+        "overfit_gap": 0.0032038528130116095,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.004904166052047688,
+          "lamp_white": 0.009468695954541296,
+          "crate_red": 0.015611965280739293,
+          "bin_gray": 0.007055078469354283
+        }
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "1a1a8bc8450216240cb54b276f30ee224daa7749e9823f7e0c4f914ffef70a17"
+}

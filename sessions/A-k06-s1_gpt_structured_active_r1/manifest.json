@@ -1,0 +1,79 @@
+{
+  "id": "A-k06-s1_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "A-k06-s1",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": null,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 3,
+    "R_det": 1.0,
+    "R_shaped": 1.0,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": 1.0
+  },
+  "source_result_sha256": "0590b9a7c484a5ddb33bff9c2265412f4176bae48bdc46a5a52d5d2c0bab4d12",
+  "actions_sha256": "8d0d0a717d28683ccddbcc207c5270463f0b33f70fe5774adf2c7e1f27ce9710",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "satisfied": 1,
+        "total": 1,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "operation_checks": [
+          {
+            "object": "table_green",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "monitor_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "e833e905241cea4b64af82531025c04e21341a32579e2c898bf2e6faad7ea853"
+}

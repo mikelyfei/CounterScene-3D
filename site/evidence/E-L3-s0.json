@@ -1,0 +1,2278 @@
+{
+  "instance": "E-L3-s0",
+  "protocol": "native-operations-v3",
+  "source_certificate_sha256": "e090ab68bc2936511d55c6bfc6a0c6b5b892fcebf81c6f7dffddad9e98ddba16",
+  "sanitized_evidence_excerpt": {
+    "transitions": [
+      {
+        "from_stage": 0,
+        "to_stage": 1,
+        "physical_event": null,
+        "before_event": {
+          "shelf_orange": {
+            "position": [
+              3.431,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              0.9208,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              2.9347,
+              2.8187,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              4.4192,
+              5.0307,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.0439,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "chair_cyan": {
+            "position": [
+              5.7807,
+              2.4466,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "lamp_white": {
+            "position": [
+              0.2261,
+              1.0104,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "sidetable_brown": {
+            "position": [
+              3.5121,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              4.3948,
+              5.0435,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              4.3624,
+              5.0546,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.6007,
+              4.8623,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              0.672,
+              0.3791,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              3.0951,
+              3.0068,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "laptop_gray": {
+            "position": [
+              3.0821,
+              2.6187,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "soccer_white": {
+            "position": [
+              3.563,
+              5.7554,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              3.2237,
+              5.7695,
+              0.9433
+            ],
+            "yaw": 90
+          }
+        },
+        "after_event": {
+          "shelf_orange": {
+            "position": [
+              3.431,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              0.9208,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              2.9347,
+              2.8187,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              4.4192,
+              5.0307,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.0439,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "chair_cyan": {
+            "position": [
+              5.7807,
+              2.4466,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "lamp_white": {
+            "position": [
+              0.2261,
+              1.0104,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "sidetable_brown": {
+            "position": [
+              3.5121,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              4.3948,
+              5.0435,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              4.3624,
+              5.0546,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.6007,
+              4.8623,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              0.672,
+              0.3791,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              3.0951,
+              3.0068,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "laptop_gray": {
+            "position": [
+              3.0821,
+              2.6187,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "soccer_white": {
+            "position": [
+              3.563,
+              5.7554,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              3.2237,
+              5.7695,
+              0.9433
+            ],
+            "yaw": 90
+          }
+        },
+        "committed_action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.431, 5.725, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [0.9208, 5.45, 0.0], 'yaw': 0}, 'desk_blue': {'position': [2.9347, 2.8187, 0.0], 'yaw': 0}, 'table_green': {'position': [4.4192, 5.0307, 0.0], 'yaw': 0}, 'deskchair_black': {'position': [3.0439, 3.7376, 0.0], 'yaw': 0}, 'chair_cyan': {'position': [5.7807, 2.4466, 0.0], 'yaw': 180}, 'lamp_white': {'position': [0.2261, 1.0104, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [3.5121, 3.7376, 0.0], 'yaw': 0}, 'column_cyan': {'position': [4.3948, 5.0435, 0.0], 'yaw': 0}, 'stool_purple': {'position': [4.3624, 5.0546, 0.0], 'yaw': 0}, 'bin_gray': {'position': [4.6007, 4.8623, 0.0], 'yaw': 0}, 'crate_red': {'position': [0.672, 0.3791, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [3.0951, 3.0068, 0.75], 'yaw': 180}, 'laptop_gray': {'position': [3.0821, 2.6187, 0.75], 'yaw': 180}, 'soccer_white': {'position': [3.563, 5.7554, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.2237, 5.7695, 0.9433], 'yaw': 90}}",
+          "infeasible": [],
+          "checker_issues": [
+            {
+              "id": "c22",
+              "issue": "false_pass",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c03",
+              "issue": "false_fail",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c04",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "no_interpenetration:desk_blue+monitor_gray",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            }
+          ]
+        },
+        "committed_result": {
+          "success": true,
+          "true_satisfied": 14,
+          "total": 14,
+          "physical": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "sidetable_brown"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "overtrust": [],
+          "conflicts_resolved": {
+            "pairs": [
+              1,
+              2
+            ],
+            "clusters": [
+              0,
+              1
+            ]
+          },
+          "conflict_count": 7,
+          "clean_disturbed": [],
+          "detect_tp": 4,
+          "detect_fp": 0,
+          "detect_fn": 0,
+          "edit": {
+            "moved": [
+              "monitor_gray"
+            ],
+            "n_moved": 1,
+            "displacement_m": 0.048
+          },
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [
+              {
+                "id": "c03",
+                "type": "on_top_of",
+                "args": [
+                  "laptop_gray",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c04",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "cabinet_blue",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.2417
+              },
+              {
+                "id": "c08",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue",
+                  "flowerpot_green"
+                ],
+                "satisfied": true,
+                "value": 0.1413
+              },
+              {
+                "id": "c09",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.1175
+              },
+              {
+                "id": "c10",
+                "type": "between",
+                "args": [
+                  "desk_blue",
+                  "laptop_gray",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": 0.1688
+              },
+              {
+                "id": "c15",
+                "type": "on_shelf",
+                "args": [
+                  "flowerpot_green",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c17",
+                "type": "distance",
+                "args": [
+                  "cabinet_blue",
+                  "crate_red"
+                ],
+                "satisfied": true,
+                "value": 5.077
+              },
+              {
+                "id": "c19",
+                "type": "facing",
+                "args": [
+                  "soccer_white",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 9.661
+              },
+              {
+                "id": "c20",
+                "type": "aligned_x",
+                "args": [
+                  "laptop_gray",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 0.013
+              },
+              {
+                "id": "c21",
+                "type": "aligned_y",
+                "args": [
+                  "flowerpot_green",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.0141
+              },
+              {
+                "id": "c22",
+                "type": "on_top_of",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c23",
+                "type": "on_shelf",
+                "args": [
+                  "soccer_white",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c25",
+                "type": "facing",
+                "args": [
+                  "cabinet_blue",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 37.4291
+              },
+              {
+                "id": "c26",
+                "type": "behind",
+                "args": [
+                  "cabinet_blue",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 1.919
+              }
+            ],
+            "physical": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "sidetable_brown"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "stool_purple"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "stool_purple",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "all_satisfied": false,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "stage_scope": {
+            "valid_output": true,
+            "pending_collisions": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "deskchair_black",
+                  "sidetable_brown"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "stool_purple"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "stool_purple",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "pending_issues": [],
+            "violations": []
+          },
+          "locked_moved": [],
+          "completion_witness_valid": true,
+          "continuation_status": "witnessed_by_fixed_gold",
+          "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+          "scene_artifact": {
+            "sha256": "d4789d113a53ffdfba522516a86449e70c3ae7ccdc5ef9777cf4d373397e6b4d",
+            "instance_ids": [
+              "bin_gray",
+              "cabinet_blue",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "laptop_gray",
+              "monitor_gray",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+        "environment_changed_objects": []
+      },
+      {
+        "from_stage": 1,
+        "to_stage": 2,
+        "physical_event": null,
+        "before_event": {
+          "shelf_orange": {
+            "position": [
+              3.431,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              0.9208,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              2.9347,
+              2.8187,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              4.4192,
+              5.0307,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.0439,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "chair_cyan": {
+            "position": [
+              5.7807,
+              2.4466,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "lamp_white": {
+            "position": [
+              0.2261,
+              1.0104,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              5.366,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              4.3948,
+              5.0435,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              4.3624,
+              5.0546,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.6007,
+              4.8623,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              0.672,
+              0.3791,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              3.0951,
+              3.0068,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "laptop_gray": {
+            "position": [
+              3.0821,
+              2.6187,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "soccer_white": {
+            "position": [
+              3.563,
+              5.7554,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              3.2237,
+              5.7695,
+              0.9433
+            ],
+            "yaw": 90
+          }
+        },
+        "after_event": {
+          "shelf_orange": {
+            "position": [
+              3.431,
+              5.725,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "cabinet_blue": {
+            "position": [
+              0.9208,
+              5.45,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "desk_blue": {
+            "position": [
+              2.9347,
+              2.8187,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "table_green": {
+            "position": [
+              4.4192,
+              5.0307,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "deskchair_black": {
+            "position": [
+              3.0439,
+              3.7376,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "chair_cyan": {
+            "position": [
+              5.7807,
+              2.4466,
+              0.0
+            ],
+            "yaw": 180
+          },
+          "lamp_white": {
+            "position": [
+              0.2261,
+              1.0104,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "sidetable_brown": {
+            "position": [
+              7.5976,
+              5.366,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "column_cyan": {
+            "position": [
+              4.3948,
+              5.0435,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "stool_purple": {
+            "position": [
+              4.3624,
+              5.0546,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "bin_gray": {
+            "position": [
+              4.6007,
+              4.8623,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "crate_red": {
+            "position": [
+              0.672,
+              0.3791,
+              0.0
+            ],
+            "yaw": 0
+          },
+          "monitor_gray": {
+            "position": [
+              3.0951,
+              3.0068,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "laptop_gray": {
+            "position": [
+              3.0821,
+              2.6187,
+              0.75
+            ],
+            "yaw": 180
+          },
+          "soccer_white": {
+            "position": [
+              3.563,
+              5.7554,
+              0.9433
+            ],
+            "yaw": 0
+          },
+          "flowerpot_green": {
+            "position": [
+              3.2237,
+              5.7695,
+              0.9433
+            ],
+            "yaw": 90
+          }
+        },
+        "committed_action": {
+          "tool": "commit_stage",
+          "source": "def build(public_params):\n    return {'shelf_orange': {'position': [3.431, 5.725, 0.0], 'yaw': 0}, 'cabinet_blue': {'position': [0.9208, 5.45, 0.0], 'yaw': 0}, 'desk_blue': {'position': [2.9347, 2.8187, 0.0], 'yaw': 0}, 'table_green': {'position': [4.4192, 5.0307, 0.0], 'yaw': 0}, 'deskchair_black': {'position': [3.0439, 3.7376, 0.0], 'yaw': 0}, 'chair_cyan': {'position': [5.7807, 2.4466, 0.0], 'yaw': 180}, 'lamp_white': {'position': [0.2261, 1.0104, 0.0], 'yaw': 0}, 'sidetable_brown': {'position': [7.5976, 5.366, 0.0], 'yaw': 0}, 'column_cyan': {'position': [4.3948, 5.0435, 0.0], 'yaw': 0}, 'stool_purple': {'position': [4.3624, 5.0546, 0.0], 'yaw': 0}, 'bin_gray': {'position': [4.6007, 4.8623, 0.0], 'yaw': 0}, 'crate_red': {'position': [0.672, 0.3791, 0.0], 'yaw': 0}, 'monitor_gray': {'position': [3.0951, 3.0068, 0.75], 'yaw': 180}, 'laptop_gray': {'position': [3.0821, 2.6187, 0.75], 'yaw': 180}, 'soccer_white': {'position': [3.563, 5.7554, 0.9433], 'yaw': 0}, 'flowerpot_green': {'position': [3.2237, 5.7695, 0.9433], 'yaw': 90}}",
+          "infeasible": [],
+          "checker_issues": [
+            {
+              "id": "c01",
+              "issue": "false_pass",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c03",
+              "issue": "false_fail",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "c04",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            },
+            {
+              "id": "no_interpenetration:deskchair_black+sidetable_brown",
+              "issue": "missing",
+              "evidence": "Native geometry measurement and declared constraint semantics"
+            }
+          ]
+        },
+        "committed_result": {
+          "success": true,
+          "true_satisfied": 18,
+          "total": 18,
+          "physical": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "overtrust": [],
+          "conflicts_resolved": {
+            "pairs": [
+              2,
+              2
+            ],
+            "clusters": [
+              0,
+              1
+            ]
+          },
+          "conflict_count": 7,
+          "clean_disturbed": [],
+          "detect_tp": 4,
+          "detect_fp": 0,
+          "detect_fn": 0,
+          "edit": {
+            "moved": [
+              "sidetable_brown"
+            ],
+            "n_moved": 1,
+            "displacement_m": 4.3981
+          },
+          "geometry": {
+            "valid_output": true,
+            "output_problems": [],
+            "constraints": [
+              {
+                "id": "c01",
+                "type": "left_of",
+                "args": [
+                  "desk_blue",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 3.564
+              },
+              {
+                "id": "c03",
+                "type": "on_top_of",
+                "args": [
+                  "laptop_gray",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c04",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "cabinet_blue",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.2417
+              },
+              {
+                "id": "c06",
+                "type": "between",
+                "args": [
+                  "laptop_gray",
+                  "lamp_white",
+                  "sidetable_brown"
+                ],
+                "satisfied": true,
+                "value": 0.0682
+              },
+              {
+                "id": "c08",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue",
+                  "flowerpot_green"
+                ],
+                "satisfied": true,
+                "value": 0.1413
+              },
+              {
+                "id": "c09",
+                "type": "between",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.1175
+              },
+              {
+                "id": "c10",
+                "type": "between",
+                "args": [
+                  "desk_blue",
+                  "laptop_gray",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": 0.1688
+              },
+              {
+                "id": "c11",
+                "type": "between",
+                "args": [
+                  "shelf_orange",
+                  "deskchair_black",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.1203
+              },
+              {
+                "id": "c12",
+                "type": "appears_larger_than",
+                "args": [
+                  "sidetable_brown",
+                  "deskchair_black"
+                ],
+                "satisfied": true,
+                "value": 1.5909090909090908,
+                "evidence": "Actual native mesh reference-camera measurements"
+              },
+              {
+                "id": "c15",
+                "type": "on_shelf",
+                "args": [
+                  "flowerpot_green",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c17",
+                "type": "distance",
+                "args": [
+                  "cabinet_blue",
+                  "crate_red"
+                ],
+                "satisfied": true,
+                "value": 5.077
+              },
+              {
+                "id": "c19",
+                "type": "facing",
+                "args": [
+                  "soccer_white",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 9.661
+              },
+              {
+                "id": "c20",
+                "type": "aligned_x",
+                "args": [
+                  "laptop_gray",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 0.013
+              },
+              {
+                "id": "c21",
+                "type": "aligned_y",
+                "args": [
+                  "flowerpot_green",
+                  "soccer_white"
+                ],
+                "satisfied": true,
+                "value": 0.0141
+              },
+              {
+                "id": "c22",
+                "type": "on_top_of",
+                "args": [
+                  "monitor_gray",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 0.0,
+                "evidence": "Actual projected footprint covered on named host within height tolerance"
+              },
+              {
+                "id": "c23",
+                "type": "on_shelf",
+                "args": [
+                  "soccer_white",
+                  "shelf_orange"
+                ],
+                "satisfied": true,
+                "value": -0.0,
+                "evidence": "Actual host coverage plus named scored board height"
+              },
+              {
+                "id": "c25",
+                "type": "facing",
+                "args": [
+                  "cabinet_blue",
+                  "desk_blue"
+                ],
+                "satisfied": true,
+                "value": 37.4291
+              },
+              {
+                "id": "c26",
+                "type": "behind",
+                "args": [
+                  "cabinet_blue",
+                  "monitor_gray"
+                ],
+                "satisfied": true,
+                "value": 1.919
+              }
+            ],
+            "physical": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "stool_purple"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "stool_purple",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "all_satisfied": false,
+            "limits": [
+              "Static stability not simulated",
+              "Native image relations fail closed until actual-view evidence is supplied"
+            ]
+          },
+          "stage_scope": {
+            "valid_output": true,
+            "pending_collisions": [
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "column_cyan"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "table_green",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "stool_purple"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "column_cyan",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              },
+              {
+                "check": "no_interpenetration",
+                "objects": [
+                  "stool_purple",
+                  "bin_gray"
+                ],
+                "native_status": "surface_intersection"
+              }
+            ],
+            "pending_issues": [],
+            "violations": []
+          },
+          "locked_moved": [],
+          "completion_witness_valid": true,
+          "continuation_status": "witnessed_by_fixed_gold",
+          "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+          "scene_artifact": {
+            "sha256": "79e6787482c27542ba98fd3469a15512cb4b1a0931f544d2031b5a481b90bfe3",
+            "instance_ids": [
+              "bin_gray",
+              "cabinet_blue",
+              "chair_cyan",
+              "column_cyan",
+              "crate_red",
+              "desk_blue",
+              "deskchair_black",
+              "flowerpot_green",
+              "lamp_white",
+              "laptop_gray",
+              "monitor_gray",
+              "shelf_orange",
+              "sidetable_brown",
+              "soccer_white",
+              "stool_purple",
+              "table_green"
+            ],
+            "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+          }
+        },
+        "scope": "Actual committed state and environment update; target gold is not substituted for model state",
+        "environment_changed_objects": []
+      }
+    ],
+    "candidate_audits": [
+      {
+        "turn": 2,
+        "stage": 0,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 13,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 6,
+        "constraint_satisfied": 14,
+        "constraint_total": 14
+      },
+      {
+        "turn": 4,
+        "stage": 1,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 15,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 5,
+        "constraint_satisfied": 18,
+        "constraint_total": 18
+      },
+      {
+        "turn": 6,
+        "stage": 2,
+        "executed": true,
+        "alignment": null,
+        "regression": 0.0,
+        "regression_count": 0,
+        "regression_denominator": 21,
+        "aligned_count": 0,
+        "alignment_denominator": 0,
+        "valid_output": true,
+        "physical_issues": 0,
+        "constraint_satisfied": 26,
+        "constraint_total": 26
+      }
+    ],
+    "execution_valid": true,
+    "execution_valid_scope": "Restricted program returned a dictionary; physical correctness is separate",
+    "native_schema_valid": true,
+    "stage_results": [
+      {
+        "success": true,
+        "true_satisfied": 14,
+        "total": 14,
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "sidetable_brown"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "column_cyan",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "column_cyan",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "stool_purple",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 7,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "monitor_gray"
+          ],
+          "n_moved": 1,
+          "displacement_m": 0.048
+        },
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [
+            {
+              "id": "c03",
+              "type": "on_top_of",
+              "args": [
+                "laptop_gray",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c04",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "cabinet_blue",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.2417
+            },
+            {
+              "id": "c08",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "desk_blue",
+                "flowerpot_green"
+              ],
+              "satisfied": true,
+              "value": 0.1413
+            },
+            {
+              "id": "c09",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "desk_blue",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.1175
+            },
+            {
+              "id": "c10",
+              "type": "between",
+              "args": [
+                "desk_blue",
+                "laptop_gray",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": 0.1688
+            },
+            {
+              "id": "c15",
+              "type": "on_shelf",
+              "args": [
+                "flowerpot_green",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c17",
+              "type": "distance",
+              "args": [
+                "cabinet_blue",
+                "crate_red"
+              ],
+              "satisfied": true,
+              "value": 5.077
+            },
+            {
+              "id": "c19",
+              "type": "facing",
+              "args": [
+                "soccer_white",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 9.661
+            },
+            {
+              "id": "c20",
+              "type": "aligned_x",
+              "args": [
+                "laptop_gray",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 0.013
+            },
+            {
+              "id": "c21",
+              "type": "aligned_y",
+              "args": [
+                "flowerpot_green",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.0141
+            },
+            {
+              "id": "c22",
+              "type": "on_top_of",
+              "args": [
+                "monitor_gray",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c23",
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c25",
+              "type": "facing",
+              "args": [
+                "cabinet_blue",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 37.4291
+            },
+            {
+              "id": "c26",
+              "type": "behind",
+              "args": [
+                "cabinet_blue",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 1.919
+            }
+          ],
+          "physical": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "sidetable_brown"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "all_satisfied": false,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "stage_scope": {
+          "valid_output": true,
+          "pending_collisions": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "deskchair_black",
+                "sidetable_brown"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "pending_issues": [],
+          "violations": []
+        },
+        "locked_moved": [],
+        "completion_witness_valid": true,
+        "continuation_status": "witnessed_by_fixed_gold",
+        "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+        "scene_artifact": {
+          "sha256": "d4789d113a53ffdfba522516a86449e70c3ae7ccdc5ef9777cf4d373397e6b4d",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "lamp_white",
+            "laptop_gray",
+            "monitor_gray",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      },
+      {
+        "success": true,
+        "true_satisfied": 18,
+        "total": 18,
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "column_cyan",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "column_cyan",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "stool_purple",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 7,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "sidetable_brown"
+          ],
+          "n_moved": 1,
+          "displacement_m": 4.3981
+        },
+        "geometry": {
+          "valid_output": true,
+          "output_problems": [],
+          "constraints": [
+            {
+              "id": "c01",
+              "type": "left_of",
+              "args": [
+                "desk_blue",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 3.564
+            },
+            {
+              "id": "c03",
+              "type": "on_top_of",
+              "args": [
+                "laptop_gray",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c04",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "cabinet_blue",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.2417
+            },
+            {
+              "id": "c06",
+              "type": "between",
+              "args": [
+                "laptop_gray",
+                "lamp_white",
+                "sidetable_brown"
+              ],
+              "satisfied": true,
+              "value": 0.0682
+            },
+            {
+              "id": "c08",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "desk_blue",
+                "flowerpot_green"
+              ],
+              "satisfied": true,
+              "value": 0.1413
+            },
+            {
+              "id": "c09",
+              "type": "between",
+              "args": [
+                "monitor_gray",
+                "desk_blue",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.1175
+            },
+            {
+              "id": "c10",
+              "type": "between",
+              "args": [
+                "desk_blue",
+                "laptop_gray",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": 0.1688
+            },
+            {
+              "id": "c11",
+              "type": "between",
+              "args": [
+                "shelf_orange",
+                "deskchair_black",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.1203
+            },
+            {
+              "id": "c12",
+              "type": "appears_larger_than",
+              "args": [
+                "sidetable_brown",
+                "deskchair_black"
+              ],
+              "satisfied": true,
+              "value": 1.5909090909090908,
+              "evidence": "Actual native mesh reference-camera measurements"
+            },
+            {
+              "id": "c15",
+              "type": "on_shelf",
+              "args": [
+                "flowerpot_green",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c17",
+              "type": "distance",
+              "args": [
+                "cabinet_blue",
+                "crate_red"
+              ],
+              "satisfied": true,
+              "value": 5.077
+            },
+            {
+              "id": "c19",
+              "type": "facing",
+              "args": [
+                "soccer_white",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 9.661
+            },
+            {
+              "id": "c20",
+              "type": "aligned_x",
+              "args": [
+                "laptop_gray",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 0.013
+            },
+            {
+              "id": "c21",
+              "type": "aligned_y",
+              "args": [
+                "flowerpot_green",
+                "soccer_white"
+              ],
+              "satisfied": true,
+              "value": 0.0141
+            },
+            {
+              "id": "c22",
+              "type": "on_top_of",
+              "args": [
+                "monitor_gray",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 0.0,
+              "evidence": "Actual projected footprint covered on named host within height tolerance"
+            },
+            {
+              "id": "c23",
+              "type": "on_shelf",
+              "args": [
+                "soccer_white",
+                "shelf_orange"
+              ],
+              "satisfied": true,
+              "value": -0.0,
+              "evidence": "Actual host coverage plus named scored board height"
+            },
+            {
+              "id": "c25",
+              "type": "facing",
+              "args": [
+                "cabinet_blue",
+                "desk_blue"
+              ],
+              "satisfied": true,
+              "value": 37.4291
+            },
+            {
+              "id": "c26",
+              "type": "behind",
+              "args": [
+                "cabinet_blue",
+                "monitor_gray"
+              ],
+              "satisfied": true,
+              "value": 1.919
+            }
+          ],
+          "physical": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "all_satisfied": false,
+          "limits": [
+            "Static stability not simulated",
+            "Native image relations fail closed until actual-view evidence is supplied"
+          ]
+        },
+        "stage_scope": {
+          "valid_output": true,
+          "pending_collisions": [
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "column_cyan"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "table_green",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "stool_purple"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "column_cyan",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            },
+            {
+              "check": "no_interpenetration",
+              "objects": [
+                "stool_purple",
+                "bin_gray"
+              ],
+              "native_status": "surface_intersection"
+            }
+          ],
+          "pending_issues": [],
+          "violations": []
+        },
+        "locked_moved": [],
+        "completion_witness_valid": true,
+        "continuation_status": "witnessed_by_fixed_gold",
+        "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+        "scene_artifact": {
+          "sha256": "79e6787482c27542ba98fd3469a15512cb4b1a0931f544d2031b5a481b90bfe3",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "lamp_white",
+            "laptop_gray",
+            "monitor_gray",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      },
+      {
+        "success": true,
+        "true_satisfied": 26,
+        "total": 26,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            1,
+            1
+          ]
+        },
+        "conflict_count": 7,
+        "clean_disturbed": [],
+        "detect_tp": 4,
+        "detect_fp": 0,
+        "detect_fn": 0,
+        "edit": {
+          "moved": [
+            "column_cyan",
+            "stool_purple",
+            "table_green"
+          ],
+          "n_moved": 3,
+          "displacement_m": 4.7726
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": [],
+        "scene_artifact": {
+          "sha256": "3895002e8faad6364a400da5fd9637c133462083df33dda70c209ec000724617",
+          "instance_ids": [
+            "bin_gray",
+            "cabinet_blue",
+            "chair_cyan",
+            "column_cyan",
+            "crate_red",
+            "desk_blue",
+            "deskchair_black",
+            "flowerpot_green",
+            "lamp_white",
+            "laptop_gray",
+            "monitor_gray",
+            "shelf_orange",
+            "sidetable_brown",
+            "soccer_white",
+            "stool_purple",
+            "table_green"
+          ],
+          "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+        }
+      }
+    ],
+    "success": true,
+    "stages_completed": 3,
+    "stage_executions": 3,
+    "stage_successes": 3,
+    "stages_required": 3,
+    "last_stage_result": {
+      "success": true,
+      "true_satisfied": 26,
+      "total": 26,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          2,
+          2
+        ],
+        "clusters": [
+          1,
+          1
+        ]
+      },
+      "conflict_count": 7,
+      "clean_disturbed": [],
+      "detect_tp": 4,
+      "detect_fp": 0,
+      "detect_fn": 0,
+      "edit": {
+        "moved": [
+          "column_cyan",
+          "stool_purple",
+          "table_green"
+        ],
+        "n_moved": 3,
+        "displacement_m": 4.7726
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "3895002e8faad6364a400da5fd9637c133462083df33dda70c209ec000724617",
+        "instance_ids": [
+          "bin_gray",
+          "cabinet_blue",
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "desk_blue",
+          "deskchair_black",
+          "flowerpot_green",
+          "lamp_white",
+          "laptop_gray",
+          "monitor_gray",
+          "shelf_orange",
+          "sidetable_brown",
+          "soccer_white",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    "manifest_sha256": "c4689612560374281939d8a4365d089e574849c5dfe55657887e8bbcbe25fe98"
+  },
+  "scope": "Local artifact paths omitted. Independently executable task packages supply source stages, gold and scorers; scene bytes are content-bound in the review."
+}

@@ -1,0 +1,79 @@
+\section{Results and observable failure modes}
+
+All 70 planned frontier trajectories are eligible. The table reports six primary instances per task/model. These development counts do not establish a general ranking.
+
+\begin{center}\small
+
+\begin{tabular}{llrrr}\toprule
+
+Task & Model & $n/6$ & Strict & Shaped \\ \midrule
+
+A & Claude & 6 & 1.000 & 1.000 \\
+
+A & GPT & 6 & 1.000 & 1.000 \\
+
+B & Claude & 6 & 0.833 & 0.982 \\
+
+B & GPT & 6 & 0.833 & 0.981 \\
+
+C & Claude & 6 & 0.333 & 0.432 \\
+
+C & GPT & 6 & 0.500 & 0.580 \\
+
+D & Claude & 6 & 1.000 & 1.000 \\
+
+D & GPT & 6 & 1.000 & 1.000 \\
+
+E & Claude & 6 & 0.833 & 0.765 \\
+
+E & GPT & 6 & 1.000 & 0.912 \\
+
+\bottomrule\end{tabular}\end{center}
+
+Across 10 completed independent-request panels, shaped-reward population variance ranges from 0.0000 to 0.2223. This is generation variability, not repeat-scoring variance; the panel remains too small for a stable uncertainty estimate.
+
+\begin{center}\small
+
+\begin{tabular}{lrr}\toprule
+
+Observed failure category & GPT & Claude \\ \midrule
+
+checker diagnosis & 6 & 6 \\
+
+hard constraint violation & 1 & 1 \\
+
+hidden view grounding & 0 & 4 \\
+
+metric grounding & 2 & 4 \\
+
+native physical conflict & 3 & 3 \\
+
+native relation violation & 0 & 1 \\
+
+tool or program error & 11 & 1 \\
+
+\bottomrule\end{tabular}\end{center}
+
+Counts are primary trajectories with an observed issue, including diagnostic errors in geometrically successful episodes. Labels can overlap. Tool errors are observable invalid actions; metric and hidden-view failures distinguish reconstruction precision from visual overlap.
+
+A concrete shared blind spot occurs in B-L2-s0: both participants submit an unchanged program after the public checker reports hard-constraint failures. Their earlier stage succeeds, but the final relation repair fails. This is observable failure to act on feedback, not evidence about private reasoning or intent. Valid execution and collision clearance alone do not imply task completion.
+
+C-L2-s0 provides an updating failure: Claude passes the first reconstruction, then fails hidden-view and metric checks after the target changes. Its second stage uses thirteen actions without an extra view query. This localizes the observed failure to the later update; it does not prove that additional queries would have repaired it.
+
+GPT C-L2-s1 exposes a different failure: the first reconstruction passes visual overlap and metric-centre checks but retains a native physical conflict. Its second stage passes, yet the episode fails because earlier committed errors remain. This is why visual agreement and terminal-only evaluation are insufficient. Claude shares the physical-conflict label on this instance and additionally fails metric grounding, distinguishing the common geometric blind spot from its reconstruction errors.
+
+E-L3-s1 separates repair from diagnosis: GPT meets 26/26 native relations and detects 2/4 checker faults; Claude meets 25/26 and detects 0/4. Geometric success therefore does not imply complete diagnosis; scalar summaries must not collapse these dimensions.
+
+\paragraph{Reward evidence.}
+
+Calibration covers 30 instances and 360 repeated scores. Maximum fixed-control shaped-reward variance is 0.0000; ordering checks all pass. Participant numerical rescoring is separate from generation variance. Deterministic stability does not establish validity under optimization.
+
+The completed Qwen study has 10/10 pools, each with four candidates. Across these pools, mean independently audited hidden quality is 0.000 for the first candidate and 0.200 after public-reward selection. Exact saved-response replay reproduces selection without new generation. Selection gains are development evidence; ties, failures and task-level outcomes remain in the accompanying tables.
+
+In E, selected public reward averages 0.300, versus hidden quality 0.000. This exposes a proxy-quality gap; without a demonstrated increase over the first candidate, it does not establish that optimization learned an exploit.
+
+Astra fixed-image sample variances range from 0.0000 to 0.0093 across 15 control artifacts. Mean calibration coverage is 0.906. 7 primary functional failures receive auxiliary visual scores of at least 0.75; visual plausibility therefore cannot replace execution checks.
+
+Weak visual-control ordering holds in 5/5 observed families. Gold strictly exceeds stale in 5/5 families. Ties weaken discrimination. This is a validity diagnostic, not a functional acceptance gate.
+
+We would not use this scalar reward for unrestricted RL. Native admissibility supplies bounded safeguards; visual similarity and checker agreement remain exploitable proxies. Best-of-four tests selection quality, not training stability or resistance to adaptive policies.

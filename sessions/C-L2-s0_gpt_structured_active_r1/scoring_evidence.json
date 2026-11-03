@@ -1,0 +1,109 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 2,
+  "stage_executions": 2,
+  "stage_successes": 2,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8717599152407389,
+      "seen_mean_iou": 0.8760228155426055,
+      "overfit_gap": 0.004262900301866601,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "desk_blue": 0.004224285934541863,
+        "lamp_white": 0.021807244408605007,
+        "plant_pink": 0.020288911232782286,
+        "bin_gray": 0.004048470361541877,
+        "crate_red": 0.006431883146403333,
+        "flowerpot_green": 0.01483242463781821
+      },
+      "per_view": {
+        "back_right": 0.8265951919796609,
+        "back_left": 0.8671369149800646,
+        "reference": 0.9158676982029762,
+        "side": 0.8715832020145841,
+        "front": 0.8648726851851851,
+        "back": 0.8777442825325518,
+        "low_front_right": 0.9155632714706785,
+        "top": 0.8517676767676767
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "d615e854896fc477da096c99105965a9b0256e1ec21f86c01dd415cb631195de",
+        "instance_ids": [
+          "bin_gray",
+          "crate_red",
+          "desk_blue",
+          "flowerpot_green",
+          "lamp_white",
+          "plant_pink"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8810308908169695,
+      "seen_mean_iou": 0.9314851685232102,
+      "overfit_gap": 0.05045427770624067,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "desk_blue": 0.001408994197845459,
+        "lamp_white": 0.023488865735310695,
+        "plant_pink": 0.026379603295604445,
+        "bin_gray": 0.004048470361541877,
+        "crate_red": 0.006431883146403333,
+        "flowerpot_green": 0.0034492321734920384
+      },
+      "per_view": {
+        "back_right": 0.8832496287596773,
+        "back_left": 0.8695454365066387,
+        "right": 0.9128981022356636,
+        "reference": 0.9100219731107027,
+        "front_left": 0.9545357502616256,
+        "back": 0.8812785375602717,
+        "low_front_right": 0.8900499604412905,
+        "top": 0.9484848484848486
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "ef1ba03d311ec41b8b631b85d823b718a7e1c058d9661efa0f098d91be7f687b",
+        "instance_ids": [
+          "bin_gray",
+          "crate_red",
+          "desk_blue",
+          "flowerpot_green",
+          "lamp_white",
+          "plant_pink"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

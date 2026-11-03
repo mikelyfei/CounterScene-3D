@@ -1,0 +1,556 @@
+{
+  "gold": {
+    "table_green": {
+      "position": [
+        1.7555,
+        1.5286,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.767899,
+        0.939896,
+        0.686442
+      ]
+    },
+    "chair_cyan": {
+      "position": [
+        1.8629,
+        2.4444,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.310544,
+        0.310544,
+        0.729777
+      ]
+    },
+    "lamp_white": {
+      "position": [
+        4.3683,
+        2.7283,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.223372,
+        0.257927,
+        1.263485
+      ]
+    },
+    "stool_purple": {
+      "position": [
+        2.8587,
+        0.5894,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.311209,
+        0.311209,
+        0.400126
+      ]
+    },
+    "bin_gray": {
+      "position": [
+        0.408,
+        0.8627,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        0.404792,
+        0.404792,
+        0.607189
+      ]
+    },
+    "tv_black": {
+      "position": [
+        1.8454,
+        1.6002,
+        0.6864
+      ],
+      "yaw": 180,
+      "size": [
+        0.95373,
+        0.178824,
+        0.633336
+      ]
+    }
+  },
+  "hidden_cameras": {
+    "back": {
+      "eye": [
+        2.3,
+        6.2607,
+        2.9543
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_left": {
+      "eye": [
+        -1.1148,
+        5.1648,
+        2.3011
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "back_right": {
+      "eye": [
+        5.1213,
+        4.5713,
+        3.698
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "low_front_right": {
+      "eye": [
+        4.6918,
+        -2.7483,
+        1.4329
+      ],
+      "target": [
+        2.3,
+        1.75,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "visibility": {
+    "table_green": {
+      "reference": 0.888,
+      "front_left": 0.831,
+      "front_right": 0.868,
+      "left": 0.938,
+      "right": 0.943,
+      "top": 0.82
+    },
+    "chair_cyan": {
+      "reference": 0.0,
+      "front_left": 0.44,
+      "front_right": 0.463,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "lamp_white": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "stool_purple": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    },
+    "bin_gray": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 0.6,
+      "top": 1.0
+    },
+    "tv_black": {
+      "reference": 1.0,
+      "front_left": 1.0,
+      "front_right": 1.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0
+    }
+  },
+  "tall_occluder_hides": {
+    "lamp_white": 0.0
+  },
+  "occlusion_witness": null,
+  "perspective_witness": null,
+  "task_internal": {
+    "experiment": "C",
+    "instance": "C-L2-s1",
+    "tier": "L2",
+    "room": [
+      4.6,
+      3.5,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "table_green",
+        "color": "green",
+        "size_range": [
+          [
+            1.545,
+            0.822,
+            0.6
+          ],
+          [
+            2.318,
+            1.232,
+            0.9
+          ]
+        ],
+        "size": [
+          1.932,
+          1.027,
+          0.75
+        ]
+      },
+      {
+        "id": "chair_cyan",
+        "color": "cyan",
+        "size_range": [
+          [
+            0.289,
+            0.289,
+            0.68
+          ],
+          [
+            0.434,
+            0.434,
+            1.02
+          ]
+        ],
+        "size": [
+          0.362,
+          0.362,
+          0.85
+        ]
+      },
+      {
+        "id": "lamp_white",
+        "color": "white",
+        "size_range": [
+          [
+            0.17,
+            0.196,
+            0.96
+          ],
+          [
+            0.255,
+            0.294,
+            1.44
+          ]
+        ],
+        "size": [
+          0.212,
+          0.245,
+          1.2
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "color": "purple",
+        "size_range": [
+          [
+            0.28,
+            0.28,
+            0.36
+          ],
+          [
+            0.42,
+            0.42,
+            0.54
+          ]
+        ],
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "bin_gray",
+        "color": "gray",
+        "size_range": [
+          [
+            0.32,
+            0.32,
+            0.48
+          ],
+          [
+            0.48,
+            0.48,
+            0.72
+          ]
+        ],
+        "size": [
+          0.4,
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "id": "tv_black",
+        "color": "black",
+        "size_range": [
+          [
+            0.663,
+            0.124,
+            0.44
+          ],
+          [
+            0.994,
+            0.186,
+            0.66
+          ]
+        ],
+        "size": [
+          0.828,
+          0.155,
+          0.55
+        ]
+      }
+    ],
+    "constraints": [],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "uses_yaw": true,
+    "query_budget": 2,
+    "public_cameras": {
+      "reference": {
+        "eye": [
+          2.3,
+          -2.6671,
+          3.1101
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_left": {
+        "eye": [
+          -1.1554,
+          -1.1494,
+          2.9543
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "front_right": {
+        "eye": [
+          5.7554,
+          -1.1494,
+          2.9543
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "left": {
+        "eye": [
+          -2.4205,
+          1.75,
+          2.5512
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "right": {
+        "eye": [
+          7.0205,
+          1.75,
+          2.5512
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      },
+      "top": {
+        "eye": [
+          2.3,
+          0.6671,
+          5.4447
+        ],
+        "target": [
+          2.3,
+          1.75,
+          0.35
+        ],
+        "fov_deg": 50,
+        "width": 320,
+        "height": 240,
+        "up": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "queryable_views": [
+      "front_left",
+      "front_right",
+      "left",
+      "right",
+      "top"
+    ],
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "observation_contract": "three-view-v1",
+    "initial_view_names": [
+      "front",
+      "side",
+      "top"
+    ]
+  }
+}

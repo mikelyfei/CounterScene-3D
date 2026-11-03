@@ -1,0 +1,281 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L1-s0. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"table_green\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"deskchair_black\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"plant_pink\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"crate_red\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"15786d7fb168e64f1bf267192b1f7326a2beaeb3f124c1ae1256adc7059d8f55\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"d749d3b66728d5fbe7d06a3476c25bb57cd17be960939eece060cf1bcd166c2e\", \"camera\": {\"eye\": [3.5, -3.6419, 4.8128], \"target\": [3.5, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"6bf12491fdb775119ea558658aab90af50d7f09e1f201f1404e74883b28f5e3b\", \"camera\": {\"eye\": [-2.087, -1.1881, 4.5608], \"target\": [3.5, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"ab7758fbe93e9ae34c36db24c0be069acaa46474c54dbc3a770ae6e729cd8d1b\", \"camera\": {\"eye\": [3.5, 10.7933, 4.5608], \"target\": [3.5, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"table_green\": {\"asset\": \"table\", \"asset_sha256\": \"ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 2.2954453889327673, \"native_bounds\": [[0.0, 0.8414879441261292], [0.0, 0.44737333059310913], [0.0, 0.3267339766025543]], \"world_bounds\": [[0.7842051386833191, 2.715794801712036], [1.2365394830703735, 2.263460636138916], [0.0, 0.75]]}, \"deskchair_black\": {\"asset\": \"chairdesk\", \"asset_sha256\": \"46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.5635287049938806, \"native_bounds\": [[0.0, 0.3349500000476837], [0.0, 0.3142990469932556], [0.0, 0.6075999736785889]], \"world_bounds\": [[4.988148212432861, 5.511851787567139], [1.5042922496795654, 1.9957077503204346], [0.0, 0.949999988079071]]}, \"plant_pink\": {\"asset\": \"pottedplant\", \"asset_sha256\": \"5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.2232101818159284, \"native_bounds\": [[-0.10602963715791702, 0.10602963715791702], [-0.12073097378015518, 0.12073097378015518], [0.0, 0.6540167927742004]], \"world_bounds\": [[1.6203035116195679, 1.8796964883804321], [5.102320671081543, 5.397679328918457], [0.0, 0.800000011920929]]}, \"crate_red\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.999999985098839, \"native_bounds\": [[-0.25, 0.25], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.4000000059604645]], \"world_bounds\": [[5.0, 5.5], [5.050000190734863, 5.449999809265137], [0.0, 0.4000000059604645]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"table_green\": {\"size\": [1.932, 1.027, 0.75], \"size_range\": [[1.545, 0.822, 0.6], [2.318, 1.232, 0.9]]}, \"deskchair_black\": {\"size\": [0.524, 0.491, 0.95], \"size_range\": [[0.419, 0.393, 0.76], [0.628, 0.59, 1.14]]}, \"plant_pink\": {\"size\": [0.259, 0.295, 0.8], \"size_range\": [[0.208, 0.236, 0.64], [0.311, 0.354, 0.96]]}, \"crate_red\": {\"size\": [0.5, 0.4, 0.4], \"size_range\": [[0.4, 0.32, 0.32], [0.6, 0.48, 0.48]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[3.9, 3.0, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 1 distinct extra views. Cameras={\"reference\": {\"eye\": [1.95, -2.3483, 2.7547], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.0605, -1.0261, 2.6189], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [4.9605, -1.0261, 2.6189], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.1627, 1.5, 2.2678], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [6.0627, 1.5, 2.2678], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"483eb2b29812955e2a5be2bdcd98bf0827eeae694916eede69a4ea88d1542126\", \"camera\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"bcd9dd66e2c10e5e3c3191cae14e3ec3b565d9b5985a0f5bb3564646e7265be6\", \"camera\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 1 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 14.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "4eb734ceadc45c5a830fd25963b6f05ffcdfeb821a7b426127b96312274615b9",
+    "images": [
+      {
+        "file": "../media/d749d3b66728d5fbe7d06a3476c25bb57cd17be960939eece060cf1bcd166c2e.png",
+        "sha256": "d749d3b66728d5fbe7d06a3476c25bb57cd17be960939eece060cf1bcd166c2e"
+      },
+      {
+        "file": "../media/6bf12491fdb775119ea558658aab90af50d7f09e1f201f1404e74883b28f5e3b.png",
+        "sha256": "6bf12491fdb775119ea558658aab90af50d7f09e1f201f1404e74883b28f5e3b"
+      },
+      {
+        "file": "../media/ab7758fbe93e9ae34c36db24c0be069acaa46474c54dbc3a770ae6e729cd8d1b.png",
+        "sha256": "ab7758fbe93e9ae34c36db24c0be069acaa46474c54dbc3a770ae6e729cd8d1b"
+      },
+      {
+        "file": "../media/483eb2b29812955e2a5be2bdcd98bf0827eeae694916eede69a4ea88d1542126.png",
+        "sha256": "483eb2b29812955e2a5be2bdcd98bf0827eeae694916eede69a4ea88d1542126"
+      },
+      {
+        "file": "../media/bcd9dd66e2c10e5e3c3191cae14e3ec3b565d9b5985a0f5bb3564646e7265be6.png",
+        "sha256": "bcd9dd66e2c10e5e3c3191cae14e3ec3b565d9b5985a0f5bb3564646e7265be6"
+      },
+      {
+        "file": "../media/c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282.png",
+        "sha256": "c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "692259e850badd92d01d887910e13cec76983e075eb6dad36f9e32e8802f6aa1",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"9d2a8e0a7bf77c104a45ea3ef00f0dc86e7c91060c22140a1a7b72c98538a590\", \"camera\": {\"eye\": [1.95, -2.3483, 2.7547], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 13}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "b85dfe8acecd51331363a40223bd9152d2246bf023d14ab3fc582f645eb32489",
+    "images": [
+      {
+        "file": "../media/9d2a8e0a7bf77c104a45ea3ef00f0dc86e7c91060c22140a1a7b72c98538a590.png",
+        "sha256": "9d2a8e0a7bf77c104a45ea3ef00f0dc86e7c91060c22140a1a7b72c98538a590"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.42,0],'yaw':180,'size':[0.524,0.491,0.95]},'plant_pink':{'position':[3.68,1.30,0],'yaw':0,'size':[0.259,0.295,0.8]},'crate_red':{'position':[2.55,0.38,0],'yaw':0,'size':[0.5,0.4,0.4]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "73446c1189d5c5fe3c3e32e9654cae83a1263fa378a15ffed0b80881f7fb947b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"94a8fb15ea9cee8a1e002c942237f18ce40e5bac795ae5f23c8e36b20f9920a4\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"e3187ef8068b9bcc3016bde4692da489a97914490a75b70d126c3870afa64a2e\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 12}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "91150b848875b4230b544576130009179478e061c53aff62eeddef35547040b6",
+    "images": [
+      {
+        "file": "../media/e3187ef8068b9bcc3016bde4692da489a97914490a75b70d126c3870afa64a2e.png",
+        "sha256": "e3187ef8068b9bcc3016bde4692da489a97914490a75b70d126c3870afa64a2e"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"reference\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.42,0],'yaw':180,'size':[0.524,0.491,0.95]},'plant_pink':{'position':[3.68,1.30,0],'yaw':0,'size':[0.259,0.295,0.8]},'crate_red':{'position':[2.55,0.38,0],'yaw':0,'size':[0.5,0.4,0.4]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "90d9243df857c794d40c0d3ca40d2f4471c2498a5cfbcef37004fb7a59e53a49",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"94a8fb15ea9cee8a1e002c942237f18ce40e5bac795ae5f23c8e36b20f9920a4\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"a25592804a61f7b6c00cdda5b2c0dc341663e931b4d40c4fdaeb112d1f2d2781\", \"camera\": {\"eye\": [1.95, -2.3483, 2.7547], \"target\": [1.95, 1.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 11}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ee223d74605b476f5c35610ea43f92ad744d7c776aca12e27cbce288f968f290",
+    "images": [
+      {
+        "file": "../media/a25592804a61f7b6c00cdda5b2c0dc341663e931b4d40c4fdaeb112d1f2d2781.png",
+        "sha256": "a25592804a61f7b6c00cdda5b2c0dc341663e931b4d40c4fdaeb112d1f2d2781"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "af8e2fb7d8f2a0a063157d7ac023daf144eab45b78afc644132a79a4cb0f3f19",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"768c0914c9168e8cacc29fd57c348c91550c3a535454a484c863d80571d0a78b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282\", \"camera\": {\"eye\": [1.95, 1.5, 8.9767], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 10}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ff20da1876ffe0a32eabbc5f5c180323d4ab83b4ed4184b2ce5ee26af0df6ed3",
+    "images": [
+      {
+        "file": "../media/c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282.png",
+        "sha256": "c6b68bd363c3c8f3e08c37ac06aa76d3dcfbc818ceb8a0451540a57573096282"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.44,0],'yaw':180,'size':[0.496,0.465,0.9]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.249,0.284,0.77]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "68daa6dca20079bea6291b48cc4176dd07bd4e5e26b90c07bfc11f905404a769",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.96}, \"front\": {\"mean_object_iou\": 0.936}, \"side\": {\"mean_object_iou\": 0.93}, \"top\": {\"mean_object_iou\": 0.992}, \"turns_left\": 9, \"total_actions_left\": 9}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "644107abc3b2bb409f8391dee924f27875fee54512c0d24d76ae9070707f6830",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"front\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.44,0],'yaw':180,'size':[0.496,0.465,0.9]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.249,0.284,0.77]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7ac5a5709f0ace5f93fe2dee787047d0db228959760b44bf295190e73a418310",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate front\", \"capture\": {\"scene_sha256\": \"be1a96042aeaf2c933f5d5f81067187de05a4ccd13ee37c30b7ea2db888aeea0\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7b705568a8af7d2f82d24b32d092d888e7dc3f7b4c52a8c4252d90d38c77e44f\", \"camera\": {\"eye\": [1.95, -6.2267, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 8, \"total_actions_left\": 8}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a5a8f8aff4bb34b6dce492617abc2e6d577e3861e445b0b3e83116eddd6ea170",
+    "images": [
+      {
+        "file": "../media/7b705568a8af7d2f82d24b32d092d888e7dc3f7b4c52a8c4252d90d38c77e44f.png",
+        "sha256": "7b705568a8af7d2f82d24b32d092d888e7dc3f7b4c52a8c4252d90d38c77e44f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.44,0],'yaw':180,'size':[0.485,0.455,0.88]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.246,0.28,0.76]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a54db268a6d4f0a5567f448fcfd462d7ce9cd5c6b553e91013308a14dcea3cfb",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.968}, \"front\": {\"mean_object_iou\": 0.949}, \"side\": {\"mean_object_iou\": 0.94}, \"top\": {\"mean_object_iou\": 0.956}, \"turns_left\": 7, \"total_actions_left\": 7}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d04fe1fecb490addb55c71bb47bdf4a2cb04b35043df1c49a0eb694ac5bd579d",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"side\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.87,0.44,0],'yaw':180,'size':[0.485,0.455,0.88]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.246,0.28,0.76]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2236343d76a48c7defcc5e5ea1db74a55e2f8236a2b13582a51baec5968df624",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"9a406f800494af51199aa421a7536adf444151301cdb1e6d768551c5d0233d97\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"15e284631a8ee1204fcad885a7fb8f136e6af1dc4013ef8ca10e360d4827f55c\", \"camera\": {\"eye\": [9.6767, 1.5, 1.25], \"target\": [1.95, 1.5, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 6, \"total_actions_left\": 6}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a5f22feeb3d83ba7450e7c878bdafe7cc294f6f9b91bcab92309247e8c091480",
+    "images": [
+      {
+        "file": "../media/15e284631a8ee1204fcad885a7fb8f136e6af1dc4013ef8ca10e360d4827f55c.png",
+        "sha256": "15e284631a8ee1204fcad885a7fb8f136e6af1dc4013ef8ca10e360d4827f55c"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.88,0.44,0],'yaw':180,'size':[0.491,0.46,0.89]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.249,0.284,0.77]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "dd97ea4b7df79cb7f434a6e8d5eb571000e849382fb7696a1e905f590bcca22c",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.964}, \"front\": {\"mean_object_iou\": 0.958}, \"side\": {\"mean_object_iou\": 0.952}, \"top\": {\"mean_object_iou\": 1.0}, \"turns_left\": 5, \"total_actions_left\": 5}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "8c87f874f062e9fc029ac10dcd5392f34d911a1fba7888da6705179db4ad9b88",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.88,0.44,0],'yaw':180,'size':[0.491,0.46,0.89]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.243,0.276,0.75]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.425,0.34,0.34]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2f3be11814e89c3307177f07c027629bd2590f01b56d8e2a35d954806e9e7ace",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.957}, \"front\": {\"mean_object_iou\": 0.942}, \"side\": {\"mean_object_iou\": 0.956}, \"top\": {\"mean_object_iou\": 0.958}, \"turns_left\": 4, \"total_actions_left\": 4}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "5c722fa27af8c638db50f513980ee8b5118d8fa7486ae8df98b51f6c6d758c92",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.88,0.44,0],'yaw':180,'size':[0.491,0.46,0.89]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.253,0.288,0.78]},'crate_red':{'position':[2.56,0.36,0],'yaw':180,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "aec23ab852e9f3ace14f123eeaeb87add580d49afae1234d3dd857f131c0a090",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.956}, \"front\": {\"mean_object_iou\": 0.958}, \"side\": {\"mean_object_iou\": 0.952}, \"top\": {\"mean_object_iou\": 1.0}, \"turns_left\": 3, \"total_actions_left\": 3}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6bbb94bbd95124dc06f83f5fd87f83fe156aaf2a1570722367f39a6eb175889f",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.88,0.44,0],'yaw':180,'size':[0.491,0.46,0.89]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.249,0.284,0.77]},'crate_red':{'position':[2.56,0.36,0],'yaw':90,'size':[0.425,0.34,0.34]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c1c8923e765f718a56db47cde832d42c0e55747f656528b9b5c0c8c5ac2fcf1a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.906}, \"front\": {\"mean_object_iou\": 0.949}, \"side\": {\"mean_object_iou\": 0.893}, \"top\": {\"mean_object_iou\": 0.933}, \"turns_left\": 2, \"total_actions_left\": 2}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6c7e0a648f1912fe197797ec41592f478d68547ba29d2b8aecefecbf6fcf8080",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"submit\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[2.02,1.47,0],'yaw':0,'size':[1.932,1.027,0.75]},'deskchair_black':{'position':[1.88,0.44,0],'yaw':180,'size':[0.491,0.46,0.89]},'plant_pink':{'position':[3.66,1.32,0],'yaw':0,'size':[0.249,0.284,0.77]},'crate_red':{'position':[2.56,0.36,0],'yaw':0,'size':[0.42,0.336,0.336]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "46059fd17fa9b05774bfee99ed711680cbc7be12280b61fca10348379abbaba5",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 1}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1bb1d4c35e523007529b60de9386024e0adf652d60377f40574bf52a58f20ce0",
+    "images": []
+  }
+]

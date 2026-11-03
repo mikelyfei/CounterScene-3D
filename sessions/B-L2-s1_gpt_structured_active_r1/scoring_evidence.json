@@ -1,0 +1,187 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 2,
+  "stage_executions": 2,
+  "stage_successes": 2,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [
+          {
+            "id": "c02",
+            "type": "behind",
+            "args": [
+              "monitor_gray",
+              "column_cyan"
+            ],
+            "satisfied": true,
+            "value": 0.77
+          },
+          {
+            "id": "c03",
+            "type": "on_top_of",
+            "args": [
+              "monitor_gray",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0,
+            "evidence": "Actual projected footprint covered on named host within height tolerance"
+          },
+          {
+            "id": "c04",
+            "type": "between",
+            "args": [
+              "monitor_gray",
+              "shelf_orange",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0415
+          },
+          {
+            "id": "c05",
+            "type": "between",
+            "args": [
+              "table_green",
+              "chair_cyan",
+              "monitor_gray"
+            ],
+            "satisfied": true,
+            "value": 0.034
+          },
+          {
+            "id": "c06",
+            "type": "between",
+            "args": [
+              "monitor_gray",
+              "crate_red",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0568
+          },
+          {
+            "id": "c09",
+            "type": "aligned_x",
+            "args": [
+              "chair_cyan",
+              "monitor_gray"
+            ],
+            "satisfied": true,
+            "value": 0.0
+          },
+          {
+            "id": "c13",
+            "type": "in_front_of",
+            "args": [
+              "chair_cyan",
+              "table_green"
+            ],
+            "satisfied": true,
+            "value": 0.0768
+          }
+        ],
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "all_satisfied": false,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "stage_scope": {
+        "valid_output": true,
+        "pending_collisions": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "pending_issues": [],
+        "violations": []
+      },
+      "locked_moved": [],
+      "completion_witness_valid": true,
+      "continuation_status": "witnessed_by_fixed_gold",
+      "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+      "scene_artifact": {
+        "sha256": "2c66b0416202f5c0a455aaff0a22d82c39da3fd74ca69a571234af721905d8e6",
+        "instance_ids": [
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "deskchair_black",
+          "monitor_gray",
+          "shelf_orange",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "hard_ok": true,
+      "physical": [],
+      "locked_moved": [],
+      "hard_satisfied": 12,
+      "hard_total": 12,
+      "preserved": 11,
+      "preserved_total": 11,
+      "soft_feasible_ok": 1,
+      "soft_feasible_total": 1,
+      "conflict_tp": 1,
+      "conflict_fp": 0,
+      "conflict_fn": 0,
+      "edit": {
+        "moved": [
+          "deskchair_black"
+        ],
+        "n_moved": 1,
+        "displacement_m": 1.2719
+      },
+      "gold_edit": {
+        "moved": [
+          "chair_cyan",
+          "deskchair_black"
+        ],
+        "n_moved": 2,
+        "displacement_m": 1.6032
+      },
+      "collateral_moves": [],
+      "scene_artifact": {
+        "sha256": "71e0204c47dda04549c2af90e9130284d2517d3ae71d33d964c6d045ebbfbcda",
+        "instance_ids": [
+          "chair_cyan",
+          "column_cyan",
+          "crate_red",
+          "deskchair_black",
+          "monitor_gray",
+          "shelf_orange",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

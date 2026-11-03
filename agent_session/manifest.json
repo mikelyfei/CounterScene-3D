@@ -1,0 +1,16 @@
+{
+  "format": "privacy-redacted-coding-session-event-index-v1",
+  "source_snapshot_sha256": "f35b5c7126c9f2d99a47cb77bd81fb62cb02deee91d3d4e9f2e592ad0caf7bce",
+  "source_records": 16981,
+  "public_events": 4527,
+  "event_counts": {
+    "message": 1060,
+    "custom_tool_call": 1633,
+    "custom_tool_call_output": 1632,
+    "function_call": 101,
+    "function_call_output": 101
+  },
+  "scope": "Ordered coding-agent interaction events with provenance hashes. Message bodies, tool arguments and outputs are omitted for privacy; system/developer instructions, internal reasoning, telemetry and state snapshots are excluded entirely. This is a disclosed redacted derivative, not a complete verbatim transcript. The complete original snapshot is retained privately. Participant model conversations are separate.",
+  "selected_actual_patch_submissions": 273,
+  "selected_patch_scope": "Selected actual English project-code tool submissions; workspace prefixes removed from headers. Source event hashes join the full bounded visible event index. Submitted proposals may fail or be superseded; final task source remains authoritative. This remains a disclosed redacted derivative."
+}

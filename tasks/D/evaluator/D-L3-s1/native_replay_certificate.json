@@ -1,0 +1,27 @@
+{
+  "all_clear": true,
+  "stages": [
+    {
+      "stage": 0,
+      "continuous_ok": true,
+      "frames": 16,
+      "released_objects": 0,
+      "mesh_enclosure_ok": true
+    },
+    {
+      "stage": 1,
+      "continuous_ok": true,
+      "frames": 16,
+      "released_objects": 1,
+      "mesh_enclosure_ok": true
+    },
+    {
+      "stage": 2,
+      "continuous_ok": true,
+      "frames": 16,
+      "released_objects": 2,
+      "mesh_enclosure_ok": true
+    }
+  ],
+  "manifest_sha256": "09b4250bfeb4983e015cf496770ed82b46fc3a52edf19019fb97c8c162819405"
+}

@@ -1,0 +1,212 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 2,
+  "stage_executions": 2,
+  "stage_successes": 2,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "true_satisfied": 6,
+      "total": 6,
+      "physical": [
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "plant_pink",
+            "stool_purple"
+          ],
+          "native_status": "surface_intersection"
+        }
+      ],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          1,
+          2
+        ],
+        "clusters": [
+          0,
+          0
+        ]
+      },
+      "conflict_count": 2,
+      "clean_disturbed": [],
+      "detect_tp": 2,
+      "detect_fp": 0,
+      "detect_fn": 1,
+      "edit": {
+        "moved": [
+          "column_cyan"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.8836
+      },
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [
+          {
+            "id": "c02",
+            "type": "behind",
+            "args": [
+              "shelf_orange",
+              "column_cyan"
+            ],
+            "satisfied": true,
+            "value": 0.2
+          },
+          {
+            "id": "c03",
+            "type": "between",
+            "args": [
+              "shelf_orange",
+              "box_yellow",
+              "column_cyan"
+            ],
+            "satisfied": true,
+            "value": 0.1241
+          },
+          {
+            "id": "c05",
+            "type": "between",
+            "args": [
+              "shelf_orange",
+              "box_yellow",
+              "deskchair_black"
+            ],
+            "satisfied": true,
+            "value": 0.0324
+          },
+          {
+            "id": "c06",
+            "type": "between",
+            "args": [
+              "shelf_orange",
+              "box_yellow",
+              "chair_cyan"
+            ],
+            "satisfied": true,
+            "value": 0.1793
+          },
+          {
+            "id": "c08",
+            "type": "distance",
+            "args": [
+              "box_yellow",
+              "deskchair_black"
+            ],
+            "satisfied": true,
+            "value": 3.1482
+          },
+          {
+            "id": "c09",
+            "type": "aligned_y",
+            "args": [
+              "box_yellow",
+              "shelf_orange"
+            ],
+            "satisfied": true,
+            "value": 0.0217
+          }
+        ],
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "plant_pink",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "all_satisfied": false,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "stage_scope": {
+        "valid_output": true,
+        "pending_collisions": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "plant_pink",
+              "stool_purple"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "pending_issues": [],
+        "violations": []
+      },
+      "locked_moved": [],
+      "completion_witness_valid": true,
+      "continuation_status": "witnessed_by_fixed_gold",
+      "continuation_scope": "Fixed-gold failure does not establish infeasibility. Whole-episode success requires every local stage contract plus the actual final hard/physical continuation.",
+      "scene_artifact": {
+        "sha256": "ae2e27f829b8e5081b91e56d09b98c3a1ddcc399f968ca8ed826db6fa478cdc2",
+        "instance_ids": [
+          "box_yellow",
+          "chair_cyan",
+          "column_cyan",
+          "deskchair_black",
+          "plant_pink",
+          "shelf_orange",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "true_satisfied": 10,
+      "total": 10,
+      "physical": [],
+      "overtrust": [],
+      "conflicts_resolved": {
+        "pairs": [
+          2,
+          2
+        ],
+        "clusters": [
+          0,
+          0
+        ]
+      },
+      "conflict_count": 2,
+      "clean_disturbed": [],
+      "detect_tp": 2,
+      "detect_fp": 0,
+      "detect_fn": 2,
+      "edit": {
+        "moved": [
+          "plant_pink"
+        ],
+        "n_moved": 1,
+        "displacement_m": 2.9159
+      },
+      "forced_support_repairs": [],
+      "unnecessary_clean_disturbed": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "66b50a5bde0f3e9a994832042e2d3add63037c5dcefc79d385379c923fa00957",
+        "instance_ids": [
+          "box_yellow",
+          "chair_cyan",
+          "column_cyan",
+          "deskchair_black",
+          "plant_pink",
+          "shelf_orange",
+          "stool_purple",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

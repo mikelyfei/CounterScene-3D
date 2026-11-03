@@ -1,0 +1,129 @@
+{
+  "id": "E-L2-s1_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "E-L2-s1",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": 0.0,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": 1.0,
+    "checker_recall": 0.5,
+    "moved_objects": 1,
+    "displacement_m": 3.1122,
+    "episode_object_move_count": 2,
+    "episode_displacement_m": 4.4411000000000005,
+    "clean_disturbed": 0,
+    "forced_support_repairs": 0,
+    "unnecessary_clean_disturbed": 0,
+    "preservation": null,
+    "actions": 8,
+    "R_det": 1.0,
+    "R_shaped": 0.9027777777777777,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "93bd8557549d693bc5786d737bf847b9c4330c1f2d492cf3fcb6e87e68391d0d",
+  "actions_sha256": "110966e702e63d8ebecc7891958abc12f2158fb0e66378eadb1179b4c9b86a51",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 2,
+    "stage_executions": 2,
+    "stage_successes": 2,
+    "stages_required": 2,
+    "stages": [
+      {
+        "success": true,
+        "true_satisfied": 5,
+        "total": 5,
+        "physical": [
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "sidetable_brown",
+              "crate_red"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            2
+          ],
+          "clusters": [
+            0,
+            0
+          ]
+        },
+        "conflict_count": 2,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 2,
+        "edit": {
+          "moved": [
+            "plant_pink"
+          ],
+          "n_moved": 1,
+          "displacement_m": 1.3289
+        },
+        "locked_moved": []
+      },
+      {
+        "success": true,
+        "true_satisfied": 10,
+        "total": 10,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            0,
+            0
+          ]
+        },
+        "conflict_count": 2,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 2,
+        "edit": {
+          "moved": [
+            "crate_red"
+          ],
+          "n_moved": 1,
+          "displacement_m": 3.1122
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": []
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "4df851ccb07c5a23ebefc6938d0d4bd714c1940472f25cb7b7d21fdf5bda80c0"
+}

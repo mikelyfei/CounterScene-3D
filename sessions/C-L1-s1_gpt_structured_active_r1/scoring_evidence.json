@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8788907274839222,
+      "seen_mean_iou": 0.8820945802969338,
+      "overfit_gap": 0.0032038528130116095,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "desk_blue": 0.004904166052047688,
+        "lamp_white": 0.009468695954541296,
+        "crate_red": 0.015611965280739293,
+        "bin_gray": 0.007055078469354283
+      },
+      "per_view": {
+        "back": 0.9714168111665386,
+        "side": 0.7586855409504549,
+        "low_front_right": 0.6776941070478796,
+        "reference": 0.9261690851348966,
+        "back_right": 0.9491827868960183,
+        "top": 0.8861336032388664,
+        "back_left": 0.9172692048252523,
+        "front": 0.9573900918635171
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "720222c75edbe4ef489c9892ebfa4fbec4c91e23f276c310862039978f33e531",
+        "instance_ids": [
+          "bin_gray",
+          "crate_red",
+          "desk_blue",
+          "lamp_white"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

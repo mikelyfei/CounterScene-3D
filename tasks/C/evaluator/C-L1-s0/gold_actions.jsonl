@@ -1,0 +1,2 @@
+{"tool": "capture_reference"}
+{"tool": "submit", "source": "def build(public_params):\n    return {'table_green': {'position': [2.0271, 1.471, 0.0], 'yaw': 0, 'size': [1.93688, 1.029734, 0.752054]}, 'deskchair_black': {'position': [1.8745, 0.4364, 0.0], 'yaw': 180, 'size': [0.48654, 0.456543, 0.882584]}, 'plant_pink': {'position': [3.6564, 1.3246, 0.0], 'yaw': 0, 'size': [0.247126, 0.28139, 0.762166]}, 'crate_red': {'position': [2.5604, 0.3631, 0.0], 'yaw': 0, 'size': [0.423137, 0.33851, 0.33851]}}"}

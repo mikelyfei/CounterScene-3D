@@ -1,0 +1,71 @@
+{
+  "id": "C-L1-s1_claude_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "C-L1-s1",
+  "model": "claude-opus-5-5",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": null,
+    "alignment": null,
+    "hidden_iou": 0.8305472020822123,
+    "metric_centres_ok": true,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 5,
+    "R_det": 1.0,
+    "R_shaped": 0.9435157340274042,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "3b95eaf45b8cb6a1eda61213aa613264bcc56a035ab544f12aa3f81299ed98b0",
+  "actions_sha256": "b0daf6b805df758f5a4c13bcbf0aa79b5c5662c6240dc6299fa257773b5c3def",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 1,
+    "stage_executions": 1,
+    "stage_successes": 1,
+    "stages_required": 1,
+    "stages": [
+      {
+        "success": true,
+        "hidden_mean_iou": 0.8305472020822123,
+        "seen_mean_iou": 0.880338319088319,
+        "overfit_gap": 0.04979111700610672,
+        "metric_centres_ok": true,
+        "metric_centre_errors_m": {
+          "desk_blue": 0.006746776494538833,
+          "lamp_white": 0.01539790781352377,
+          "crate_red": 0.020629275769305618,
+          "bin_gray": 0.026725393146055973
+        }
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "8f2d744f561159a1571071c14016d3b7025c5818b94549f2df8f9d2599b96a82"
+}

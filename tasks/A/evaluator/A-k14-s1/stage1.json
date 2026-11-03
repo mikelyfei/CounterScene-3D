@@ -1,0 +1,459 @@
+{
+  "gold": {
+    "shelf_orange": {
+      "position": [
+        2.2129,
+        4.225,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "cabinet_blue": {
+      "position": [
+        3.8369,
+        3.95,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "desk_blue": {
+      "position": [
+        0.8,
+        1.5,
+        0
+      ],
+      "yaw": 0
+    },
+    "deskchair_black": {
+      "position": [
+        2.8865,
+        3.0538,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "lamp_white": {
+      "position": [
+        0.2261,
+        4.0157,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "bin_gray": {
+      "position": [
+        0.7828,
+        3.6006,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        0.6113,
+        0.7992,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "stool_purple": {
+      "position": [
+        2.7879,
+        4.225,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "laptop_gray": {
+      "position": [
+        0.6668,
+        1.3212,
+        0.75
+      ],
+      "yaw": 180
+    },
+    "case_brown": {
+      "position": [
+        3.8851,
+        4.0476,
+        0.84
+      ],
+      "yaw": 0
+    }
+  },
+  "task_internal": {
+    "experiment": "A",
+    "instance": "A-k14-s1",
+    "k": 14,
+    "room": [
+      6.0,
+      4.5,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "cabinet_blue",
+        "size": [
+          0.8600000370873355,
+          0.9,
+          0.9
+        ]
+      },
+      {
+        "id": "desk_blue",
+        "size": [
+          1.4330014647642915,
+          0.7653985881543368,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "lamp_white",
+        "size": [
+          0.21214801898421767,
+          0.2449674369781388,
+          1.2
+        ]
+      },
+      {
+        "id": "bin_gray",
+        "size": [
+          0.4,
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "laptop_gray",
+        "size": [
+          0.3589408265796224,
+          0.32639843371923993,
+          0.22
+        ]
+      },
+      {
+        "id": "case_brown",
+        "size": [
+          0.45,
+          0.3,
+          0.25
+        ]
+      }
+    ],
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "on_top_of",
+        "args": [
+          "case_brown",
+          "cabinet_blue"
+        ],
+        "id": "c05"
+      },
+      {
+        "type": "between",
+        "args": [
+          "deskchair_black",
+          "cabinet_blue",
+          "column_cyan"
+        ],
+        "id": "c07"
+      },
+      {
+        "type": "between",
+        "args": [
+          "cabinet_blue",
+          "case_brown",
+          "stool_purple"
+        ],
+        "id": "c08"
+      },
+      {
+        "type": "between",
+        "args": [
+          "cabinet_blue",
+          "case_brown",
+          "shelf_orange"
+        ],
+        "id": "c09"
+      },
+      {
+        "type": "touching",
+        "args": [
+          "shelf_orange",
+          "stool_purple"
+        ],
+        "id": "c10"
+      },
+      {
+        "type": "facing",
+        "args": [
+          "shelf_orange",
+          "deskchair_black"
+        ],
+        "id": "c11"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "bin_gray",
+          "shelf_orange"
+        ],
+        "range": [
+          1.36,
+          1.76
+        ],
+        "id": "c12"
+      },
+      {
+        "type": "facing",
+        "args": [
+          "bin_gray",
+          "column_cyan"
+        ],
+        "id": "c14"
+      },
+      {
+        "id": "operation_laptop_gray",
+        "type": "on_top_of",
+        "args": [
+          "laptop_gray",
+          "desk_blue"
+        ],
+        "priority": "hard"
+      }
+    ],
+    "relation_types": [
+      "aligned_x",
+      "between",
+      "distance",
+      "facing",
+      "in_front_of",
+      "on_top_of",
+      "right_of",
+      "touching"
+    ],
+    "uses_yaw": true,
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "initial": {
+      "shelf_orange": {
+        "position": [
+          2.2129,
+          4.225,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "cabinet_blue": {
+        "position": [
+          3.8369,
+          3.95,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "desk_blue": {
+        "position": [
+          0.8,
+          1.5,
+          0
+        ],
+        "yaw": 0
+      },
+      "deskchair_black": {
+        "position": [
+          2.8865,
+          3.0538,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "lamp_white": {
+        "position": [
+          0.2261,
+          4.0157,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "bin_gray": {
+        "position": [
+          0.7828,
+          3.6006,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          0.6113,
+          0.7992,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "stool_purple": {
+        "position": [
+          2.7879,
+          4.225,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "laptop_gray": {
+        "position": [
+          2.8627,
+          1.983,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "case_brown": {
+        "position": [
+          3.8851,
+          4.0476,
+          0.84
+        ],
+        "yaw": 0
+      }
+    },
+    "locked": [
+      "bin_gray",
+      "cabinet_blue",
+      "case_brown",
+      "column_cyan",
+      "deskchair_black",
+      "lamp_white",
+      "shelf_orange",
+      "stool_purple"
+    ],
+    "show_live_installation": true,
+    "carry_all_previous_state": true,
+    "operation": {
+      "phase": "restore_original_host_relative_offsets",
+      "host": "desk_blue",
+      "payloads": [
+        "laptop_gray"
+      ],
+      "destination": {
+        "position": [
+          0.8,
+          1.5,
+          0
+        ],
+        "yaw": 0
+      },
+      "instructions": "Restore payloads to the same measured host-relative positions and orientations as in the initial installation."
+    }
+  },
+  "operation_targets": {
+    "laptop_gray": {
+      "position": [
+        0.6668,
+        1.3212,
+        0.75
+      ],
+      "yaw": 180
+    },
+    "desk_blue": {
+      "position": [
+        0.8,
+        1.5,
+        0
+      ],
+      "yaw": 0
+    }
+  }
+}

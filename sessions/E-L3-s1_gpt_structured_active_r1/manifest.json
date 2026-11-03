@@ -1,0 +1,223 @@
+{
+  "id": "E-L3-s1_gpt_structured_active_r1",
+  "protocol": "native-operations-v3",
+  "instance": "E-L3-s1",
+  "model": "gpt-6.1-sol",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 1,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": 0.10526315789473684,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": 1.0,
+    "checker_recall": 0.5,
+    "moved_objects": 2,
+    "displacement_m": 5.3978,
+    "episode_object_move_count": 4,
+    "episode_displacement_m": 8.0713,
+    "clean_disturbed": 0,
+    "forced_support_repairs": 0,
+    "unnecessary_clean_disturbed": 0,
+    "preservation": null,
+    "actions": 17,
+    "R_det": 1.0,
+    "R_shaped": 0.912962962962963,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": null
+  },
+  "source_result_sha256": "b92ddd25f5003f4f8d825e4a38fe034640a6545fb4de476e78fb787eff8d9642",
+  "actions_sha256": "a144ee2d71a5393295ff6002d798d57bbc467ce3f8888c6ef797aadb39bc88e8",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 3,
+    "stage_executions": 3,
+    "stage_successes": 3,
+    "stages_required": 3,
+    "stages": [
+      {
+        "success": true,
+        "true_satisfied": 12,
+        "total": 12,
+        "physical": [
+          {
+            "check": "seat_faces_work_surface",
+            "objects": [
+              "deskchair_black",
+              "desk_blue"
+            ]
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "deskchair_black"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "table_green",
+              "bin_gray"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            1,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 1,
+        "edit": {
+          "moved": [
+            "case_brown"
+          ],
+          "n_moved": 1,
+          "displacement_m": 0.043
+        },
+        "locked_moved": []
+      },
+      {
+        "success": true,
+        "true_satisfied": 17,
+        "total": 17,
+        "physical": [
+          {
+            "check": "seat_faces_work_surface",
+            "objects": [
+              "deskchair_black",
+              "desk_blue"
+            ]
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "deskchair_black"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "desk_blue",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          },
+          {
+            "check": "no_interpenetration",
+            "objects": [
+              "deskchair_black",
+              "column_cyan"
+            ],
+            "native_status": "surface_intersection"
+          }
+        ],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            0,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 2,
+        "edit": {
+          "moved": [
+            "bin_gray"
+          ],
+          "n_moved": 1,
+          "displacement_m": 2.6305
+        },
+        "locked_moved": []
+      },
+      {
+        "success": true,
+        "true_satisfied": 26,
+        "total": 26,
+        "physical": [],
+        "overtrust": [],
+        "conflicts_resolved": {
+          "pairs": [
+            2,
+            2
+          ],
+          "clusters": [
+            1,
+            1
+          ]
+        },
+        "conflict_count": 5,
+        "clean_disturbed": [],
+        "detect_tp": 2,
+        "detect_fp": 0,
+        "detect_fn": 2,
+        "edit": {
+          "moved": [
+            "column_cyan",
+            "desk_blue"
+          ],
+          "n_moved": 2,
+          "displacement_m": 5.3978
+        },
+        "forced_support_repairs": [],
+        "unnecessary_clean_disturbed": [],
+        "locked_moved": []
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "bc8c01797ce8788a660ae606daa94c796ebc44f5a279df12d65c6d5bc5412596"
+}

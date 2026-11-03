@@ -1,0 +1,132 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{booktabs,graphicx,amsmath,hyperref,microtype}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,pdftitle={CounterScene-3D: Stateful Native-Asset Spatial Evaluation},pdfauthor={CounterScene-3D Contributors}}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\title{CounterScene-3D: Stateful Native-Asset Spatial Evaluation}
+\author{CounterScene-3D Contributors}
+\date{}
+\begin{document}
+\maketitle
+\begin{center}\small\href{report_zh.pdf}{Chinese edition}\end{center}
+\begin{abstract}
+CounterScene-3D evaluates executable decisions over actual native assets, changing observations and retained state. Five task families comprise thirty development instances and sixty ordered operations. We compare two frontier participants, separately audit visual judgments, test reward attacks and run an open-weight best-of-four probe. Programs, scenes, trajectories and scorers support offline reproduction. Claims concern this geometric development cohort, not physical robotics or held-out generalization.
+\end{abstract}
+
+\section{Problem and design}
+Spatial agents must turn observations into valid actions after consequential changes. We retain programs, executed native transforms, geometry, feedback and irreversible commitments so plausible images cannot hide physical faults, missed updates or earlier failures.
+
+SceneScript connects scene reconstruction to structured programs~\cite{scenescript}; VoxPoser connects language planning to spatial actions~\cite{voxposer}. Our smaller testbed emphasizes inspectable state transitions and the gap between visual plausibility and executable validity.
+
+Each family has two world seeds and three levels, yielding six instances. L1, L2, and L3 require one, two, and three ordered operations; construction uses equivalent k06, k14, and k34 identifiers. Increased horizon adds a consequential update and a preservation obligation. It is not implemented by alternating between two nearly identical scenes. Difficulty remains an empirical hypothesis: more stages need not produce a monotonic model ranking, and aggregate performance cannot identify the contribution of horizon alone.
+
+\textbf{A: relocation and restoration.} A work surface moves to a visibly separated location. Its payloads are placed on the floor at their original horizontal coordinates, then restored using their measured offsets in the relocated surface's coordinate frame. A later work-area change must preserve this restoration. Scoring includes explicit operation targets, so an otherwise collision-free arrangement can still fail the requested operation.
+
+\textbf{B: progressive collision repair.} Independently witnessed interpenetrations are released in subsets. The current work zone may change, completed repairs and locked future zones must remain fixed, and declared pending faults are temporarily permitted. The final stage enforces the complete hard and feasible-soft contract. Infeasible soft preferences require explicit identification. A failed attempt to complete an intermediate answer using one fixed gold continuation is not treated as proof that every continuation is impossible.
+
+\textbf{C: changing-view reconstruction.} Agents receive real asset examples and calibrated perspective front, side, and top views. Later targets substantially relocate objects and provide new oblique observations. The agent updates metric poses and permitted scales while preserving still-correct structure. Additional target views are limited by a public query budget. Public-view agreement is a useful signal, but hidden views and native object centres remain independent checks.
+
+\textbf{D: stateful manipulation.} Each operation grasps a different ball, carries it to a cabinet, releases it, and visits an onward waypoint. The next operation inherits actual terminal joints and actual released-object positions. Previously released objects remain obstacles. Missed grasps leave objects at their actual locations, and releases use the executed tip rather than snapping to a target. Controller commands must account for measured joint-zero offsets.
+
+\textbf{E: misleading diagnostics.} Visible physical faults are repaired progressively while checker feedback contains witnessed false passes, false failures, omissions, numeric noise, or hidden collision pairs. Agents can inspect actual geometry rather than accept labels blindly. Repair success and diagnostic accuracy are reported separately. Coverage claims follow the fault types actually present in the frozen cohort; an implemented but uninstantiated corruption is not an evaluated condition.
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/benchmark_design.png}
+\caption{Implemented stage dependencies across five task families. Later operations preserve prior work.}
+\label{fig:design}
+\end{figure}
+
+\section{Execution, certification and scoring}
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/evaluation_flow.png}
+\caption{Evaluation flow. Hidden programs and metric targets remain evaluator-only; public observations and tools drive sequential decisions.}
+\label{fig:flow}
+\end{figure}
+The participant emits a restricted Python function returning a complete placement map or a controller payload. The interpreter permits bounded arithmetic and collection operations but denies imports, attribute access, files, and network access. The supplied public parameters contain the room, not hidden targets. Fixed catalogue instances determine mesh identity and dimensions. Model outputs manipulate those actual assets; bounding boxes do not replace the displayed or statically evaluated meshes.
+
+Before evaluation, every instance is loaded from explicit content-bound stage files. Gold programs are replayed, hard constraints and jointly feasible soft preferences are checked, and native geometry verifies support, boundaries, contact, and interpenetration. Shortcut controls test old-answer reuse, fixture-only changes, stale observations, and inappropriate reuse of an earlier stage. These checks establish feasible witnesses and reject specific shortcuts. They are not a proof against every possible policy or reward exploit.
+
+For relocation and changed reconstruction targets, transit certificates use enclosures derived from actual connected mesh components. Robot evaluation separately checks continuous arm, tool, carried-payload, fixture, and resting-object clearances, joint limits, and grasp/release semantics. Enclosure overlap is unresolved rather than automatically a demonstrated mesh collision. The model is kinematic: friction, force closure, torque limits, dynamic stability, and real hardware execution are outside its claims. Static repair tasks primarily evaluate transform endpoints; their visualizations must not imply unverified transport paths.
+
+Strict episode success requires every required stage, its active contract, and preserved accomplishments. Valid but incorrect submissions commit irreversibly and remain failures. Reconstruction additionally requires hidden mean per-object silhouette IoU of at least 0.8 and every native bounds centre within 0.05 metres. A mean can hide a badly misplaced small object, so the centre condition is conjunctive. Motion requires continuous validity and correct event/state progression; endpoint similarity is insufficient.
+
+Infrastructure failures are excluded from model outcomes. Confirmed responses are journaled and exactly replayed; reused responses count once. Exact UTF-8 program bytes and native artifact hashes preserve identity across platforms.
+
+\section{Comparison protocol}
+The participants are GPT-6.1 Sol and Claude Opus 5.5, with medium reasoning and at most 8,000 output tokens per response. Each operation allows fourteen actions. All thirty instances run on both models: sixty primary cells. A fixed L3 panel adds one independent request per family/model, totaling seventy cells. Two-request variance estimates have one degree of freedom and high uncertainty. Optional feedback/view ablations were omitted prospectively; required primary coverage and offline controls remain intact. Confirmed responses are reused by exact replay and counted once. No empirical model-ablation effect is claimed.
+
+Main task means and population variances describe six development instances per family. The repeated panel instead measures variability across independent requests for the same instance. Neither quantity is the variance of repeatedly scoring a fixed output. Small sample sizes, shared templates, and dependence between sequential stages limit inference. The main comparison fixes feedback and view access; offline controls test specific shortcuts, not causal effects of architecture or training.
+
+\input{generated_results.tex}
+\begin{figure}[htbp]
+\centering\includegraphics[width=.9\linewidth]{figures/performance_by_level.png}
+\caption{Primary strict successes by level, two seeds per cell. Horizon does not guarantee monotonically lower performance.}
+\end{figure}
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/reconstruction_comparison.png}
+\caption{C-L3-s0: actual reference and model renders. Printed IoU uses hidden views; episode success also requires native metric and physical checks.}
+\end{figure}
+
+
+\section{Reward validity and optimization probe}
+\begin{figure}[ht]
+\centering\includegraphics[width=.86\linewidth]{figures/qwen_reward_quality.png}
+\caption{Complete Qwen best-of-four development probe: ten pools, forty candidates. Selection maximizes public-tool reward, while hidden quality is evaluated independently. Only A improves in this sample; the other families retain their zero-quality outcomes. These results support a limited selection effect, not RL training suitability.}
+\label{fig:qwen}
+\end{figure}
+Per-stage $R_{\mathrm{det}}$ requires admissible functional success. $R_{\mathrm{shaped}}$ is the uniform mean of applicable functional, constraint, feasible-soft, preservation, diagnosis, operation, reconstruction and motion components. Episode rewards average required stages, counting missing stages as zero. Inapplicable dimensions are omitted rather than filled with zeros. An admissibility gate prevents unpermitted physical faults or locked-object changes from earning shaped credit. Safe partial motion can receive partial credit even when it misses a required waypoint; reaching a waypoint does not excuse an unsafe path.
+
+Gold, empty, stale/stationary and safe intermediate controls test declared reward ordering. In E, missing diagnosis can preserve geometric success while reducing diagnostic reward. Repeated fixed-output scoring measures stability, which does not establish validity under optimization.
+
+A separate native-repeatability subset independently re-executes one retained GPT output per family, including failures. Full stage scoring measurements match; paired reward variance is zero across two executions per output. This does not establish whole-cohort or cross-platform stability.
+
+Astra is the auxiliary visual judge, never a participant. It receives anonymous reference and candidate native renders and rates identity/layout, visible support, visible clearance, and visible goal match. Uncertain items are excluded from the visual mean, and coverage is reported. Static images cannot certify metric accuracy, occluded contacts, grasp events, or continuous safety. Repeating identical images measures judge variability. Model-based judging has known evaluation risks~\cite{judge}; sharing a provider family with one participant also motivates explicit caution about bias. These ratings supplement deterministic checks and cannot overturn them.
+
+Quantized Qwen3.5:9B (Q4\_K\_M) supplies four seeded trajectories per pool, with two development pools per family. Selection uses public reward; hidden quality is audited afterward. Failed programs and ties remain visible. Public-reward gain without hidden-quality gain is a potential exploit. This is best-of-four inference, not RL training or held-out generalization.
+
+The per-dimension hacking analysis tests corrupted labels, metric errors hidden by silhouettes, low-edit stationary failures, and unsafe motion with attractive endpoints. Native geometry, conjunctive centre checks, operation goals, preservation and event-aware verification address specific attacks. Tolerances and incomplete observations remain exploitable boundaries; no scalar reward is declared unhackable.
+
+\section{Reproducibility and limitations}
+\begin{figure}[ht]
+\centering\includegraphics[width=\linewidth]{figures/motion_comparison.png}
+\caption{D-L3-s0: top-view physical end-effector keyframes for three successive operations, comparing gold with retained primary GPT and Claude executions. Triangles mark grasp events and squares release events. Lines connect recorded keyframes for inspection; continuous safety is established by the separate kinematic certificates.}
+\label{fig:motion}
+\end{figure}
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/motion_native_examples.png}
+\caption{D-L3-s0: representative mid-carry gold frames for distinct objects. Previously released balls persist; these snapshots do not establish terminal events.}
+\end{figure}
+
+Self-contained packages separate participant inputs from evaluator targets, gold and scorers. Asset licenses and content hashes are retained. Python and Blender support offline replay without providers or model weights. The review links actual stage changes, programs, tool actions and trajectories.
+
+Development-session evidence includes ordered interaction hashes, selected actual code submissions and English prompt derivatives. Confidential bodies are excluded; this is a disclosed privacy derivative, not a verbatim transcript.
+
+The review separates gold, model execution and unexecuted stages. Motion uses actual joint-derived states; playback timing is illustrative.
+
+\section{Limitations and areas for improvement}
+\textbf{Coverage.} Two world seeds and shared development templates limit inference. Reserve unseen scenes and asset catalogues, and enlarge the independent-generation panel before ranking models.
+
+\textbf{Physics.} Conservative enclosures may reject feasible paths; support is not dynamic stability. Calibrate false rejections against independently authored mesh tests, then add forces, friction and grasp dynamics.
+
+\textbf{Visual grading.} Astra is one judge family, not human ground truth. D ratings use representative trajectory frames rather than terminal images. Add blinded independent judges, human spot checks and short motion clips to test event-sensitive judgments.
+
+\textbf{Reward validity.} Uniform component weights encode design choices. Test alternative weights, longer adaptive attacks and held-out hidden quality. Best-of-four on ten development pools cannot establish RL stability or generalization. Independent gold replay demonstrates solvability under implemented rules, not completeness of those rules.
+
+\clearpage
+\section{Benchmark examples}
+\begin{figure}[p]
+\centering\includegraphics[width=.98\linewidth,height=.8\textheight,keepaspectratio]{figures/benchmark_examples.png}
+\caption{Actual three-stage gold examples for A, B, C and E (seed zero). B/E intentionally retain declared future faults in intermediate stages. These are reference witnesses, not model outputs. Source-view hashes accompany the report.}
+\end{figure}
+\clearpage
+\enlargethispage{2\baselineskip}
+\begingroup\small
+\begin{thebibliography}{9}
+\setlength{\itemsep}{0pt}
+\bibitem{scenescript} SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model. ECCV, 2024. \url{https://arxiv.org/abs/2403.13064}.
+\bibitem{voxposer} VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models. CoRL, 2023. \url{https://arxiv.org/abs/2307.05973}.
+\bibitem{judge} Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS Datasets and Benchmarks, 2023. \url{https://arxiv.org/abs/2306.05685}.
+\end{thebibliography}
+\endgroup
+\end{document}

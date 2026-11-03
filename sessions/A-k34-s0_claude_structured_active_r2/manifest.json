@@ -1,0 +1,126 @@
+{
+  "id": "A-k34-s0_claude_structured_active_r2",
+  "protocol": "native-operations-v3",
+  "instance": "A-k34-s0",
+  "model": "claude-opus-5-5",
+  "condition": "structured",
+  "view_condition": "active",
+  "repeat": 2,
+  "success": true,
+  "dimensions": {
+    "strict_success": 1,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stage_completion": 1.0,
+    "stage_success_fraction": 1.0,
+    "regression": 0.0,
+    "alignment": null,
+    "hidden_iou": null,
+    "metric_centres_ok": null,
+    "motion_limits_ok": null,
+    "payload_ok": null,
+    "motion_segment_fraction": null,
+    "hard_fraction": null,
+    "feasible_soft_fraction": null,
+    "conflict_precision": null,
+    "conflict_recall": null,
+    "checker_precision": null,
+    "checker_recall": null,
+    "moved_objects": null,
+    "displacement_m": null,
+    "episode_object_move_count": null,
+    "episode_displacement_m": null,
+    "clean_disturbed": null,
+    "forced_support_repairs": null,
+    "unnecessary_clean_disturbed": null,
+    "preservation": null,
+    "actions": 8,
+    "R_det": 1.0,
+    "R_shaped": 1.0,
+    "physical_stage_fraction": 1.0,
+    "operation_target_fraction": 1.0
+  },
+  "source_result_sha256": "5c07a2ee5ba5b060ccdbef7d9bb3ec5d6c62bf5cc97b28ce3dc4c97eb08f3c79",
+  "actions_sha256": "354220e1e7518d825177e5763f9abef73c9a53f90e7a9d9664d28256dac01f2a",
+  "scope": "Participant API conversation only, with actual image bytes content-addressed and exact executed actions retained. This is not the private project-development conversation. Provider response identifiers, usage, credentials, accounting and local artifact paths are excluded.",
+  "scoring_signature": {
+    "success": true,
+    "execution_valid": true,
+    "native_schema_valid": true,
+    "stages_completed": 3,
+    "stage_executions": 3,
+    "stage_successes": 3,
+    "stages_required": 3,
+    "stages": [
+      {
+        "success": true,
+        "satisfied": 23,
+        "total": 23,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "operation_checks": [
+          {
+            "object": "monitor_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "desk_blue",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "laptop_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      },
+      {
+        "success": true,
+        "satisfied": 23,
+        "total": 23,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "operation_checks": [
+          {
+            "object": "monitor_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "desk_blue",
+            "position_error_m": 0.0,
+            "ok": true
+          },
+          {
+            "object": "laptop_gray",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      },
+      {
+        "success": true,
+        "satisfied": 21,
+        "total": 21,
+        "physical": [],
+        "violated_types": [],
+        "mirror_errors": [],
+        "locked_moved": [],
+        "operation_checks": [
+          {
+            "object": "crate_red",
+            "position_error_m": 0.0,
+            "ok": true
+          }
+        ]
+      }
+    ]
+  },
+  "scoring_evidence_sha256": "ff63a9963f7e5939fb6dbea70854813dc127d9250066e69457bd4fd25b670706"
+}

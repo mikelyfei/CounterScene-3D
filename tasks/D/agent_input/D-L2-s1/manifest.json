@@ -1,0 +1,17 @@
+{
+  "protocol": "native-operations-v3",
+  "images": [
+    {
+      "file": "input_0.png",
+      "sha256": "9512592b80a2080fda1ebecad6a16831a399b551205f74c875a14bf166eec124"
+    },
+    {
+      "file": "input_1.png",
+      "sha256": "bca612209caf29e253a91675481e0b9843f4cd9dc76b67cde25b2547d77785c0"
+    },
+    {
+      "file": "input_2.png",
+      "sha256": "4f11472988f65c17f01c94e91f669703ee6a2b9d537e82ce525f776e809d323d"
+    }
+  ]
+}

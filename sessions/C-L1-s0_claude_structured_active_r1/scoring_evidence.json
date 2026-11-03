@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 1,
+  "stage_successes": 1,
+  "stages_required": 1,
+  "stage_results": [
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8608991419361128,
+      "seen_mean_iou": 0.920498670548063,
+      "overfit_gap": 0.05959952861195017,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "table_green": 0.01150944535800845,
+        "deskchair_black": 0.04056398723532942,
+        "plant_pink": 0.0197983051804598,
+        "crate_red": 0.0033682410778014264
+      },
+      "per_view": {
+        "side": 0.8978858960129771,
+        "top": 0.9436274509803921,
+        "back_right": 0.8703267088703438,
+        "back": 0.8278739326514241,
+        "low_front_right": 0.9031881340148913,
+        "front": 0.9199826646508199,
+        "back_left": 0.8422077922077923
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "26a0d77dde824aa1127ca87ed8d27f82ed1b6277b188c483ecfc1f3b6d668b23",
+        "instance_ids": [
+          "crate_red",
+          "deskchair_black",
+          "plant_pink",
+          "table_green"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

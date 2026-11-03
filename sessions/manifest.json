@@ -1,0 +1,428 @@
+{
+  "protocol": "native-operations-v3",
+  "complete": true,
+  "completed": 70,
+  "planned": 70,
+  "sessions": [
+    {
+      "id": "A-k06-s0_gpt_structured_active_r1",
+      "instance": "A-k06-s0",
+      "family": "A",
+      "manifest": "A-k06-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k06-s0_claude_structured_active_r1",
+      "instance": "A-k06-s0",
+      "family": "A",
+      "manifest": "A-k06-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k06-s1_gpt_structured_active_r1",
+      "instance": "A-k06-s1",
+      "family": "A",
+      "manifest": "A-k06-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k06-s1_claude_structured_active_r1",
+      "instance": "A-k06-s1",
+      "family": "A",
+      "manifest": "A-k06-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k14-s0_gpt_structured_active_r1",
+      "instance": "A-k14-s0",
+      "family": "A",
+      "manifest": "A-k14-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k14-s0_claude_structured_active_r1",
+      "instance": "A-k14-s0",
+      "family": "A",
+      "manifest": "A-k14-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k14-s1_gpt_structured_active_r1",
+      "instance": "A-k14-s1",
+      "family": "A",
+      "manifest": "A-k14-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k14-s1_claude_structured_active_r1",
+      "instance": "A-k14-s1",
+      "family": "A",
+      "manifest": "A-k14-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k34-s0_gpt_structured_active_r1",
+      "instance": "A-k34-s0",
+      "family": "A",
+      "manifest": "A-k34-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k34-s0_claude_structured_active_r1",
+      "instance": "A-k34-s0",
+      "family": "A",
+      "manifest": "A-k34-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k34-s1_gpt_structured_active_r1",
+      "instance": "A-k34-s1",
+      "family": "A",
+      "manifest": "A-k34-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k34-s1_claude_structured_active_r1",
+      "instance": "A-k34-s1",
+      "family": "A",
+      "manifest": "A-k34-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L1-s0_gpt_structured_active_r1",
+      "instance": "B-L1-s0",
+      "family": "B",
+      "manifest": "B-L1-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L1-s0_claude_structured_active_r1",
+      "instance": "B-L1-s0",
+      "family": "B",
+      "manifest": "B-L1-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L1-s1_gpt_structured_active_r1",
+      "instance": "B-L1-s1",
+      "family": "B",
+      "manifest": "B-L1-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L1-s1_claude_structured_active_r1",
+      "instance": "B-L1-s1",
+      "family": "B",
+      "manifest": "B-L1-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L2-s0_gpt_structured_active_r1",
+      "instance": "B-L2-s0",
+      "family": "B",
+      "manifest": "B-L2-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L2-s0_claude_structured_active_r1",
+      "instance": "B-L2-s0",
+      "family": "B",
+      "manifest": "B-L2-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L2-s1_gpt_structured_active_r1",
+      "instance": "B-L2-s1",
+      "family": "B",
+      "manifest": "B-L2-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L2-s1_claude_structured_active_r1",
+      "instance": "B-L2-s1",
+      "family": "B",
+      "manifest": "B-L2-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L3-s0_gpt_structured_active_r1",
+      "instance": "B-L3-s0",
+      "family": "B",
+      "manifest": "B-L3-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L3-s0_claude_structured_active_r1",
+      "instance": "B-L3-s0",
+      "family": "B",
+      "manifest": "B-L3-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L3-s1_gpt_structured_active_r1",
+      "instance": "B-L3-s1",
+      "family": "B",
+      "manifest": "B-L3-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "B-L3-s1_claude_structured_active_r1",
+      "instance": "B-L3-s1",
+      "family": "B",
+      "manifest": "B-L3-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L1-s0_gpt_structured_active_r1",
+      "instance": "C-L1-s0",
+      "family": "C",
+      "manifest": "C-L1-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L1-s0_claude_structured_active_r1",
+      "instance": "C-L1-s0",
+      "family": "C",
+      "manifest": "C-L1-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L1-s1_gpt_structured_active_r1",
+      "instance": "C-L1-s1",
+      "family": "C",
+      "manifest": "C-L1-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L1-s1_claude_structured_active_r1",
+      "instance": "C-L1-s1",
+      "family": "C",
+      "manifest": "C-L1-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L2-s0_gpt_structured_active_r1",
+      "instance": "C-L2-s0",
+      "family": "C",
+      "manifest": "C-L2-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L2-s0_claude_structured_active_r1",
+      "instance": "C-L2-s0",
+      "family": "C",
+      "manifest": "C-L2-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L2-s1_gpt_structured_active_r1",
+      "instance": "C-L2-s1",
+      "family": "C",
+      "manifest": "C-L2-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L2-s1_claude_structured_active_r1",
+      "instance": "C-L2-s1",
+      "family": "C",
+      "manifest": "C-L2-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L3-s0_gpt_structured_active_r1",
+      "instance": "C-L3-s0",
+      "family": "C",
+      "manifest": "C-L3-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L3-s0_claude_structured_active_r1",
+      "instance": "C-L3-s0",
+      "family": "C",
+      "manifest": "C-L3-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L3-s1_gpt_structured_active_r1",
+      "instance": "C-L3-s1",
+      "family": "C",
+      "manifest": "C-L3-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "C-L3-s1_claude_structured_active_r1",
+      "instance": "C-L3-s1",
+      "family": "C",
+      "manifest": "C-L3-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L1-s0_gpt_structured_active_r1",
+      "instance": "D-L1-s0",
+      "family": "D",
+      "manifest": "D-L1-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L1-s0_claude_structured_active_r1",
+      "instance": "D-L1-s0",
+      "family": "D",
+      "manifest": "D-L1-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L1-s1_gpt_structured_active_r1",
+      "instance": "D-L1-s1",
+      "family": "D",
+      "manifest": "D-L1-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L1-s1_claude_structured_active_r1",
+      "instance": "D-L1-s1",
+      "family": "D",
+      "manifest": "D-L1-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L2-s0_gpt_structured_active_r1",
+      "instance": "D-L2-s0",
+      "family": "D",
+      "manifest": "D-L2-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L2-s0_claude_structured_active_r1",
+      "instance": "D-L2-s0",
+      "family": "D",
+      "manifest": "D-L2-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L2-s1_gpt_structured_active_r1",
+      "instance": "D-L2-s1",
+      "family": "D",
+      "manifest": "D-L2-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L2-s1_claude_structured_active_r1",
+      "instance": "D-L2-s1",
+      "family": "D",
+      "manifest": "D-L2-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L3-s0_gpt_structured_active_r1",
+      "instance": "D-L3-s0",
+      "family": "D",
+      "manifest": "D-L3-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L3-s0_claude_structured_active_r1",
+      "instance": "D-L3-s0",
+      "family": "D",
+      "manifest": "D-L3-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L3-s1_gpt_structured_active_r1",
+      "instance": "D-L3-s1",
+      "family": "D",
+      "manifest": "D-L3-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "D-L3-s1_claude_structured_active_r1",
+      "instance": "D-L3-s1",
+      "family": "D",
+      "manifest": "D-L3-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L1-s0_gpt_structured_active_r1",
+      "instance": "E-L1-s0",
+      "family": "E",
+      "manifest": "E-L1-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L1-s0_claude_structured_active_r1",
+      "instance": "E-L1-s0",
+      "family": "E",
+      "manifest": "E-L1-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L1-s1_gpt_structured_active_r1",
+      "instance": "E-L1-s1",
+      "family": "E",
+      "manifest": "E-L1-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L1-s1_claude_structured_active_r1",
+      "instance": "E-L1-s1",
+      "family": "E",
+      "manifest": "E-L1-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L2-s0_gpt_structured_active_r1",
+      "instance": "E-L2-s0",
+      "family": "E",
+      "manifest": "E-L2-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L2-s0_claude_structured_active_r1",
+      "instance": "E-L2-s0",
+      "family": "E",
+      "manifest": "E-L2-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L2-s1_gpt_structured_active_r1",
+      "instance": "E-L2-s1",
+      "family": "E",
+      "manifest": "E-L2-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L2-s1_claude_structured_active_r1",
+      "instance": "E-L2-s1",
+      "family": "E",
+      "manifest": "E-L2-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L3-s0_gpt_structured_active_r1",
+      "instance": "E-L3-s0",
+      "family": "E",
+      "manifest": "E-L3-s0_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L3-s0_claude_structured_active_r1",
+      "instance": "E-L3-s0",
+      "family": "E",
+      "manifest": "E-L3-s0_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L3-s1_gpt_structured_active_r1",
+      "instance": "E-L3-s1",
+      "family": "E",
+      "manifest": "E-L3-s1_gpt_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "E-L3-s1_claude_structured_active_r1",
+      "instance": "E-L3-s1",
+      "family": "E",
+      "manifest": "E-L3-s1_claude_structured_active_r1/manifest.json"
+    },
+    {
+      "id": "A-k34-s0_gpt_structured_active_r2",
+      "instance": "A-k34-s0",
+      "family": "A",
+      "manifest": "A-k34-s0_gpt_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "A-k34-s0_claude_structured_active_r2",
+      "instance": "A-k34-s0",
+      "family": "A",
+      "manifest": "A-k34-s0_claude_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "B-L3-s0_gpt_structured_active_r2",
+      "instance": "B-L3-s0",
+      "family": "B",
+      "manifest": "B-L3-s0_gpt_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "B-L3-s0_claude_structured_active_r2",
+      "instance": "B-L3-s0",
+      "family": "B",
+      "manifest": "B-L3-s0_claude_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "C-L3-s0_gpt_structured_active_r2",
+      "instance": "C-L3-s0",
+      "family": "C",
+      "manifest": "C-L3-s0_gpt_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "C-L3-s0_claude_structured_active_r2",
+      "instance": "C-L3-s0",
+      "family": "C",
+      "manifest": "C-L3-s0_claude_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "D-L3-s0_gpt_structured_active_r2",
+      "instance": "D-L3-s0",
+      "family": "D",
+      "manifest": "D-L3-s0_gpt_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "D-L3-s0_claude_structured_active_r2",
+      "instance": "D-L3-s0",
+      "family": "D",
+      "manifest": "D-L3-s0_claude_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "E-L3-s0_gpt_structured_active_r2",
+      "instance": "E-L3-s0",
+      "family": "E",
+      "manifest": "E-L3-s0_gpt_structured_active_r2/manifest.json"
+    },
+    {
+      "id": "E-L3-s0_claude_structured_active_r2",
+      "instance": "E-L3-s0",
+      "family": "E",
+      "manifest": "E-L3-s0_claude_structured_active_r2/manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,2145 @@
+{
+  "gold": {
+    "shelf_orange": {
+      "position": [
+        1.9492,
+        5.725,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "cabinet_blue": {
+      "position": [
+        5.6629,
+        5.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "desk_blue": {
+      "position": [
+        3.1421,
+        2.4212,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "table_green": {
+      "position": [
+        5.4799,
+        3.1136,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "deskchair_black": {
+      "position": [
+        3.3809,
+        2.2043,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "chair_cyan": {
+      "position": [
+        5.417,
+        2.168,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "sidetable_brown": {
+      "position": [
+        7.5976,
+        4.5933,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "plant_pink": {
+      "position": [
+        7.8503,
+        1.8142,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        3.1383,
+        2.4626,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "crate_red": {
+      "position": [
+        5.9753,
+        1.2763,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "stool_purple": {
+      "position": [
+        2.09,
+        4.7533,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "bin_gray": {
+      "position": [
+        1.9575,
+        3.443,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        5.3645,
+        3.1714,
+        0.75
+      ],
+      "yaw": 0
+    },
+    "soccer_white": {
+      "position": [
+        1.7713,
+        5.7089,
+        0.9433
+      ],
+      "yaw": 0
+    },
+    "flowerpot_green": {
+      "position": [
+        1.7685,
+        5.7624,
+        0.4867
+      ],
+      "yaw": 90
+    },
+    "case_brown": {
+      "position": [
+        5.8048,
+        2.9119,
+        0.75
+      ],
+      "yaw": 90
+    }
+  },
+  "corrupted": [
+    "bin_gray",
+    "case_brown",
+    "column_cyan",
+    "desk_blue"
+  ],
+  "faults": {
+    "hidden_pairs": [
+      [
+        "table_green",
+        "bin_gray"
+      ]
+    ],
+    "false_fail": [
+      "c01"
+    ],
+    "false_pass": [
+      "c17"
+    ],
+    "noisy_value": 0.15,
+    "omission": [
+      "c04"
+    ]
+  },
+  "planted": {
+    "c17": "false_pass",
+    "c01": "false_fail",
+    "c04": "missing",
+    "no_interpenetration:bin_gray+table_green": "missing"
+  },
+  "conflicts": [
+    {
+      "kind": "pair",
+      "subtype": "deep",
+      "members": [
+        "bin_gray",
+        "table_green"
+      ],
+      "moved": [
+        "bin_gray"
+      ],
+      "id": "k1",
+      "pairs": [
+        {
+          "objects": [
+            "bin_gray",
+            "table_green"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": false
+        }
+      ],
+      "proxy_planned_depth_m": null,
+      "depth_note": "No native penetration-depth claim; old planned depth was an envelope construction parameter"
+    },
+    {
+      "kind": "pair",
+      "subtype": "stacked",
+      "members": [
+        "case_brown",
+        "table_green"
+      ],
+      "moved": [
+        "case_brown"
+      ],
+      "also_breaks": [
+        "supported",
+        "approved_full_footprint_support"
+      ],
+      "id": "k2",
+      "pairs": [
+        {
+          "objects": [
+            "case_brown",
+            "table_green"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": true
+        }
+      ],
+      "proxy_planned_depth_m": null,
+      "depth_note": "No native penetration-depth claim; old planned depth was an envelope construction parameter"
+    },
+    {
+      "kind": "cluster",
+      "subtype": "3-object",
+      "members": [
+        "column_cyan",
+        "desk_blue",
+        "deskchair_black"
+      ],
+      "moved": [
+        "column_cyan",
+        "desk_blue"
+      ],
+      "id": "k3",
+      "pairs": [
+        {
+          "objects": [
+            "column_cyan",
+            "desk_blue"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": false
+        },
+        {
+          "objects": [
+            "column_cyan",
+            "deskchair_black"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": true
+        },
+        {
+          "objects": [
+            "desk_blue",
+            "deskchair_black"
+          ],
+          "native_status": "certified_surface_or_containment",
+          "hidden_by_checker": false
+        }
+      ],
+      "extra_affected_objects": [],
+      "proxy_planned_depth_m": null,
+      "depth_note": "No native penetration-depth claim; old planned depth was an envelope construction parameter"
+    }
+  ],
+  "conflict_count": 5,
+  "overlap_pair_count": 5,
+  "max_conflict_depth_m": 0.3715,
+  "clean_objects": [
+    "shelf_orange",
+    "cabinet_blue",
+    "chair_cyan",
+    "sidetable_brown",
+    "plant_pink",
+    "crate_red",
+    "stool_purple",
+    "monitor_gray",
+    "soccer_white",
+    "flowerpot_green"
+  ],
+  "task_internal": {
+    "experiment": "E",
+    "instance": "E-L3-s1",
+    "k": 26,
+    "room": [
+      8.1,
+      6.0,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "cabinet_blue",
+        "size": [
+          0.8600000370873355,
+          0.9,
+          0.9
+        ]
+      },
+      {
+        "id": "desk_blue",
+        "size": [
+          1.4330014647642915,
+          0.7653985881543368,
+          0.75
+        ]
+      },
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "chair_cyan",
+        "size": [
+          0.36170213396676587,
+          0.36170213396676587,
+          0.85
+        ]
+      },
+      {
+        "id": "sidetable_brown",
+        "size": [
+          0.7647131285780595,
+          0.3147700825350735,
+          0.55
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "size": [
+          0.2593930634916252,
+          0.2953587127768754,
+          0.8
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "crate_red",
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "bin_gray",
+        "size": [
+          0.4,
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "id": "monitor_gray",
+        "size": [
+          0.560439186585589,
+          0.14843314237486446,
+          0.42
+        ]
+      },
+      {
+        "id": "soccer_white",
+        "size": [
+          0.22,
+          0.22,
+          0.22
+        ]
+      },
+      {
+        "id": "flowerpot_green",
+        "size": [
+          0.20284441878606413,
+          0.20284441878606413,
+          0.3
+        ]
+      },
+      {
+        "id": "case_brown",
+        "size": [
+          0.45,
+          0.3,
+          0.25
+        ]
+      }
+    ],
+    "camera": {
+      "eye": [
+        9.7305,
+        -1.7665,
+        4.6313
+      ],
+      "target": [
+        4.05,
+        3.0,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "right_of",
+        "args": [
+          "sidetable_brown",
+          "bin_gray"
+        ],
+        "id": "c01"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "case_brown",
+          "table_green"
+        ],
+        "id": "c04"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "bin_gray",
+          "flowerpot_green"
+        ],
+        "id": "c05"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "monitor_gray",
+          "table_green"
+        ],
+        "id": "c06"
+      },
+      {
+        "type": "on_shelf",
+        "args": [
+          "soccer_white",
+          "shelf_orange"
+        ],
+        "range": [
+          2
+        ],
+        "id": "c07"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "flowerpot_green",
+          "stool_purple"
+        ],
+        "id": "c09"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "cabinet_blue",
+          "flowerpot_green"
+        ],
+        "id": "c10"
+      },
+      {
+        "type": "appears_left_of",
+        "args": [
+          "crate_red",
+          "cabinet_blue"
+        ],
+        "id": "c13",
+        "native_margin": 0.5529526821490075
+      },
+      {
+        "type": "facing",
+        "args": [
+          "sidetable_brown",
+          "crate_red"
+        ],
+        "id": "c15"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "plant_pink",
+          "stool_purple"
+        ],
+        "range": [
+          6.27,
+          6.67
+        ],
+        "id": "c16"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "bin_gray",
+          "shelf_orange"
+        ],
+        "id": "c17"
+      },
+      {
+        "type": "appears_left_of",
+        "args": [
+          "plant_pink",
+          "sidetable_brown"
+        ],
+        "id": "c19",
+        "native_margin": 0.3285940724102945
+      },
+      {
+        "type": "appears_larger_than",
+        "args": [
+          "case_brown",
+          "stool_purple"
+        ],
+        "id": "c20",
+        "native_margin": 0.7777777777777777
+      },
+      {
+        "type": "behind",
+        "args": [
+          "cabinet_blue",
+          "stool_purple"
+        ],
+        "id": "c21"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "chair_cyan",
+          "sidetable_brown"
+        ],
+        "range": [
+          3.06,
+          3.46
+        ],
+        "id": "c22"
+      },
+      {
+        "type": "left_of",
+        "args": [
+          "flowerpot_green",
+          "monitor_gray"
+        ],
+        "id": "c24"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "flowerpot_green",
+          "soccer_white"
+        ],
+        "id": "c26"
+      }
+    ],
+    "relation_types": [
+      "aligned_x",
+      "aligned_y",
+      "appears_larger_than",
+      "appears_left_of",
+      "behind",
+      "between",
+      "distance",
+      "facing",
+      "in_front_of",
+      "left_of",
+      "occludes",
+      "on_shelf",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": true,
+    "tier": "L3",
+    "initial": {
+      "shelf_orange": {
+        "position": [
+          1.9492,
+          5.725,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "cabinet_blue": {
+        "position": [
+          5.6629,
+          5.45,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "desk_blue": {
+        "position": [
+          3.1421,
+          2.4212,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "table_green": {
+        "position": [
+          5.4799,
+          3.1136,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "deskchair_black": {
+        "position": [
+          3.3809,
+          2.2043,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "chair_cyan": {
+        "position": [
+          5.417,
+          2.168,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "sidetable_brown": {
+        "position": [
+          7.5976,
+          4.5933,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "plant_pink": {
+        "position": [
+          7.8503,
+          1.8142,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          3.1383,
+          2.4626,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "crate_red": {
+        "position": [
+          5.9753,
+          1.2763,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "stool_purple": {
+        "position": [
+          2.09,
+          4.7533,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "bin_gray": {
+        "position": [
+          4.5201,
+          3.443,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "monitor_gray": {
+        "position": [
+          5.3645,
+          3.1714,
+          0.75
+        ],
+        "yaw": 0
+      },
+      "soccer_white": {
+        "position": [
+          1.7713,
+          5.7089,
+          0.9433
+        ],
+        "yaw": 0
+      },
+      "flowerpot_green": {
+        "position": [
+          1.7685,
+          5.7624,
+          0.4867
+        ],
+        "yaw": 90
+      },
+      "case_brown": {
+        "position": [
+          5.8048,
+          2.9119,
+          0.75
+        ],
+        "yaw": 90
+      }
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "locked": [
+      "cabinet_blue",
+      "case_brown",
+      "chair_cyan",
+      "column_cyan",
+      "crate_red",
+      "desk_blue",
+      "deskchair_black",
+      "flowerpot_green",
+      "monitor_gray",
+      "plant_pink",
+      "shelf_orange",
+      "sidetable_brown",
+      "soccer_white",
+      "stool_purple",
+      "table_green"
+    ],
+    "repair_stage": 1,
+    "repair_stage_final": false,
+    "allowed_pending_pairs": [
+      [
+        "desk_blue",
+        "deskchair_black"
+      ],
+      [
+        "desk_blue",
+        "column_cyan"
+      ],
+      [
+        "deskchair_black",
+        "column_cyan"
+      ]
+    ],
+    "carry_all_previous_state": true,
+    "allowed_pending_issues": [
+      {
+        "check": "seat_faces_work_surface",
+        "objects": [
+          "deskchair_black",
+          "desk_blue"
+        ]
+      }
+    ],
+    "operation": {
+      "phase": "repair_released_zone",
+      "editable_objects": [
+        "bin_gray"
+      ],
+      "preserve_objects": [
+        "cabinet_blue",
+        "case_brown",
+        "chair_cyan",
+        "column_cyan",
+        "crate_red",
+        "desk_blue",
+        "deskchair_black",
+        "flowerpot_green",
+        "monitor_gray",
+        "plant_pink",
+        "shelf_orange",
+        "sidetable_brown",
+        "soccer_white",
+        "stool_purple",
+        "table_green"
+      ],
+      "pending_collision_pairs": [
+        [
+          "desk_blue",
+          "deskchair_black"
+        ],
+        [
+          "desk_blue",
+          "column_cyan"
+        ],
+        [
+          "deskchair_black",
+          "column_cyan"
+        ]
+      ],
+      "pending_physical_issues": [
+        {
+          "check": "seat_faces_work_surface",
+          "objects": [
+            "deskchair_black",
+            "desk_blue"
+          ]
+        }
+      ]
+    },
+    "initial_report": {
+      "valid_output": true,
+      "output_problems": [],
+      "constraints": [
+        {
+          "id": "c01",
+          "type": "right_of",
+          "args": [
+            "sidetable_brown",
+            "bin_gray"
+          ],
+          "satisfied": true,
+          "value": 2.4951
+        },
+        {
+          "id": "c02",
+          "type": "in_front_of",
+          "args": [
+            "chair_cyan",
+            "desk_blue"
+          ],
+          "satisfied": false,
+          "value": -0.3104
+        },
+        {
+          "id": "c03",
+          "type": "between",
+          "args": [
+            "table_green",
+            "deskchair_black",
+            "sidetable_brown"
+          ],
+          "satisfied": true,
+          "value": 0.2435
+        },
+        {
+          "id": "c04",
+          "type": "on_top_of",
+          "args": [
+            "case_brown",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0,
+          "evidence": "Actual projected footprint covered on named host within height tolerance"
+        },
+        {
+          "id": "c05",
+          "type": "between",
+          "args": [
+            "soccer_white",
+            "bin_gray",
+            "flowerpot_green"
+          ],
+          "satisfied": true,
+          "value": 0.0391
+        },
+        {
+          "id": "c06",
+          "type": "on_top_of",
+          "args": [
+            "monitor_gray",
+            "table_green"
+          ],
+          "satisfied": true,
+          "value": 0.0,
+          "evidence": "Actual projected footprint covered on named host within height tolerance"
+        },
+        {
+          "id": "c07",
+          "type": "on_shelf",
+          "args": [
+            "soccer_white",
+            "shelf_orange"
+          ],
+          "satisfied": true,
+          "value": -0.0,
+          "evidence": "Actual host coverage plus named scored board height"
+        },
+        {
+          "id": "c08",
+          "type": "between",
+          "args": [
+            "chair_cyan",
+            "deskchair_black",
+            "plant_pink"
+          ],
+          "satisfied": true,
+          "value": 0.1409
+        },
+        {
+          "id": "c09",
+          "type": "between",
+          "args": [
+            "soccer_white",
+            "flowerpot_green",
+            "stool_purple"
+          ],
+          "satisfied": true,
+          "value": 0.0136
+        },
+        {
+          "id": "c10",
+          "type": "between",
+          "args": [
+            "soccer_white",
+            "cabinet_blue",
+            "flowerpot_green"
+          ],
+          "satisfied": true,
+          "value": 0.0531
+        },
+        {
+          "id": "c11",
+          "type": "appears_larger_than",
+          "args": [
+            "crate_red",
+            "deskchair_black"
+          ],
+          "satisfied": true,
+          "value": 1.9375,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c12",
+          "type": "between",
+          "args": [
+            "shelf_orange",
+            "column_cyan",
+            "soccer_white"
+          ],
+          "satisfied": true,
+          "value": 0.1702
+        },
+        {
+          "id": "c13",
+          "type": "appears_left_of",
+          "args": [
+            "crate_red",
+            "cabinet_blue"
+          ],
+          "satisfied": true,
+          "value": 0.5529526821490075,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c14",
+          "type": "occludes",
+          "args": [
+            "desk_blue",
+            "bin_gray"
+          ],
+          "satisfied": false,
+          "value": 0.0,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c15",
+          "type": "facing",
+          "args": [
+            "sidetable_brown",
+            "crate_red"
+          ],
+          "satisfied": true,
+          "value": 26.0626
+        },
+        {
+          "id": "c16",
+          "type": "distance",
+          "args": [
+            "plant_pink",
+            "stool_purple"
+          ],
+          "satisfied": true,
+          "value": 6.4668
+        },
+        {
+          "id": "c17",
+          "type": "aligned_x",
+          "args": [
+            "bin_gray",
+            "shelf_orange"
+          ],
+          "satisfied": false,
+          "value": 2.5709
+        },
+        {
+          "id": "c18",
+          "type": "aligned_y",
+          "args": [
+            "bin_gray",
+            "column_cyan"
+          ],
+          "satisfied": false,
+          "value": 0.9804
+        },
+        {
+          "id": "c19",
+          "type": "appears_left_of",
+          "args": [
+            "plant_pink",
+            "sidetable_brown"
+          ],
+          "satisfied": true,
+          "value": 0.3285940724102945,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c20",
+          "type": "appears_larger_than",
+          "args": [
+            "case_brown",
+            "stool_purple"
+          ],
+          "satisfied": true,
+          "value": 1.7777777777777777,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c21",
+          "type": "behind",
+          "args": [
+            "cabinet_blue",
+            "stool_purple"
+          ],
+          "satisfied": true,
+          "value": 0.0717
+        },
+        {
+          "id": "c22",
+          "type": "distance",
+          "args": [
+            "chair_cyan",
+            "sidetable_brown"
+          ],
+          "satisfied": true,
+          "value": 3.2615
+        },
+        {
+          "id": "c23",
+          "type": "appears_larger_than",
+          "args": [
+            "column_cyan",
+            "shelf_orange"
+          ],
+          "satisfied": false,
+          "value": 0.7692307692307693,
+          "evidence": "Actual native mesh reference-camera measurements"
+        },
+        {
+          "id": "c24",
+          "type": "left_of",
+          "args": [
+            "flowerpot_green",
+            "monitor_gray"
+          ],
+          "satisfied": true,
+          "value": 3.2144
+        },
+        {
+          "id": "c25",
+          "type": "facing",
+          "args": [
+            "cabinet_blue",
+            "desk_blue"
+          ],
+          "satisfied": true,
+          "value": 39.7698
+        },
+        {
+          "id": "c26",
+          "type": "aligned_x",
+          "args": [
+            "flowerpot_green",
+            "soccer_white"
+          ],
+          "satisfied": true,
+          "value": 0.0028
+        }
+      ],
+      "physical": [
+        {
+          "check": "seat_faces_work_surface",
+          "objects": [
+            "deskchair_black",
+            "desk_blue"
+          ]
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "desk_blue",
+            "deskchair_black"
+          ],
+          "native_status": "surface_intersection"
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "desk_blue",
+            "column_cyan"
+          ],
+          "native_status": "surface_intersection"
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "table_green",
+            "bin_gray"
+          ],
+          "native_status": "surface_intersection"
+        },
+        {
+          "check": "no_interpenetration",
+          "objects": [
+            "deskchair_black",
+            "column_cyan"
+          ],
+          "native_status": "surface_intersection"
+        }
+      ],
+      "all_satisfied": false,
+      "limits": [
+        "Static stability not simulated",
+        "Native image relations fail closed until actual-view evidence is supplied"
+      ]
+    }
+  },
+  "native_extra_initial_pairs": [],
+  "final_task": {
+    "experiment": "E",
+    "instance": "E-L3-s1",
+    "k": 26,
+    "room": [
+      8.1,
+      6.0,
+      2.5
+    ],
+    "objects": [
+      {
+        "id": "shelf_orange",
+        "size": [
+          0.8,
+          0.35,
+          1.4
+        ],
+        "composite": "bookcase"
+      },
+      {
+        "id": "cabinet_blue",
+        "size": [
+          0.8600000370873355,
+          0.9,
+          0.9
+        ]
+      },
+      {
+        "id": "desk_blue",
+        "size": [
+          1.4330014647642915,
+          0.7653985881543368,
+          0.75
+        ]
+      },
+      {
+        "id": "table_green",
+        "size": [
+          1.9315896211868373,
+          1.0269210488414469,
+          0.75
+        ]
+      },
+      {
+        "id": "deskchair_black",
+        "size": [
+          0.5237039398122552,
+          0.4914155819261757,
+          0.95
+        ]
+      },
+      {
+        "id": "chair_cyan",
+        "size": [
+          0.36170213396676587,
+          0.36170213396676587,
+          0.85
+        ]
+      },
+      {
+        "id": "sidetable_brown",
+        "size": [
+          0.7647131285780595,
+          0.3147700825350735,
+          0.55
+        ]
+      },
+      {
+        "id": "plant_pink",
+        "size": [
+          0.2593930634916252,
+          0.2953587127768754,
+          0.8
+        ]
+      },
+      {
+        "id": "column_cyan",
+        "size": [
+          0.3,
+          0.3,
+          2.2
+        ]
+      },
+      {
+        "id": "crate_red",
+        "size": [
+          0.5,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "id": "stool_purple",
+        "size": [
+          0.35,
+          0.35,
+          0.45
+        ]
+      },
+      {
+        "id": "bin_gray",
+        "size": [
+          0.4,
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "id": "monitor_gray",
+        "size": [
+          0.560439186585589,
+          0.14843314237486446,
+          0.42
+        ]
+      },
+      {
+        "id": "soccer_white",
+        "size": [
+          0.22,
+          0.22,
+          0.22
+        ]
+      },
+      {
+        "id": "flowerpot_green",
+        "size": [
+          0.20284441878606413,
+          0.20284441878606413,
+          0.3
+        ]
+      },
+      {
+        "id": "case_brown",
+        "size": [
+          0.45,
+          0.3,
+          0.25
+        ]
+      }
+    ],
+    "camera": {
+      "eye": [
+        9.7305,
+        -1.7665,
+        4.6313
+      ],
+      "target": [
+        4.05,
+        3.0,
+        0.35
+      ],
+      "fov_deg": 50,
+      "width": 320,
+      "height": 240,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "scene_policy": {
+      "version": "logical-room-3",
+      "flat_supports": [
+        "table_green",
+        "cabinet_blue",
+        "desk_blue",
+        "sidetable_brown"
+      ],
+      "surface_objects": [
+        "box_yellow",
+        "case_brown",
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "tabletop_required": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "wall_storage": [
+        "shelf_orange",
+        "cabinet_blue"
+      ],
+      "wall_distance_m": 0.35,
+      "shelf_supports": [
+        "shelf_orange"
+      ],
+      "shelf_items": [
+        "box_yellow",
+        "case_brown",
+        "flowerpot_green",
+        "soccer_white",
+        "rugby_brown"
+      ],
+      "seats": [
+        "chair_cyan",
+        "deskchair_black"
+      ],
+      "work_surfaces": [
+        "table_green",
+        "desk_blue"
+      ],
+      "screens": [
+        "tv_black",
+        "monitor_gray",
+        "laptop_gray"
+      ],
+      "seat_reach_m": 0.5,
+      "rules": "Large furniture, chairs, lamps, plants and columns stand on the floor. Small items may stand on the floor or on a declared flat table/cabinet/desk surface with their full footprint supported; shelf items may also rest on a bookcase shelf board with their full footprint on that board. Screens (TV, monitor, laptop) must stand on such a surface. Tall storage stays near the back wall. A seat within seat_reach_m of a table or desk is a seat at it and must face it (facing relation). A screen standing on a table or desk that has a seat facing it must itself face that seat, so its display - not its back - is toward the person."
+    },
+    "constraints": [
+      {
+        "type": "right_of",
+        "args": [
+          "sidetable_brown",
+          "bin_gray"
+        ],
+        "id": "c01"
+      },
+      {
+        "type": "in_front_of",
+        "args": [
+          "chair_cyan",
+          "desk_blue"
+        ],
+        "id": "c02"
+      },
+      {
+        "type": "between",
+        "args": [
+          "table_green",
+          "deskchair_black",
+          "sidetable_brown"
+        ],
+        "id": "c03"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "case_brown",
+          "table_green"
+        ],
+        "id": "c04"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "bin_gray",
+          "flowerpot_green"
+        ],
+        "id": "c05"
+      },
+      {
+        "type": "on_top_of",
+        "args": [
+          "monitor_gray",
+          "table_green"
+        ],
+        "id": "c06"
+      },
+      {
+        "type": "on_shelf",
+        "args": [
+          "soccer_white",
+          "shelf_orange"
+        ],
+        "range": [
+          2
+        ],
+        "id": "c07"
+      },
+      {
+        "type": "between",
+        "args": [
+          "chair_cyan",
+          "deskchair_black",
+          "plant_pink"
+        ],
+        "id": "c08"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "flowerpot_green",
+          "stool_purple"
+        ],
+        "id": "c09"
+      },
+      {
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "cabinet_blue",
+          "flowerpot_green"
+        ],
+        "id": "c10"
+      },
+      {
+        "type": "appears_larger_than",
+        "args": [
+          "crate_red",
+          "deskchair_black"
+        ],
+        "id": "c11",
+        "native_margin": 0.9375
+      },
+      {
+        "type": "between",
+        "args": [
+          "shelf_orange",
+          "column_cyan",
+          "soccer_white"
+        ],
+        "id": "c12"
+      },
+      {
+        "type": "appears_left_of",
+        "args": [
+          "crate_red",
+          "cabinet_blue"
+        ],
+        "id": "c13",
+        "native_margin": 0.5529526821490075
+      },
+      {
+        "type": "occludes",
+        "args": [
+          "desk_blue",
+          "bin_gray"
+        ],
+        "id": "c14",
+        "native_margin": 0.11538461538461542
+      },
+      {
+        "type": "facing",
+        "args": [
+          "sidetable_brown",
+          "crate_red"
+        ],
+        "id": "c15"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "plant_pink",
+          "stool_purple"
+        ],
+        "range": [
+          6.27,
+          6.67
+        ],
+        "id": "c16"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "bin_gray",
+          "shelf_orange"
+        ],
+        "id": "c17"
+      },
+      {
+        "type": "aligned_y",
+        "args": [
+          "bin_gray",
+          "column_cyan"
+        ],
+        "id": "c18"
+      },
+      {
+        "type": "appears_left_of",
+        "args": [
+          "plant_pink",
+          "sidetable_brown"
+        ],
+        "id": "c19",
+        "native_margin": 0.3285940724102945
+      },
+      {
+        "type": "appears_larger_than",
+        "args": [
+          "case_brown",
+          "stool_purple"
+        ],
+        "id": "c20",
+        "native_margin": 0.7777777777777777
+      },
+      {
+        "type": "behind",
+        "args": [
+          "cabinet_blue",
+          "stool_purple"
+        ],
+        "id": "c21"
+      },
+      {
+        "type": "distance",
+        "args": [
+          "chair_cyan",
+          "sidetable_brown"
+        ],
+        "range": [
+          3.06,
+          3.46
+        ],
+        "id": "c22"
+      },
+      {
+        "type": "appears_larger_than",
+        "args": [
+          "column_cyan",
+          "shelf_orange"
+        ],
+        "id": "c23",
+        "native_margin": 0.4871794871794872
+      },
+      {
+        "type": "left_of",
+        "args": [
+          "flowerpot_green",
+          "monitor_gray"
+        ],
+        "id": "c24"
+      },
+      {
+        "type": "facing",
+        "args": [
+          "cabinet_blue",
+          "desk_blue"
+        ],
+        "id": "c25"
+      },
+      {
+        "type": "aligned_x",
+        "args": [
+          "flowerpot_green",
+          "soccer_white"
+        ],
+        "id": "c26"
+      }
+    ],
+    "relation_types": [
+      "aligned_x",
+      "aligned_y",
+      "appears_larger_than",
+      "appears_left_of",
+      "behind",
+      "between",
+      "distance",
+      "facing",
+      "in_front_of",
+      "left_of",
+      "occludes",
+      "on_shelf",
+      "on_top_of",
+      "right_of"
+    ],
+    "uses_yaw": true,
+    "tier": "L3",
+    "initial": {
+      "shelf_orange": {
+        "position": [
+          1.9492,
+          5.725,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "cabinet_blue": {
+        "position": [
+          5.6629,
+          5.45,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "desk_blue": {
+        "position": [
+          3.1421,
+          2.4212,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "table_green": {
+        "position": [
+          5.4799,
+          3.1136,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "deskchair_black": {
+        "position": [
+          3.3809,
+          2.2043,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "chair_cyan": {
+        "position": [
+          5.417,
+          2.168,
+          0.0
+        ],
+        "yaw": 180
+      },
+      "sidetable_brown": {
+        "position": [
+          7.5976,
+          4.5933,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "plant_pink": {
+        "position": [
+          7.8503,
+          1.8142,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "column_cyan": {
+        "position": [
+          3.1383,
+          2.4626,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "crate_red": {
+        "position": [
+          5.9753,
+          1.2763,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "stool_purple": {
+        "position": [
+          2.09,
+          4.7533,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "bin_gray": {
+        "position": [
+          4.5201,
+          3.443,
+          0.0
+        ],
+        "yaw": 0
+      },
+      "monitor_gray": {
+        "position": [
+          5.3645,
+          3.1714,
+          0.75
+        ],
+        "yaw": 0
+      },
+      "soccer_white": {
+        "position": [
+          1.7713,
+          5.7089,
+          0.9433
+        ],
+        "yaw": 0
+      },
+      "flowerpot_green": {
+        "position": [
+          1.7685,
+          5.7624,
+          0.4867
+        ],
+        "yaw": 90
+      },
+      "case_brown": {
+        "position": [
+          5.8048,
+          2.9119,
+          0.707
+        ],
+        "yaw": 90
+      }
+    },
+    "geometry_mode": "native-mesh-v1",
+    "native_rules": {
+      "on_top_of": "Full projected footprint covered by actual upward host triangles within 1cm; not envelope top",
+      "touching": "Actual surface-distance witness <=1cm; no excessive intersection",
+      "visual": "Actual mesh 80x60 ray-hit silhouette/occlusion; centre is projected actual bounds centre",
+      "asset_identity": "IDs are stable legacy identifiers; do not infer native material colour from ID suffix"
+    },
+    "locked": [
+      "cabinet_blue"
+    ]
+  },
+  "remaining_to_repair": [
+    "column_cyan",
+    "desk_blue"
+  ],
+  "completion_gold": {
+    "shelf_orange": {
+      "position": [
+        1.9492,
+        5.725,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "cabinet_blue": {
+      "position": [
+        5.6629,
+        5.45,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "desk_blue": {
+      "position": [
+        3.2812,
+        3.0046,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "table_green": {
+      "position": [
+        5.4799,
+        3.1136,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "deskchair_black": {
+      "position": [
+        3.3809,
+        2.2043,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "chair_cyan": {
+      "position": [
+        5.417,
+        2.168,
+        0.0
+      ],
+      "yaw": 180
+    },
+    "sidetable_brown": {
+      "position": [
+        7.5976,
+        4.5933,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "plant_pink": {
+      "position": [
+        7.8503,
+        1.8142,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "column_cyan": {
+      "position": [
+        7.3417,
+        3.4166,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "crate_red": {
+      "position": [
+        5.9753,
+        1.2763,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "stool_purple": {
+      "position": [
+        2.09,
+        4.7533,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "bin_gray": {
+      "position": [
+        1.9575,
+        3.443,
+        0.0
+      ],
+      "yaw": 0
+    },
+    "monitor_gray": {
+      "position": [
+        5.3645,
+        3.1714,
+        0.75
+      ],
+      "yaw": 0
+    },
+    "soccer_white": {
+      "position": [
+        1.7713,
+        5.7089,
+        0.9433
+      ],
+      "yaw": 0
+    },
+    "flowerpot_green": {
+      "position": [
+        1.7685,
+        5.7624,
+        0.4867
+      ],
+      "yaw": 90
+    },
+    "case_brown": {
+      "position": [
+        5.8048,
+        2.9119,
+        0.75
+      ],
+      "yaw": 90
+    }
+  },
+  "fault_evidence": {
+    "initial_true_constraints": [
+      {
+        "id": "c01",
+        "type": "right_of",
+        "args": [
+          "sidetable_brown",
+          "bin_gray"
+        ],
+        "satisfied": true,
+        "value": 2.4951
+      },
+      {
+        "id": "c04",
+        "type": "on_top_of",
+        "args": [
+          "case_brown",
+          "table_green"
+        ],
+        "satisfied": true,
+        "value": 0.0,
+        "evidence": "Actual projected footprint covered on named host within height tolerance"
+      },
+      {
+        "id": "c05",
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "bin_gray",
+          "flowerpot_green"
+        ],
+        "satisfied": true,
+        "value": 0.0391
+      },
+      {
+        "id": "c06",
+        "type": "on_top_of",
+        "args": [
+          "monitor_gray",
+          "table_green"
+        ],
+        "satisfied": true,
+        "value": 0.0,
+        "evidence": "Actual projected footprint covered on named host within height tolerance"
+      },
+      {
+        "id": "c07",
+        "type": "on_shelf",
+        "args": [
+          "soccer_white",
+          "shelf_orange"
+        ],
+        "satisfied": true,
+        "value": -0.0,
+        "evidence": "Actual host coverage plus named scored board height"
+      },
+      {
+        "id": "c09",
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "flowerpot_green",
+          "stool_purple"
+        ],
+        "satisfied": true,
+        "value": 0.0136
+      },
+      {
+        "id": "c10",
+        "type": "between",
+        "args": [
+          "soccer_white",
+          "cabinet_blue",
+          "flowerpot_green"
+        ],
+        "satisfied": true,
+        "value": 0.0531
+      },
+      {
+        "id": "c13",
+        "type": "appears_left_of",
+        "args": [
+          "crate_red",
+          "cabinet_blue"
+        ],
+        "satisfied": true,
+        "value": 0.5529526821490075,
+        "evidence": "Actual native mesh reference-camera measurements"
+      },
+      {
+        "id": "c15",
+        "type": "facing",
+        "args": [
+          "sidetable_brown",
+          "crate_red"
+        ],
+        "satisfied": true,
+        "value": 26.0626
+      },
+      {
+        "id": "c16",
+        "type": "distance",
+        "args": [
+          "plant_pink",
+          "stool_purple"
+        ],
+        "satisfied": true,
+        "value": 6.4668
+      },
+      {
+        "id": "c17",
+        "type": "aligned_x",
+        "args": [
+          "bin_gray",
+          "shelf_orange"
+        ],
+        "satisfied": false,
+        "value": 2.5709
+      },
+      {
+        "id": "c19",
+        "type": "appears_left_of",
+        "args": [
+          "plant_pink",
+          "sidetable_brown"
+        ],
+        "satisfied": true,
+        "value": 0.3285940724102945,
+        "evidence": "Actual native mesh reference-camera measurements"
+      },
+      {
+        "id": "c20",
+        "type": "appears_larger_than",
+        "args": [
+          "case_brown",
+          "stool_purple"
+        ],
+        "satisfied": true,
+        "value": 1.7777777777777777,
+        "evidence": "Actual native mesh reference-camera measurements"
+      },
+      {
+        "id": "c21",
+        "type": "behind",
+        "args": [
+          "cabinet_blue",
+          "stool_purple"
+        ],
+        "satisfied": true,
+        "value": 0.0717
+      },
+      {
+        "id": "c22",
+        "type": "distance",
+        "args": [
+          "chair_cyan",
+          "sidetable_brown"
+        ],
+        "satisfied": true,
+        "value": 3.2615
+      },
+      {
+        "id": "c24",
+        "type": "left_of",
+        "args": [
+          "flowerpot_green",
+          "monitor_gray"
+        ],
+        "satisfied": true,
+        "value": 3.2144
+      },
+      {
+        "id": "c26",
+        "type": "aligned_x",
+        "args": [
+          "flowerpot_green",
+          "soccer_white"
+        ],
+        "satisfied": true,
+        "value": 0.0028
+      }
+    ],
+    "hidden_pairs": [
+      [
+        "table_green",
+        "bin_gray"
+      ]
+    ]
+  }
+}

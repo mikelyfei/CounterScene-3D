@@ -1,0 +1,2 @@
+{"tool": "inspect_scene"}
+{"tool": "submit", "source": "def build(public_params):\n    return {\"lamp_white\": {\"position\": [1.5, 0.5, 0], \"yaw\": 0}, \"sidetable_brown\": {\"position\": [0.5024, 1.0632, 0.0], \"yaw\": 0}, \"column_cyan\": {\"position\": [3.8067, 1.5445, 0.0], \"yaw\": 0}, \"bin_gray\": {\"position\": [1.8285, 2.0326, 0.0], \"yaw\": 0}, \"case_brown\": {\"position\": [0.4355, 1.0578, 0.55], \"yaw\": 0}}", "infeasible": []}

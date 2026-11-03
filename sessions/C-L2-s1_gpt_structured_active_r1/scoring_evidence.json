@@ -1,0 +1,116 @@
+{
+  "success": false,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 1,
+  "stage_executions": 2,
+  "stage_successes": 1,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": false,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [
+          {
+            "check": "screen_faces_seat",
+            "objects": [
+              "tv_black",
+              "chair_cyan"
+            ]
+          }
+        ],
+        "all_satisfied": false,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.9023964668598256,
+      "seen_mean_iou": 0.8813543021153386,
+      "overfit_gap": -0.021042164744486946,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "table_green": 0.0059476880383512705,
+        "chair_cyan": 0.01356504647297446,
+        "lamp_white": 0.00864968686576058,
+        "stool_purple": 0.011315941104990616,
+        "bin_gray": 0.009176619504024361,
+        "tv_black": 0.01084079084366516
+      },
+      "per_view": {
+        "front": 0.9467950923059282,
+        "back_left": 0.9111819375795296,
+        "back_right": 0.9023088753010596,
+        "side": 0.8224365503777268,
+        "reference": 0.9060135615128211,
+        "top": 0.8501720042648783,
+        "back": 0.9258401064156699,
+        "low_front_right": 0.8702549481430429
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "8c12d5a51bb1a28af29e4a2297cdc18ab3137306a256d45b715c49fd03a7a51c",
+        "instance_ids": [
+          "bin_gray",
+          "chair_cyan",
+          "lamp_white",
+          "stool_purple",
+          "table_green",
+          "tv_black"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    },
+    {
+      "success": true,
+      "geometry": {
+        "valid_output": true,
+        "output_problems": [],
+        "constraints": [],
+        "physical": [],
+        "all_satisfied": true,
+        "limits": [
+          "Static stability not simulated",
+          "Native image relations fail closed until actual-view evidence is supplied"
+        ]
+      },
+      "hidden_mean_iou": 0.8932506712374171,
+      "seen_mean_iou": 0.8731137368554305,
+      "overfit_gap": -0.020136934381986604,
+      "metric_centres_ok": true,
+      "metric_centre_errors_m": {
+        "table_green": 0.002263799560975073,
+        "chair_cyan": 0.01356504647297446,
+        "lamp_white": 0.00864968686576058,
+        "stool_purple": 0.011315941104990616,
+        "bin_gray": 0.009176619504024361,
+        "tv_black": 0.014084541389086533
+      },
+      "per_view": {
+        "back_right": 0.827093671795193,
+        "back": 0.9426482927025434,
+        "low_front_right": 0.88920004487873,
+        "back_left": 0.9140606755732018,
+        "front_left": 0.9211369324687749,
+        "right": 0.8538308888265317,
+        "top": 0.8443733892709849
+      },
+      "evidence_scope": "Actual native-triangle visible masks at 160x120 and actual bounds centres; no proxy box image score",
+      "scene_artifact": {
+        "sha256": "f18f27a457b841af5fe119438291c73012204b391a45088804ec3694d548bf23",
+        "instance_ids": [
+          "bin_gray",
+          "chair_cyan",
+          "lamp_white",
+          "stool_purple",
+          "table_green",
+          "tv_black"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      }
+    }
+  ]
+}

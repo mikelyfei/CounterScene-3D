@@ -1,0 +1,532 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L3-s0. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"shelf_orange\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"desk_blue\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"deskchair_black\": {\"position\": [8.75, 1.75, 0], \"yaw\": 0}, \"plant_pink\": {\"position\": [12.25, 1.75, 0], \"yaw\": 0}, \"soccer_white\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"column_cyan\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}, \"crate_red\": {\"position\": [8.75, 5.25, 0], \"yaw\": 0}, \"monitor_gray\": {\"position\": [12.25, 5.25, 0], \"yaw\": 0}, \"rugby_brown\": {\"position\": [1.75, 8.75, 0], \"yaw\": 0}, \"flowerpot_green\": {\"position\": [5.25, 8.75, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"2f4320fcdfea9ad45882f73845be1d3d49a0293917120c083ccf1d68577c9016\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"63bc86d6540603c0b8330e3f8c07b54d0c32b7c5e40d83930d31d51a28c1e336\", \"camera\": {\"eye\": [7.0, -6.9195, 7.9543], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"a74a03f9413977562bb8dd22164f8a1f4aca8df4084a4bc2a6312d529f61b492\", \"camera\": {\"eye\": [-2.52, -2.7382, 7.525], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"d21bd931b581d3ee49ee305270a1e48b85208322216ec16ade1e56306276631a\", \"camera\": {\"eye\": [7.0, 17.6775, 7.525], \"target\": [7.0, 5.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"shelf_orange\": {\"asset\": \"proc_bookcase\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999643222652, \"native_bounds\": [[-0.37483447790145874, 0.37483447790145874], [-0.16399000585079193, 0.16399000585079193], [0.0, 1.3119200468063354]], \"world_bounds\": [[1.375165581703186, 2.1248345375061035], [1.5860099792480469, 1.9139900207519531], [0.0, 1.311919927597046]]}, \"desk_blue\": {\"asset\": \"desk\", \"asset_sha256\": \"0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.9510542907174955, \"native_bounds\": [[-0.009999999776482582, 0.7244754433631897], [-0.012299999594688416, 0.3799999952316284], [0.0, 0.38440755009651184]], \"world_bounds\": [[4.533499240875244, 5.966500759124756], [1.3673007488250732, 2.1326992511749268], [0.0, 0.75]]}, \"deskchair_black\": {\"asset\": \"chairdesk\", \"asset_sha256\": \"46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6\", \"position\": [8.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.5635287049938806, \"native_bounds\": [[0.0, 0.3349500000476837], [0.0, 0.3142990469932556], [0.0, 0.6075999736785889]], \"world_bounds\": [[8.488147735595703, 9.011852264404297], [1.5042922496795654, 1.9957077503204346], [0.0, 0.949999988079071]]}, \"plant_pink\": {\"asset\": \"pottedplant\", \"asset_sha256\": \"5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15\", \"position\": [12.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.2232101818159284, \"native_bounds\": [[-0.10602963715791702, 0.10602963715791702], [-0.12073097378015518, 0.12073097378015518], [0.0, 0.6540167927742004]], \"world_bounds\": [[12.1203031539917, 12.3796968460083], [1.602320671081543, 1.897679328918457], [0.0, 0.800000011920929]]}, \"soccer_white\": {\"asset\": \"proc_soccer\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.000000005418604, \"native_bounds\": [[-0.10999999195337296, 0.10999999940395355], [-0.10999999940395355, 0.10999999940395355], [0.0, 0.2199999988079071]], \"world_bounds\": [[1.6399999856948853, 1.8600000143051147], [5.139999866485596, 5.360000133514404], [0.0, 0.2199999988079071]]}, \"column_cyan\": {\"asset\": \"proc_column\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999783255843, \"native_bounds\": [[-0.15000000596046448, 0.15000000596046448], [-0.15000000596046448, 0.15000000596046448], [0.0, 2.200000047683716]], \"world_bounds\": [[5.099999904632568, 5.400000095367432], [5.099999904632568, 5.400000095367432], [0.0, 2.200000047683716]]}, \"crate_red\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [8.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.999999985098839, \"native_bounds\": [[-0.25, 0.25], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.4000000059604645]], \"world_bounds\": [[8.5, 9.0], [5.050000190734863, 5.449999809265137], [0.0, 0.4000000059604645]]}, \"monitor_gray\": {\"asset\": \"computerscreen\", \"asset_sha256\": \"5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643\", \"position\": [12.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.4271869213990316, \"native_bounds\": [[-1.4438228216156449e-15, 0.39268800616264343], [5.414335713407566e-16, 0.10400399565696716], [-8.014826700184745e-32, 0.29428520798683167]], \"world_bounds\": [[11.969779968261719, 12.530220031738281], [5.175783634185791, 5.324216365814209], [0.0, 0.42000001668930054]]}, \"rugby_brown\": {\"asset\": \"proc_rugby\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 8.75, 0], \"yaw\": 0, \"uniform_scale\": 0.9782608676638405, \"native_bounds\": [[-0.1399998664855957, 0.13999995589256287], [-0.08999994397163391, 0.09000000357627869], [0.0, 0.18400000035762787]], \"world_bounds\": [[1.6130435466766357, 1.8869564533233643], [8.661956787109375, 8.838043212890625], [0.0, 0.18000000715255737]]}, \"flowerpot_green\": {\"asset\": \"plantsmall1\", \"asset_sha256\": \"2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15\", \"position\": [5.25, 8.75, 0], \"yaw\": 0, \"uniform_scale\": 2.142857133733983, \"native_bounds\": [[-0.04733036458492279, 0.04733036458492279], [-0.04733036458492279, 0.04733036458492279], [0.0, 0.14000000059604645]], \"world_bounds\": [[5.148577690124512, 5.351422309875488], [8.648577690124512, 8.851422309875488], [0.0, 0.29999998211860657]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"shelf_orange\": {\"size\": [0.749669, 0.32798, 1.31192]}, \"desk_blue\": {\"size\": [1.433, 0.765, 0.75], \"size_range\": [[1.146, 0.612, 0.6], [1.72, 0.918, 0.9]]}, \"deskchair_black\": {\"size\": [0.524, 0.491, 0.95], \"size_range\": [[0.419, 0.393, 0.76], [0.628, 0.59, 1.14]]}, \"plant_pink\": {\"size\": [0.259, 0.295, 0.8], \"size_range\": [[0.208, 0.236, 0.64], [0.311, 0.354, 0.96]]}, \"soccer_white\": {\"size\": [0.22, 0.22, 0.22]}, \"column_cyan\": {\"size\": [0.3, 0.3, 2.2], \"size_range\": [[0.24, 0.24, 1.76], [0.36, 0.36, 2.64]]}, \"crate_red\": {\"size\": [0.5, 0.4, 0.4], \"size_range\": [[0.4, 0.32, 0.32], [0.6, 0.48, 0.48]]}, \"monitor_gray\": {\"size\": [0.56, 0.148, 0.42], \"size_range\": [[0.448, 0.119, 0.336], [0.673, 0.178, 0.504]]}, \"rugby_brown\": {\"size\": [0.28, 0.18, 0.18]}, \"flowerpot_green\": {\"size\": [0.203, 0.203, 0.3], \"size_range\": [[0.162, 0.162, 0.24], [0.243, 0.243, 0.36]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[6.0, 4.5, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 3 distinct extra views. Cameras={\"reference\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"ba4819fca012111e883b4cf57f4f7818b39031ddbaeb2de7613c4bb0adcc62df\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"dcf54d74b6053a6815b41da55560ce5c2f62fa5d065291bc7773a3a747a29d4a\", \"camera\": {\"eye\": [3.0, -8.818, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"b7cf72355e91a4592da7b77ecdaeda69ad2c5b3cda975f773fa42e3018a0adee\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"49b70cac166bed2425dd5873e40d488d8955bb60362c7e81273c7f8459374535\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"09b265cbab211e74e630774726ee81ee1e190745bd3d1400be1dd8b9c6cb98a6\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"68618f6f2c12c44be7f8c713a9afde8afafc3c1ad60fd90784fa956bd33ca3c3\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 3 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 42.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "cfb6497814372452fbf5ce338b9687877a9585d6a45d74feec512ba15b6dbbc4",
+    "images": [
+      {
+        "file": "../media/63bc86d6540603c0b8330e3f8c07b54d0c32b7c5e40d83930d31d51a28c1e336.png",
+        "sha256": "63bc86d6540603c0b8330e3f8c07b54d0c32b7c5e40d83930d31d51a28c1e336"
+      },
+      {
+        "file": "../media/a74a03f9413977562bb8dd22164f8a1f4aca8df4084a4bc2a6312d529f61b492.png",
+        "sha256": "a74a03f9413977562bb8dd22164f8a1f4aca8df4084a4bc2a6312d529f61b492"
+      },
+      {
+        "file": "../media/d21bd931b581d3ee49ee305270a1e48b85208322216ec16ade1e56306276631a.png",
+        "sha256": "d21bd931b581d3ee49ee305270a1e48b85208322216ec16ade1e56306276631a"
+      },
+      {
+        "file": "../media/dcf54d74b6053a6815b41da55560ce5c2f62fa5d065291bc7773a3a747a29d4a.png",
+        "sha256": "dcf54d74b6053a6815b41da55560ce5c2f62fa5d065291bc7773a3a747a29d4a"
+      },
+      {
+        "file": "../media/49b70cac166bed2425dd5873e40d488d8955bb60362c7e81273c7f8459374535.png",
+        "sha256": "49b70cac166bed2425dd5873e40d488d8955bb60362c7e81273c7f8459374535"
+      },
+      {
+        "file": "../media/68618f6f2c12c44be7f8c713a9afde8afafc3c1ad60fd90784fa956bd33ca3c3.png",
+        "sha256": "68618f6f2c12c44be7f8c713a9afde8afafc3c1ad60fd90784fa956bd33ca3c3"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "247f1806ecae0e9952f32d500897bfd0cd67e0417a35c2f04e75249da198e88f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"8cc42dfe9be2698ba2888468fb79bdd9021eb759f9bf47e3124bdb6b3775f40c\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"e8b9fd82a072a4a5f436df1b73874ee91663feac2c789525dd46feca8c1c7e57\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 41}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f36dc1bb69613ef3f9dba917656aeead0cee3ee740e8c8c2865704390611590f",
+    "images": [
+      {
+        "file": "../media/e8b9fd82a072a4a5f436df1b73874ee91663feac2c789525dd46feca8c1c7e57.png",
+        "sha256": "e8b9fd82a072a4a5f436df1b73874ee91663feac2c789525dd46feca8c1c7e57"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"inspect_asset\", \"id\": \"shelf_orange\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "665918838f6024882b8c4856a6321c7b2d92484bb83aebef1f516bc8b70ccf7e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual catalogue asset close-up; staging pose, not target\", \"instance\": \"shelf_orange\", \"capture\": {\"scene_sha256\": \"df1fa570c2e57aadec5d11c0cac4632d7a92f8f138a21137d81badd842f71532\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"fa37b4c669b0484f8d9d41225b9b92bc962fa345cc05f6b8e6a35a2c9cec82fc\", \"camera\": {\"eye\": [3.46788, -1.12384, 2.29586], \"target\": [1.5, 1.5, 0.65596], \"up\": [0, 0, 1], \"fov_deg\": 35, \"width\": 640, \"height\": 480}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"shelf_orange\": {\"asset\": \"proc_bookcase\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.5, 1.5, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999643222652, \"native_bounds\": [[-0.37483447790145874, 0.37483447790145874], [-0.16399000585079193, 0.16399000585079193], [0.0, 1.3119200468063354]], \"world_bounds\": [[1.125165581703186, 1.874834418296814], [1.3360099792480469, 1.6639900207519531], [0.0, 1.311919927597046]]}}}, \"turns_left\": 12, \"total_actions_left\": 40}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "807366969468ac5987a289027fc7e524699dfb4eb3b29e0be6ed573b03e0304d",
+    "images": [
+      {
+        "file": "../media/fa37b4c669b0484f8d9d41225b9b92bc962fa345cc05f6b8e6a35a2c9cec82fc.png",
+        "sha256": "fa37b4c669b0484f8d9d41225b9b92bc962fa345cc05f6b8e6a35a2c9cec82fc"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.17, 0.6247, 0.6124]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6124], 'yaw': 0, 'size': [0.56, 0.148, 0.42]},\\n        'deskchair_black': {'position': [4.1, 1.19, 0], 'yaw': 180, 'size': [0.524, 0.491, 0.95]},\\n        'plant_pink': {'position': [0.32, 1.2, 0], 'yaw': 0, 'size': [0.259, 0.295, 0.8]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.28, 1.86, 0], 'yaw': 0, 'size': [0.3, 0.3, 2.2]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.5, 0.4, 0.4]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "dae66909bc61d4b2c5e069fb9ab37357a56286d99889aed959ce0142f05712ae",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"0151b743199b358e0c704649b1be97ed4f117af9cc8e8dbd4bea6d8c50fee611\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"40e0cae9b8b93f91a300b225b5824861a00d4bbfb19b334906e91c35c836676c\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 39}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "61885ef597835da731543ec5ab238dca6c6cf3b6c5d1161b8e870ef2d137e7b4",
+    "images": [
+      {
+        "file": "../media/40e0cae9b8b93f91a300b225b5824861a00d4bbfb19b334906e91c35c836676c.png",
+        "sha256": "40e0cae9b8b93f91a300b225b5824861a00d4bbfb19b334906e91c35c836676c"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.17, 0.6247, 0.6124]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6124], 'yaw': 0, 'size': [0.56, 0.148, 0.42]},\\n        'deskchair_black': {'position': [4.1, 1.19, 0], 'yaw': 180, 'size': [0.524, 0.491, 0.95]},\\n        'plant_pink': {'position': [0.32, 1.22, 0], 'yaw': 0, 'size': [0.2072, 0.236, 0.64]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.52, 1.86, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.5, 0.4, 0.4]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1ba953ff0bbabd1adfa0dfd559bab75b1a7f05395ce87a8ab62c7288b66ae495",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"error\": \"Size outside task range\", \"turns_left\": 10, \"total_actions_left\": 38}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "4b08951e50946eff42910e5491da39116341a6a62dd29d98610a9076d843d1a8",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.17, 0.6247, 0.6124]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6124], 'yaw': 0, 'size': [0.4536, 0.1199, 0.3402]},\\n        'deskchair_black': {'position': [4.1, 1.19, 0], 'yaw': 180, 'size': [0.524, 0.491, 0.95]},\\n        'plant_pink': {'position': [0.3, 1.18, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.52, 1.8, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.5, 0.4, 0.4]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6e084a09f64d0041b283a33c88f58782a082cd83469df04572dd0d503f0cd75e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.691}, \"front\": {\"mean_object_iou\": 0.655}, \"side\": {\"mean_object_iou\": 0.67}, \"top\": {\"mean_object_iou\": 0.609}, \"turns_left\": 9, \"total_actions_left\": 37}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a99187775785a8f934bd203a0737fbe1f52fb812b07132a4cf710fca89693a4b",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "cdc04067bc44189b4ea053f3c4a961e39b5bcc6de37aa82a31b25b86d41eff5b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.763}, \"front\": {\"mean_object_iou\": 0.874}, \"side\": {\"mean_object_iou\": 0.67}, \"top\": {\"mean_object_iou\": 0.61}, \"turns_left\": 8, \"total_actions_left\": 36}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "66f9036c99bb946c62b965fdfe29b97bcf74c352713b703003496b3b001152a4",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"side\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "323e3ea90e78120f89bb706a1ae4c36111ad09632eebf64e83eae27a866efe5a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"4982a9f06bc9e1c1f5087124abf619ff23864083e20fc4f2c9ac18592e475f0b\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"40e1aac2f55e1782e3ddcefc8a9ade8423ed1f8731ac1b7efa274d542288d6b8\", \"camera\": {\"eye\": [14.068, 2.25, 1.25], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 7, \"total_actions_left\": 35}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6b5eadd3ee25f25a7724cad17546a792998a9f3f92e246887a715966764404d5",
+    "images": [
+      {
+        "file": "../media/40e1aac2f55e1782e3ddcefc8a9ade8423ed1f8731ac1b7efa274d542288d6b8.png",
+        "sha256": "40e1aac2f55e1782e3ddcefc8a9ade8423ed1f8731ac1b7efa274d542288d6b8"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "817066f0af97c35b099c4f72342e21d5dac9d0ffb587285a59617e10824caa0b",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"02e21b8cd71e620a53f00d95529580e34d44675253083a27132cb7c6833fc4c7\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"771d67c6aedb3b27606f785ac837d87a781d37166993b15f5ed28194b54e94ed\", \"camera\": {\"eye\": [3.0, 2.25, 12.318], \"target\": [3.0, 2.25, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 6, \"total_actions_left\": 34}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "7df92e7ecaefd8915b8a7bfada796ac285922c773ccea40968c869fb545a0b46",
+    "images": [
+      {
+        "file": "../media/771d67c6aedb3b27606f785ac837d87a781d37166993b15f5ed28194b54e94ed.png",
+        "sha256": "771d67c6aedb3b27606f785ac837d87a781d37166993b15f5ed28194b54e94ed"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"commit_stage\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [3.04, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [3.0, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [2.82, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "42e50b9671686b594273ab96b4529b6ccf6da3819808da495f970d5a626b0583",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 1, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_left\", \"camera\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"7cf5e92c289c1e14654b745453b2771ce05d1ad348be9c9bcacdf251dbaa44ec\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"87a1f9dd1714306969be049df83474cad9e0ab231b12ef41a198eb78786fe88a\", \"camera\": {\"eye\": [-1.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"right\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"33aa2d33f623d9ff5982fa18f0f6b7ff4ea3168cb2c09bb2348bb9de9357fdea\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"559bce282fe6d6d9de6794416f508e9c1019858135a6e4173b7b748070e0184c\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 33}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "77c4f61119c4a0bbd1f20f1d16fb3231fdd793310f08a272f05e4705132cefb4",
+    "images": [
+      {
+        "file": "../media/87a1f9dd1714306969be049df83474cad9e0ab231b12ef41a198eb78786fe88a.png",
+        "sha256": "87a1f9dd1714306969be049df83474cad9e0ab231b12ef41a198eb78786fe88a"
+      },
+      {
+        "file": "../media/559bce282fe6d6d9de6794416f508e9c1019858135a6e4173b7b748070e0184c.png",
+        "sha256": "559bce282fe6d6d9de6794416f508e9c1019858135a6e4173b7b748070e0184c"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "247f1806ecae0e9952f32d500897bfd0cd67e0417a35c2f04e75249da198e88f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"bc3a7792b32f9270c24b1b8b4bd7f090ce7f2bc86ff38a90ffe3d4088d9e332c\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"edbf13688728c408b28c0394dbf59bd0e440a25d8b6518c6beab93a0e1804e28\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 32}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a60fc02110196c4c62f6578a5fc8ea940e8e042ed478bdf5a48429e471fc95f2",
+    "images": [
+      {
+        "file": "../media/edbf13688728c408b28c0394dbf59bd0e440a25d8b6518c6beab93a0e1804e28.png",
+        "sha256": "edbf13688728c408b28c0394dbf59bd0e440a25d8b6518c6beab93a0e1804e28"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.9, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.86, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.68, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "fddd0091017c21a88f5de690132a98a5817012da7a8306203e60d6a37764dc91",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.741}, \"front_left\": {\"mean_object_iou\": 0.676}, \"right\": {\"mean_object_iou\": 0.496}, \"turns_left\": 12, \"total_actions_left\": 31}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "b792191c0209c96ba99c2763d7c8f01a2d9abe2bde0e0c499d7a286122dbc3a0",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.86, 4.17, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.82, 4.17, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.64, 4.17, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"right\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d9b9590d5db53410db528783552f9032df028858cba382663b30f03bc4aa7f29",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate right\", \"capture\": {\"scene_sha256\": \"81beb9bea158510f553384ad2fac6f31e5b824df49dc0bebae85a9655a4861d0\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"653a9a700e7566d4f481fd61be9714f862a5c11e70bb8440b3993b10f0e13691\", \"camera\": {\"eye\": [8.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 30}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f9c968308acd4dfff3ca560f8d20299eae8485b754e981fde3c38cf2235c30c5",
+    "images": [
+      {
+        "file": "../media/653a9a700e7566d4f481fd61be9714f862a5c11e70bb8440b3993b10f0e13691.png",
+        "sha256": "653a9a700e7566d4f481fd61be9714f862a5c11e70bb8440b3993b10f0e13691"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.86, 4.25, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.82, 4.25, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.64, 4.25, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "2410bf6134239333453f8bc66566ac8d6732868dbbdf47fd8f28707ec88627e8",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.739}, \"front_left\": {\"mean_object_iou\": 0.688}, \"right\": {\"mean_object_iou\": 0.512}, \"turns_left\": 10, \"total_actions_left\": 29}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "00d749928fbbb8ee1f4c0e1a48e499098990f088b10354e3c1741fe848063771",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.86, 4.33, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.82, 4.33, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.64, 4.33, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "368396f8b86a626833dfb5506357a0fb85754286b5526f401b79eaebc522037f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.714}, \"front_left\": {\"mean_object_iou\": 0.621}, \"right\": {\"mean_object_iou\": 0.488}, \"turns_left\": 9, \"total_actions_left\": 28}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9594a2397fdcc97905412810d9934f0f4ae472919f93aa47a3dde53ddf0c982a",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.86, 4.25, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.08, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.82, 4.25, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.64, 4.25, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ad584f64e9e53516f33e499e5d8817f2b57005809992942c60c3486fd6652397",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"97e73da873596fbcdd4d394d9b0b7feba1d7eba8895ffa92d68190441b77579a\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"0ef77d31bcdf9c0a135de9e3442f5e45ffff4bc59a372692e30ed877308344ac\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 8, \"total_actions_left\": 27}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "b29014d9fa4ec2dce7e21793677d9670813159a5a4608f3da48b8e637bfd90b8",
+    "images": [
+      {
+        "file": "../media/0ef77d31bcdf9c0a135de9e3442f5e45ffff4bc59a372692e30ed877308344ac.png",
+        "sha256": "0ef77d31bcdf9c0a135de9e3442f5e45ffff4bc59a372692e30ed877308344ac"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bf46385a6a8475de080d681895dd88253f52d531bf6cb5fdc27e2730e0a2265e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.772}, \"front_left\": {\"mean_object_iou\": 0.69}, \"right\": {\"mean_object_iou\": 0.512}, \"turns_left\": 7, \"total_actions_left\": 26}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "a14adfea0eaea06b3448d1cc80b35e2efdacd8f060d252c559d2b105ce93445f",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"commit_stage\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [4.01, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [4.3, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [4.18, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "62a842e50b982189c6f38c87e55e4d6bef090c3321dff9baf709f9ed5791cf12",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 2, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_right\", \"camera\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"8b6c317c26c357cbca9d6962c2f56e798da5b2685967ee65a91007f3ac74e6af\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"dba0d214879fe9fa279b3c7fa82978e10fe51e815632093530723f0377e405d3\", \"camera\": {\"eye\": [7.3454, -1.3962, 3.625], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"left\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"1570511688ef9ed2ab18152853861684aab02d5fc078ef8194fa23ecf5d32819\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"f9f4f79e6afe8035d0478ac254d7167835dc2943de536e90baa954c1c550310e\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 25}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f3e13dfd7d4be9e8e5b2213146491f72019f9607da6bdbb1f829f0f029aed458",
+    "images": [
+      {
+        "file": "../media/dba0d214879fe9fa279b3c7fa82978e10fe51e815632093530723f0377e405d3.png",
+        "sha256": "dba0d214879fe9fa279b3c7fa82978e10fe51e815632093530723f0377e405d3"
+      },
+      {
+        "file": "../media/f9f4f79e6afe8035d0478ac254d7167835dc2943de536e90baa954c1c550310e.png",
+        "sha256": "f9f4f79e6afe8035d0478ac254d7167835dc2943de536e90baa954c1c550310e"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "247f1806ecae0e9952f32d500897bfd0cd67e0417a35c2f04e75249da198e88f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"8b6c317c26c357cbca9d6962c2f56e798da5b2685967ee65a91007f3ac74e6af\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"d580d4e21cb109ed4f1bed9bf4296ed890fccc7cc950731a8081bbb15028b169\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 24}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bf4705de3809a54cf7fd8b23a58ecbb881fe0cb940b7081722d90f8d971abc9b",
+    "images": [
+      {
+        "file": "../media/d580d4e21cb109ed4f1bed9bf4296ed890fccc7cc950731a8081bbb15028b169.png",
+        "sha256": "d580d4e21cb109ed4f1bed9bf4296ed890fccc7cc950731a8081bbb15028b169"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [1.06, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.35, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.23, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e02d4437cf16d79f67303871e6c67501d3f05878dc96dd8c2b56c63f94b00c6e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.658}, \"front_right\": {\"mean_object_iou\": 0.613}, \"left\": {\"mean_object_iou\": 0.582}, \"turns_left\": 12, \"total_actions_left\": 23}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1f6e310a4645d6b38ea0e2a0bcc18ca213a85e31169e38d21de4956e56a68aed",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [1.06, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.35, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.23, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ff40ae76a90adf0995de7dbdaa356bb9d7351d8c148fed1c2de7571649584a31",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate reference\", \"capture\": {\"scene_sha256\": \"c59a581ed85de67bb9fce4eabd72aab043edf58619c150ceec584dd88c5d8a87\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"6d70578caeba2a2ae91510a0a2c9a7e874afda94ac543ab64bbe15ed0a1c6e2f\", \"camera\": {\"eye\": [3.0, -3.3047, 3.821], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 22}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "30a00ca5533de45397ffcd1e084afab5c7a7d7246b924185d5ec63e1569975c1",
+    "images": [
+      {
+        "file": "../media/6d70578caeba2a2ae91510a0a2c9a7e874afda94ac543ab64bbe15ed0a1c6e2f.png",
+        "sha256": "6d70578caeba2a2ae91510a0a2c9a7e874afda94ac543ab64bbe15ed0a1c6e2f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.92, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.07, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.1, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6fa523fd161516b487078194bbad649285328efa32a988efa6308b93e79307d5",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.766}, \"front_right\": {\"mean_object_iou\": 0.672}, \"left\": {\"mean_object_iou\": 0.616}, \"turns_left\": 10, \"total_actions_left\": 21}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bdd8ac01808d403b86b776d0b6adf6a7437d6e6a445e2d13582b6ba995b7c770",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"render\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.92, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.07, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.1, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\", \"view\": \"left\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "59cff24c5a964250a9a741ca30744a09da6e06e373f04b39aa2d92477915a2bd",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate left\", \"capture\": {\"scene_sha256\": \"72b0ea07a1e649ae3b2d8f6e19c3bc969e1c3b78acaee3d122391de007ed74dc\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"92ed801396a07193280f9f0dd52d55debfe636ae2a6085ff87dbd4bebe805296\", \"camera\": {\"eye\": [-2.9363, 2.25, 3.1181], \"target\": [3.0, 2.25, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 9, \"total_actions_left\": 20}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1be0ccbc26bf458a5edc713bdd7d5397fe9ea1daeb3ca01d60249308da84d988",
+    "images": [
+      {
+        "file": "../media/92ed801396a07193280f9f0dd52d55debfe636ae2a6085ff87dbd4bebe805296.png",
+        "sha256": "92ed801396a07193280f9f0dd52d55debfe636ae2a6085ff87dbd4bebe805296"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.79, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [0.8, 2.05, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [0.96, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "15245ae638058f5d67431374cfee44b41fe93716cb35f755b4c83998894caee0",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.7}, \"front_right\": {\"mean_object_iou\": 0.668}, \"left\": {\"mean_object_iou\": 0.581}, \"turns_left\": 8, \"total_actions_left\": 19}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "203bbe08f74ee414ff7e23bd96c0d48082aa030e738b33a003ed4c7f016d8fd2",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.92, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [0.98, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.05, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "702d9eb5f6c9fbf54be7f301c75718064631265568cb4355874d7bc47c834378",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.758}, \"front_right\": {\"mean_object_iou\": 0.68}, \"left\": {\"mean_object_iou\": 0.611}, \"turns_left\": 7, \"total_actions_left\": 18}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "113b1b02ddb520f6480a6dda5eb4b124474a87f45f6b58477d471c07c4f68830",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"compare\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.96, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.11, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.13, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c4460a1d04abf8507868e06f5635303934d3f2474bf87c05236331a757e632ec",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.741}, \"front_right\": {\"mean_object_iou\": 0.651}, \"left\": {\"mean_object_iou\": 0.612}, \"turns_left\": 6, \"total_actions_left\": 17}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9d741771aafcd705f6c76142c38fb086d2069ded0186664cc5c2bd2f06ac250c",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\": \"submit\", \"source\": \"def build(public_params):\\n    return {\\n        'shelf_orange': {'position': [0.91, 4.22, 0], 'yaw': 0, 'size': [0.749669, 0.32798, 1.31192]},\\n        'desk_blue': {'position': [0.92, 2.03, 0], 'yaw': 0, 'size': [1.15, 0.6139, 0.6019]},\\n        'monitor_gray': {'position': [1.07, 2.2, 0.6019], 'yaw': 0, 'size': [0.49, 0.1295, 0.3675]},\\n        'deskchair_black': {'position': [1.1, 1.2, 0], 'yaw': 180, 'size': [0.5764, 0.5401, 1.045]},\\n        'plant_pink': {'position': [0.22, 1.2, 0], 'yaw': 0, 'size': [0.2098, 0.239, 0.648]},\\n        'soccer_white': {'position': [5.11, 0.47, 0], 'yaw': 0, 'size': [0.22, 0.22, 0.22]},\\n        'column_cyan': {'position': [5.55, 1.85, 0], 'yaw': 0, 'size': [0.2727, 0.2727, 2.0]},\\n        'crate_red': {'position': [1.12, 3.8, 0], 'yaw': 0, 'size': [0.55, 0.44, 0.44]},\\n        'rugby_brown': {'position': [0.87, 4.22, 0.44], 'yaw': 0, 'size': [0.28, 0.18, 0.18]},\\n        'flowerpot_green': {'position': [0.69, 4.22, 0.87], 'yaw': 0, 'size': [0.203, 0.203, 0.3]}\\n    }\\n\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "6cbf245d01bd0846d79852523dc0ab49cf8d4bb62c151d812b16af3265a97211",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 16}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1147b0cc0fcb5e8fb94b8638edea5ab5af7f2f4831f9923630408975e807bc8a",
+    "images": []
+  }
+]

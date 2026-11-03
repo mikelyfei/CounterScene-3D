@@ -1,0 +1,337 @@
+[
+  {
+    "role": "system",
+    "content": "Solve the 3D task. Reply with exactly one JSON tool action.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "05d9c51b3899a45af35582d8c5f3fb38b6174349455ef0371c3e2adb28b27900",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "Native-asset active reconstruction C-L2-s1. View condition=active; fixed condition disables query_view. Reconstruct the live target using the same real asset instances shown in the attached catalogue atlas. Atlas staging is not the target: {\"layout\": {\"table_green\": {\"position\": [1.75, 1.75, 0], \"yaw\": 0}, \"chair_cyan\": {\"position\": [5.25, 1.75, 0], \"yaw\": 0}, \"lamp_white\": {\"position\": [8.75, 1.75, 0], \"yaw\": 0}, \"stool_purple\": {\"position\": [1.75, 5.25, 0], \"yaw\": 0}, \"bin_gray\": {\"position\": [5.25, 5.25, 0], \"yaw\": 0}, \"tv_black\": {\"position\": [8.75, 5.25, 0], \"yaw\": 0}}, \"note\": \"Isolated catalogue staging positions, not the task solution\", \"scene_sha256\": \"2cb9a1f13c3d2949be4b10df091ce08ff3c4b4dc78bf34095bc0ac99220869da\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e\", \"camera\": {\"eye\": [5.25, -5.4411, 5.937], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"front_left.png\", \"sha256\": \"a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a\", \"camera\": {\"eye\": [-1.7445, -2.3691, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}, {\"file\": \"back.png\", \"sha256\": \"c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228\", \"camera\": {\"eye\": [5.25, 12.6306, 5.6216], \"target\": [5.25, 3.5, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}], \"instances\": {\"table_green\": {\"asset\": \"table\", \"asset_sha256\": \"ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61\", \"position\": [1.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 2.2954453889327673, \"native_bounds\": [[0.0, 0.8414879441261292], [0.0, 0.44737333059310913], [0.0, 0.3267339766025543]], \"world_bounds\": [[0.7842051386833191, 2.715794801712036], [1.2365394830703735, 2.263460636138916], [0.0, 0.75]]}, \"chair_cyan\": {\"asset\": \"chair\", \"asset_sha256\": \"c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883\", \"position\": [5.25, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.8085106428849205, \"native_bounds\": [[0.0, 0.20000000298023224], [0.0, 0.20000000298023224], [0.0, 0.4699999988079071]], \"world_bounds\": [[5.069149017333984, 5.430850982666016], [1.5691488981246948, 1.9308511018753052], [0.0, 0.8500000238418579]]}, \"lamp_white\": {\"asset\": \"lamproundfloor\", \"asset_sha256\": \"50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908\", \"position\": [8.75, 1.75, 0], \"yaw\": 0, \"uniform_scale\": 1.3953488139992734, \"native_bounds\": [[-0.016019709408283234, 0.13601970672607422], [-0.027779998257756233, 0.14778000116348267], [0.0, 0.8600000143051147]], \"world_bounds\": [[8.643925666809082, 8.856074333190918], [1.627516269683838, 1.872483730316162], [0.0, 1.1999999284744263]]}, \"stool_purple\": {\"asset\": \"proc_stool\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [1.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.0000000264909539, \"native_bounds\": [[-0.17499999701976776, 0.17499999701976776], [-0.17499999701976776, 0.17499999701976776], [0.0, 0.44999998807907104]], \"world_bounds\": [[1.5750000476837158, 1.9249999523162842], [5.074999809265137, 5.425000190734863], [0.0, 0.44999998807907104]]}, \"bin_gray\": {\"asset\": \"proc_storage\", \"asset_sha256\": \"2e5129b7d43fc92c4a134814269fe6057bf8aa35be7d04b1b2056c7b56cc7b9c\", \"position\": [5.25, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 0.9999999602635717, \"native_bounds\": [[-0.20000000298023224, 0.20000000298023224], [-0.20000000298023224, 0.20000000298023224], [0.0, 0.6000000238418579]], \"world_bounds\": [[5.050000190734863, 5.449999809265137], [5.050000190734863, 5.449999809265137], [0.0, 0.5999999642372131]]}, \"tv_black\": {\"asset\": \"televisionmodern\", \"asset_sha256\": \"d89519ad0a5f28b5b0dccb0d83209dccf610cda959578238dd21bbf9e219cfc6\", \"position\": [8.75, 5.25, 0], \"yaw\": 0, \"uniform_scale\": 1.2094557411101918, \"native_bounds\": [[-0.3424000144004822, 0.3424000144004822], [-0.06419999897480011, 0.06419999897480011], [0.0, 0.4547500014305115]], \"world_bounds\": [[8.335882186889648, 9.164117813110352], [5.1723527908325195, 5.3276472091674805], [0.0, 0.550000011920929]]}}}.\nFixed IDs, source materials and native proportions must remain. ID colour suffixes are opaque names. No deletion/replacement/new object. Sizes and permitted uncertainty={\"table_green\": {\"size\": [1.932, 1.027, 0.75], \"size_range\": [[1.545, 0.822, 0.6], [2.318, 1.232, 0.9]]}, \"chair_cyan\": {\"size\": [0.362, 0.362, 0.85], \"size_range\": [[0.289, 0.289, 0.68], [0.434, 0.434, 1.02]]}, \"lamp_white\": {\"size\": [0.212, 0.245, 1.2], \"size_range\": [[0.17, 0.196, 0.96], [0.255, 0.294, 1.44]]}, \"stool_purple\": {\"size\": [0.35, 0.35, 0.45], \"size_range\": [[0.28, 0.28, 0.36], [0.42, 0.42, 0.54]]}, \"bin_gray\": {\"size\": [0.4, 0.4, 0.6], \"size_range\": [[0.32, 0.32, 0.48], [0.48, 0.48, 0.72]]}, \"tv_black\": {\"size\": [0.828, 0.155, 0.55], \"size_range\": [[0.663, 0.124, 0.44], [0.994, 0.186, 0.66]]}}. Reconstructed size must use one uniform scale (nominal dimensions have 1mm rounding); height controls real mesh scale.\nFrame: x right, y back, z up, metres; position=[centre_x,centre_y,bottom_z], finite coordinates within +/-100m; yaw=0/90/180/270 degrees. Room=[4.6, 3.5, 2.5].\nInitial calibrated target views are attached after the catalogue. capture_reference obtains the actual reference. Then query_view(view) obtains one named public view; at most 2 distinct extra views. Cameras={\"reference\": {\"eye\": [2.3, -2.6671, 3.1101], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_left\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"front_right\": {\"eye\": [5.7554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"left\": {\"eye\": [-2.4205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"right\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"top\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"front\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"side\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}}. Images are real material meshes; no proxy-box input.\nSource actions use restricted Python def build(public_params): ... returning COMPLETE {id:{position:[x,y,z],yaw:0,size:[x,y,z]}}. Only room is public_params. Imports, attribute/file/network/private-task access are forbidden.\nTools: {\"tool\":\"inspect_asset\",\"id\":\"instance\"} gives an actual asset close-up at a public staging pose (no target information); {\"tool\":\"capture_reference\"}; {\"tool\":\"query_view\",\"view\":\"name\"}; {\"tool\":\"render\",\"source\":\"...\",\"view\":\"public name\"} renders your candidate; {\"tool\":\"compare\",\"source\":\"...\"} returns one mean actual-mesh silhouette IoU per acquired view only; {\"tool\":\"submit\",\"source\":\"...\"} irrevocably executes the output. No hidden acceptance/retry signal.\nAll actual mesh physical/support/room rules must hold; projected footprint needs actual upward support surfaces within 1cm; unknown intersection is not a pass. Success additionally requires hidden-camera mean per-object visible silhouette IoU >=0.8 at 160x120 actual triangle rays AND every actual bounds centre within 0.05m of the target. Hidden cameras, target transforms and hidden score are evaluator-only. No dynamics/stability simulation.\nProgram contract: Exactly one build(public_params) function, 32KiB source/64KiB JSON output. Supported: literals, assignments, arithmetic, indexing, if/else, one-generator list comprehensions (<=100 items). No for/while loops, nested functions, imports, attributes, methods, files or network. Bare callable names: range, len, min, max, abs, round, sin, cos, tan, asin, acos, atan2, sqrt, degrees, radians; pi is a fixed constant. Trigonometric inputs/outputs use radians except degrees/radians conversion. public_params contains room only.\nTurn budget: 14 actions in total including submit.  Reply with exactly one JSON object per turn and nothing else. Only the first JSON object of a reply is executed; each observation tells you how many actions remain.\nCurrent stage target observations={\"stage_views\": [{\"view\": \"front\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"side\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"top\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\"}\nAfter a target update, use newly supplied stage views to revise the preceding reconstruction. Preserve still-correct objects. Three perpendicular views are calibrated perspective images, not orthographic projections.\nProgressive installation: 2 ordered physical stages. Complete the current operation, then use commit_stage with the same program and answer fields as submit to execute and accept it. An external change follows accepted non-final stages; inspect/capture/calibrate the updated world and repair the previous solution. Final submit is for the last stage only. Commits are irreversible and do not reveal hidden correctness; use public verification before committing. All stages are privately scored and cannot be replaced by only a final scene. Total action cap: 28.",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1c263c580dfd8fcf8070ccf0b10431226cc6316564d6ca027c54c70f732db2a2",
+    "images": [
+      {
+        "file": "../media/7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e.png",
+        "sha256": "7baabebe1300ed706a6a4aa90bd4e0d250160612973fdeb76802fcfcd986b12e"
+      },
+      {
+        "file": "../media/a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a.png",
+        "sha256": "a1179460e6409297f96eabeeef97a7048250169b8dd1e76be47380c42642251a"
+      },
+      {
+        "file": "../media/c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228.png",
+        "sha256": "c8231161b027471570793bb6b4a5c322eb0a0436f236994a98ab643773e54228"
+      },
+      {
+        "file": "../media/551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6.png",
+        "sha256": "551c1fe95c443b598bb2527dbf9c60d3de76cbf0526dcf8f04e397adf90219f6"
+      },
+      {
+        "file": "../media/479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6.png",
+        "sha256": "479450885dfc35ac2ea96e2ed4db6d3cffde03f80ce4e23f495ff5daa645edc6"
+      },
+      {
+        "file": "../media/7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596.png",
+        "sha256": "7bb8bae13ca835c87f4720c010962d88c91cf45d0b9373c396246d882eab9596"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"capture_reference\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "692259e850badd92d01d887910e13cec76983e075eb6dad36f9e32e8802f6aa1",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture reference\", \"capture\": {\"scene_sha256\": \"fdffaf163e3ffa05eb58641de8c2c528a411f9d136be7f17397d6b16f641a58f\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"21845452de30c8f5feb9e7a427dd52df0686076c7494e3206780a0f762ea726f\", \"camera\": {\"eye\": [2.3, -2.6671, 3.1101], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 27}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "85202b9b5b9f1267a6c9af71aaa453f49c263d5aef0348dfbf2d21538fb2d0a6",
+    "images": [
+      {
+        "file": "../media/21845452de30c8f5feb9e7a427dd52df0686076c7494e3206780a0f762ea726f.png",
+        "sha256": "21845452de30c8f5feb9e7a427dd52df0686076c7494e3206780a0f762ea726f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[1.75,1.53,0],'yaw':0,'size':[1.932,1.027,0.75]},'chair_cyan':{'position':[1.85,2.45,0],'yaw':180,'size':[0.362,0.362,0.85]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.224,0.259,1.27]},'stool_purple':{'position':[2.86,0.59,0],'yaw':0,'size':[0.35,0.35,0.45]},'bin_gray':{'position':[0.46,0.90,0],'yaw':0,'size':[0.4,0.4,0.6]},'tv_black':{'position':[1.86,1.61,0.75],'yaw':0,'size':[0.828,0.155,0.55]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c7214bc351b3381a2a4a26b6ad62a970855131a3c3afcaa2e4fa404d5a6de791",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"3c06f09292b650ef4c317d8f675c50af3c17d0338ea6561db4b9b05e796dedcf\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"1b995dae4a80c7a4cf33431604ebce5d739895eee6e69d0d08b562bc1699b3aa\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 12, \"total_actions_left\": 26}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e48eaff5583f8012fb0555d4516ab0b2a03258010774efc1c530ad3d3a80b4a1",
+    "images": [
+      {
+        "file": "../media/1b995dae4a80c7a4cf33431604ebce5d739895eee6e69d0d08b562bc1699b3aa.png",
+        "sha256": "1b995dae4a80c7a4cf33431604ebce5d739895eee6e69d0d08b562bc1699b3aa"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"front\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[1.75,1.53,0],'yaw':0,'size':[1.752,0.931,0.68]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.34,0.34,0.80]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.224,0.259,1.27]},'stool_purple':{'position':[2.86,0.59,0],'yaw':0,'size':[0.319,0.319,0.41]},'bin_gray':{'position':[0.42,0.86,0],'yaw':0,'size':[0.427,0.427,0.64]},'tv_black':{'position':[1.86,1.61,0.68],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "907974d887789f7716106d4694b737a35ef94d98e4927b9faceac571c95c690e",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate front\", \"capture\": {\"scene_sha256\": \"cd459bce772e94f67eb198105aa0563b179691013b4a403c385ab5a29f569f6c\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"d0869b5621427694d7fd7800f9d67cb633161b1b6e49abe1f05895bc717a862a\", \"camera\": {\"eye\": [2.3, -7.0667, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 25}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ae33501d31eb638075e0d02f6c77e8c8b0e77b6dc6899f974e0109f92b07b555",
+    "images": [
+      {
+        "file": "../media/d0869b5621427694d7fd7800f9d67cb633161b1b6e49abe1f05895bc717a862a.png",
+        "sha256": "d0869b5621427694d7fd7800f9d67cb633161b1b6e49abe1f05895bc717a862a"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"side\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[1.75,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.34,0.34,0.80]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.224,0.259,1.27]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[1.85,1.61,0.69],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "685038aef8187f3ed1e3b9ef20bad4b274406cb1157b54eed0853beff6234c47",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate side\", \"capture\": {\"scene_sha256\": \"3233aa03d9532a45a710853e44829c8401c79b1684f6277fa121b2b96a9a069a\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"852445512aa26b0ed28b8239bb11223d185b62b7b21cac388c289d18198912b5\", \"camera\": {\"eye\": [11.1167, 1.75, 1.25], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 24}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "45ad2892621421fb562db84a5153c8cb16bf57f6ae05a1e7aece97c27bb8c7a8",
+    "images": [
+      {
+        "file": "../media/852445512aa26b0ed28b8239bb11223d185b62b7b21cac388c289d18198912b5.png",
+        "sha256": "852445512aa26b0ed28b8239bb11223d185b62b7b21cac388c289d18198912b5"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[1.75,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[1.85,1.61,0.69],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9cf3a32d01c57a6fbaa673121a5821142d1d887828cc5df16b85c9efac565e3d",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"reference\": {\"mean_object_iou\": 0.906}, \"front\": {\"mean_object_iou\": 0.947}, \"side\": {\"mean_object_iou\": 0.822}, \"top\": {\"mean_object_iou\": 0.85}, \"turns_left\": 9, \"total_actions_left\": 23}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "bbcacf91aecd4141f8668ed9e85ca53766afc043cce57971105392564cc8d194",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"commit_stage\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[1.75,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[1.85,1.61,0.69],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ff6072267ad03d1c88ef605aa4ac5118d77c5589039163643bd4d2c4e3556d52",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"execution_committed\": true, \"stage\": 1, \"event\": \"External update completed: remeasure the live installation/target/controller; preserve constraints and complete the next operation.\", \"stage_views\": [{\"view\": \"front_left\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd\", \"camera\": {\"eye\": [-1.1554, -1.1494, 2.9543], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}, {\"view\": \"right\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}}], \"scope\": \"Actual current target RGB and public camera calibration only\", \"total_actions_left\": 22}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d12dbb633f6b3386903e44f7221b03ed5d9d8c35ed1d8541aea4bb2f7cccbb45",
+    "images": [
+      {
+        "file": "../media/ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd.png",
+        "sha256": "ffda8cdad1985c1a477476fb01ae332fde653a3621f179542f7d3e8f263815dd"
+      },
+      {
+        "file": "../media/bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f.png",
+        "sha256": "bd3b36afd30643aadfaf8b0ea8ec898e471ac6f0855c1d676abef9cdd36e845f"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"top\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "af8e2fb7d8f2a0a063157d7ac023daf144eab45b78afc644132a79a4cb0f3f19",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual target capture top\", \"capture\": {\"scene_sha256\": \"3a935a79320829f532651abaa41bf568165b146a00e85ec4373e6284e522e609\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 13, \"total_actions_left\": 21}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "8fa43f8e58dc535f7ba07175f4521a9104d9530879ce05f8a23cd47baea79bc8",
+    "images": [
+      {
+        "file": "../media/b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6.png",
+        "sha256": "b5932fbb331a393819b1e61b37ef0ba79cc9d49f39ee894939b5b3511ef0b8f6"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"query_view\",\"view\":\"front\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "d3320e8d6713cc840eba9c69651565b1081a273c816b8cab892ebe74b310966a",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"error\": \"Unknown public view\", \"turns_left\": 12, \"total_actions_left\": 20}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "9f336eaa5a673a237aed429a2df57d9f5a3f312740e687f2bd09b561de063a56",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.65,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.75,1.61,0.69],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "192a2dea829a46090830d048a6414e41c5382c7cb522e098b9e14c606f1cc7cc",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"bd6b7063f35138890cb66b5c4c8f0b33c8a7fd387b438dec008eeefc4b6cab46\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"192166c66d0a22f35b3b3dee7bf131ab489f8b38b55217cf71edffff03238484\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 11, \"total_actions_left\": 19}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "1343ce60e54d1f3ace285de6bb76ee05ea57d642687cb2811b09028c3b805ce1",
+    "images": [
+      {
+        "file": "../media/192166c66d0a22f35b3b3dee7bf131ab489f8b38b55217cf71edffff03238484.png",
+        "sha256": "192166c66d0a22f35b3b3dee7bf131ab489f8b38b55217cf71edffff03238484"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"right\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.61,0.69],'yaw':0,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "aedb5468c7e8369172cfad377a7f01cb9fe32b735d756d5e9051ba007b4de9de",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate right\", \"capture\": {\"scene_sha256\": \"2a4579c572fd6d49d54744514583321339e8a18f1e80e1fc518e3049fa540135\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"d3648f26d539f42c08f38b9c23789c7dff53be7c151fd32084c0f8e86f289b86\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 10, \"total_actions_left\": 18}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "30f1d10046535820d5643756b981b43191e8f26614440518ec81866611f27e99",
+    "images": [
+      {
+        "file": "../media/d3648f26d539f42c08f38b9c23789c7dff53be7c151fd32084c0f8e86f289b86.png",
+        "sha256": "d3648f26d539f42c08f38b9c23789c7dff53be7c151fd32084c0f8e86f289b86"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.65,0.69],'yaw':0,'size':[0.949,0.178,0.63]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "0626553b05129259f8692a7d9da385c099dca57c8470f492d054e275e8c76cbb",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.913}, \"right\": {\"mean_object_iou\": 0.802}, \"top\": {\"mean_object_iou\": 0.815}, \"turns_left\": 9, \"total_actions_left\": 17}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c619fc50f094138bb8fdf7c162b81d8e436fc2abae57ecc0046f0a511db7707f",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"right\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.61,0.69],'yaw':180,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "e00c28afeefe815e3d7725fed9e8008e6294d9092d8a15a2b27000924bd4a108",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate right\", \"capture\": {\"scene_sha256\": \"f18f27a457b841af5fe119438291c73012204b391a45088804ec3694d548bf23\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"59bc11ec43eda536c48d966cbc5252637cc269db9524268d28e02ee718fa22a8\", \"camera\": {\"eye\": [7.0205, 1.75, 2.5512], \"target\": [2.3, 1.75, 0.35], \"fov_deg\": 50, \"width\": 320, \"height\": 240, \"up\": [0, 0, 1]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 8, \"total_actions_left\": 16}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "c91ea71a97ce986eaf82a9602587e6bad3b852b344582877b45d4eca3389b9bb",
+    "images": [
+      {
+        "file": "../media/59bc11ec43eda536c48d966cbc5252637cc269db9524268d28e02ee718fa22a8.png",
+        "sha256": "59bc11ec43eda536c48d966cbc5252637cc269db9524268d28e02ee718fa22a8"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"compare\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.61,0.69],'yaw':180,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "3c47532882fda2e8e21dbc43a3f9a7ca76aba6dafeaf9888689e75742838a3a6",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"front_left\": {\"mean_object_iou\": 0.921}, \"right\": {\"mean_object_iou\": 0.854}, \"top\": {\"mean_object_iou\": 0.844}, \"turns_left\": 7, \"total_actions_left\": 15}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "386aa0d2fd65399d2bedfc08ccb80861bfeed7329d99adace27ff6898d319c8c",
+    "images": []
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"render\",\"view\":\"top\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.61,0.69],'yaw':180,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "8681001e20dc3eddf1af4cfc0bfb80184556cf8e63d8cc5707262724d0515706",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"Actual candidate top\", \"capture\": {\"scene_sha256\": \"f18f27a457b841af5fe119438291c73012204b391a45088804ec3694d548bf23\", \"renders\": [{\"file\": \"reference.png\", \"sha256\": \"5103719d9954808a4f447dcd9dd1f8b46c3ed0d9c5bea4fafd632a1821729738\", \"camera\": {\"eye\": [2.3, 1.75, 10.0667], \"target\": [2.3, 1.75, 1.25], \"fov_deg\": 50, \"width\": 640, \"height\": 480, \"up\": [0, 1, 0]}, \"raster_width\": 640, \"raster_height\": 480}]}, \"turns_left\": 6, \"total_actions_left\": 14}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "87c5f8f6417ba5ef235fb95f436b08f2bedb55fd56a4e30ec719198c7ed19762",
+    "images": [
+      {
+        "file": "../media/5103719d9954808a4f447dcd9dd1f8b46c3ed0d9c5bea4fafd632a1821729738.png",
+        "sha256": "5103719d9954808a4f447dcd9dd1f8b46c3ed0d9c5bea4fafd632a1821729738"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "{\"tool\":\"submit\",\"source\":\"def build(public_params):\\n return {'table_green':{'position':[3.70,1.53,0],'yaw':0,'size':[1.777,0.945,0.69]},'chair_cyan':{'position':[1.87,2.45,0],'yaw':0,'size':[0.319,0.319,0.75]},'lamp_white':{'position':[4.37,2.72,0],'yaw':0,'size':[0.223,0.257,1.26]},'stool_purple':{'position':[2.87,0.59,0],'yaw':0,'size':[0.311,0.311,0.40]},'bin_gray':{'position':[0.40,0.86,0],'yaw':0,'size':[0.4,0.4,0.60]},'tv_black':{'position':[3.80,1.61,0.69],'yaw':180,'size':[0.941,0.176,0.625]}}\"}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "ef89a11878a1c572cb911934d01524c503397a31ffcbae3a42033cce7e50423f",
+    "images": []
+  },
+  {
+    "role": "user",
+    "content": "{\"result\": \"submitted\", \"total_actions_left\": 13}",
+    "content_sanitized": false,
+    "english_publication_derivative": false,
+    "original_content_sha256": "f0a9632a2b3348f517536b890b846f313f0d19b298956954e7aeb1f942e66673",
+    "images": []
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "execution_valid": true,
+  "native_schema_valid": true,
+  "stages_completed": 2,
+  "stage_executions": 2,
+  "stage_successes": 2,
+  "stages_required": 2,
+  "stage_results": [
+    {
+      "success": true,
+      "satisfied": 9,
+      "total": 9,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "9da73fa1f1d5b8c38783d8c7de8320a9bfb5b4f21d2ddf91221a9fe3fb0fdeee",
+        "instance_ids": [
+          "bin_gray",
+          "cabinet_blue",
+          "case_brown",
+          "column_cyan",
+          "desk_blue",
+          "deskchair_black",
+          "lamp_white",
+          "laptop_gray",
+          "shelf_orange",
+          "stool_purple"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "laptop_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "desk_blue",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "success": true,
+      "satisfied": 9,
+      "total": 9,
+      "physical": [],
+      "violated_types": [],
+      "mirror_errors": [],
+      "locked_moved": [],
+      "scene_artifact": {
+        "sha256": "44a222586740a35c97ebd752c50445c4707b71d16946c3ec869e9b2256ebf034",
+        "instance_ids": [
+          "bin_gray",
+          "cabinet_blue",
+          "case_brown",
+          "column_cyan",
+          "desk_blue",
+          "deskchair_black",
+          "lamp_white",
+          "laptop_gray",
+          "shelf_orange",
+          "stool_purple"
+        ],
+        "coordinate_system": "glTF Y-up; exported from scored Blender Z-up scene"
+      },
+      "operation_checks": [
+        {
+          "object": "laptop_gray",
+          "position_error_m": 0.0,
+          "ok": true
+        },
+        {
+          "object": "desk_blue",
+          "position_error_m": 0.0,
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
